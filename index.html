@@ -169,7 +169,11 @@ body::after{
 .sub{margin-top:clamp(18px,3vh,28px);display:flex;flex-wrap:wrap;gap:10px 26px;align-items:baseline}
 .tagm{font-family:var(--mono);font-size:clamp(11.5px,1.45vw,14px);font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
 .blurb{margin-top:12px;max-width:64ch;color:var(--dim);font-weight:300;line-height:1.75;font-size:15.5px}
-.blurb i{font-family:var(--serif);font-size:1.16em;color:#d9d9d9;white-space:nowrap}
+.blurb i{font-family:var(--serif);font-size:1.16em;color:#d9d9d9;white-space:nowrap;display:inline-block}
+@media(max-width:760px){
+  .meta>span:first-child{padding-top:7px}
+  .blurb i{max-width:100%;white-space:normal;overflow-wrap:break-word}
+}
 
 .stats{display:flex;flex-wrap:wrap;margin-top:clamp(22px,3.6vh,36px);border:1.5px solid var(--bord);border-radius:2px;box-shadow:5px 5px 0 var(--hard);overflow:hidden;background:var(--srf2)}
 .stat{flex:1 1 150px;padding:16px 20px 14px;display:flex;align-items:baseline;gap:12px;border-right:1.5px solid var(--bord)}
