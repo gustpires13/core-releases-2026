@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-08-21",
+    "updated": "2026-08-26",
     "schemaVersion": 1
   },
   "releases": [
@@ -4956,6 +4956,62 @@
       "g": "metallic hardcore / chaotic hardcore / crossover punk",
       "sourceLink": "https://open.spotify.com/intl-pt/album/6eweLuC9bnuSoFk1hlu1C2",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6eweLuC9bnuSoFk1hlu1C2"
+    },
+    {
+      "id": "silentfuture|silentfuture",
+      "d": "07/08",
+      "a": "Silent Future",
+      "t": "Silent Future",
+      "k": "ÁLBUM",
+      "g": "metalcore / alternative metal",
+      "q": "Silent Future Silent Future",
+      "cover": "https://static.qobuz.com/images/covers/9g/6o/zjs21csb16o9g_600.jpg",
+      "sourceLink": "https://www.qobuz.com/it-it/album/silent-future-silent-future/zjs21csb16o9g",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/2TWQ9NYLq5sUKp0tgtW0ld"
+    },
+    {
+      "id": "dreambreaker|theunbearableweightofheaven",
+      "d": "14/08",
+      "a": "DREAMBREAKER",
+      "t": "The Unbearable Weight of Heaven",
+      "k": "EP",
+      "g": "metalcore / metallic hardcore / deathcore",
+      "q": "DREAMBREAKER The Unbearable Weight of Heaven",
+      "cover": "https://static.qobuz.com/images/covers/39/g7/zfo3fa737g739_600.jpg",
+      "sourceLink": "https://www.qobuz.com/nl-nl/album/the-unbearable-weight-of-heaven-dreambreaker/zfo3fa737g739"
+    },
+    {
+      "id": "spiritlessga|everythingthedarknesseats",
+      "d": "20/08",
+      "a": "Spiritless GA",
+      "t": "Everything The Darkness Eats",
+      "k": "EP",
+      "g": "metalcore / post-hardcore",
+      "q": "Spiritless GA Everything The Darkness Eats",
+      "cover": "https://static.qobuz.com/images/covers/zp/jn/v3yek42dljnzp_600.jpg",
+      "sourceLink": "https://www.qobuz.com/gb-en/album/everything-the-darkness-eats-spiritless-ga/v3yek42dljnzp"
+    },
+    {
+      "id": "blackabyss|sacredvoid",
+      "d": "20/08",
+      "a": "Black Abyss",
+      "t": "Sacred Void",
+      "k": "EP",
+      "g": "deathcore / symphonic deathcore",
+      "q": "Black Abyss Sacred Void",
+      "cover": "https://static.qobuz.com/images/covers/ha/l5/ct5z0vlsxl5ha_600.jpg",
+      "sourceLink": "https://www.qobuz.com/gb-en/album/sacred-void-black-abyss/ct5z0vlsxl5ha"
+    },
+    {
+      "id": "sakoya|worldgonecrazy",
+      "d": "21/08",
+      "a": "Sakoya",
+      "t": "World Gone Crazy",
+      "k": "EP",
+      "g": "alternative metal / modern metal",
+      "q": "Sakoya World Gone Crazy",
+      "cover": "https://static.qobuz.com/images/covers/qq/j1/cmiqwwiz0j1qq_600.jpg",
+      "sourceLink": "https://www.qobuz.com/us-en/album/world-gone-crazy-sakoya/cmiqwwiz0j1qq"
     }
   ]
 }
