@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-08-26",
+    "updated": "2026-08-28",
     "schemaVersion": 1
   },
   "releases": [
@@ -5012,6 +5012,211 @@
       "q": "Sakoya World Gone Crazy",
       "cover": "https://static.qobuz.com/images/covers/qq/j1/cmiqwwiz0j1qq_600.jpg",
       "sourceLink": "https://www.qobuz.com/us-en/album/world-gone-crazy-sakoya/cmiqwwiz0j1qq"
+    },
+    {
+      "id": "blackpantera|continental",
+      "d": "21/08",
+      "a": "Black Pantera",
+      "t": "Continental",
+      "k": "ÁLBUM",
+      "g": "metal / hardcore / alternative metal",
+      "q": "Black Pantera Continental",
+      "country": "BR",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027bff318cbc6611225bb72874",
+      "sourceLink": "https://www.deckdisc.com.br/discos/black-pantera-continental/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/6odFB12JSFSvIF517Gj7Tc"
+    },
+    {
+      "id": "greyblood|tillwehavefaces",
+      "d": "07/08",
+      "a": "Greyblood",
+      "t": "Till We Have Faces",
+      "k": "EP",
+      "g": "chaotic hardcore / metallic hardcore / post-hardcore",
+      "q": "Greyblood Till We Have Faces",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02920eaeae5440d3399d11838a",
+      "sourceLink": "https://open.spotify.com/artist/5bM0701yLglb1axJwXPoci",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/07egPFtAUnRfqX7qNJ7ZVa"
+    },
+    {
+      "id": "xelesiah|crown",
+      "d": "04/08",
+      "a": "XELESIAH",
+      "t": "CROWN",
+      "k": "EP",
+      "g": "metalcore / deathcore / electronicore",
+      "q": "XELESIAH CROWN",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021d3a0d4eabf6391a20f67b72",
+      "sourceLink": "https://www.instagram.com/xelesiah_/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/1sIwVI8qUGUxm8HD9lbx3F"
+    },
+    {
+      "id": "fallingbelow|holdingoutforhope",
+      "d": "14/08",
+      "a": "Falling Below",
+      "t": "Holding out for Hope",
+      "k": "EP",
+      "g": "alternative metal / metalcore / post-hardcore",
+      "q": "Falling Below Holding out for Hope",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020cc0870567fa382a0a6a0bb2",
+      "sourceLink": "https://open.spotify.com/intl-pt/album/4mQckjg5k60Xp0yKrzD6rk",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4mQckjg5k60Xp0yKrzD6rk"
+    },
+    {
+      "id": "beartooth|pureecstasy",
+      "d": "28/08",
+      "a": "Beartooth",
+      "t": "Pure Ecstasy",
+      "k": "ÁLBUM",
+      "g": "metalcore / alternative metal / modern hard rock",
+      "q": "Beartooth Pure Ecstasy",
+      "cover": "https://f4.bcbits.com/img/a0965084085_5.jpg",
+      "sourceLink": "https://beartooth.bandcamp.com/album/pure-ecstasy",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/44ZyfDoNUrfoPvt69S4nTH"
+    },
+    {
+      "id": "catchyourbreath|notbrokenenough",
+      "d": "28/08",
+      "a": "Catch Your Breath",
+      "t": "Not Broken Enough",
+      "k": "ÁLBUM",
+      "g": "alternative metal / metalcore / modern hard rock",
+      "q": "Catch Your Breath Not Broken Enough",
+      "cover": "https://thrillerrecords.com/cdn/shop/files/BLACK_CLEARPNG_1200x1200.png?v=1778594325",
+      "sourceLink": "https://thrillerrecords.com/pages/catch-your-breath",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7dDLGoVQX0kTObBwQovDzQ"
+    },
+    {
+      "id": "mastodon|marrowdeep",
+      "d": "28/08",
+      "a": "Mastodon",
+      "t": "Marrow Deep",
+      "k": "ÁLBUM",
+      "g": "progressive metal / sludge metal / alternative metal",
+      "q": "Mastodon Marrow Deep",
+      "cover": "https://f4.bcbits.com/img/a2921753286_5.jpg",
+      "sourceLink": "https://i.mastodonrocks.com/marrowdeep",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0vg1J7pmgC1X7ZeGllEQGz"
+    },
+    {
+      "id": "dreamwell|hymnsforthedenialofgod",
+      "d": "28/08",
+      "a": "Dreamwell",
+      "t": "Hymns for the Denial of God",
+      "k": "ÁLBUM",
+      "g": "screamo / post-hardcore / emotional hardcore",
+      "q": "Dreamwell Hymns for the Denial of God",
+      "cover": "https://f4.bcbits.com/img/a0829283360_5.jpg",
+      "sourceLink": "https://dreamwell.bandcamp.com/album/hymns-for-the-denial-of-god",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/11hZAFYDE9sG2kJtv5x5p0"
+    },
+    {
+      "id": "embracethesilence|liesofempathy",
+      "d": "28/08",
+      "a": "Embrace The Silence",
+      "t": "Lies Of Empathy",
+      "k": "ÁLBUM",
+      "g": "melodic metalcore / alternative metal / post-hardcore",
+      "q": "Embrace The Silence Lies Of Empathy",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022506b6c9cc254d3f52749ea1",
+      "sourceLink": "https://shop.odyssey-music.net/products/embrace-the-silence-lies-of-empathy-bundle-cd-lp-t-shirt",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/6t2B6wvllA8Q697d64CSC9"
+    },
+    {
+      "id": "walkways|areminder",
+      "d": "28/08",
+      "a": "Walkways",
+      "t": "A Reminder",
+      "k": "ÁLBUM",
+      "g": "metalcore / nu metalcore / alternative metal",
+      "q": "Walkways A Reminder",
+      "cover": "https://f4.bcbits.com/img/a3142502886_5.jpg",
+      "sourceLink": "https://walkways.bandcamp.com/album/a-reminder",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7nBAkCGyM2q3qYDZO155sx"
+    },
+    {
+      "id": "homewrecker|neverknowingwhenbutknowingthiswillend",
+      "d": "28/08",
+      "a": "homewrecker.",
+      "t": "Never knowing when, but knowing this will end",
+      "k": "ÁLBUM",
+      "g": "metalcore / hardcore / queercore",
+      "q": "homewrecker. Never knowing when, but knowing this will end",
+      "cover": "https://f4.bcbits.com/img/a3906013457_5.jpg",
+      "sourceLink": "https://homewreckerbw.bandcamp.com/album/never-knowing-when-but-knowing-this-will-end",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3NcZMnsBtV27ng72DKXVex"
+    },
+    {
+      "id": "kulk|choosingtodie",
+      "d": "28/08",
+      "a": "Kulk",
+      "t": "Choosing To Die",
+      "k": "ÁLBUM",
+      "g": "sludge metal / doom metal / noise rock",
+      "q": "Kulk Choosing To Die",
+      "cover": "https://f4.bcbits.com/img/a3986601416_5.jpg",
+      "sourceLink": "https://kulk.bandcamp.com/album/choosing-to-die",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7EwlFOvJyKoX0oKHIJszHO"
+    },
+    {
+      "id": "oceansleeper|peacewhenimdead",
+      "d": "28/08",
+      "a": "Ocean Sleeper",
+      "t": "Peace When I'm Dead",
+      "k": "ÁLBUM",
+      "g": "metalcore / alternative metal",
+      "q": "Ocean Sleeper Peace When I'm Dead",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bb1938bbf1c63f9f2452ed51",
+      "sourceLink": "https://riserecords.com/pages/releases",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/35En7DlVdpWb1hQPe7Hcpt"
+    },
+    {
+      "id": "russiancircles|nine",
+      "d": "28/08",
+      "a": "Russian Circles",
+      "t": "NINE",
+      "k": "ÁLBUM",
+      "g": "post-metal / progressive metal / instrumental metal",
+      "q": "Russian Circles NINE",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027540118e6b0cc263a01f3c17",
+      "sourceLink": "https://russiancircles.com/nine-2026",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7tt3vmIfxLV30N1UJPmTNf"
+    },
+    {
+      "id": "colorblind|whosoldyouthistruthwasityourstohold",
+      "d": "28/08",
+      "a": "Colorblind",
+      "t": "WHO SOLD YOU THIS TRUTH ++ WAS IT YOURS TO HOLD",
+      "k": "ÁLBUM",
+      "g": "metalcore / post-hardcore / alternative rock",
+      "q": "Colorblind WHO SOLD YOU THIS TRUTH ++ WAS IT YOURS TO HOLD",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ace1b5237ec91fc970ca3c08",
+      "sourceLink": "https://www.solidstaterecords.com/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/6UlvNfCyvWaU6ZSKKvujbq"
+    },
+    {
+      "id": "coldgawd|glory2",
+      "d": "28/08",
+      "a": "Cold Gawd",
+      "t": "Glory2",
+      "k": "EP",
+      "g": "shoegaze / post-hardcore / alternative metal",
+      "q": "Cold Gawd Glory2",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02159e344a26732b32a975a2f9",
+      "sourceLink": "https://www.daisrecords.com/blogs/news",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/64k39ng4Gn0hMF76HODg4w"
+    },
+    {
+      "id": "eschalon|devour",
+      "d": "28/08",
+      "a": "Eschalon",
+      "t": "Devour",
+      "k": "EP",
+      "g": "progressive metalcore / djent / modern metal",
+      "q": "Eschalon Devour",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0209039eed1f4b050bd2371a24",
+      "sourceLink": "https://linktr.ee/eschalon",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4nD3MBjrjdiwKhy0wmA3jc"
     }
   ]
 }
