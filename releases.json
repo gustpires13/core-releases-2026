@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-08-28",
+    "updated": "2026-09-02",
     "schemaVersion": 1
   },
   "releases": [
@@ -5364,6 +5364,174 @@
       "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027c5f1dac8d59db0a4b80573d",
       "sourceLink": "https://turnstilehardcore.com/",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1KR1VedU3v1ZeVz0S1HPDL"
+    },
+    {
+      "id": "whileathome|thorns",
+      "d": "12/08",
+      "a": "While At Home",
+      "t": "Thorns",
+      "k": "EP",
+      "g": "melodic hardcore / post-hardcore / punk",
+      "q": "While At Home Thorns",
+      "cover": "https://f4.bcbits.com/img/a1756116661_10.jpg",
+      "sourceLink": "https://whileathome.bandcamp.com/album/thorns",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0ckiHso7BIkRKcsxl8dQf1"
+    },
+    {
+      "id": "clandestine|lastgasp",
+      "d": "13/08",
+      "a": "Clandestine",
+      "t": "Last Gasp",
+      "k": "EP",
+      "g": "post-hardcore / melodic hardcore / screamo",
+      "q": "Clandestine Last Gasp",
+      "cover": "https://f4.bcbits.com/img/a3723684764_10.jpg",
+      "sourceLink": "https://clandestinephc.bandcamp.com/album/last-gasp",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4UfcXvTtuxZzSomBKICl2u"
+    },
+    {
+      "id": "aslivingarrows|fragmenti",
+      "d": "14/08",
+      "a": "As Living Arrows",
+      "t": "Fragment I",
+      "k": "EP",
+      "g": "post-hardcore / screamo / math rock",
+      "q": "As Living Arrows Fragment I",
+      "cover": "https://f4.bcbits.com/img/a3153820146_10.jpg",
+      "sourceLink": "https://aslivingarrows.bandcamp.com/album/fragment-i"
+    },
+    {
+      "id": "garagefuzz|powerplant",
+      "d": "14/08",
+      "a": "Garage Fuzz",
+      "t": "Powerplant",
+      "k": "EP",
+      "g": "hardcore / punk / alternative rock",
+      "q": "Garage Fuzz Powerplant",
+      "country": "BR",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02dc902545acc08a32237ae4b1",
+      "sourceLink": "https://audiomack.com/garage-fuzz/album/powerplant",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0zSXfYBT7g7M0mLqEQOROv"
+    },
+    {
+      "id": "shotwithagun|fromaplaceyoucannotseecomesasoundyouwillnothear",
+      "d": "17/08",
+      "a": "shotwithagun",
+      "t": "From A Place You Cannot See… Comes A Sound You Will Not Hear",
+      "k": "EP",
+      "g": "screamo / post-hardcore / emoviolence",
+      "q": "shotwithagun From A Place You Cannot See… Comes A Sound You Will Not Hear",
+      "cover": "https://static.qobuz.com/images/covers/2n/8m/prj58byqf8m2n_600.jpg",
+      "sourceLink": "https://www.qobuz.com/se-en/album/from-a-place-you-cannot-see-comes-a-sound-you-will-not-hear-shotwithagun/prj58byqf8m2n",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/5LQx0equqNhvmnad7xbvxx"
+    },
+    {
+      "id": "xmiseryisabutterflyx|tocatchashootingstar",
+      "d": "20/08",
+      "a": "XmiseryisabutterflyX",
+      "t": "to catch a shooting star…",
+      "k": "EP",
+      "g": "screamo / emoviolence / hardcore",
+      "q": "XmiseryisabutterflyX to catch a shooting star…",
+      "cover": "https://f4.bcbits.com/img/a2607315314_10.jpg",
+      "sourceLink": "https://xmiseryisabutterflyx.bandcamp.com/album/to-catch-a-shooting-star",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4sIHWeOSNisfJJaqXWqmBb"
+    },
+    {
+      "id": "crucibleofabsolution|closedcasketprotocol",
+      "d": "21/08",
+      "a": "Crucible Of Absolution",
+      "t": "Closed Casket Protocol",
+      "k": "EP",
+      "g": "deathcore / hardcore",
+      "q": "Crucible Of Absolution Closed Casket Protocol",
+      "cover": "https://static.qobuz.com/images/covers/lz/sf/kihpsn0e6sflz_600.jpg",
+      "sourceLink": "https://www.qobuz.com/gb-en/album/closed-casket-protocol-crucible-of-absolution/kihpsn0e6sflz",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/1OzFi9G8jakXNUcJKHwvNt"
+    },
+    {
+      "id": "thewoundsthatspeak|thewoundsthatspeak",
+      "d": "21/08",
+      "a": "The Wounds That Speak",
+      "t": "The Wounds That Speak",
+      "k": "ÁLBUM",
+      "g": "deathcore / metalcore / Christian metalcore",
+      "q": "The Wounds That Speak The Wounds That Speak",
+      "cover": "https://static.qobuz.com/images/covers/lh/76/huifvvp8h76lh_600.jpg",
+      "sourceLink": "https://www.qobuz.com/us-en/album/the-wounds-that-speak-the-wounds-that-speak/huifvvp8h76lh",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3H1u6y7Ao13aZVv8HvhNJw"
+    },
+    {
+      "id": "recollection|intrusivethoughts",
+      "d": "28/08",
+      "a": "Recollection",
+      "t": "Intrusive Thoughts",
+      "k": "EP",
+      "g": "metallic hardcore / screamo",
+      "q": "Recollection Intrusive Thoughts",
+      "cover": "https://f4.bcbits.com/img/a0108522173_10.jpg",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/intrusive-thoughts",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/05933VWyVA3GuCJIFWccMX"
+    },
+    {
+      "id": "colddecay|whatskinholds",
+      "d": "28/08",
+      "a": "Cold Decay",
+      "t": "What Skin Holds",
+      "k": "ÁLBUM",
+      "g": "metallic hardcore / hardcore",
+      "q": "Cold Decay What Skin Holds",
+      "cover": "https://f4.bcbits.com/img/a1480131161_10.jpg",
+      "sourceLink": "https://colddecayhc.bandcamp.com/album/what-skin-holds",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/33YUFhqsBRzrMbf6Y2kfWx"
+    },
+    {
+      "id": "statepower|hyperstition",
+      "d": "28/08",
+      "a": "State Power",
+      "t": "Hyperstition",
+      "k": "ÁLBUM",
+      "g": "metallic hardcore / hardcore / crossover",
+      "q": "State Power Hyperstition",
+      "cover": "https://f4.bcbits.com/img/a2363103489_10.jpg",
+      "sourceLink": "https://statepowerhc.bandcamp.com/album/hyperstition",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/77Gpr8UkoJaSumLjrRxgps"
+    },
+    {
+      "id": "spiritcrusher|future",
+      "d": "28/08",
+      "a": "Spirit Crusher",
+      "t": "Future",
+      "k": "ÁLBUM",
+      "g": "metallic hardcore / hardcore",
+      "q": "Spirit Crusher Future",
+      "cover": "https://f4.bcbits.com/img/a2721620747_10.jpg",
+      "sourceLink": "https://spiritcrusherxxx.bandcamp.com/album/future",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7dfpn0BJNTG8F9s61cX3hm"
+    },
+    {
+      "id": "dogpile|alldogsgotoheaven",
+      "d": "28/08",
+      "a": "DogPile",
+      "t": "ALL DOGS GO TO HEAVEN",
+      "k": "EP",
+      "g": "metallic hardcore / hardcore / beatdown",
+      "q": "DogPile ALL DOGS GO TO HEAVEN",
+      "cover": "https://static.qobuz.com/images/covers/1r/kk/yqwky6qkikk1r_600.jpg",
+      "sourceLink": "https://www.qobuz.com/it-it/album/all-dogs-go-to-heaven-dogpile/yqwky6qkikk1r",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/1RjZw5mBFXykN741VrBm4L"
+    },
+    {
+      "id": "cease|theendhastobeginsomewhere",
+      "d": "28/08",
+      "a": "Cease",
+      "t": "The End Has to Begin Somewhere",
+      "k": "EP",
+      "g": "melodic hardcore / post-hardcore",
+      "q": "Cease The End Has to Begin Somewhere",
+      "cover": "https://f4.bcbits.com/img/a3990834692_10.jpg",
+      "sourceLink": "https://ceasehardcore.bandcamp.com/album/the-end-has-to-begin-somewhere",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0BXZy37eHr68NY4paeMV4Z"
     }
   ]
 }
