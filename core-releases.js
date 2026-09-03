@@ -696,10 +696,14 @@ const io=new IntersectionObserver(es=>{
 document.querySelectorAll("section.mo").forEach(s=>io.observe(s));
 
 /* reveal */
-const rio=new IntersectionObserver(es=>{
-  es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}});
-},{threshold:.12,rootMargin:"0px 0px -4% 0px"});
-document.querySelectorAll(".rv").forEach(el=>rio.observe(el));
+if(MOB||reduced){
+  document.querySelectorAll(".rv").forEach(el=>el.classList.add("in"));
+}else{
+  const rio=new IntersectionObserver(es=>{
+    es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}});
+  },{threshold:.12,rootMargin:"0px 0px -4% 0px"});
+  document.querySelectorAll(".rv").forEach(el=>rio.observe(el));
+}
 
 /* ============================================================
    BRILHO NA CAPA — realce de luz que segue o mouse (sem P&B)
@@ -724,6 +728,7 @@ if(finePtr&&!reduced){
 ============================================================ */
 (function(){
   const cv=document.getElementById("grain"),hero=document.querySelector(".hero");
+  if(MOB){hero.classList.add("noGL");return}
   const gl=cv.getContext("webgl2",{alpha:true,antialias:false});
   if(!gl){hero.classList.add("noGL");return}
   let raf=0,contextLost=false;
@@ -987,6 +992,7 @@ async function resolveStream(r){
 function prioritizeLink(r){return resolveStream(r)}
 const hoverBusy=new Set();
 app.addEventListener("pointerover",e=>{
+  if(!finePtr)return;
   const host=e.target.closest("[data-i]");if(!host)return;
   const r=R[+host.dataset.i];
   if(stateOf(r).sp||hoverBusy.has(r.i))return;
@@ -1019,6 +1025,7 @@ function startLinkTrickle(){
 
 /* Capas sob demanda: evita consultar a discografia inteira na abertura. */
 const artQueue=[];let artActive=0,artFinished=0,artAuditShown=false;
+const ART_CONCURRENCY=MOB?2:3;
 function showCoverAudit(){
   if(artAuditShown)return;artAuditShown=true;
   const box=document.createElement("div");
@@ -1027,7 +1034,7 @@ function showCoverAudit(){
   document.body.appendChild(box);
 }
 function pumpArt(){
-  while(artActive<3&&artQueue.length){
+  while(artActive<ART_CONCURRENCY&&artQueue.length){
     const r=artQueue.shift();artActive++;
     Promise.resolve(resolveArt(r)).catch(()=>{}).finally(()=>{
       stateOf(r).artState=2;artActive--;artFinished++;
@@ -1047,7 +1054,7 @@ function enqueueArt(r){
   }
   const artIO=new IntersectionObserver(es=>{
     es.forEach(e=>{if(e.isIntersecting){artIO.unobserve(e.target);enqueueArt(R[+e.target.dataset.i])}});
-  },{rootMargin:"900px 0px",threshold:0});
+  },{rootMargin:MOB?"480px 0px":"900px 0px",threshold:0});
   cards.forEach(c=>artIO.observe(c));
 })();
 const idleLinks=()=>startLinkTrickle();
