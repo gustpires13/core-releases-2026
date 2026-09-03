@@ -1,12 +1,13 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "schemaVersion": 1
   },
   "releases": [
     {
       "id": "palefaceswiss|thewilted",
+      "deezer": "https://www.deezer.com/album/831314111",
       "d": "02/01",
       "a": "Paleface Swiss",
       "t": "The Wilted",
@@ -16,6 +17,7 @@
     },
     {
       "id": "sherane|sherane",
+      "deezer": "https://www.deezer.com/album/1057074772",
       "d": "03/01",
       "a": "Sherane",
       "t": "sherane",
@@ -60,6 +62,7 @@
     },
     {
       "id": "alterbridge|alterbridge",
+      "deezer": "https://www.deezer.com/album/891289172",
       "d": "09/01",
       "a": "Alter Bridge",
       "t": "Alter Bridge",
@@ -69,6 +72,7 @@
     },
     {
       "id": "bitedown|violentplayground",
+      "deezer": "https://www.deezer.com/album/854462652",
       "d": "09/01",
       "a": "Bite Down",
       "t": "Violent Playground",
@@ -78,6 +82,7 @@
     },
     {
       "id": "lionheart|valleyofdeathii",
+      "deezer": "https://www.deezer.com/album/853873892",
       "d": "09/01",
       "a": "Lionheart",
       "t": "Valley Of Death II",
@@ -153,6 +158,7 @@
     },
     {
       "id": "carrionvael|slayutterly",
+      "deezer": "https://www.deezer.com/album/834688872",
       "d": "16/01",
       "a": "Carrion Vael",
       "t": "Slay Utterly",
@@ -162,6 +168,7 @@
     },
     {
       "id": "ovsulfur|endless",
+      "deezer": "https://www.deezer.com/album/820666161",
       "d": "16/01",
       "a": "Ov Sulfur",
       "t": "Endless",
@@ -171,6 +178,7 @@
     },
     {
       "id": "soen|reliance",
+      "deezer": "https://www.deezer.com/album/809121951",
       "d": "16/01",
       "a": "Soen",
       "t": "Reliance",
@@ -180,6 +188,7 @@
     },
     {
       "id": "ipromisedtheworld|ipromisedtheworld",
+      "deezer": "https://www.deezer.com/album/906068692",
       "d": "16/01",
       "a": "I Promised The World",
       "t": "I Promised The World",
@@ -189,6 +198,7 @@
     },
     {
       "id": "thefuneralportrait|livefromsuffocatecity",
+      "deezer": "https://www.deezer.com/album/841416852",
       "d": "16/01",
       "a": "The Funeral Portrait",
       "t": "Live From Suffocate City",
@@ -277,6 +287,7 @@
     },
     {
       "id": "crystallake|theweightofsound",
+      "deezer": "https://www.deezer.com/album/829200101",
       "d": "23/01",
       "a": "Crystal Lake",
       "t": "The Weight Of Sound",
@@ -286,6 +297,7 @@
     },
     {
       "id": "poppy|emptyhands",
+      "deezer": "https://www.deezer.com/album/903123412",
       "d": "23/01",
       "a": "Poppy",
       "t": "Empty Hands",
@@ -295,6 +307,7 @@
     },
     {
       "id": "textures|genotype",
+      "deezer": "https://www.deezer.com/album/837697362",
       "d": "23/01",
       "a": "Textures",
       "t": "Genotype",
@@ -349,6 +362,7 @@
     },
     {
       "id": "hanabie|hottopic",
+      "deezer": "https://www.deezer.com/album/898032832",
       "d": "28/01",
       "a": "Hanabie.",
       "t": "Hot Topic",
@@ -358,6 +372,7 @@
     },
     {
       "id": "ml|dreamcrush",
+      "deezer": "https://www.deezer.com/album/826716641",
       "d": "30/01",
       "a": "MØL",
       "t": "Dreamcrush",
@@ -367,6 +382,7 @@
     },
     {
       "id": "nightmarer|hellinterface",
+      "deezer": "https://www.deezer.com/album/898942612",
       "d": "30/01",
       "a": "Nightmarer",
       "t": "Hell Interface",
@@ -376,6 +392,7 @@
     },
     {
       "id": "shields|deathandconnection",
+      "deezer": "https://www.deezer.com/album/822320661",
       "d": "30/01",
       "a": "Shields",
       "t": "Death & Connection",
@@ -385,6 +402,7 @@
     },
     {
       "id": "trashboat|evenifinevergetthere",
+      "deezer": "https://www.deezer.com/album/837924142",
       "d": "30/01",
       "a": "Trash Boat",
       "t": "Even If I Never Get There",
@@ -394,6 +412,7 @@
     },
     {
       "id": "urne|settingfiretothesky",
+      "deezer": "https://www.deezer.com/album/812784671",
       "d": "30/01",
       "a": "Urne",
       "t": "Setting Fire To The Sky",
@@ -526,6 +545,7 @@
     },
     {
       "id": "beforeiturn|immoralandmalevolenthappenings",
+      "deezer": "https://www.deezer.com/album/888557482",
       "d": "06/02",
       "a": "Before I Turn",
       "t": "Immoral and Malevolent Happenings",
@@ -567,6 +587,7 @@
     },
     {
       "id": "penseandsomnosebo|pensesomnoseboaovivo",
+      "deezer": "https://www.deezer.com/album/903632862",
       "d": "12/02",
       "a": "Pense & Som No Sebo",
       "t": "Pense | Som No Sebo (Ao Vivo)",
@@ -579,6 +600,7 @@
     },
     {
       "id": "angeldust|cold2thetouch",
+      "deezer": "https://www.deezer.com/album/829566871",
       "d": "13/02",
       "a": "Angel Du$t",
       "t": "Cold 2 The Touch",
@@ -588,6 +610,7 @@
     },
     {
       "id": "thebrowning|burnthisworldevolved",
+      "deezer": "https://www.deezer.com/album/860593102",
       "d": "13/02",
       "a": "The Browning",
       "t": "Burn This World [Evolved]",
@@ -597,6 +620,7 @@
     },
     {
       "id": "converge|loveisnotenough",
+      "deezer": "https://www.deezer.com/album/843150572",
       "d": "13/02",
       "a": "Converge",
       "t": "Love Is Not Enough",
@@ -606,6 +630,7 @@
     },
     {
       "id": "spaceofvariations|poisonedart",
+      "deezer": "https://www.deezer.com/album/850129422",
       "d": "13/02",
       "a": "Space Of Variations",
       "t": "Poisoned Art",
@@ -615,6 +640,7 @@
     },
     {
       "id": "storyoftheyear|arson",
+      "deezer": "https://www.deezer.com/album/823528111",
       "d": "13/02",
       "a": "Story Of The Year",
       "t": "A.R.S.O.N.",
@@ -657,6 +683,7 @@
     },
     {
       "id": "abstracted|hiraeth",
+      "deezer": "https://www.deezer.com/album/896061022",
       "d": "20/02",
       "a": "Abstracted",
       "t": "Hiraeth",
@@ -666,6 +693,7 @@
     },
     {
       "id": "chainedtothebottomoftheocean|letusnotspeakofthembutlookandpasson",
+      "deezer": "https://www.deezer.com/album/903203942",
       "d": "20/02",
       "a": "Chained To The Bottom Of The Ocean",
       "t": "Let Us Not Speak of Them But Look and Pass On",
@@ -675,6 +703,7 @@
     },
     {
       "id": "mothica|somewhereinbetween",
+      "deezer": "https://www.deezer.com/album/883090512",
       "d": "20/02",
       "a": "Mothica",
       "t": "Somewhere In Between",
@@ -684,6 +713,7 @@
     },
     {
       "id": "sylosis|thenewflesh",
+      "deezer": "https://www.deezer.com/album/850812512",
       "d": "20/02",
       "a": "Sylosis",
       "t": "The New Flesh",
@@ -693,6 +723,7 @@
     },
     {
       "id": "wormshepherd|dawnoftheiconoclast",
+      "deezer": "https://www.deezer.com/album/878728422",
       "d": "20/02",
       "a": "Worm Shepherd",
       "t": "Dawn Of The Iconoclast",
@@ -702,6 +733,7 @@
     },
     {
       "id": "clawfinger|beforewealldie",
+      "deezer": "https://www.deezer.com/album/842040772",
       "d": "20/02",
       "a": "Clawfinger",
       "t": "Before We All Die",
@@ -823,6 +855,7 @@
     },
     {
       "id": "thegloominthecorner|royaldiscordance",
+      "deezer": "https://www.deezer.com/album/838441862",
       "d": "27/02",
       "a": "The Gloom In The Corner",
       "t": "Royal Discordance",
@@ -832,6 +865,7 @@
     },
     {
       "id": "varials|wherethelightleaves",
+      "deezer": "https://www.deezer.com/album/923211441",
       "d": "27/02",
       "a": "Varials",
       "t": "Where The Light Leaves",
@@ -841,6 +875,7 @@
     },
     {
       "id": "finalgasp|newdaysymptoms",
+      "deezer": "https://www.deezer.com/album/823611931",
       "d": "27/02",
       "a": "Final Gasp",
       "t": "New Day Symptoms",
@@ -850,6 +885,7 @@
     },
     {
       "id": "nothing|ashorthistoryofdecay",
+      "deezer": "https://www.deezer.com/album/840021442",
       "d": "27/02",
       "a": "Nothing",
       "t": "A Short History Of Decay",
@@ -859,6 +895,7 @@
     },
     {
       "id": "robzombie|thegreatsatan",
+      "deezer": "https://www.deezer.com/album/821589531",
       "d": "27/02",
       "a": "Rob Zombie",
       "t": "The Great Satan",
@@ -937,6 +974,7 @@
     },
     {
       "id": "erra|silenceoutlivestheearth",
+      "deezer": "https://www.deezer.com/album/878138772",
       "d": "06/03",
       "a": "ERRA",
       "t": "silence outlives the earth",
@@ -946,6 +984,7 @@
     },
     {
       "id": "lostsociety|hellisastateofmind",
+      "deezer": "https://www.deezer.com/album/877729812",
       "d": "06/03",
       "a": "Lost Society",
       "t": "Hell Is A State Of Mind",
@@ -988,6 +1027,7 @@
     },
     {
       "id": "lambofgod|intooblivion",
+      "deezer": "https://www.deezer.com/album/937875661",
       "d": "13/03",
       "a": "Lamb Of God",
       "t": "Into Oblivion",
@@ -997,6 +1037,7 @@
     },
     {
       "id": "unitytx|somewhereinbetween",
+      "deezer": "https://www.deezer.com/album/896100702",
       "d": "13/03",
       "a": "UnityTX",
       "t": "Somewhere, In Between…",
@@ -1006,6 +1047,7 @@
     },
     {
       "id": "viciousrain|theanatomyofsurviving",
+      "deezer": "https://www.deezer.com/album/865576352",
       "d": "13/03",
       "a": "Vicious Rain",
       "t": "The Anatomy Of Surviving",
@@ -1072,6 +1114,7 @@
     },
     {
       "id": "gaerea|loss",
+      "deezer": "https://www.deezer.com/album/831175101",
       "d": "20/03",
       "a": "Gaerea",
       "t": "Loss",
@@ -1081,6 +1124,7 @@
     },
     {
       "id": "lostinhollywood|lostinhollywood",
+      "deezer": "https://www.deezer.com/album/895787222",
       "d": "20/03",
       "a": "Lost In Hollywood",
       "t": "Lost In Hollywood",
@@ -1090,6 +1134,7 @@
     },
     {
       "id": "poisonthewell|peaceinplace",
+      "deezer": "https://www.deezer.com/album/883089492",
       "d": "20/03",
       "a": "Poison The Well",
       "t": "Peace In Place",
@@ -1111,6 +1156,7 @@
     },
     {
       "id": "chamber|thisisgoodbye",
+      "deezer": "https://www.deezer.com/album/915466431",
       "d": "27/03",
       "a": "Chamber",
       "t": "This Is Goodbye…",
@@ -1120,6 +1166,7 @@
     },
     {
       "id": "lifecycles|nooneescapesdeath",
+      "deezer": "https://www.deezer.com/album/918675091",
       "d": "27/03",
       "a": "Life Cycles",
       "t": "No One Escapes Death",
@@ -1129,6 +1176,7 @@
     },
     {
       "id": "moodring|deathfetish",
+      "deezer": "https://www.deezer.com/album/887764832",
       "d": "27/03",
       "a": "Moodring",
       "t": "Death Fetish",
@@ -1138,6 +1186,7 @@
     },
     {
       "id": "samuraipizzacats|pressstart",
+      "deezer": "https://www.deezer.com/album/892180492",
       "d": "27/03",
       "a": "Samurai Pizza Cats",
       "t": "Press Start",
@@ -1147,6 +1196,7 @@
     },
     {
       "id": "threatsignal|revelations",
+      "deezer": "https://www.deezer.com/album/894080162",
       "d": "27/03",
       "a": "Threat Signal",
       "t": "Revelations",
@@ -1156,6 +1206,7 @@
     },
     {
       "id": "blacklabelsociety|enginesofdemolition",
+      "deezer": "https://www.deezer.com/album/883785102",
       "d": "27/03",
       "a": "Black Label Society",
       "t": "Engines Of Demolition",
@@ -1165,6 +1216,7 @@
     },
     {
       "id": "donbroco|nightmaretripping",
+      "deezer": "https://www.deezer.com/album/943740441",
       "d": "27/03",
       "a": "Don Broco",
       "t": "Nightmare Tripping",
@@ -1174,6 +1226,7 @@
     },
     {
       "id": "popevil|whatremainsmidnightedition",
+      "deezer": "https://www.deezer.com/album/881159252",
       "d": "27/03",
       "a": "Pop Evil",
       "t": "What Remains (Midnight Edition)",
@@ -1195,6 +1248,7 @@
     },
     {
       "id": "corrosionofconformity|goodgodbaadman",
+      "deezer": "https://www.deezer.com/album/897345572",
       "d": "03/04",
       "a": "Corrosion Of Conformity",
       "t": "Good God/Baad Man",
@@ -1204,6 +1258,7 @@
     },
     {
       "id": "dust|thoughtsofafallingman",
+      "deezer": "https://www.deezer.com/album/896143052",
       "d": "03/04",
       "a": "Dust",
       "t": "Thoughts Of A Falling Man",
@@ -1213,6 +1268,7 @@
     },
     {
       "id": "noterrorinthebang|existence",
+      "deezer": "https://www.deezer.com/album/896496722",
       "d": "03/04",
       "a": "No Terror In The Bang",
       "t": "Existence",
@@ -1222,6 +1278,7 @@
     },
     {
       "id": "nervosa|slavemachine",
+      "deezer": "https://www.deezer.com/album/879490662",
       "d": "03/04",
       "a": "Nervosa",
       "t": "Slave Machine",
@@ -1231,6 +1288,7 @@
     },
     {
       "id": "lantlos|nowhereinbetweenforever",
+      "deezer": "https://www.deezer.com/album/879380392",
       "d": "03/04",
       "a": "Lantlôs",
       "t": "Nowhere In Between Forever",
@@ -1251,6 +1309,7 @@
     },
     {
       "id": "archspire|toofasttodie",
+      "deezer": "https://www.deezer.com/album/861778372",
       "d": "10/04",
       "a": "Archspire",
       "t": "Too Fast To Die",
@@ -1260,6 +1319,7 @@
     },
     {
       "id": "aseverythingunfolds|didyouasktobesetfree",
+      "deezer": "https://www.deezer.com/album/878346412",
       "d": "10/04",
       "a": "As Everything Unfolds",
       "t": "Did You Ask To Be Set Free?",
@@ -1269,6 +1329,7 @@
     },
     {
       "id": "bilmuri|kindahard",
+      "deezer": "https://www.deezer.com/album/955544441",
       "d": "10/04",
       "a": "Bilmuri",
       "t": "KINDA HARD",
@@ -1278,6 +1339,7 @@
     },
     {
       "id": "bodysnatcher|hellisherehellishome",
+      "deezer": "https://www.deezer.com/album/868982932",
       "d": "10/04",
       "a": "Bodysnatcher",
       "t": "Hell Is Here, Hell Is Home",
@@ -1287,6 +1349,7 @@
     },
     {
       "id": "bringmethehorizon|liveinsaopaulo",
+      "deezer": "https://www.deezer.com/album/953160211",
       "d": "10/04",
       "a": "Bring Me The Horizon",
       "t": "L.I.V.E. In São Paulo",
@@ -1297,6 +1360,7 @@
     },
     {
       "id": "levels|thiswillmakeyoufeelagain",
+      "deezer": "https://www.deezer.com/album/913178471",
       "d": "10/04",
       "a": "Levels",
       "t": "This Will Make You Feel Again",
@@ -1317,6 +1381,7 @@
     },
     {
       "id": "obeythekraken|apocrypha",
+      "deezer": "https://www.deezer.com/album/874698062",
       "d": "10/04",
       "a": "Obey The Kraken",
       "t": "Apocrypha",
@@ -1326,6 +1391,7 @@
     },
     {
       "id": "inferi|heavenwept",
+      "deezer": "https://www.deezer.com/album/892008232",
       "d": "10/04",
       "a": "Inferi",
       "t": "Heaven Wept",
@@ -1335,6 +1401,7 @@
     },
     {
       "id": "lordofthelost|opvsnoirvol3",
+      "deezer": "https://www.deezer.com/album/873858902",
       "d": "10/04",
       "a": "Lord Of The Lost",
       "t": "Opvs Noir Vol. 3",
@@ -1423,6 +1490,7 @@
     },
     {
       "id": "giffromgod|dissimulation",
+      "deezer": "https://www.deezer.com/album/932790951",
       "d": "17/04",
       "a": ".gif from god",
       "t": "Dissimulation",
@@ -1432,6 +1500,7 @@
     },
     {
       "id": "fromashestonew|reflections",
+      "deezer": "https://www.deezer.com/album/874092562",
       "d": "17/04",
       "a": "From Ashes To New",
       "t": "Reflections",
@@ -1441,6 +1510,7 @@
     },
     {
       "id": "nekrogoblikon|theboilingsea",
+      "deezer": "https://www.deezer.com/album/892196522",
       "d": "17/04",
       "a": "Nekrogoblikon",
       "t": "The Boiling Sea",
@@ -1460,6 +1530,7 @@
     },
     {
       "id": "thelasttensecondsoflife|thedeadones",
+      "deezer": "https://www.deezer.com/album/860601132",
       "d": "17/04",
       "a": "The Last Ten Seconds Of Life",
       "t": "The Dead Ones",
@@ -1469,6 +1540,7 @@
     },
     {
       "id": "wagewar|itcallsmebyname",
+      "deezer": "https://www.deezer.com/album/958348071",
       "d": "17/04",
       "a": "Wage War",
       "t": "It Calls Me By Name",
@@ -1498,6 +1570,7 @@
     },
     {
       "id": "theamityaffliction|houseofcards",
+      "deezer": "https://www.deezer.com/album/903932942",
       "d": "24/04",
       "a": "The Amity Affliction",
       "t": "House Of Cards",
@@ -1507,6 +1580,7 @@
     },
     {
       "id": "armedforapocalypse|theearthisbreathingbeneathme",
+      "deezer": "https://www.deezer.com/album/910993231",
       "d": "24/04",
       "a": "Armed For Apocalypse",
       "t": "The Earth Is Breathing Beneath Me",
@@ -1516,6 +1590,7 @@
     },
     {
       "id": "atthegates|theghostofafuturedead",
+      "deezer": "https://www.deezer.com/album/908618102",
       "d": "24/04",
       "a": "At The Gates",
       "t": "The Ghost Of A Future Dead",
@@ -1525,6 +1600,7 @@
     },
     {
       "id": "atreyu|theendisnottheend",
+      "deezer": "https://www.deezer.com/album/908393002",
       "d": "24/04",
       "a": "Atreyu",
       "t": "The End Is Not The End",
@@ -1534,6 +1610,7 @@
     },
     {
       "id": "knifebride|sorryabouttheplague",
+      "deezer": "https://www.deezer.com/album/942241151",
       "d": "24/04",
       "a": "Knife Bride",
       "t": "sorry about the plague",
@@ -1554,6 +1631,7 @@
     },
     {
       "id": "portrayalofguilt|beginningoftheend",
+      "deezer": "https://www.deezer.com/album/912107651",
       "d": "24/04",
       "a": "Portrayal Of Guilt",
       "t": "…Beginning Of The End",
@@ -1563,6 +1641,7 @@
     },
     {
       "id": "romancandle|unadulterated",
+      "deezer": "https://www.deezer.com/album/917542541",
       "d": "24/04",
       "a": "Roman Candle",
       "t": "Unadulterated",
@@ -1572,6 +1651,7 @@
     },
     {
       "id": "sepultura|thecloudofunknowing",
+      "deezer": "https://www.deezer.com/album/941119081",
       "d": "24/04",
       "a": "Sepultura",
       "t": "The Cloud Of Unknowing",
@@ -1581,6 +1661,7 @@
     },
     {
       "id": "terror|stillsuffer",
+      "deezer": "https://www.deezer.com/album/905788332",
       "d": "24/04",
       "a": "Terror",
       "t": "Still Suffer",
@@ -1590,6 +1671,7 @@
     },
     {
       "id": "thesaddestlandscape|alonewithheaven",
+      "deezer": "https://www.deezer.com/album/899126282",
       "d": "24/04",
       "a": "The Saddest Landscape",
       "t": "Alone With Heaven",
@@ -1645,6 +1727,7 @@
     },
     {
       "id": "cagefight|exuvia",
+      "deezer": "https://www.deezer.com/album/880508702",
       "d": "01/05",
       "a": "Cage Fight",
       "t": "Exuvia",
@@ -1654,6 +1737,7 @@
     },
     {
       "id": "cognizance|inlightnoshape",
+      "deezer": "https://www.deezer.com/album/917935531",
       "d": "01/05",
       "a": "Cognizance",
       "t": "In Light, No Shape",
@@ -1663,6 +1747,7 @@
     },
     {
       "id": "dreamondreamer|heavens",
+      "deezer": "https://www.deezer.com/album/838063312",
       "d": "01/05",
       "a": "Dream On Dreamer",
       "t": "Heavens",
@@ -1672,6 +1757,7 @@
     },
     {
       "id": "hastetheday|dissenter",
+      "deezer": "https://www.deezer.com/album/908797932",
       "d": "01/05",
       "a": "Haste The Day",
       "t": "Dissenter",
@@ -1681,6 +1767,7 @@
     },
     {
       "id": "obeyer|pallor",
+      "deezer": "https://www.deezer.com/album/925384581",
       "d": "01/05",
       "a": "Obeyer",
       "t": "Pallor",
@@ -1690,6 +1777,7 @@
     },
     {
       "id": "sevendust|one",
+      "deezer": "https://www.deezer.com/album/970541441",
       "d": "01/05",
       "a": "Sevendust",
       "t": "One",
@@ -1699,6 +1787,7 @@
     },
     {
       "id": "vctms|painprocessingii",
+      "deezer": "https://www.deezer.com/album/930691541",
       "d": "01/05",
       "a": "VCTMS",
       "t": "pain processing II",
@@ -1719,6 +1808,7 @@
     },
     {
       "id": "fbcandbaka|tamborescafezaisfuzisguaranaseoutrasbrasilidades",
+      "deezer": "https://www.deezer.com/album/968203941",
       "d": "01/05",
       "a": "FBC & BAKA",
       "t": "TAMBORES, CAFEZAIS, FUZIS, GUARANAS E OUTRAS BRASILIDADES",
@@ -1742,6 +1832,7 @@
     },
     {
       "id": "blackveilbrides|vindicate",
+      "deezer": "https://www.deezer.com/album/965438781",
       "d": "08/05",
       "a": "Black Veil Brides",
       "t": "VINDICATE",
@@ -1751,6 +1842,7 @@
     },
     {
       "id": "frozensoul|noplaceofwarmth",
+      "deezer": "https://www.deezer.com/album/916221521",
       "d": "08/05",
       "a": "Frozen Soul",
       "t": "No Place Of Warmth",
@@ -1760,6 +1852,7 @@
     },
     {
       "id": "haggardcat|thepainthatorbitslife",
+      "deezer": "https://www.deezer.com/album/900583592",
       "d": "08/05",
       "a": "Haggard Cat",
       "t": "The Pain That Orbits Life",
@@ -1769,6 +1862,7 @@
     },
     {
       "id": "ingested|denigration",
+      "deezer": "https://www.deezer.com/album/876219852",
       "d": "08/05",
       "a": "Ingested",
       "t": "Denigration",
@@ -1789,6 +1883,7 @@
     },
     {
       "id": "thenarrator|phosphor",
+      "deezer": "https://www.deezer.com/album/917433501",
       "d": "08/05",
       "a": "The Narrator",
       "t": "Phosphor",
@@ -1798,6 +1893,7 @@
     },
     {
       "id": "sace6|brutalist",
+      "deezer": "https://www.deezer.com/album/918155911",
       "d": "08/05",
       "a": "sace6",
       "t": "brutalist",
@@ -1807,6 +1903,7 @@
     },
     {
       "id": "idlethreat|youllforgetthesun",
+      "deezer": "https://www.deezer.com/album/908753282",
       "d": "08/05",
       "a": "Idle Threat",
       "t": "You'll Forget The Sun",
@@ -1853,6 +1950,7 @@
     },
     {
       "id": "alt|nevermore",
+      "deezer": "https://www.deezer.com/album/947044121",
       "d": "15/05",
       "a": "alt.",
       "t": "Nevermore",
@@ -1862,6 +1960,7 @@
     },
     {
       "id": "held|grey",
+      "deezer": "https://www.deezer.com/album/861279902",
       "d": "15/05",
       "a": "Held.",
       "t": "Grey",
@@ -1871,6 +1970,7 @@
     },
     {
       "id": "junglerot|cruelfaceofwar",
+      "deezer": "https://www.deezer.com/album/916893181",
       "d": "15/05",
       "a": "Jungle Rot",
       "t": "Cruel Face Of War",
@@ -1880,6 +1980,7 @@
     },
     {
       "id": "periphery|apalewhitedot",
+      "deezer": "https://www.deezer.com/album/983415101",
       "d": "15/05",
       "a": "Periphery",
       "t": "A Pale White Dot",
@@ -1889,6 +1990,7 @@
     },
     {
       "id": "portnoir|thedarkwekeep",
+      "deezer": "https://www.deezer.com/album/896665172",
       "d": "15/05",
       "a": "Port Noir",
       "t": "The Dark We Keep",
@@ -1898,6 +2000,7 @@
     },
     {
       "id": "propain|stonecoldanger",
+      "deezer": "https://www.deezer.com/album/898136982",
       "d": "15/05",
       "a": "Pro-Pain",
       "t": "Stone Cold Anger",
@@ -1907,6 +2010,7 @@
     },
     {
       "id": "selfdeception|oneofus",
+      "deezer": "https://www.deezer.com/album/878666622",
       "d": "15/05",
       "a": "Self Deception",
       "t": "One Of Us",
@@ -1939,6 +2043,7 @@
     },
     {
       "id": "mirar|gradusadparnassum",
+      "deezer": "https://www.deezer.com/album/986799991",
       "d": "16/05",
       "a": "Mirar",
       "t": "Gradus ad Parnassum",
@@ -1960,6 +2065,7 @@
     },
     {
       "id": "marmozets|cowardice",
+      "deezer": "https://www.deezer.com/album/881292742",
       "d": "22/05",
       "a": "Marmozets",
       "t": "CO.WAR.DICE",
@@ -1969,6 +2075,7 @@
     },
     {
       "id": "yourspiritdies|itiswell",
+      "deezer": "https://www.deezer.com/album/947557431",
       "d": "22/05",
       "a": "Your Spirit Dies",
       "t": "It Is Well…",
@@ -1978,6 +2085,7 @@
     },
     {
       "id": "xcomm|timetoburn",
+      "deezer": "https://www.deezer.com/album/945774531",
       "d": "22/05",
       "a": "XCOMM",
       "t": "Time To Burn",
@@ -2022,6 +2130,7 @@
     },
     {
       "id": "erdve|epigrama",
+      "deezer": "https://www.deezer.com/album/933477931",
       "d": "29/05",
       "a": "Erdve",
       "t": "Epigrama",
@@ -2040,6 +2149,7 @@
     },
     {
       "id": "shinedown|ei8ht",
+      "deezer": "https://www.deezer.com/album/918811341",
       "d": "29/05",
       "a": "Shinedown",
       "t": "Ei8ht",
@@ -2049,6 +2159,7 @@
     },
     {
       "id": "staticdress|injuryepisode",
+      "deezer": "https://www.deezer.com/album/951720751",
       "d": "29/05",
       "a": "Static Dress",
       "t": "Injury Episode",
@@ -2071,6 +2182,7 @@
     },
     {
       "id": "devintownsend|themoth",
+      "deezer": "https://www.deezer.com/album/925555061",
       "d": "29/05",
       "a": "Devin Townsend",
       "t": "The Moth",
@@ -2135,6 +2247,7 @@
     },
     {
       "id": "augustburnsred|seasonofsurrender",
+      "deezer": "https://www.deezer.com/album/993678561",
       "d": "05/06",
       "a": "August Burns Red",
       "t": "Season Of Surrender",
@@ -2144,6 +2257,7 @@
     },
     {
       "id": "converge|humofhurt",
+      "deezer": "https://www.deezer.com/album/933561281",
       "d": "05/06",
       "a": "Converge",
       "t": "Hum Of Hurt",
@@ -2162,6 +2276,7 @@
     },
     {
       "id": "guilttrip|armourofangels",
+      "deezer": "https://www.deezer.com/album/951433901",
       "d": "05/06",
       "a": "Guilt Trip",
       "t": "Armour Of Angels",
@@ -2171,6 +2286,7 @@
     },
     {
       "id": "drowningpool|sinner",
+      "deezer": "https://www.deezer.com/album/993678671",
       "d": "05/06",
       "a": "Drowning Pool",
       "t": "Sinner",
@@ -2203,6 +2319,7 @@
     },
     {
       "id": "genghistron|signalfire",
+      "deezer": "https://www.deezer.com/album/913549371",
       "d": "12/06",
       "a": "Genghis Tron",
       "t": "Signal Fire",
@@ -2212,6 +2329,7 @@
     },
     {
       "id": "gideon|4x4",
+      "deezer": "https://www.deezer.com/album/997698211",
       "d": "12/06",
       "a": "Gideon",
       "t": "4x4",
@@ -2221,6 +2339,7 @@
     },
     {
       "id": "sleepingwithsirens|anendinginitself",
+      "deezer": "https://www.deezer.com/album/960423451",
       "d": "12/06",
       "a": "Sleeping With Sirens",
       "t": "An Ending In Itself",
@@ -2230,6 +2349,7 @@
     },
     {
       "id": "stitchedupheart|medusa",
+      "deezer": "https://www.deezer.com/album/978673271",
       "d": "12/06",
       "a": "Stitched Up Heart",
       "t": "Medusa",
@@ -2239,6 +2359,7 @@
     },
     {
       "id": "fitforaking|bloodpact",
+      "deezer": "https://www.deezer.com/album/997237341",
       "d": "12/06",
       "a": "Fit For A King",
       "t": "Blood Pact",
@@ -2278,6 +2399,7 @@
     },
     {
       "id": "endseeker|coffinborn",
+      "deezer": "https://www.deezer.com/album/937721691",
       "d": "19/06",
       "a": "Endseeker",
       "t": "Coffin Born",
@@ -2287,6 +2409,7 @@
     },
     {
       "id": "therewerewires|vessel",
+      "deezer": "https://www.deezer.com/album/943467731",
       "d": "19/06",
       "a": "There Were Wires",
       "t": "Vessel",
@@ -2296,6 +2419,7 @@
     },
     {
       "id": "gracie|missmisfortunately",
+      "deezer": "https://www.deezer.com/album/968194441",
       "d": "26/06",
       "a": "Gracie",
       "t": "Miss Misfortunately",
@@ -2305,6 +2429,7 @@
     },
     {
       "id": "junius|sotera",
+      "deezer": "https://www.deezer.com/album/928281721",
       "d": "26/06",
       "a": "Junius",
       "t": "Sotera",
@@ -2314,6 +2439,7 @@
     },
     {
       "id": "monumentofmisanthropy|washingtonstatecharm",
+      "deezer": "https://www.deezer.com/album/951807591",
       "d": "26/06",
       "a": "Monument Of Misanthropy",
       "t": "Washington State Charm",
@@ -2323,6 +2449,7 @@
     },
     {
       "id": "muse|thewowsignal",
+      "deezer": "https://www.deezer.com/album/941826421",
       "d": "26/06",
       "a": "Muse",
       "t": "The Wow! Signal",
@@ -2332,6 +2459,7 @@
     },
     {
       "id": "nimda|hatredreignsi",
+      "deezer": "https://www.deezer.com/album/988257821",
       "d": "26/06",
       "a": "Nimda",
       "t": "HATRED REIGNS I",
@@ -2341,6 +2469,7 @@
     },
     {
       "id": "theprettyreckless|deargod",
+      "deezer": "https://www.deezer.com/album/1009348461",
       "d": "26/06",
       "a": "The Pretty Reckless",
       "t": "Dear God",
@@ -2350,6 +2479,7 @@
     },
     {
       "id": "siamese|dissolution",
+      "deezer": "https://www.deezer.com/album/946549211",
       "d": "26/06",
       "a": "Siamese",
       "t": "Dissolution",
@@ -2408,6 +2538,7 @@
     },
     {
       "id": "dealer|taboo",
+      "deezer": "https://www.deezer.com/album/1013462451",
       "d": "01/07",
       "a": "Dealer",
       "t": "Taboo",
@@ -2417,6 +2548,7 @@
     },
     {
       "id": "koh|goldendeath",
+      "deezer": "https://www.deezer.com/album/964934491",
       "d": "01/07",
       "a": "KOH",
       "t": "Golden Death",
@@ -2426,6 +2558,7 @@
     },
     {
       "id": "sleeptheory|emotionalsupportcarepackage",
+      "deezer": "https://www.deezer.com/album/1009084091",
       "d": "02/07",
       "a": "Sleep Theory",
       "t": "(E)motional (S)upport (C)are (P)ackage",
@@ -2461,6 +2594,7 @@
     },
     {
       "id": "riskit|mercyfornone",
+      "deezer": "https://www.deezer.com/album/1014754171",
       "d": "03/07",
       "a": "Risk It",
       "t": "Mercy For None",
@@ -2470,6 +2604,7 @@
     },
     {
       "id": "moonspell|farfromgod",
+      "deezer": "https://www.deezer.com/album/922775391",
       "d": "03/07",
       "a": "Moonspell",
       "t": "Far From God",
@@ -2526,6 +2661,7 @@
     },
     {
       "id": "decider|syntheticpain",
+      "deezer": "https://www.deezer.com/album/1009525521",
       "d": "07/07",
       "a": "DECIDER",
       "t": "Synthetic Pain",
@@ -2535,6 +2671,7 @@
     },
     {
       "id": "fromthispointon|unfiled",
+      "deezer": "https://www.deezer.com/album/997508401",
       "d": "07/07",
       "a": "From This Point On",
       "t": "Unfiled",
@@ -2544,6 +2681,7 @@
     },
     {
       "id": "rozemary|itshardernowtobreathe",
+      "deezer": "https://www.deezer.com/album/1009144291",
       "d": "08/07",
       "a": "rozemary",
       "t": "it's harder now to breathe",
@@ -2576,6 +2714,7 @@
     },
     {
       "id": "fromthisdayforward|trygatekeepingthis",
+      "deezer": "https://www.deezer.com/album/1011825781",
       "d": "09/07",
       "a": "From This Day Forward",
       "t": "TRY GATEKEEPING THIS",
@@ -2585,6 +2724,7 @@
     },
     {
       "id": "seiran|genesis",
+      "deezer": "https://www.deezer.com/album/1024076121",
       "d": "09/07",
       "a": "Seiran",
       "t": "Genesis",
@@ -2606,6 +2746,7 @@
     },
     {
       "id": "2silent|whererosesweepdeluxe",
+      "deezer": "https://www.deezer.com/album/998069681",
       "d": "10/07",
       "a": "2SILENT",
       "t": "WHERE ROSES WEEP (DELUXE)",
@@ -2616,6 +2757,7 @@
     },
     {
       "id": "afraid|cantstopwhatscoming",
+      "deezer": "https://www.deezer.com/album/1018617571",
       "d": "10/07",
       "a": "afraid.",
       "t": "Can't Stop What's Coming",
@@ -2637,6 +2779,7 @@
     },
     {
       "id": "arisefromworms|ableedingtreehangingselfdestruction",
+      "deezer": "https://www.deezer.com/album/956998711",
       "d": "10/07",
       "a": "Arise From Worms",
       "t": "A Bleeding Tree Hanging Self Destruction",
@@ -2646,6 +2789,7 @@
     },
     {
       "id": "beyonddeviation|entities",
+      "deezer": "https://www.deezer.com/album/980456551",
       "d": "10/07",
       "a": "Beyond Deviation",
       "t": "Entities",
@@ -2655,6 +2799,7 @@
     },
     {
       "id": "bringmethehorizon|countyourblessingsrepented",
+      "deezer": "https://www.deezer.com/album/958059111",
       "d": "10/07",
       "a": "Bring Me The Horizon",
       "t": "Count Your Blessings | Repented",
@@ -2665,6 +2810,7 @@
     },
     {
       "id": "cancerbats|batsabbathworship",
+      "deezer": "https://www.deezer.com/album/1019673181",
       "d": "10/07",
       "a": "Cancer Bats",
       "t": "Bat Sabbath | Worship",
@@ -2686,6 +2832,7 @@
     },
     {
       "id": "deadwitxh|miseryisalltherage",
+      "deezer": "https://www.deezer.com/album/986976831",
       "d": "10/07",
       "a": "Deadwitxh",
       "t": "Misery Is All The Rage",
@@ -2707,6 +2854,7 @@
     },
     {
       "id": "devildriver|strikeandkill",
+      "deezer": "https://www.deezer.com/album/944219181",
       "d": "10/07",
       "a": "DevilDriver",
       "t": "Strike And Kill",
@@ -2728,6 +2876,7 @@
     },
     {
       "id": "evaunderfire|villainous",
+      "deezer": "https://www.deezer.com/album/929043001",
       "d": "10/07",
       "a": "Eva Under Fire",
       "t": "Villainous",
@@ -2772,6 +2921,7 @@
     },
     {
       "id": "heavenalone|whatiwouldgivetobesomewhereelse",
+      "deezer": "https://www.deezer.com/album/1023538951",
       "d": "10/07",
       "a": "heaven // alone",
       "t": "what i would give to be somewhere else",
@@ -2781,6 +2931,7 @@
     },
     {
       "id": "ifthesetreescouldtalk|thehiddenhand",
+      "deezer": "https://www.deezer.com/album/938626201",
       "d": "10/07",
       "a": "If These Trees Could Talk",
       "t": "The Hidden Hand",
@@ -2790,6 +2941,7 @@
     },
     {
       "id": "liasis|heyisthisyours",
+      "deezer": "https://www.deezer.com/album/989052641",
       "d": "10/07",
       "a": "Liasis",
       "t": "Hey! Is This Yours?",
@@ -2799,6 +2951,7 @@
     },
     {
       "id": "magmaocean|unwantedgift",
+      "deezer": "https://www.deezer.com/album/1002210851",
       "d": "10/07",
       "a": "Magma Ocean",
       "t": "Unwanted Gift",
@@ -2808,6 +2961,7 @@
     },
     {
       "id": "mychemicalromance|dangerdaysthetruelivesofthefabulouskilljoysdeluxeedition",
+      "deezer": "https://www.deezer.com/album/978867151",
       "d": "10/07",
       "a": "My Chemical Romance",
       "t": "Danger Days: The True Lives Of The Fabulous Killjoys (Deluxe Edition)",
@@ -2818,6 +2972,7 @@
     },
     {
       "id": "nocure|itisgoingtogetdark",
+      "deezer": "https://www.deezer.com/album/972957011",
       "d": "10/07",
       "a": "No Cure",
       "t": "It Is Going To Get Dark",
@@ -2827,6 +2982,7 @@
     },
     {
       "id": "ofthebetrayer|usurper",
+      "deezer": "https://www.deezer.com/album/1018981791",
       "d": "10/07",
       "a": "Of The Betrayer",
       "t": "Usurper",
@@ -2836,6 +2992,7 @@
     },
     {
       "id": "peacemakerfl|spillyourguts",
+      "deezer": "https://www.deezer.com/album/1023378271",
       "d": "10/07",
       "a": "Peacemaker FL",
       "t": "Spill Your Guts",
@@ -2855,6 +3012,7 @@
     },
     {
       "id": "rememori|",
+      "deezer": "https://www.deezer.com/album/1022130271",
       "d": "10/07",
       "a": "reMEMORI",
       "t": "僕が不可避な運命に遭った日",
@@ -2878,6 +3036,7 @@
     },
     {
       "id": "showmethebody|alonetogether",
+      "deezer": "https://www.deezer.com/album/1020147611",
       "d": "10/07",
       "a": "Show Me The Body",
       "t": "Alone Together",
@@ -2887,6 +3046,7 @@
     },
     {
       "id": "snag|allthecagesholdinguswillonedayturntodust",
+      "deezer": "https://www.deezer.com/album/965665601",
       "d": "10/07",
       "a": "Snag",
       "t": "All The Cages Holding Us Will One Day Turn To Dust",
@@ -2908,6 +3068,7 @@
     },
     {
       "id": "soulprison|themoreiseethemoreibleed",
+      "deezer": "https://www.deezer.com/album/936070561",
       "d": "10/07",
       "a": "Soulprison",
       "t": "The More I See, The More I Bleed",
@@ -2929,6 +3090,7 @@
     },
     {
       "id": "theplotinyou|theplotinyou",
+      "deezer": "https://www.deezer.com/album/1020194381",
       "d": "10/07",
       "a": "The Plot In You",
       "t": "The Plot In You",
@@ -2938,6 +3100,7 @@
     },
     {
       "id": "trust|thesescattereddreams",
+      "deezer": "https://www.deezer.com/album/985358801",
       "d": "10/07",
       "a": "Trust.",
       "t": "These Scattered Dreams",
@@ -2959,6 +3122,7 @@
     },
     {
       "id": "voids|deathblow",
+      "deezer": "https://www.deezer.com/album/1003609591",
       "d": "10/07",
       "a": "Voids",
       "t": "DeathBlow",
@@ -2980,6 +3144,7 @@
     },
     {
       "id": "whatliesbelow|iletitconsumeme",
+      "deezer": "https://www.deezer.com/album/942804371",
       "d": "10/07",
       "a": "What Lies Below",
       "t": "I Let It Consume Me",
@@ -2989,6 +3154,7 @@
     },
     {
       "id": "wreckage|lifeondisplay",
+      "deezer": "https://www.deezer.com/album/997710711",
       "d": "10/07",
       "a": "Wreckage",
       "t": "Life On Display",
@@ -4073,6 +4239,7 @@
     },
     {
       "id": "anatomyofhabit|pairedsentinels",
+      "deezer": "https://www.deezer.com/album/986134931",
       "d": "31/07",
       "a": "Anatomy of Habit",
       "t": "Paired Sentinels",
@@ -4084,6 +4251,7 @@
     },
     {
       "id": "bedtimemagic|liedownwithdogs",
+      "deezer": "https://www.deezer.com/album/1043249722",
       "d": "31/07",
       "a": "BEDTIMEMAGIC",
       "t": "Lie Down With Dogs",
@@ -4362,6 +4530,7 @@
     },
     {
       "id": "witherhorde|circleofbones",
+      "deezer": "https://www.deezer.com/album/1041704882",
       "d": "01/08",
       "a": "Witherhorde",
       "t": "Circle of Bones",
@@ -4373,6 +4542,7 @@
     },
     {
       "id": "electriccallboy|tanzneid",
+      "deezer": "https://www.deezer.com/album/1045671012",
       "d": "07/08",
       "a": "Electric Callboy",
       "t": "TANZNEID",
@@ -4383,6 +4553,7 @@
     },
     {
       "id": "cancerbats|givemedirt",
+      "deezer": "https://www.deezer.com/album/963772511",
       "d": "07/08",
       "a": "Cancer Bats",
       "t": "Give Me Dirt",
@@ -4393,6 +4564,7 @@
     },
     {
       "id": "initiate|withlovewithrage",
+      "deezer": "https://www.deezer.com/album/1002833471",
       "d": "07/08",
       "a": "Initiate",
       "t": "With Love // With Rage",
@@ -4403,6 +4575,7 @@
     },
     {
       "id": "ceremony|tellmeyourdream",
+      "deezer": "https://www.deezer.com/album/981350091",
       "d": "07/08",
       "a": "Ceremony",
       "t": "Tell Me Your Dream",
@@ -4413,6 +4586,7 @@
     },
     {
       "id": "negativeframe|breaktheice",
+      "deezer": "https://www.deezer.com/album/927060671",
       "d": "07/08",
       "a": "Negative Frame",
       "t": "Break The Ice",
@@ -4436,6 +4610,7 @@
     },
     {
       "id": "citizen|halcyonblues",
+      "deezer": "https://www.deezer.com/album/946704871",
       "d": "07/08",
       "a": "Citizen",
       "t": "Halcyon Blues",
@@ -4447,6 +4622,7 @@
     },
     {
       "id": "allure|folia",
+      "deezer": "https://www.deezer.com/album/987741581",
       "d": "07/08",
       "a": "ALLURE",
       "t": "Folia",
@@ -4458,6 +4634,7 @@
     },
     {
       "id": "braeker|wantyouback",
+      "deezer": "https://www.deezer.com/album/1031145702",
       "d": "07/08",
       "a": "Braeker",
       "t": "Want You Back",
@@ -4469,6 +4646,7 @@
     },
     {
       "id": "mouthbreather|ifiloseeverythingyouallloseeverything",
+      "deezer": "https://www.deezer.com/album/1037168962",
       "d": "07/08",
       "a": "MouthBreather",
       "t": "If I Lose Everything, You All Lose Everything",
@@ -4480,6 +4658,7 @@
     },
     {
       "id": "newspeak|burythefoe",
+      "deezer": "https://www.deezer.com/album/1015382571",
       "d": "07/08",
       "a": "Newspeak",
       "t": "Bury The Foe",
@@ -4491,6 +4670,7 @@
     },
     {
       "id": "reckoninghour|mantra",
+      "deezer": "https://www.deezer.com/album/1024740731",
       "d": "07/08",
       "a": "Reckoning Hour",
       "t": "Mantra",
@@ -4503,6 +4683,7 @@
     },
     {
       "id": "vanna|searchparty",
+      "deezer": "https://www.deezer.com/album/1035016082",
       "d": "07/08",
       "a": "Vanna",
       "t": "Search Party",
@@ -4515,6 +4696,7 @@
     },
     {
       "id": "cellardoor|playingpossum",
+      "deezer": "https://www.deezer.com/album/1038943932",
       "d": "07/08",
       "a": "cellardoor",
       "t": "playing possum",
@@ -4525,6 +4707,7 @@
     },
     {
       "id": "sufferuk|soulfromflesh",
+      "deezer": "https://www.deezer.com/album/1025030341",
       "d": "07/08",
       "a": "Suffer UK",
       "t": "Soul From Flesh",
@@ -4536,6 +4719,7 @@
     },
     {
       "id": "thebeautifulmonument|euphoricthriller",
+      "deezer": "https://www.deezer.com/album/947624351",
       "d": "07/08",
       "a": "The Beautiful Monument",
       "t": "Euphoric Thriller",
@@ -4547,6 +4731,7 @@
     },
     {
       "id": "darkous|cuckoo",
+      "deezer": "https://www.deezer.com/album/1047504592",
       "d": "10/08",
       "a": "Darko US",
       "t": "CUCKOO",
@@ -4558,6 +4743,7 @@
     },
     {
       "id": "tempersfray|nopeaceindeath",
+      "deezer": "https://www.deezer.com/album/1039666802",
       "d": "10/08",
       "a": "Tempers Fray",
       "t": "No Peace In Death",
@@ -4569,6 +4755,7 @@
     },
     {
       "id": "observers|theemerald",
+      "deezer": "https://www.deezer.com/album/1028712102",
       "d": "12/08",
       "a": "Observers",
       "t": "The Emerald",
@@ -4580,6 +4767,7 @@
     },
     {
       "id": "aforeignaffair|surrealist",
+      "deezer": "https://www.deezer.com/album/982393821",
       "d": "14/08",
       "a": "A Foreign Affair",
       "t": "Surrealist",
@@ -4602,6 +4790,7 @@
     },
     {
       "id": "racetraitor|nobodysonofnobody",
+      "deezer": "https://www.deezer.com/album/1035092112",
       "d": "14/08",
       "a": "Racetraitor",
       "t": "Nobody, Son of Nobody",
@@ -4613,6 +4802,7 @@
     },
     {
       "id": "massofthefermentingdregs|iwaou",
+      "deezer": "https://www.deezer.com/album/1037061002",
       "d": "14/08",
       "a": "Mass of the Fermenting Dregs",
       "t": "祝おう (Iwaou)",
@@ -4634,6 +4824,7 @@
     },
     {
       "id": "drill|catharsis",
+      "deezer": "https://www.deezer.com/album/1006172511",
       "d": "14/08",
       "a": "Drill",
       "t": "Catharsis",
@@ -4645,6 +4836,7 @@
     },
     {
       "id": "coyoteman|prostheticmemories",
+      "deezer": "https://www.deezer.com/album/987761191",
       "d": "14/08",
       "a": "Coyote Man",
       "t": "Prosthetic Memories",
@@ -4656,6 +4848,7 @@
     },
     {
       "id": "deadtired|hornetsoffall",
+      "deezer": "https://www.deezer.com/album/982383731",
       "d": "14/08",
       "a": "Dead Tired",
       "t": "Hornets of Fall",
@@ -4667,6 +4860,7 @@
     },
     {
       "id": "evillisland|terraformtheafterlife",
+      "deezer": "https://www.deezer.com/album/971459271",
       "d": "14/08",
       "a": "Evil Island",
       "t": "Terraform the Afterlife",
@@ -4678,6 +4872,7 @@
     },
     {
       "id": "emery|styrofoam",
+      "deezer": "https://www.deezer.com/album/1037325202",
       "d": "14/08",
       "a": "Emery",
       "t": "Styrofoam",
@@ -4689,6 +4884,7 @@
     },
     {
       "id": "fleshcarving|anexhibitionoftorture",
+      "deezer": "https://www.deezer.com/album/1040332632",
       "d": "14/08",
       "a": "Flesh Carving",
       "t": "An Exhibition Of Torture",
@@ -4700,6 +4896,7 @@
     },
     {
       "id": "holissstik|chapter1thisendlesssolitude",
+      "deezer": "https://www.deezer.com/album/972301931",
       "d": "14/08",
       "a": "Holissstik",
       "t": "Chapter 1: This Endless Solitude",
@@ -4711,6 +4908,7 @@
     },
     {
       "id": "ifnotforme|wherethelightbeginstofade",
+      "deezer": "https://www.deezer.com/album/976432151",
       "d": "14/08",
       "a": "If Not For Me",
       "t": "Where The Light Begins To Fade",
@@ -4722,6 +4920,7 @@
     },
     {
       "id": "livingweapon|deathinthefamily",
+      "deezer": "https://www.deezer.com/album/1015618921",
       "d": "14/08",
       "a": "Living Weapon",
       "t": "Death In The Family",
@@ -4733,6 +4932,7 @@
     },
     {
       "id": "loveletter|noneoftheabove",
+      "deezer": "https://www.deezer.com/album/1026294862",
       "d": "14/08",
       "a": "LOVELETTER",
       "t": "None Of The Above",
@@ -4744,6 +4944,7 @@
     },
     {
       "id": "ourlastnight|nostalgiaep",
+      "deezer": "https://www.deezer.com/album/1037627322",
       "d": "14/08",
       "a": "Our Last Night",
       "t": "Nostalgia EP",
@@ -4756,6 +4957,7 @@
     },
     {
       "id": "peacetest|repercussion",
+      "deezer": "https://www.deezer.com/album/1013279311",
       "d": "14/08",
       "a": "Peace Test",
       "t": "Repercussion",
@@ -4767,6 +4969,7 @@
     },
     {
       "id": "putrefacta|aestheticsofthecrimescene",
+      "deezer": "https://www.deezer.com/album/998923181",
       "d": "14/08",
       "a": "PUTREFACTA",
       "t": "Aesthetics of the Crime Scene",
@@ -4780,6 +4983,7 @@
     },
     {
       "id": "raunchy|prisoner",
+      "deezer": "https://www.deezer.com/album/997002561",
       "d": "14/08",
       "a": "Raunchy",
       "t": "Prisoner",
@@ -4791,6 +4995,7 @@
     },
     {
       "id": "regulatorwatts|kwh",
+      "deezer": "https://www.deezer.com/album/991992141",
       "d": "14/08",
       "a": "Regulator Watts",
       "t": "kWh",
@@ -4802,6 +5007,7 @@
     },
     {
       "id": "shush|vowofsilence",
+      "deezer": "https://www.deezer.com/album/1031525652",
       "d": "14/08",
       "a": "SHUSH",
       "t": "Vow of Silence",
@@ -4813,6 +5019,7 @@
     },
     {
       "id": "silencebeforethestorm|theroadtooblivion",
+      "deezer": "https://www.deezer.com/album/1049462262",
       "d": "14/08",
       "a": "Silence Before the Storm",
       "t": "The Road to Oblivion",
@@ -4824,6 +5031,7 @@
     },
     {
       "id": "unprocessed|losttapes",
+      "deezer": "https://www.deezer.com/album/1012509691",
       "d": "14/08",
       "a": "Unprocessed",
       "t": "Lost Tapes",
@@ -4835,6 +5043,7 @@
     },
     {
       "id": "youwilldie|writteninblood",
+      "deezer": "https://www.deezer.com/album/1054918972",
       "d": "11/08",
       "a": "You Will Die",
       "t": "Written in Blood",
@@ -4845,6 +5054,7 @@
     },
     {
       "id": "godshate|wontbedisgraced",
+      "deezer": "https://www.deezer.com/album/1051823262",
       "d": "18/08",
       "a": "God's Hate",
       "t": "Won't Be Disgraced",
@@ -4855,6 +5065,7 @@
     },
     {
       "id": "breathein|shadowsformetodancewith",
+      "deezer": "https://www.deezer.com/album/900082362",
       "d": "18/08",
       "a": "Breathe In",
       "t": "Shadows for Me to Dance With",
@@ -4865,6 +5076,7 @@
     },
     {
       "id": "fallweather|becauseyouwerethere",
+      "deezer": "https://www.deezer.com/album/1048579122",
       "d": "19/08",
       "a": "Fallweather",
       "t": "Because You Were There",
