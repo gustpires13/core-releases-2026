@@ -589,13 +589,20 @@ const PRED={
   ep:r=>FORMAT_GROUPS.ep.has(r.k),
   oth:r=>FORMAT_GROUPS.oth.has(r.k)
 };
-const nAll=R.length,nAlb=R.filter(PRED.alb).length,nEp=R.filter(PRED.ep).length,nOth=R.filter(PRED.oth).length;
-document.getElementById("stats").innerHTML=
-  '<div class="stat"><b>'+nAll+'</b><span>registros</span></div>'
- +'<div class="stat"><b>'+nAlb+'</b><span>álbuns</span></div>'
- +'<div class="stat"><b>'+nEp+'</b><span>EPs</span></div>'
- +'<div class="stat"><b>'+nOth+'</b><span>outros</span></div>';
-const FL=[["all","Todos",nAll],["alb","Álbuns",nAlb],["ep","EPs",nEp],["oth","Outros",nOth]];
+const statsEl=document.getElementById("stats"),totalRecords=R.length;
+function renderStats(filteredRecords){
+  const nAlb=filteredRecords.filter(PRED.alb).length;
+  const nEp=filteredRecords.filter(PRED.ep).length;
+  const nOth=filteredRecords.filter(PRED.oth).length;
+  statsEl.innerHTML=
+    '<div class="stat"><b>'+totalRecords+'</b><span>registros</span></div>'
+   +'<div class="stat"><b>'+nAlb+'</b><span>álbuns</span></div>'
+   +'<div class="stat"><b>'+nEp+'</b><span>EPs</span></div>'
+   +'<div class="stat"><b>'+nOth+'</b><span>outros</span></div>';
+}
+renderStats(R);
+const nAlb=R.filter(PRED.alb).length,nEp=R.filter(PRED.ep).length,nOth=R.filter(PRED.oth).length;
+const FL=[["all","Todos",totalRecords],["alb","Álbuns",nAlb],["ep","EPs",nEp],["oth","Outros",nOth]];
 const filtersEl=document.getElementById("filters");
 filtersEl.innerHTML=FL.map(f=>
   '<button type="button" class="fbtn" data-f="'+f[0]+'" aria-pressed="'+(f[0]===userState.filters.format)+'">'+f[1]+"<small>"+f[2]+"</small></button>").join("")
@@ -619,13 +626,17 @@ sortOrder.addEventListener("change",e=>{
 
 function applyFilters(){
   const formatPred=PRED[userState.filters.format]||PRED.all;
+  const visibleRecords=[];
   filtersEl.querySelectorAll(".fbtn[data-f]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===userState.filters.format));
   document.querySelectorAll(".card").forEach(card=>{
     const r=R[+card.dataset.i],listened=isListened(r),rating=releaseRating(r);
     const listenedPass=userState.filters.listened==="all"||(userState.filters.listened==="listened"?listened:!listened);
     const ratingPass=userState.filters.rating==="all"||(userState.filters.rating==="unrated"?!rating:rating===Number(userState.filters.rating));
-    card.classList.toggle("hide",!(formatPred(r)&&listenedPass&&ratingPass));
+    const visible=formatPred(r)&&listenedPass&&ratingPass;
+    card.classList.toggle("hide",!visible);
+    if(visible)visibleRecords.push(r);
   });
+  renderStats(visibleRecords);
   document.querySelectorAll("section.mo").forEach(s=>{
     const n=s.querySelectorAll(".card:not(.hide)").length;
     s.style.display=n?"":"none";
