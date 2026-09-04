@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "schemaVersion": 1
   },
   "releases": [
@@ -13,6 +13,7 @@
       "t": "The Wilted",
       "k": "EP",
       "g": "deathcore / nu deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d822714810f363e5516ab2da69c8ea5d/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0kZe0ZUoTiw0phTACyi4vY"
     },
     {
@@ -68,6 +69,7 @@
       "t": "Alter Bridge",
       "k": "ÁLBUM",
       "g": "hard rock moderno / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d9a3ed7dafd288e5a30d3115bf7a174c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1E2G7Qn23QEHJfO0Uh0A9J"
     },
     {
@@ -78,6 +80,7 @@
       "t": "Violent Playground",
       "k": "ÁLBUM",
       "g": "nu-deathcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7fad9cb3668183b7844f659cfb3f8696/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7JMsMNx00sRgPmJMvi4SK5"
     },
     {
@@ -88,6 +91,7 @@
       "t": "Valley Of Death II",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/319d30195503b9fd67ced9e763d51e96/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0gHsKGyNyuaZrxSA68lBIX"
     },
     {
@@ -164,6 +168,7 @@
       "t": "Slay Utterly",
       "k": "ÁLBUM",
       "g": "deathcore / death metal moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2b26c6aab7ce391fd93d5de82c1e53d1/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5aORYASxl2Q2wXjjUDP7nU"
     },
     {
@@ -174,6 +179,7 @@
       "t": "Endless",
       "k": "ÁLBUM",
       "g": "deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7f24abb465a52085c361cf4fb75dc3d4/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5lxqoACoFFCyZaISr77Hdj"
     },
     {
@@ -184,6 +190,7 @@
       "t": "Reliance",
       "k": "ÁLBUM",
       "g": "prog metal moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/dd96b4e7d1c1664d61aa78201dfd6cd5/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2gwGCs13DZjH1dHpyAJ5AG"
     },
     {
@@ -194,6 +201,7 @@
       "t": "I Promised The World",
       "k": "EP",
       "g": "metalcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1ec974739e32a990de681830a8d85197/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1EXpf001uNajFTN22UdSkr"
     },
     {
@@ -204,6 +212,7 @@
       "t": "Live From Suffocate City",
       "k": "ÁLBUM AO VIVO",
       "g": "theatrical rock / gothic alt pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5b1fb267bf9745609de7db4083d3a9ae/500x500-000000-80-0-0.jpg",
       "note": "AO VIVO",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7zwtt2Bpjfeeet93UF7j8r"
     },
@@ -293,6 +302,7 @@
       "t": "The Weight Of Sound",
       "k": "ÁLBUM",
       "g": "metalcore / deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/b8f59eff7755a1e1d37fb02ac535b52b/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5NXDBIwFFXf0ty5mN8KBkP"
     },
     {
@@ -303,6 +313,7 @@
       "t": "Empty Hands",
       "k": "ÁLBUM",
       "g": "metalcore / alt metal / industrial",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/459d182d9ace360f02fe9cadb8a39545/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5lBm36eO5Us3NpTXaA9t9C"
     },
     {
@@ -313,6 +324,7 @@
       "t": "Genotype",
       "k": "ÁLBUM",
       "g": "djent / prog metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6abcee1d57f2c280c5a7dde1229196e0/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6Rtb6kGCLxFJiknApNXuxZ"
     },
     {
@@ -368,6 +380,7 @@
       "t": "Hot Topic",
       "k": "EP",
       "g": "metalcore / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a3f3a8188548cc530295298e870868a4/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0na2ZiUhanhv3TE0JfHInv"
     },
     {
@@ -378,6 +391,7 @@
       "t": "Dreamcrush",
       "k": "ÁLBUM",
       "g": "blackgaze / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/696835a36264435884b6189148a8921a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7yhRQwh3CzBBrvPi5Xea22"
     },
     {
@@ -388,6 +402,7 @@
       "t": "Hell Interface",
       "k": "EP",
       "g": "dissonant deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e44f9d094ccbc004d668861b65ac20a6/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3PF45z4y4Nf4NiRXQE2qaE"
     },
     {
@@ -398,6 +413,7 @@
       "t": "Death & Connection",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ff5a41a7c8436b056ed6902a3d0c26d5/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/42pro4GlFjLlEoITxqY1oT"
     },
     {
@@ -408,6 +424,7 @@
       "t": "Even If I Never Get There",
       "k": "EP",
       "g": "post-hardcore / punk pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/10ba070bc42107aa9cb368571fd806ba/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0G5V83mMQWMXtEdnudKaI7"
     },
     {
@@ -418,6 +435,7 @@
       "t": "Setting Fire To The Sky",
       "k": "ÁLBUM",
       "g": "sludge prog / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/afab8975a9200667c587019d13a78596/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5f1d3KSsXZedFCsjMOosaV"
     },
     {
@@ -551,6 +569,7 @@
       "t": "Immoral and Malevolent Happenings",
       "k": "ÁLBUM",
       "g": "metalcore / deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8d338e260ed4a000d3c7d8ed0cb63eb7/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7iqE3gay9N857FMxpx5W5b"
     },
     {
@@ -560,6 +579,7 @@
       "t": "In Verses",
       "k": "ÁLBUM",
       "g": "prog metal moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/32eef439a4124d8527840d97113207c3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2QJhJYgrwIL5C8x7FphmVk"
     },
     {
@@ -606,6 +626,7 @@
       "t": "Cold 2 The Touch",
       "k": "ÁLBUM",
       "g": "hardcore / alt rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d016f36708c28da40b65bcd61cad186e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2FPvnCC5H66sUAnNSgQ7hK"
     },
     {
@@ -616,6 +637,7 @@
       "t": "Burn This World [Evolved]",
       "k": "ÁLBUM",
       "g": "electronicore / deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f831b8a0979e13ea4c0274ed8c714adb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3MwK3YMu8EYrMSiZpoSLFO"
     },
     {
@@ -626,6 +648,7 @@
       "t": "Love Is Not Enough",
       "k": "ÁLBUM",
       "g": "metalcore / mathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3ec222d2c6b1765ab72dfc4d14d88b5a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1ZiHuZUECf9saUhmv8vYxm"
     },
     {
@@ -636,6 +659,7 @@
       "t": "Poisoned Art",
       "k": "ÁLBUM",
       "g": "metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4609087a69b9cb91d348605af467482c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4EgxsYKV1N36KfSoZSpbz0"
     },
     {
@@ -646,6 +670,7 @@
       "t": "A.R.S.O.N.",
       "k": "ÁLBUM",
       "g": "post-hardcore / alternative rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/218a8b79e7ed0118c67487bb50c9416f/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1Y4mInJWLEVgF3ly7Cop9d"
     },
     {
@@ -689,6 +714,7 @@
       "t": "Hiraeth",
       "k": "ÁLBUM",
       "g": "prog death / tech metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e00b609ac595168b43da30e17a5d0d44/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/62mS9ZENu0NOHtj2EHcdaP"
     },
     {
@@ -699,6 +725,7 @@
       "t": "Let Us Not Speak of Them But Look and Pass On",
       "k": "EP",
       "g": "sludge / hardcore pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4aadca7332020c392a35f2736caae3e7/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5zkRgMld7WaoKMKnKPQ59L"
     },
     {
@@ -709,6 +736,7 @@
       "t": "Somewhere In Between",
       "k": "EP",
       "g": "alt rock pesado / modern heavy",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3eb3610b54ebc2d2633cf1e455719083/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5KJPUWvsYR8QKCITHAY9zG"
     },
     {
@@ -719,6 +747,7 @@
       "t": "The New Flesh",
       "k": "ÁLBUM",
       "g": "modern metal / thrash / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8b6742ab88d06b17395c20a70c17be8d/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1cTxv3R4nOPQnR7et4cFkz"
     },
     {
@@ -729,6 +758,7 @@
       "t": "Dawn Of The Iconoclast",
       "k": "EP",
       "g": "symphonic deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c4cede258dfbb91aa466ebfda1665c3e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/08iPL2nhkuigxxDw6DZtIW"
     },
     {
@@ -739,6 +769,7 @@
       "t": "Before We All Die",
       "k": "ÁLBUM",
       "g": "rap metal / nu metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8c4ac8424b99cc95ed27b64b3dad12eb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4jySLEAnflOu2SSizpK2bx"
     },
     {
@@ -861,6 +892,7 @@
       "t": "Royal Discordance",
       "k": "ÁLBUM",
       "g": "metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a87c8ea879a6d4354517f1367a8ee6bb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/084gouDJiJ0JjTItTo7Ogu"
     },
     {
@@ -871,6 +903,7 @@
       "t": "Where The Light Leaves",
       "k": "ÁLBUM",
       "g": "metalcore / hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5b7bd70f869ecb0fbad9a37da545eefe/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/11s6vQkS5eVq5tVWGUJwSr"
     },
     {
@@ -881,6 +914,7 @@
       "t": "New Day Symptoms",
       "k": "ÁLBUM",
       "g": "hardcore / death rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/400e44011a7a49b4f28baebc2fe6a611/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6TqVNtcJLE0OonDrunjPBN"
     },
     {
@@ -891,6 +925,7 @@
       "t": "A Short History Of Decay",
       "k": "ÁLBUM",
       "g": "shoegaze pesado / alt rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e5216cc3482af33563096fc419c24232/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7euwYFDlezb1aLOvEE4p2P"
     },
     {
@@ -901,6 +936,7 @@
       "t": "The Great Satan",
       "k": "ÁLBUM",
       "g": "industrial metal / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a466ba52b5104967a802c19480964075/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1UE3oGyftp6WFWQXOPdz8I"
     },
     {
@@ -980,6 +1016,7 @@
       "t": "silence outlives the earth",
       "k": "ÁLBUM",
       "g": "progressive metalcore / djent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f229faef97419e33aa1e98d748089321/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/78YcVZNpzM357BBvAOKS6H"
     },
     {
@@ -990,6 +1027,7 @@
       "t": "Hell Is A State Of Mind",
       "k": "ÁLBUM",
       "g": "modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e9d28ff81ed6ddd2b9acb9faa80796c6/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7tuED4XucJgIRbEaYfqvjA"
     },
     {
@@ -1033,6 +1071,7 @@
       "t": "Into Oblivion",
       "k": "ÁLBUM",
       "g": "groove metal / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/442707165bccd70a1be87d82f8f779ef/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5aI0bwD4XS3UGMP4Kx4wNl"
     },
     {
@@ -1043,6 +1082,7 @@
       "t": "Somewhere, In Between…",
       "k": "ÁLBUM",
       "g": "nu metalcore / rap metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3cc35bf6432b72cfb12bcdbdde64f844/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1ri5niKWQ6MBgNKzg9DRbt"
     },
     {
@@ -1053,6 +1093,7 @@
       "t": "The Anatomy Of Surviving",
       "k": "ÁLBUM",
       "g": "metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/339d2886118153be2bf8ac5256eb5ae1/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0h8yjW4Sh3ypDhZFWZnFWh"
     },
     {
@@ -1120,6 +1161,7 @@
       "t": "Loss",
       "k": "ÁLBUM",
       "g": "extreme metal moderno / post-black",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7f31a1be029418459a12faea9b97834b/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5ovAepTJKbHCMupKixglTQ"
     },
     {
@@ -1130,6 +1172,7 @@
       "t": "Lost In Hollywood",
       "k": "ÁLBUM",
       "g": "modern metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6c6de33a65e6a2169f57159062353023/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2mC6XfN1adHUXGqfhIU2Dz"
     },
     {
@@ -1140,6 +1183,7 @@
       "t": "Peace In Place",
       "k": "ÁLBUM",
       "g": "metalcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8cf32a5de9f927041b667aa4be08fb38/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5vbfeag2sYQY1x22N6W49y"
     },
     {
@@ -1162,6 +1206,7 @@
       "t": "This Is Goodbye…",
       "k": "ÁLBUM",
       "g": "metalcore / mathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c4995905a9f4b5950d9a0962edd05f09/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7wInDrxDpGLpoVSuDVOAV1"
     },
     {
@@ -1172,6 +1217,7 @@
       "t": "No One Escapes Death",
       "k": "EP",
       "g": "hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/733f87048c85e95dbaf4b61db0420e56/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2r3KEkLbCKzNO7I5qQAbbN"
     },
     {
@@ -1182,6 +1228,7 @@
       "t": "Death Fetish",
       "k": "ÁLBUM",
       "g": "alt metal / shoegaze metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/deff39e67526767105f78e9a9448d6ab/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2LQrLVV5y9YFji7Z2fYdg9"
     },
     {
@@ -1192,6 +1239,7 @@
       "t": "Press Start",
       "k": "ÁLBUM",
       "g": "electronicore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5212f814a93a3d42eb9716271db66e6e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/53QN7xWPIM496V6aKDkSsD"
     },
     {
@@ -1202,6 +1250,7 @@
       "t": "Revelations",
       "k": "ÁLBUM",
       "g": "melodic metalcore / groove",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d3ca12d6b4ac4743999b4999e49f09cf/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2mOlvqoNt3F9E4XcADQadD"
     },
     {
@@ -1212,6 +1261,7 @@
       "t": "Engines Of Demolition",
       "k": "ÁLBUM",
       "g": "heavy metal / hard rock moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a09a34024c29ae72afff5596418ff152/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/08ixiGSCVcUOBdpCZXQwqW"
     },
     {
@@ -1222,6 +1272,7 @@
       "t": "Nightmare Tripping",
       "k": "ÁLBUM",
       "g": "nu metal / metalcore / alt rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/965a2c1fb3bc6ccc7aaa84834d8ebedd/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5PrXYFUyJMPvpGLFg1cqOe"
     },
     {
@@ -1232,6 +1283,7 @@
       "t": "What Remains (Midnight Edition)",
       "k": "DELUXE",
       "g": "alt metal / hard rock moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/827d2303b41e57be6dbc90d144fdb64d/500x500-000000-80-0-0.jpg",
       "note": "DELUXE",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5GGAYspzE1DdvE0tu5cVxI"
     },
@@ -1254,6 +1306,7 @@
       "t": "Good God/Baad Man",
       "k": "ÁLBUM",
       "g": "sludge / groove / hardcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7b2f8ee62d254f72c42c439084e63ce4/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5aEtaDnQwYruxTavJAaChJ"
     },
     {
@@ -1264,6 +1317,7 @@
       "t": "Thoughts Of A Falling Man",
       "k": "ÁLBUM",
       "g": "groove metal / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/24f0eaf7e5c59e4c34cc8f6004517cdd/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1TK3rd7uHqF3kSfIc7w9KU"
     },
     {
@@ -1274,6 +1328,7 @@
       "t": "Existence",
       "k": "EP",
       "g": "cinematic modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f799290edffe80b713aa35bb453c751c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2kQL8ZTjvJsBJB81eTuUf3"
     },
     {
@@ -1284,6 +1339,7 @@
       "t": "Slave Machine",
       "k": "ÁLBUM",
       "g": "thrash moderno / death-thrash",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2001588162a234d16107ada45f579dcd/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7qcPn8Xol83gBeBD2U3Td4"
     },
     {
@@ -1294,6 +1350,7 @@
       "t": "Nowhere In Between Forever",
       "k": "ÁLBUM",
       "g": "blackgaze / post-metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a56106aad3f6f3421297f3aa08a2c38d/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0HHbTGj51CW7Cpne13Pbug"
     },
     {
@@ -1315,6 +1372,7 @@
       "t": "Too Fast To Die",
       "k": "ÁLBUM",
       "g": "tech death / extreme metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/95fd687581677a1baaef00a718094354/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5N6SLQBIYy6dfWFp0r96yt"
     },
     {
@@ -1325,6 +1383,7 @@
       "t": "Did You Ask To Be Set Free?",
       "k": "ÁLBUM",
       "g": "post-hardcore / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/18f233e460c1356f93a75636554317ff/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2iKPRBblZBc6hUsqz0qGnp"
     },
     {
@@ -1335,6 +1394,7 @@
       "t": "KINDA HARD",
       "k": "ÁLBUM",
       "g": "alt metal / post-hardcore / emo pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/53a1f7b8170b1e40076c2182fa4853e9/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6bJif35DxJzpXob5HfMzqU"
     },
     {
@@ -1345,6 +1405,7 @@
       "t": "Hell Is Here, Hell Is Home",
       "k": "ÁLBUM",
       "g": "deathcore / beatdown",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/44384b75b55cfb370e53fb849f5dd162/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7a0roKzewgD3kl7xaTQXZf"
     },
     {
@@ -1355,6 +1416,7 @@
       "t": "L.I.V.E. In São Paulo",
       "k": "ÁLBUM AO VIVO",
       "g": "alt metal / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/dcacd6ad754cb0694d36ac7da8150c0a/500x500-000000-80-0-0.jpg",
       "note": "AO VIVO",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0tlzXZQXAeBUCXv3eHHjXU"
     },
@@ -1366,6 +1428,7 @@
       "t": "This Will Make You Feel Again",
       "k": "ÁLBUM",
       "g": "metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/54b1817046e74b44c3a5eb397d0fc061/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5zYnYaekxXzqIeYoglPJQ2"
     },
     {
@@ -1387,6 +1450,7 @@
       "t": "Apocrypha",
       "k": "EP",
       "g": "deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/20c4ec2977cf4ab8535c67dcc9e21685/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/57ryCtKXgOemFFQ4hQWXfU"
     },
     {
@@ -1397,6 +1461,7 @@
       "t": "Heaven Wept",
       "k": "ÁLBUM",
       "g": "tech death / extreme metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/77cfc6a756a71c87df38d76f4a4eb92f/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3Z6LJLIiXjfOXJ3En4MkJp"
     },
     {
@@ -1407,6 +1472,7 @@
       "t": "Opvs Noir Vol. 3",
       "k": "ÁLBUM",
       "g": "dark rock / industrial gótico",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f804a73f25a3a4f70ba98261e54d0334/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1VvWP8oL1i6GvfoYHp8ytb"
     },
     {
@@ -1496,6 +1562,7 @@
       "t": "Dissimulation",
       "k": "ÁLBUM",
       "g": "mathcore / screamo pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7564020136c2a1963dfc4e4a02eb1a77/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3dep04R1j8jlDYeFT9CVBZ"
     },
     {
@@ -1506,6 +1573,7 @@
       "t": "Reflections",
       "k": "ÁLBUM",
       "g": "nu metal / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8578556010fa460a7e2ce3550b8a50a9/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0khYhFPJexeHI2w0X96XBy"
     },
     {
@@ -1516,6 +1584,7 @@
       "t": "The Boiling Sea",
       "k": "EP",
       "g": "melodeath / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c567c3b7d529f71f03894f6ef0291976/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2ytaoU2lVVfLmmLB0m89hP"
     },
     {
@@ -1525,6 +1594,7 @@
       "t": "All Hope Is Gone",
       "k": "REISSUE",
       "g": "nu metal / alt metal",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a886a660d1f935522ce1a77d",
       "note": "REISSUE",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7BXGeFdzcEbiwC32n1In81"
     },
@@ -1536,6 +1606,7 @@
       "t": "The Dead Ones",
       "k": "ÁLBUM",
       "g": "deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ab5648ef56632f6a16542700e4576556/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1IaAwBNkdlCOAEeWV2XsDu"
     },
     {
@@ -1546,6 +1617,7 @@
       "t": "It Calls Me By Name",
       "k": "EP",
       "g": "metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4e36faf4707169d45ed2c92aee633602/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0dGjNVNmtc3ZkrK6YgwjLL"
     },
     {
@@ -1576,6 +1648,7 @@
       "t": "House Of Cards",
       "k": "ÁLBUM",
       "g": "metalcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/74d7edb6a0db62eaf8be6d8c3e9ee923/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5V0ZWdLXKyHg9Ry1tRhVv5"
     },
     {
@@ -1586,6 +1659,7 @@
       "t": "The Earth Is Breathing Beneath Me",
       "k": "ÁLBUM",
       "g": "sludge / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d2b24f0bfca900d3204a2e0fa794b5d6/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7KsBloccxMDrbmm1OHgcJu"
     },
     {
@@ -1596,6 +1670,7 @@
       "t": "The Ghost Of A Future Dead",
       "k": "ÁLBUM",
       "g": "melodeath / metalcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7391916d43abd3012c8da1efa6541a66/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2A2hiumM2pI9nyq0vTRG0C"
     },
     {
@@ -1606,6 +1681,7 @@
       "t": "The End Is Not The End",
       "k": "ÁLBUM",
       "g": "metalcore / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8355b9b67c4c443b4d1eff03ec4edb22/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/43jPtoyy13asIz0OwrWKns"
     },
     {
@@ -1616,6 +1692,7 @@
       "t": "sorry about the plague",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/672467e448d7bdc14055fc5cb3091fae/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2Oo2vcRgni2zWLACFEZLNg"
     },
     {
@@ -1637,6 +1714,7 @@
       "t": "…Beginning Of The End",
       "k": "ÁLBUM",
       "g": "blackened hardcore / screamo",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a1d0cafd3d922b6a1e0acaa9b722250d/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/18CWBgJcAxjZJ4LbiigPfY"
     },
     {
@@ -1647,6 +1725,7 @@
       "t": "Unadulterated",
       "k": "ÁLBUM",
       "g": "screamo / metalcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/15fbcf238a030f26468da0ab8093dab2/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/267DNuNLiHqpU2WyEbcbUZ"
     },
     {
@@ -1657,6 +1736,7 @@
       "t": "The Cloud Of Unknowing",
       "k": "EP",
       "g": "thrash / groove metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/014ae345886b414ad7ebc001ec228197/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7gyjCQevMUqidIjSUkJKWK"
     },
     {
@@ -1667,6 +1747,7 @@
       "t": "Still Suffer",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bf0eaad56e71148922068f3d593ad579/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5cjuvKJvm2voCSNXahZ4KE"
     },
     {
@@ -1677,6 +1758,7 @@
       "t": "Alone With Heaven",
       "k": "ÁLBUM",
       "g": "screamo / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/989e8881df13637c8b7c3a6c59c197f3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/08EqB9Whl15UBLnT8TcgKc"
     },
     {
@@ -1733,6 +1815,7 @@
       "t": "Exuvia",
       "k": "ÁLBUM",
       "g": "hardcore / thrash / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8d993ffe8129bd479d10e05f1c34fe6a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/03lLTw4BTb1J6sEl8s1bc3"
     },
     {
@@ -1743,6 +1826,7 @@
       "t": "In Light, No Shape",
       "k": "ÁLBUM",
       "g": "tech death / deathcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/cc3a90f83c88137952e56e9c54c017bf/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4iE99x6BkUIMkqaVCXr6Ae"
     },
     {
@@ -1753,6 +1837,7 @@
       "t": "Heavens",
       "k": "ÁLBUM",
       "g": "post-hardcore / metalcore melódico",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/64a80ef63701ac305ca8011061242631/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3ESMqDWN2XoJ4vEoYmfYEg"
     },
     {
@@ -1763,6 +1848,7 @@
       "t": "Dissenter",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/df28f5157b2594375e0a1d620d873066/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3KYtnHzZLbJ20fL2K4aARG"
     },
     {
@@ -1773,6 +1859,7 @@
       "t": "Pallor",
       "k": "EP",
       "g": "modern metalcore / djent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6889314e6421408d19de9079d7ae4110/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7vLbFZq9cnlvnNj84AxINP"
     },
     {
@@ -1783,6 +1870,7 @@
       "t": "One",
       "k": "ÁLBUM",
       "g": "nu metal / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/137f6be9878ad7d7cb416f99375db973/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3CMKNAUoer9LhVbc5pc7a3"
     },
     {
@@ -1793,6 +1881,7 @@
       "t": "pain processing II",
       "k": "EP",
       "g": "nu metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f25751566c16613dcc5f94dc77bc0465/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1h2o1Lfj0X0nlWfSTYMfaO"
     },
     {
@@ -1838,6 +1927,7 @@
       "t": "VINDICATE",
       "k": "ÁLBUM",
       "g": "hard rock / alt metal / scene rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a36d21362bc7f4462f5a8ba7850f36b5/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/33VjmcPP77gcF1cCtI918F"
     },
     {
@@ -1848,6 +1938,7 @@
       "t": "No Place Of Warmth",
       "k": "ÁLBUM",
       "g": "death metal / hardcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4db3de732a1c470610bc56e637631f25/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5ncedT7f0ZDQAZhVOALo5M"
     },
     {
@@ -1858,6 +1949,7 @@
       "t": "The Pain That Orbits Life",
       "k": "ÁLBUM",
       "g": "post-hardcore / noise rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/aac51f895ed50336f4f0359b6735bb4a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0NXErmbXtHwzxt0vzFRmG3"
     },
     {
@@ -1868,6 +1960,7 @@
       "t": "Denigration",
       "k": "ÁLBUM",
       "g": "deathcore / brutal death",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ade53b33d0adeb964f05472356ee19a8/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7er7ItoMZG7i18Ve5ZT3H3"
     },
     {
@@ -1889,6 +1982,7 @@
       "t": "Phosphor",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3f2df108728ccb22f91360fd269aa7e2/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2rDhdvStRfHmNHjl0tx1dg"
     },
     {
@@ -1899,6 +1993,7 @@
       "t": "brutalist",
       "k": "ÁLBUM",
       "g": "nu metal / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/65c18f99cb0708de46e60cc2b06c4700/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5k0agDstM0BzhWdKCRwyod"
     },
     {
@@ -1909,6 +2004,7 @@
       "t": "You'll Forget The Sun",
       "k": "ÁLBUM",
       "g": "post-hardcore melódico",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/b775d990aa3cf373a1e11d28d14377ec/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5ULQzsDI7qkzZeX8cBUgyH"
     },
     {
@@ -1943,6 +2039,7 @@
       "t": "Even In Arcadia (Instrumental)",
       "k": "ÁLBUM REIMAGINADO",
       "g": "modern metal / alternative metal / progressive metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bd9545d2681901c09f92a787033fd741/500x500-000000-80-0-0.jpg",
       "note": "INSTRUMENTAL",
       "q": "Sleep Token Even In Arcadia Instrumental",
       "sourceLink": "https://open.spotify.com/album/4PI6k2goR9iVS9hKa31Y0S",
@@ -1956,6 +2053,7 @@
       "t": "Nevermore",
       "k": "EP",
       "g": "alternative metal / metalcore moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/614eba7c23cd1ce82cc1387665a44516/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0EO0FmjgcutSjcwpCVgLj6"
     },
     {
@@ -1966,6 +2064,7 @@
       "t": "Grey",
       "k": "ÁLBUM",
       "g": "modern rock / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9057463fe9520ce0d366abb0bd1cb485/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5mK510MU59pOQFk1OLLol8"
     },
     {
@@ -1976,6 +2075,7 @@
       "t": "Cruel Face Of War",
       "k": "ÁLBUM",
       "g": "death metal / hardcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ae8514f4e3098d15446229df39b7b285/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/29bmSJgxkO0WtgPQIuSRf5"
     },
     {
@@ -1986,6 +2086,7 @@
       "t": "A Pale White Dot",
       "k": "ÁLBUM",
       "g": "djent / progressive metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3f52c1eef7c4e9558638911b381affc3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/47qRIlDca3KNMA0WZMtIXR"
     },
     {
@@ -1996,6 +2097,7 @@
       "t": "The Dark We Keep",
       "k": "ÁLBUM",
       "g": "alt metal / prog rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f1385134c08ad440d5eee15f9988be77/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5VFepaTiggJg2vEc82gMtq"
     },
     {
@@ -2006,6 +2108,7 @@
       "t": "Stone Cold Anger",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/27fe28765f41fb463073c4415cfe611f/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3SdM70c4d17sHpVvHKZimJ"
     },
     {
@@ -2016,6 +2119,7 @@
       "t": "One Of Us",
       "k": "ÁLBUM",
       "g": "modern metal / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1386e87ad1f23bcce5bde95d88ce51da/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1btXQbvPtljMkRmFqhCrma"
     },
     {
@@ -2049,6 +2153,7 @@
       "t": "Gradus ad Parnassum",
       "k": "EP",
       "g": "thall / djent / prog extremo",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a425d92bd7284c3124eaaf231b7e10bd/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/68ftoQI39wNu0VTTsVp0Pg"
     },
     {
@@ -2071,6 +2176,7 @@
       "t": "CO.WAR.DICE",
       "k": "ÁLBUM",
       "g": "post-hardcore / alt rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8ddf6d7465f6d8e3292716bd7e9d0bcb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/50CqRrQ2YcFEZ6JXTeN1Po"
     },
     {
@@ -2081,6 +2187,7 @@
       "t": "It Is Well…",
       "k": "EP",
       "g": "metallic hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c3ccacd0b719ccb49baf7a895298c144/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2eJlb7v0MvEY9M408HT6GD"
     },
     {
@@ -2091,6 +2198,7 @@
       "t": "Time To Burn",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/74709e2a4690f723d81961d675ca4321/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1qpGHOmNg4AV5xXm1BlzrG"
     },
     {
@@ -2136,6 +2244,7 @@
       "t": "Epigrama",
       "k": "ÁLBUM",
       "g": "hardcore / sludge",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/225e21e767028fbb23c598139c481145/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0VGlYcB709sFL6Dnki83pA"
     },
     {
@@ -2145,6 +2254,7 @@
       "t": "Your God Fearing Days Are About To Begin",
       "k": "ÁLBUM",
       "g": "alt metal / industrial rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6297d5021ab03141e4b631c9f0dba78b/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7wEu9yFSpjOSLVYY9EAaza"
     },
     {
@@ -2155,6 +2265,7 @@
       "t": "Ei8ht",
       "k": "ÁLBUM",
       "g": "hard rock / modern rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d0ef6a630517581779bbb67359791070/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2YfHoHOnfIc2ilp8YLEDyB"
     },
     {
@@ -2165,6 +2276,7 @@
       "t": "Injury Episode",
       "k": "ÁLBUM",
       "g": "post-hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/87ce47e59c236eb5ce44f49043711ac2/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0nZNn9KNOqjQ45hMK4a2X2"
     },
     {
@@ -2188,6 +2300,7 @@
       "t": "The Moth",
       "k": "ÁLBUM",
       "g": "prog metal moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e877282633901b548bd49c53ac8a1c43/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3VyHoK8vgzbFEGdLPDIUWW"
     },
     {
@@ -2197,6 +2310,7 @@
       "t": "Cut A Silhouette",
       "k": "ÁLBUM",
       "g": "post-hardcore",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028bcb138fdc66fd87e67562f6",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/11Jl65X2ceWX7T0Uac9h1S"
     },
     {
@@ -2253,6 +2367,7 @@
       "t": "Season Of Surrender",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d4cfccdff27fbfb880f6f422daa36aa3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0mVE3llKm6n3I41bbwjIus"
     },
     {
@@ -2263,6 +2378,7 @@
       "t": "Hum Of Hurt",
       "k": "ÁLBUM",
       "g": "metalcore / mathcore / noise rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/3da3e427bec76bdb38d20f635af8c9f4/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/26mI8fRaaNWASMbfS98L43"
     },
     {
@@ -2272,6 +2388,7 @@
       "t": "Sanctuary",
       "k": "ÁLBUM",
       "g": "gothic/alternative metal",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0242806ddf31e791ffc86581eb",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7EwLbCSl1p2ptb1EthQTgr"
     },
     {
@@ -2282,6 +2399,7 @@
       "t": "Armour Of Angels",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/fdfe497ad2a785b44704679a0de4ad2a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4ZEtAdGoESebTf6Dc1ydhz"
     },
     {
@@ -2292,6 +2410,7 @@
       "t": "Sinner",
       "k": "REISSUE",
       "g": "nu metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/759e3d55cbc0827013c6cb1c56da2dea/500x500-000000-80-0-0.jpg",
       "note": "REISSUE",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/38qwPSsejuppfmFjSvbXjm"
     },
@@ -2325,6 +2444,7 @@
       "t": "Signal Fire",
       "k": "ÁLBUM",
       "g": "experimental metal / mathcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a8990c48461e64c2f81ff68d5b503344/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5aicoDUfebJ8VrpgH3vDHd"
     },
     {
@@ -2335,6 +2455,7 @@
       "t": "4x4",
       "k": "EP",
       "g": "metalcore / hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/584ab0295473b7e61a2b4153e002a57c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1iuSKflkOq2SGTM2BgODRC"
     },
     {
@@ -2345,6 +2466,7 @@
       "t": "An Ending In Itself",
       "k": "ÁLBUM",
       "g": "post-hardcore / alt rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7893c8fd4e619ca33c3167a354a2a537/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3Oc9WCYMSdMZmwFPdrjS1c"
     },
     {
@@ -2355,6 +2477,7 @@
       "t": "Medusa",
       "k": "ÁLBUM",
       "g": "alternative metal / electronic",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/489e11919aaa6c0c7e18bcf3409dad6e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4RQq7Irj68CN1uYQhO1qDC"
     },
     {
@@ -2365,15 +2488,8 @@
       "t": "Blood Pact",
       "k": "EP",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/76244189c2bd4e1ff7be95e31b487362/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/41HtOA4cWgCaIj4BWgb3zU"
-    },
-    {
-      "id": "whatliesbelow|monolith",
-      "d": "12/06",
-      "a": "What Lies Below",
-      "t": "Monolith",
-      "k": "EP",
-      "g": "progressive metalcore"
     },
     {
       "id": "stillremains|spiritbreaker",
@@ -2405,6 +2521,7 @@
       "t": "Coffin Born",
       "k": "EP",
       "g": "death metal moderno",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bd3855145fbab8d8464b702cb725c939/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/28ltppMpMyI8IfAr6n9k1y"
     },
     {
@@ -2415,6 +2532,7 @@
       "t": "Vessel",
       "k": "ÁLBUM",
       "g": "post-hardcore / noise rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9459fcdb0dcb8ff91e0e764529f5814a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1IMolRbZTtXqIJf1pCSafz"
     },
     {
@@ -2425,6 +2543,7 @@
       "t": "Miss Misfortunately",
       "k": "ÁLBUM",
       "g": "emo / alt rock pesado",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d9345a62c962dc9107fa8ddef9d62d0a/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4JNe6LQPMjKvWPAZW7yJlG"
     },
     {
@@ -2435,6 +2554,7 @@
       "t": "Sotera",
       "k": "ÁLBUM",
       "g": "post-metal / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a90b6699f17d0772e8354ca162d52d89/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4yrW9J7G6B6JZPORyaCWtJ"
     },
     {
@@ -2445,6 +2565,7 @@
       "t": "Washington State Charm",
       "k": "ÁLBUM",
       "g": "brutal death / deathcore adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/fd5aae7364380660e5fb9f8a170cc04e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4Qn7bUMOQTBuOgdAbwzEvx"
     },
     {
@@ -2455,6 +2576,7 @@
       "t": "The Wow! Signal",
       "k": "ÁLBUM",
       "g": "alt rock / hard rock adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/15f362eec97e06eacddfb61b404a3fdb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6TObgE5QDLYzA3Exu5vGhS"
     },
     {
@@ -2465,6 +2587,7 @@
       "t": "HATRED REIGNS I",
       "k": "EP",
       "g": "deathcore / electronicore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d3d67cfadfb6acb6b7bc9cad31984e04/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2hXc4UTcDnjBMnFYkB1vPx"
     },
     {
@@ -2475,6 +2598,7 @@
       "t": "Dear God",
       "k": "ÁLBUM",
       "g": "hard rock / alt metal adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/63a00f385e4dffce9e940a3597b8f5f4/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3sE3S6k6OA1UXWMKQEiaDY"
     },
     {
@@ -2485,6 +2609,7 @@
       "t": "Dissolution",
       "k": "ÁLBUM",
       "g": "metalcore / alt metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9996a037a25eb2de184da04ab2bb8912/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/18pPzxeQhRThpbtj3ydM2m"
     },
     {
@@ -2544,6 +2669,7 @@
       "t": "Taboo",
       "k": "EP",
       "g": "nu metalcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d128e75e231bd8038b803f4b01098f88/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/645u3vqlhKGVI9CYmRKhJN"
     },
     {
@@ -2554,6 +2680,7 @@
       "t": "Golden Death",
       "k": "EP",
       "g": "progressive metalcore / djent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c216eed591dbb2a1e8308938414fa3f9/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5juVqRsZBMPDjBzDFjkhY0"
     },
     {
@@ -2564,6 +2691,7 @@
       "t": "(E)motional (S)upport (C)are (P)ackage",
       "k": "EP DE COVERS",
       "g": "modern rock / alt metal adjacent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/cedabc161682f4a3e0205e6797a743dc/500x500-000000-80-0-0.jpg",
       "note": "COVERS",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6T0n9p68K9eJqvkwGMvjWq"
     },
@@ -2600,6 +2728,7 @@
       "t": "Mercy For None",
       "k": "ÁLBUM",
       "g": "hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/773c9935f209ad672145d672f0692fd3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2FeSyp6TDy4vAuXvG4fCyZ"
     },
     {
@@ -2610,6 +2739,7 @@
       "t": "Far From God",
       "k": "ÁLBUM",
       "g": "gothic metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7bb17a1fa39a4ee5fa271860755173e8/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6IVND83ocYfF1cwMDaAHXc"
     },
     {
@@ -2667,6 +2797,7 @@
       "t": "Synthetic Pain",
       "k": "ÁLBUM",
       "g": "alternative metal / electronic / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5de3c895e19d9fca76b7fa61c0b30c6c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0NxhfSPaJ1fskldiJWrxUk"
     },
     {
@@ -2677,6 +2808,7 @@
       "t": "Unfiled",
       "k": "EP",
       "g": "nu metalcore / hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e339cdfdd579002917401132b96d530f/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6P7mL5Z1H527KaQ0kOywhQ"
     },
     {
@@ -2687,6 +2819,7 @@
       "t": "it's harder now to breathe",
       "k": "EP",
       "g": "metalcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0c8a3cf577e9dc1ea0a2f0518727e4c8/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4jVn3MIU6OuZX1zJYIE3uO"
     },
     {
@@ -2720,6 +2853,7 @@
       "t": "TRY GATEKEEPING THIS",
       "k": "EP",
       "g": "metalcore / metallic hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a2bbf7c8600a84e24ba5e09ae914b676/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6VsRIWS9nTOO9paVoyoReO"
     },
     {
@@ -2730,6 +2864,7 @@
       "t": "Genesis",
       "k": "EP",
       "g": "progressive metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e588c6783e8b0b882ad6feee181d86e3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2VAjAf6ssYOV7v00JRT9tE"
     },
     {
@@ -2752,6 +2887,7 @@
       "t": "WHERE ROSES WEEP (DELUXE)",
       "k": "DELUXE",
       "g": "metalcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/79316cc547fa4dec3b4cd1596d51d447/500x500-000000-80-0-0.jpg",
       "note": "DELUXE",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2Tt2OfMevQ2BJHRusDexBn"
     },
@@ -2763,6 +2899,7 @@
       "t": "Can't Stop What's Coming",
       "k": "EP",
       "g": "nu metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/684481e78bca1cb07582842acd68ba0c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5uKW4cbeCXlpAdFJo6vIOU"
     },
     {
@@ -2785,6 +2922,7 @@
       "t": "A Bleeding Tree Hanging Self Destruction",
       "k": "ÁLBUM",
       "g": "progressive / technical death metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e6d224cbd4624f7d6d8176dd78f4ad66/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2D413578UWX7cRMb4JasSZ"
     },
     {
@@ -2795,6 +2933,7 @@
       "t": "Entities",
       "k": "EP",
       "g": "downtempo deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/95dfee46bdc156249ab5914b81d6b6e0/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0ose3VkvJvZ8u1DdCcMnvo"
     },
     {
@@ -2805,6 +2944,7 @@
       "t": "Count Your Blessings | Repented",
       "k": "ÁLBUM REGRAVADO",
       "g": "deathcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4815b90379d0bda27b1305f2dff7b70e/500x500-000000-80-0-0.jpg",
       "note": "REGRAVADO",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1v47s2Z5kdloRlVkxHcTWO"
     },
@@ -2816,6 +2956,7 @@
       "t": "Bat Sabbath | Worship",
       "k": "EP",
       "g": "sludge metal / hardcore / stoner metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4a37d5bb39ef323a4ac916446ce4bce1/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2dEYJNRXYjoSwSUI3aN2aR"
     },
     {
@@ -2838,6 +2979,7 @@
       "t": "Misery Is All The Rage",
       "k": "ÁLBUM",
       "g": "metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4f9eef727a6b7cd764901b9a0f8c1b10/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4NIiKsBZBGAI4yZvHqAOey"
     },
     {
@@ -2860,6 +3002,7 @@
       "t": "Strike And Kill",
       "k": "ÁLBUM",
       "g": "groove metal / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4c9e8164d809930432b327e0dc172093/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4edSFAqCClUwSmgeAouR12"
     },
     {
@@ -2882,6 +3025,7 @@
       "t": "Villainous",
       "k": "ÁLBUM",
       "g": "hard rock / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2cc49f63087d81b83ed718a305ef5692/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4gae2cFWCoGhohWbZmXNvR"
     },
     {
@@ -2927,6 +3071,7 @@
       "t": "what i would give to be somewhere else",
       "k": "EP",
       "g": "post-hardcore / shoegaze",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/563722696ada0add5c861c1fd4124f94/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2PEO7IEb05tl6H5CFnkEE0"
     },
     {
@@ -2937,6 +3082,7 @@
       "t": "The Hidden Hand",
       "k": "ÁLBUM",
       "g": "post-metal / instrumental rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5dd0c0724ebe5c1f939ad81c8ebab3b7/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2KiQN7FeBS56DsxhaPHwmO"
     },
     {
@@ -2947,6 +3093,7 @@
       "t": "Hey! Is This Yours?",
       "k": "EP",
       "g": "mathcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6a534673153a0d733247b169f38a2561/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5W03ydMC1Ws8Gxapj5otwY"
     },
     {
@@ -2957,6 +3104,7 @@
       "t": "Unwanted Gift",
       "k": "EP",
       "g": "metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/92c2593805ddd1b54c4f4ad86b601b9b/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3l7cwYx0MksV7YyESXss6c"
     },
     {
@@ -2967,6 +3115,7 @@
       "t": "Danger Days: The True Lives Of The Fabulous Killjoys (Deluxe Edition)",
       "k": "DELUXE",
       "g": "emo / alternative rock / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d841606fe5331765b5305ea497e2e35f/500x500-000000-80-0-0.jpg",
       "note": "DELUXE",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2BwLNBvOz645zoeqSzSmZR"
     },
@@ -2978,6 +3127,7 @@
       "t": "It Is Going To Get Dark",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/019c1c179da034cae78a102dbd839ef3/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3PN7t181uXPtRrIOkrcKXN"
     },
     {
@@ -2988,6 +3138,7 @@
       "t": "Usurper",
       "k": "EP",
       "g": "symphonic deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/8336374538b6c1a028f4b8e1aeb6f6ad/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/39OrLbl1grLcbl1oGRIDsE"
     },
     {
@@ -2998,6 +3149,7 @@
       "t": "Spill Your Guts",
       "k": "ÁLBUM",
       "g": "deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/623a6fbad556d79cc6841bfba12e286e/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/7DIFZQYRHyIz9gkCjbhECx"
     },
     {
@@ -3042,6 +3194,7 @@
       "t": "Alone Together",
       "k": "ÁLBUM",
       "g": "hardcore / noise rock / punk",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e625fc3c16138d8cb987581d61b7dafa/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2itfvUrApVCygurzgNzXJg"
     },
     {
@@ -3052,6 +3205,7 @@
       "t": "All The Cages Holding Us Will One Day Turn To Dust",
       "k": "ÁLBUM",
       "g": "screamo / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a0d4731e44a4d955822ba8bf5e5cd017/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0crvmPS8wCDZIAKgiSVE6B"
     },
     {
@@ -3074,6 +3228,7 @@
       "t": "The More I See, The More I Bleed",
       "k": "ÁLBUM",
       "g": "metallic hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/bf36c7482b897e84589ef30087af53cf/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4wnGYVJCEUasmsJDQO7DDW"
     },
     {
@@ -3096,6 +3251,7 @@
       "t": "The Plot In You",
       "k": "ÁLBUM",
       "g": "metalcore / post-hardcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0514e7959a2785d9b145cc014f6e09eb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6PJzcqwj8n19g9cdDWRiTf"
     },
     {
@@ -3106,6 +3262,7 @@
       "t": "These Scattered Dreams",
       "k": "ÁLBUM",
       "g": "metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/54d2167c530ce9bc81c0c213323b8f0c/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2v13m8S9t3eZH9Zq9VoqqP"
     },
     {
@@ -3128,6 +3285,7 @@
       "t": "DeathBlow",
       "k": "EP",
       "g": "metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/6623337eb577dd3b6f5492df70191c8b/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0LbBpB7NdmXWGNSFgwwOVf"
     },
     {
@@ -3150,6 +3308,7 @@
       "t": "I Let It Consume Me",
       "k": "ÁLBUM",
       "g": "progressive metalcore / djent",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/73d25c7128cf6fe8efb60a26ba4ad388/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/74bFxQ7EzaOhErqdOKwQWu"
     },
     {
@@ -3160,6 +3319,7 @@
       "t": "Life On Display",
       "k": "ÁLBUM",
       "g": "hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/ffcb8d4438b798afc4e2beaeaaec68cb/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/41CZb2puJkV6lEokTEwKes"
     },
     {
@@ -4548,6 +4708,7 @@
       "t": "TANZNEID",
       "k": "ÁLBUM",
       "g": "electronicore / metalcore / modern metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/227c1e54f1f47af5aa0b506508e0284b/500x500-000000-80-0-0.jpg",
       "q": "Electric Callboy TANZNEID",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4rpZ2o8pnwhR3MxkcQ3F5Q"
     },
@@ -4559,6 +4720,7 @@
       "t": "Give Me Dirt",
       "k": "ÁLBUM",
       "g": "hardcore / metalcore / sludge metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d9a9a92fdc586999e91cc3f12e389d9d/500x500-000000-80-0-0.jpg",
       "q": "Cancer Bats Give Me Dirt",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/64gq0H6qzkiRRf0tFPtxWG"
     },
@@ -4570,6 +4732,7 @@
       "t": "With Love // With Rage",
       "k": "EP",
       "g": "melodic hardcore / metallic hardcore / post-hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a89cbd7f57171bff6b63c2d9b5e684eb/500x500-000000-80-0-0.jpg",
       "q": "Initiate With Love With Rage",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0Zv433jFPMYWbdbAe2On25"
     },
@@ -4581,6 +4744,7 @@
       "t": "Tell Me Your Dream",
       "k": "ÁLBUM",
       "g": "hardcore / post-hardcore / post-punk",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/eb43f0a7f918dbbf3f6423d1220b80f9/500x500-000000-80-0-0.jpg",
       "q": "Ceremony Tell Me Your Dream",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1kTGPhQpZfXDaqKMorgpn7"
     },
@@ -4592,6 +4756,7 @@
       "t": "Break The Ice",
       "k": "ÁLBUM",
       "g": "metallic hardcore / metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/211dd3b3f846f7a5c2fac14ea2ce727f/500x500-000000-80-0-0.jpg",
       "q": "Negative Frame Break The Ice",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/20kfRgXIlYqleYrFJO9ZqZ"
     },
@@ -4616,6 +4781,7 @@
       "t": "Halcyon Blues",
       "k": "ÁLBUM",
       "g": "post-hardcore / emo / alternative rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d8f3effdabc7226e1a26e4ed503a4a4a/500x500-000000-80-0-0.jpg",
       "q": "Citizen Halcyon Blues",
       "sec": "s",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3vUBcLeVjcC2HIztGj0T7F"
@@ -5049,6 +5215,7 @@
       "t": "Written in Blood",
       "k": "ÁLBUM",
       "g": "melodic metalcore / deathcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/371fbea5f12fdfb81549a0bf77cd7fa9/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/70rhM5BeTVY4qVQgMCbzbc",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/70rhM5BeTVY4qVQgMCbzbc"
     },
@@ -5060,6 +5227,7 @@
       "t": "Won't Be Disgraced",
       "k": "EP",
       "g": "metallic hardcore / hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/a4714fae9b064fe8ac3dc57d0eab5ab8/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/5NGr1BDnmHkx8lsStTBQxd",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5NGr1BDnmHkx8lsStTBQxd"
     },
@@ -5071,6 +5239,7 @@
       "t": "Shadows for Me to Dance With",
       "k": "ÁLBUM",
       "g": "metalcore / post-hardcore / melodic hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/510aa0d4750c9831c86a9408e8cd5ed2/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/1QIFkkiDg3O2ESm4bFWdtk",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1QIFkkiDg3O2ESm4bFWdtk"
     },
@@ -5082,6 +5251,7 @@
       "t": "Because You Were There",
       "k": "ÁLBUM",
       "g": "post-hardcore / metalcore / melodic hardcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/66496bf1181d3f3c1307e7c0877ca1e3/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/4Opclz2pWlIjGHgISz7AC1",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4Opclz2pWlIjGHgISz7AC1"
     },
@@ -5104,6 +5274,7 @@
       "t": "DEATHRACE",
       "k": "ÁLBUM",
       "g": "metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/e313b900529b81c2bc7c27e8efa7fb05/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/2MDW2hI2jAiomZu97YafXG",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2MDW2hI2jAiomZu97YafXG",
       "deezer": "https://www.deezer.com/album/961119931"
@@ -5115,6 +5286,7 @@
       "t": "The Pain Made Me Who I Am",
       "k": "ÁLBUM",
       "g": "deathcore / metalcore / nu-metalcore",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/03a2883547ba506608780bbea886d217/500x500-000000-80-0-0.jpg",
       "country": "BR",
       "sourceLink": "https://open.spotify.com/intl-pt/album/0Sr4ZIwShhFsWmsGE5yMj7",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0Sr4ZIwShhFsWmsGE5yMj7",
@@ -5127,6 +5299,7 @@
       "t": "The Dark",
       "k": "ÁLBUM",
       "g": "dark alternative rock / gothic metal / experimental heavy music",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4c21e3a01697a6476c153326ce54aa4f/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/4gpQHITIKf01iFm9gtcmLA",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4gpQHITIKf01iFm9gtcmLA",
       "deezer": "https://www.deezer.com/album/1053836562"
@@ -5138,6 +5311,7 @@
       "t": "GROWING PAINS",
       "k": "ÁLBUM",
       "g": "nu-metalcore / metalcore / alternative metal",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/5052ed45e4fd83e5fb13216ff1e3cb9a/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/2rdRdOcbrLetWJdrICsJOB",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/2rdRdOcbrLetWJdrICsJOB",
       "deezer": "https://www.deezer.com/album/1040734732"
@@ -5161,6 +5335,7 @@
       "t": "Fugaz",
       "k": "EP",
       "g": "alternative rock / pop punk / punk rock",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9af8c19d625e6aa66fb9f95d8b5e0bd1/500x500-000000-80-0-0.jpg",
       "country": "BR",
       "sourceLink": "https://open.spotify.com/intl-pt/album/1tTkxbxuXD1Xfd6ueugrLR",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1tTkxbxuXD1Xfd6ueugrLR",
@@ -5173,6 +5348,7 @@
       "t": "MEGATONS",
       "k": "ÁLBUM",
       "g": "metallic hardcore / chaotic hardcore / crossover punk",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/d0a7ad8ef76b7d88b09d937a85b243f0/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/6eweLuC9bnuSoFk1hlu1C2",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6eweLuC9bnuSoFk1hlu1C2",
       "deezer": "https://www.deezer.com/album/970618361"
