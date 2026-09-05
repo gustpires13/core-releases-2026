@@ -177,6 +177,8 @@ function currentUserPreferences(){
 }
 function applyRemotePreferences(value){
   const preferences=normalizeClientPreferences(value);
+  const sortChanged=sortDir!==preferences.sortOrder;
+  const filterChanged=userState.filters.format!==preferences.format||userState.filters.listened!==preferences.listened||userState.filters.rating!==preferences.rating;
   userState.filters.format=preferences.format;
   userState.filters.listened=preferences.listened;
   userState.filters.rating=preferences.rating;
@@ -187,9 +189,10 @@ function applyRemotePreferences(value){
   if(sortControl)sortControl.value=sortDir;
   if(listenedControl)listenedControl.value=preferences.listened;
   if(ratingControl)ratingControl.value=preferences.rating;
-  applySortOrder();
-  applyFilters();
+  if(sortChanged)applySortOrder({preserveScroll:true});
+  if(sortChanged||filterChanged)applyFilters({preserveScroll:true});
   try{localStorage.setItem(SORT_KEY,sortDir)}catch(e){}
+  return sortChanged||filterChanged;
 }
 function dateKey(r){
   const p=r.d.split("/").map(Number);
@@ -211,7 +214,10 @@ function syncDockOrder(){
   monthOrder().forEach(m=>{const b=keep('[data-target="#m'+m+'"]');if(b)d.appendChild(b)});
   [sep,sug,ig].forEach(x=>{if(x)d.appendChild(x)});
 }
-function applySortOrder(){
+function applySortOrder(options={}){
+  const preserveScroll=options.preserveScroll===true;
+  const anchor=preserveScroll?viewportAnchor():null;
+  const y=preserveScroll?viewportY():0;
   monthOrder().forEach(m=>{
     const sec=document.getElementById("m"+m);if(!sec)return;
     const grid=sec.querySelector(".grid");
@@ -219,6 +225,7 @@ function applySortOrder(){
     app.appendChild(sec);
   });
   syncDockOrder();
+  if(preserveScroll)restoreViewport(anchor,y);
 }
 
 function platHTML(r){
@@ -286,7 +293,7 @@ function syncCardPreference(card,r){
 function setReleaseRating(card,r,value){
   const k=key(r);
   if(value)userState.ratings[k]=value;else delete userState.ratings[k];
-  saveUserState();syncCardPreference(card,r);applyFilters();enqueueMutation(r);
+  saveUserState();syncCardPreference(card,r);applyFilters({preserveScroll:true});enqueueMutation(r);
 }
 app.addEventListener("click",e=>{
   const listen=e.target.closest(".listen-toggle");
@@ -294,7 +301,7 @@ app.addEventListener("click",e=>{
     e.preventDefault();e.stopPropagation();
     const card=listen.closest(".card"),r=R[+card.dataset.i],k=key(r);
     if(isListened(r))delete userState.listened[k];else userState.listened[k]=true;
-    saveUserState();syncCardPreference(card,r);applyFilters();enqueueMutation(r);return;
+    saveUserState();syncCardPreference(card,r);applyFilters({preserveScroll:true});enqueueMutation(r);return;
   }
   const star=e.target.closest(".rating-star");
   if(star){
@@ -366,27 +373,58 @@ function stateRowsFromCurrent(){
   });
   return rows;
 }
-function applyStateRows(rows){
-  userState.listened=Object.create(null);userState.ratings=Object.create(null);
+function cloneStateMaps(){
+  const next={listened:Object.create(null),ratings:Object.create(null)};
+  Object.keys(userState.listened).forEach(releaseId=>{if(userState.listened[releaseId]===true)next.listened[releaseId]=true});
+  Object.keys(userState.ratings).forEach(releaseId=>{const rating=Number(userState.ratings[releaseId]);if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[releaseId]=rating});
+  return next;
+}
+function stateMapsFromRows(rows){
+  const next={listened:Object.create(null),ratings:Object.create(null)};
   (Array.isArray(rows)?rows:[]).forEach(row=>{
     if(!row||typeof row.releaseId!=="string"||!R.some(r=>r.id===row.releaseId))return;
-    if(row.listened===true)userState.listened[row.releaseId]=true;
-    const rating=Number(row.rating);if(Number.isInteger(rating)&&rating>=1&&rating<=5)userState.ratings[row.releaseId]=rating;
+    if(row.listened===true)next.listened[row.releaseId]=true;
+    const rating=Number(row.rating);if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[row.releaseId]=rating;
   });
-  syncAllCardPreferences();
-  applyFilters();
+  return next;
+}
+function overlayPendingState(next){
+  if(authState.status!=="authenticated"||!authState.accountKey)return next;
+  readQueue(authState.accountKey).forEach(entry=>{
+    if(!entry||typeof entry.releaseId!=="string"||!R.some(r=>r.id===entry.releaseId))return;
+    if(entry.listened===true)next.listened[entry.releaseId]=true;else delete next.listened[entry.releaseId];
+    const rating=Number(entry.rating);
+    if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[entry.releaseId]=rating;else delete next.ratings[entry.releaseId];
+  });
+  return next;
+}
+function stateMapsSignature(state){
+  const listened=Object.keys(state.listened).filter(releaseId=>state.listened[releaseId]===true).sort().join(",");
+  const ratings=Object.keys(state.ratings).sort().map(releaseId=>releaseId+":"+state.ratings[releaseId]).join(",");
+  return listened+"#"+ratings;
+}
+function commitStateMaps(next){
+  if(stateMapsSignature(userState)!==stateMapsSignature(next)){
+    userState.listened=next.listened;userState.ratings=next.ratings;
+    syncAllCardPreferences();
+    applyFilters({preserveScroll:true});
+    return true;
+  }
+  return false;
+}
+function applyStateRows(rows){
+  return commitStateMaps(overlayPendingState(stateMapsFromRows(rows)));
 }
 function syncAllCardPreferences(){
   document.querySelectorAll(".card").forEach(card=>{const r=R[+card.dataset.i];if(r)syncCardPreference(card,r)});
 }
 function applyStateRow(row){
   if(!row||typeof row.releaseId!=="string")return;
-  if(row.listened===true)userState.listened[row.releaseId]=true;else delete userState.listened[row.releaseId];
+  const next=cloneStateMaps();
+  if(row.listened===true)next.listened[row.releaseId]=true;else delete next.listened[row.releaseId];
   const rating=Number(row.rating);
-  if(Number.isInteger(rating)&&rating>=1&&rating<=5)userState.ratings[row.releaseId]=rating;else delete userState.ratings[row.releaseId];
-  const card=document.querySelector('.card[data-user-key="'+esc(row.releaseId)+'"]');
-  const r=card&&R[+card.dataset.i];if(card&&r)syncCardPreference(card,r);
-  applyFilters();
+  if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[row.releaseId]=rating;else delete next.ratings[row.releaseId];
+  return commitStateMaps(overlayPendingState(next));
 }
 function enqueueMutation(r){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||!authState.accountKey)return;
@@ -502,7 +540,7 @@ async function syncNow(){
       const pendingPreferences=readPreferenceQueue(authState.accountKey);
       if(payload.preferences&&!pendingPreferences)applyRemotePreferences(payload.preferences);
       else if(!payload.preferences&&!pendingPreferences)enqueuePreferences(false);
-      saveAccountCache(authState.accountKey,authState.syncToken,payload.states||[],pendingPreferences?.preferences||payload.preferences||currentUserPreferences());
+      saveAccountCache(authState.accountKey,authState.syncToken,stateRowsFromCurrent(),pendingPreferences?.preferences||payload.preferences||currentUserPreferences());
       success=true;
     }
   }catch(e){}
@@ -590,15 +628,19 @@ const PRED={
   oth:r=>FORMAT_GROUPS.oth.has(r.k)
 };
 const statsEl=document.getElementById("stats"),totalRecords=R.length;
+let statsSignature="";
 function renderStats(filteredRecords){
   const nAlb=filteredRecords.filter(PRED.alb).length;
   const nEp=filteredRecords.filter(PRED.ep).length;
   const nOth=filteredRecords.filter(PRED.oth).length;
+  const signature=[totalRecords,nAlb,nEp,nOth].join("|");
+  if(signature===statsSignature)return;
   statsEl.innerHTML=
     '<div class="stat"><b>'+totalRecords+'</b><span>registros</span></div>'
    +'<div class="stat"><b>'+nAlb+'</b><span>álbuns</span></div>'
    +'<div class="stat"><b>'+nEp+'</b><span>EPs</span></div>'
    +'<div class="stat"><b>'+nOth+'</b><span>outros</span></div>';
+  statsSignature=signature;
 }
 renderStats(R);
 const nAlb=R.filter(PRED.alb).length,nEp=R.filter(PRED.ep).length,nOth=R.filter(PRED.oth).length;
@@ -620,11 +662,33 @@ applySortOrder();
 sortOrder.addEventListener("change",e=>{
   sortDir=e.target.value;
   try{localStorage.setItem(SORT_KEY,sortDir)}catch(err){}
-  applySortOrder();
+  applySortOrder({preserveScroll:true});
   saveUserState();enqueuePreferences();
 });
 
-function applyFilters(){
+function viewportY(){return window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0}
+function viewportAnchor(){
+  const focused=document.activeElement?.closest?.(".card");
+  if(focused&&!focused.classList.contains("hide"))return{element:focused,top:focused.getBoundingClientRect().top};
+  for(const card of document.querySelectorAll(".card:not(.hide)")){
+    const rect=card.getBoundingClientRect();
+    if(rect.bottom>0&&rect.top<window.innerHeight)return{element:card,top:rect.top};
+  }
+  return null;
+}
+function restoreViewport(anchor,y){
+  if(anchor?.element&&document.contains(anchor.element)&&!anchor.element.classList.contains("hide")){
+    const delta=anchor.element.getBoundingClientRect().top-anchor.top;
+    if(Math.abs(delta)>1)window.scrollBy({top:delta,left:0,behavior:"auto"});
+    return;
+  }
+  const delta=viewportY()-y;
+  if(Math.abs(delta)>1)window.scrollTo({top:y,left:window.scrollX||0,behavior:"auto"});
+}
+function applyFilters(options={}){
+  const preserveScroll=options.preserveScroll===true;
+  const anchor=preserveScroll?viewportAnchor():null;
+  const y=preserveScroll?viewportY():0;
   const formatPred=PRED[userState.filters.format]||PRED.all;
   const visibleRecords=[];
   filtersEl.querySelectorAll(".fbtn[data-f]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===userState.filters.format));
@@ -644,14 +708,15 @@ function applyFilters(){
     const dk=document.querySelector('.dki[data-target="#'+s.id+'"]');
     if(dk)dk.style.display=n?"":"none";
   });
+  if(preserveScroll)restoreViewport(anchor,y);
 }
 
 filtersEl.addEventListener("click",e=>{
   const b=e.target.closest(".fbtn[data-f]");if(!b)return;
-  userState.filters.format=b.dataset.f;saveUserState();applyFilters();enqueuePreferences();
+  userState.filters.format=b.dataset.f;saveUserState();applyFilters({preserveScroll:true});enqueuePreferences();
 });
-listenedFilter.addEventListener("change",e=>{userState.filters.listened=e.target.value;saveUserState();applyFilters();enqueuePreferences()});
-ratingFilter.addEventListener("change",e=>{userState.filters.rating=e.target.value;saveUserState();applyFilters();enqueuePreferences()});
+listenedFilter.addEventListener("change",e=>{userState.filters.listened=e.target.value;saveUserState();applyFilters({preserveScroll:true});enqueuePreferences()});
+ratingFilter.addEventListener("change",e=>{userState.filters.rating=e.target.value;saveUserState();applyFilters({preserveScroll:true});enqueuePreferences()});
 
 /* ============================================================
    DOCK (port vanilla do React Bits Dock) — navegação rápida
