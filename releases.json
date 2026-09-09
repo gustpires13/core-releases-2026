@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-04",
+    "updated": "2026-09-09",
     "schemaVersion": 1
   },
   "releases": [
@@ -6285,6 +6285,71 @@
       "sourceLink": "https://www.presidentband.com/broadcasts/blood-of-your-empire/",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/4RZYD8Q0pCPCs2cuW4CK4k",
       "deezer": "https://www.deezer.com/album/987335111"
+    },
+    {
+      "id": "itsallred|itsallred",
+      "d": "04/09",
+      "a": "It's All Red",
+      "t": "It's All Red",
+      "k": "ÁLBUM",
+      "g": "metalcore / progressive metal / death metal",
+      "q": "It's All Red It's All Red",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/acb684becbad752c791ca2907914cde2/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://itsallred.com/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7fBhENzbMaf32Mz8hSqO3n",
+      "deezer": "https://www.deezer.com/album/1062863721"
+    },
+    {
+      "id": "armadilha|alemdolimiteastral",
+      "d": "05/09",
+      "a": "Armadilha",
+      "t": "Além Do Limite Astral",
+      "k": "ÁLBUM",
+      "g": "heavy metal tradicional / speed metal",
+      "q": "Armadilha Além Do Limite Astral",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1e96371261750fa3c40ffa4c7315eac0/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://onstage.mus.br/website/armadilha-revela-capa-titulo-e-repertorio-de-seu-novo-album-alem-do-limite-astral/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3dvzRNXT8WTPjGySk1w4RN",
+      "deezer": "https://www.deezer.com/album/1031093362"
+    },
+    {
+      "id": "wallbreaker|breakingdown",
+      "d": "04/09",
+      "a": "Wall Breaker",
+      "t": "Breaking Down",
+      "k": "ÁLBUM",
+      "g": "hardcore / punk",
+      "q": "Wall Breaker Breaking Down",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/36bf3efdc50c34f5a6fe5058568562e5/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://wallbreakerhc.bandcamp.com/album/breaking-down",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/6cfjjEPPqeOs0izCUBxjjm",
+      "deezer": "https://www.deezer.com/album/1017212061"
+    },
+    {
+      "id": "tunneljumper|halfgone",
+      "d": "04/09",
+      "a": "Tunnel Jumper",
+      "t": "Half Gone",
+      "k": "ÁLBUM",
+      "g": "hardcore / metallic hardcore",
+      "q": "Tunnel Jumper Half Gone",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f675492cc008666d44709256fb4417f7/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://noecho.net/features/tunnel-jumper-rocky-mountain-hardcore-band-interview",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/55CGcS23hXKXtdQGkdD8nD",
+      "deezer": "https://www.deezer.com/album/1048051792"
+    },
+    {
+      "id": "castxdown|thestatement",
+      "d": "04/09",
+      "a": "CASTXDOWN",
+      "t": "THE STATEMENT",
+      "k": "EP",
+      "g": "metallic hardcore / hardcore",
+      "q": "CASTXDOWN THE STATEMENT",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f55879de122e715f7146e6569e13cb5a/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://xlifesentencerecordsx.com/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3q81x524oIhOR3w1gf4aMj",
+      "deezer": "https://www.deezer.com/album/1050829542"
     }
   ]
 }
