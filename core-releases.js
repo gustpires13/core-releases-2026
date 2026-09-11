@@ -250,7 +250,6 @@ function cardHTML(r){
     +'<div class="discwrap" title="'+esc(r.a+" — "+r.t)+'">'
       +'<div class="vpos"><div class="vinyl"><span class="vlabel"></span></div></div>'
       +'<div class="sleeve loading"><span class="shim"></span>'
-        +(r.note?'<span class="chip">'+esc(r.note)+"</span>":"")
         +preferenceControlsHTML(r)
         +'<img alt="Capa de '+esc(r.t)+' — '+esc(r.a)+'" loading="lazy" decoding="async" referrerpolicy="no-referrer">'
       +"</div>"
