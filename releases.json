@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-09",
+    "updated": "2026-09-11",
     "schemaVersion": 1
   },
   "releases": [
@@ -6350,6 +6350,112 @@
       "sourceLink": "https://xlifesentencerecordsx.com/",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3q81x524oIhOR3w1gf4aMj",
       "deezer": "https://www.deezer.com/album/1050829542"
+    },
+    {
+      "id": "existimmortal|afterglow",
+      "d": "11/09",
+      "a": "Exist Immortal",
+      "t": "Afterglow",
+      "k": "EP",
+      "g": "progressive metal / metalcore / djent",
+      "q": "Exist Immortal Afterglow",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/618665f4d7233e845aa8a7ee658897e1/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://existimmortal.bandcamp.com/music",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0msR4mo0MeBoU1Qj8XjpKj",
+      "deezer": "https://www.deezer.com/album/1033789092"
+    },
+    {
+      "id": "throatcut|nokingsep",
+      "d": "11/09",
+      "a": "THROATCUT.",
+      "t": "NO KINGS.",
+      "k": "EP",
+      "g": "nu metalcore / metalcore",
+      "q": "THROATCUT. NO KINGS.",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/eb63fb1341abfe2f30ad5d6ea3540a82/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://open.spotify.com/intl-pt/album/112P6ITJeVBQTFfITu18dL",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/112P6ITJeVBQTFfITu18dL",
+      "deezer": "https://www.deezer.com/album/1058186192"
+    },
+    {
+      "id": "greenlung|necropolitan",
+      "d": "11/09",
+      "a": "Green Lung",
+      "t": "Necropolitan",
+      "k": "ÁLBUM",
+      "g": "occult rock / doom metal / stoner metal",
+      "q": "Green Lung Necropolitan",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/7860fd43cb91363134218b5909a05e07/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://greenlung.bandcamp.com/album/necropolitan-2",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/7n0NolprOuTZlHhIRTuZgh",
+      "deezer": "https://www.deezer.com/album/958558731"
+    },
+    {
+      "id": "drowninsulphur|strix",
+      "d": "11/09",
+      "a": "Drown In Sulphur",
+      "t": "Strix",
+      "k": "EP",
+      "g": "deathcore / symphonic deathcore",
+      "q": "Drown In Sulphur Strix",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/793628304ae3770e5a8b587f1f368d25/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://drowninsulphurofficial.bandcamp.com/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/1dAq9MTAKHQmWDjHQmUe9d",
+      "deezer": "https://www.deezer.com/album/993541991"
+    },
+    {
+      "id": "mouthbreaker|moshup",
+      "d": "09/09",
+      "a": "MOUTH BREAKER",
+      "t": "MOSHUP",
+      "k": "EP",
+      "g": "nu metalcore / hardcore",
+      "q": "MOUTH BREAKER MOSHUP",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1ee92be07ad2f04aeca8740bccea8c4d/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://open.spotify.com/intl-pt/album/2YqzN2c3YaF6ZOOHWfCiDt",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/2YqzN2c3YaF6ZOOHWfCiDt",
+      "deezer": "https://www.deezer.com/album/1011710511"
+    },
+    {
+      "id": "splitchain|motionblurdeluxe",
+      "d": "11/09",
+      "a": "Split Chain",
+      "t": "motionblur (DELUXE)",
+      "k": "DELUXE",
+      "g": "shoegaze / nu metal / post-hardcore",
+      "note": "DELUXE; Deezer exibe data legada de 11/07/2025, enquanto Epitaph, Bandcamp e Spotify confirmam 11/09/2026",
+      "q": "Split Chain motionblur (DELUXE)",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/fe19c7abdc0f9384c30c6aa796b3ab58/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://splitchain.bandcamp.com/album/motionblur-deluxe",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/1L2xNw9pRQ6IWCIjtLw6bS",
+      "deezer": "https://www.deezer.com/album/997887721"
+    },
+    {
+      "id": "foreignbody|libertine",
+      "d": "11/09",
+      "a": "Foreign Body",
+      "t": "Libertine",
+      "k": "ÁLBUM",
+      "g": "noise rock / hardcore punk / metal alternativo",
+      "q": "Foreign Body Libertine",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/66081af2f729b49d8daf1d0ef0241cac/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://foreignbodynyc.bandcamp.com/album/libertine",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/77dv9gC9rZ65GpDQKo9zkA",
+      "deezer": "https://www.deezer.com/album/1013510241"
+    },
+    {
+      "id": "wrongman|heresthatfeeling",
+      "d": "11/09",
+      "a": "Wrong Man",
+      "t": "Here’s That Feeling",
+      "k": "ÁLBUM",
+      "g": "post-hardcore / hardcore / noise rock",
+      "note": "Lançamento digital confirmado em 11/09/2026; edição física da Deathwish está prevista para 09/10/2026",
+      "q": "Wrong Man Here’s That Feeling",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/aed51889c3357323bb6fd91b618e82e6/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://deathwishinc.com/collections/deathwish-releases/products/wrong-man-heres-that-feeling",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3rX83e6qC5vC4K4iRpAQLh",
+      "deezer": "https://www.deezer.com/album/970095991"
     }
   ]
 }
