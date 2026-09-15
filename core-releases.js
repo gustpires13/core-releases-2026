@@ -481,7 +481,7 @@ function handleSessionExpired(){
 }
 async function processQueue(){
   if(queueBusy||authState.status!=="authenticated"||!authState.accountKey)return true;
-  queueBusy=true;let success=true;
+  queueBusy=true;let success=true,needsResync=false;
   try{
     while(authState.status==="authenticated"){
       const queue=readQueue(authState.accountKey),entry=queue[0];if(!entry)break;
@@ -489,15 +489,25 @@ async function processQueue(){
       let response;
       try{response=await authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:entry.rating,mutationId:entry.mutationId})})}catch(e){success=false;break}
       if(response.status===401){handleSessionExpired();success=false;break}
+      if(response.status===409){
+        let payload=null;try{payload=await response.json()}catch(e){}
+        if(payload?.error!=="mutation_already_processed"){success=false;break}
+        const remaining=readQueue(authState.accountKey).filter(item=>item.mutationId!==entry.mutationId);
+        saveQueue(authState.accountKey,remaining);
+        authState.etag=null;
+        needsResync=true;
+        continue;
+      }
       if(!response.ok){success=false;break}
       let payload=null;try{payload=await response.json()}catch(e){}
-      if(payload?.syncToken)authState.syncToken=payload.syncToken;
+      if(payload?.syncToken){authState.syncToken=payload.syncToken;authState.etag=null}
       const remaining=readQueue(authState.accountKey).filter(item=>item.mutationId!==entry.mutationId);saveQueue(authState.accountKey,remaining);
       if(payload?.state)applyStateRow(payload.state);
       saveAccountCache(authState.accountKey,authState.syncToken);
       accountChannel?.postMessage({type:"account-update",accountKey:authState.accountKey});
     }
   }finally{queueBusy=false}
+  if(success&&needsResync&&!authState.inFlight)await syncNow();
   setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
 }
 async function processPreferenceQueue(){
