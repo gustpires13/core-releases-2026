@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-11",
+    "updated": "2026-09-16",
     "schemaVersion": 1
   },
   "releases": [
@@ -6457,6 +6457,53 @@
       "sourceLink": "https://deathwishinc.com/collections/deathwish-releases/products/wrong-man-heres-that-feeling",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3rX83e6qC5vC4K4iRpAQLh",
       "deezer": "https://www.deezer.com/album/970095991"
+    },
+    {
+      "id": "purestform|resistance",
+      "d": "04/09",
+      "a": "PUREST FORM",
+      "t": "RESISTANCE",
+      "k": "EP",
+      "g": "industrial metal / hardcore punk / EBM",
+      "q": "PUREST FORM RESISTANCE",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/2e6568f269ebd73d99ef04dc148ac424/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://purestform.bandcamp.com/album/resistance",
+      "deezer": "https://www.deezer.com/album/1028239342"
+    },
+    {
+      "id": "scorchedearthpolicy|scorchedearthpolicy",
+      "d": "11/09",
+      "a": "SCORCHED EARTH POLICY",
+      "t": "SCORCHED EARTH POLICY",
+      "k": "EP",
+      "g": "metallic hardcore / hardcore",
+      "q": "SCORCHED EARTH POLICY SCORCHED EARTH POLICY",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/45c51e4e250cbd001c27c07837f8c867/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/scorched-earth-policy",
+      "deezer": "https://www.deezer.com/album/1053334632"
+    },
+    {
+      "id": "leavethepastbehind|dayoftheirdestruction",
+      "d": "12/09",
+      "a": "Leave The Past Behind",
+      "t": "Day Of Their Destruction",
+      "k": "EP",
+      "g": "grindcore / unblack metal",
+      "q": "Leave The Past Behind Day Of Their Destruction",
+      "cover": "https://f4.bcbits.com/img/a2231448500_10.jpg",
+      "sourceLink": "https://coleiosis.bandcamp.com/album/day-of-their-destruction"
+    },
+    {
+      "id": "tides|howtosurviveafall",
+      "d": "15/09",
+      "a": "TIDES",
+      "t": "How To Survive A Fall",
+      "k": "ÁLBUM",
+      "g": "post-hardcore / punk rock",
+      "q": "TIDES How To Survive A Fall",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/4fdf9ab285a37cc32e9ca0f795783c63/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://lrrtides.bandcamp.com/album/how-to-survive-a-fall",
+      "deezer": "https://www.deezer.com/album/1035019312"
     }
   ]
 }
