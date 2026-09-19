@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-09-16",
+    "updated": "2026-09-19",
     "schemaVersion": 1
   },
   "releases": [
@@ -6504,6 +6504,99 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/4fdf9ab285a37cc32e9ca0f795783c63/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://lrrtides.bandcamp.com/album/how-to-survive-a-fall",
       "deezer": "https://www.deezer.com/album/1035019312"
+    },
+    {
+      "id": "currents|worldsaway",
+      "d": "18/09",
+      "a": "Currents",
+      "t": "Worlds Away",
+      "k": "EP",
+      "g": "metalcore / post-hardcore / alternative metal",
+      "note": "REIMAGINED",
+      "q": "Currents Worlds Away",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1c036d6d719a61a760f0729cbae48fd8/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://open.spotify.com/intl-pt/album/6866qjPntLEpTzgFbvKov6",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/6866qjPntLEpTzgFbvKov6",
+      "deezer": "https://www.deezer.com/album/1058021682"
+    },
+    {
+      "id": "likemothstoflames|doesheavenevermournforme",
+      "d": "18/09",
+      "a": "Like Moths To Flames",
+      "t": "Does Heaven Ever Mourn For Me",
+      "k": "EP",
+      "g": "metalcore / modern metalcore",
+      "q": "Like Moths To Flames Does Heaven Ever Mourn For Me",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/0ad59c8325d5bb1cc98923d6636bfbd4/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://open.spotify.com/intl-pt/album/3xsXZziFbYhdjgqklWcn7T",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3xsXZziFbYhdjgqklWcn7T",
+      "deezer": "https://www.deezer.com/album/960925891"
+    },
+    {
+      "id": "secrets|searchingforthethingswedontwishtofind",
+      "d": "18/09",
+      "a": "Secrets",
+      "t": "SEARCHING FOR THE THINGS WE DON’T WISH TO FIND",
+      "k": "ÁLBUM",
+      "g": "metalcore / post-hardcore / alternative metal",
+      "q": "Secrets SEARCHING FOR THE THINGS WE DON’T WISH TO FIND",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/aadac1703f9f6e5b0f8dc29cb2851e54/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://www.qobuz.com/us-en/album/searching-for-the-things-we-dont-wish-to-find-secrets/vcqn9yyjkmltj",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/5M7MNHzm2FsygfmYYiAsuT",
+      "deezer": "https://www.deezer.com/album/957051461"
+    },
+    {
+      "id": "bear|anhedonia",
+      "d": "18/09",
+      "a": "BEAR",
+      "t": "Anhedonia",
+      "k": "EP",
+      "g": "progressive metal / djent / mathcore",
+      "q": "BEAR Anhedonia",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/65b17993fb0b9717a2502aa845f44ac7/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://bearpropaganda.bandcamp.com/album/anhedonia",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/52ae5uBQFTWcppV23zoEVl",
+      "deezer": "https://www.deezer.com/album/948125191"
+    },
+    {
+      "id": "cenobia|lethaldevotion",
+      "d": "18/09",
+      "a": "Cenobia",
+      "t": "Lethal Devotion",
+      "k": "EP",
+      "g": "alternative metal / metalcore / modern metal",
+      "q": "Cenobia Lethal Devotion",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/90d2c0221cec4546653c93b072454f48/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://cenobia.bandcamp.com/album/lethal-devotion",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3KpYEsXJKOxJUQI2IyoMzk",
+      "deezer": "https://www.deezer.com/album/1076040082"
+    },
+    {
+      "id": "dropdeadgorgeous|daggers",
+      "d": "18/09",
+      "a": "Drop Dead, Gorgeous",
+      "t": "DAGGERS",
+      "k": "EP",
+      "g": "post-hardcore / metalcore",
+      "q": "Drop Dead, Gorgeous DAGGERS",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/c28192aff3cfc88e2c594648593466ba/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://www.dropdeadband.com/",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4LTBzsH11aiORaU5fAv3vq",
+      "deezer": "https://www.deezer.com/album/1059816422"
+    },
+    {
+      "id": "realityandtrust|afracturedhorizon",
+      "d": "18/09",
+      "a": "Reality. & trust.",
+      "t": "A Fractured Horizon",
+      "k": "EP",
+      "g": "metalcore / post-hardcore",
+      "note": "SPLIT",
+      "q": "Reality. & trust. A Fractured Horizon",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/9dfba5d4821b59c548013a8de676b1cf/1000x1000-000000-80-0-0.jpg",
+      "sourceLink": "https://paperwingsrecords.bandcamp.com/album/a-fractured-horizon",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/3cqzlXXSy4dw7KEY3q2T3X",
+      "deezer": "https://www.deezer.com/album/1074902082"
     }
   ]
 }
