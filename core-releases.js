@@ -507,7 +507,7 @@ async function processQueue(){
       accountChannel?.postMessage({type:"account-update",accountKey:authState.accountKey});
     }
   }finally{queueBusy=false}
-  if(success&&needsResync&&!authState.inFlight)await syncNow();
+  if(success&&needsResync&&!authState.inFlight)await syncNow(true);
   setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
 }
 async function processPreferenceQueue(){
@@ -533,11 +533,11 @@ async function processPreferenceQueue(){
   }finally{preferenceQueueBusy=false}
   setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
 }
-async function syncNow(){
+async function syncNow(force=false){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||authState.inFlight)return;
   authState.inFlight=true;setSyncStatus("sincronizando");let success=false;
   try{
-    const headers={};if(authState.etag)headers["If-None-Match"]=authState.etag;
+    const headers={};if(authState.etag&&!force)headers["If-None-Match"]=authState.etag;
     const response=await authFetch("/api/user-state",{headers});
     if(response.status===401){handleSessionExpired();return}
     if(response.status===304){success=true}
@@ -556,6 +556,12 @@ async function syncNow(){
   finally{authState.inFlight=false;setSyncStatus(success?"sincronizado":"sincronização pendente")}
   if(success){await processQueue();await processPreferenceQueue()}
 }
+function flushPendingOnHide(){
+  if(!IS_SITES_HOST||authState.status!=="authenticated"||!authState.accountKey)return;
+  readQueue(authState.accountKey).forEach(entry=>{
+    authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:entry.rating,mutationId:entry.mutationId}),keepalive:true}).catch(()=>{});
+  });
+}
 async function importLocalHistory(){
   if(authState.status!=="authenticated"||!authState.accountKey)return;
   const states=localImportStates();
@@ -572,8 +578,10 @@ function startSyncLoop(){
   clearInterval(syncTimer);syncTimer=0;
   const update=()=>{if(document.hidden){clearInterval(syncTimer);syncTimer=0}else{syncNow();processPreferenceQueue()}};
   if(!document.hidden)syncTimer=setInterval(update,10000);
-  document.addEventListener("visibilitychange",()=>{if(authState.status!=="authenticated")return;if(document.hidden){clearInterval(syncTimer);syncTimer=0}else{syncNow();processPreferenceQueue();syncTimer=setInterval(update,10000)}});
-  window.addEventListener("focus",()=>{syncNow();processPreferenceQueue()});window.addEventListener("online",()=>{syncNow();processQueue();processPreferenceQueue()});
+  document.addEventListener("visibilitychange",()=>{if(authState.status!=="authenticated")return;if(document.hidden){flushPendingOnHide();clearInterval(syncTimer);syncTimer=0}else{syncNow(true);processQueue();processPreferenceQueue();syncTimer=setInterval(update,10000)}});
+  window.addEventListener("pagehide",flushPendingOnHide);
+  window.addEventListener("pageshow",()=>{syncNow(true);processQueue();processPreferenceQueue()});
+  window.addEventListener("focus",()=>{syncNow(true);processQueue();processPreferenceQueue()});window.addEventListener("online",()=>{syncNow(true);processQueue();processPreferenceQueue()});
 }
 async function explicitLogout(){
   if(authState.status!=="authenticated")return;
@@ -585,7 +593,7 @@ async function explicitLogout(){
   window.top.location.href="/signout-with-chatgpt?return_to=%2F";
 }
 accountControl()?.addEventListener("click",e=>{if(e.target.closest('[data-account-action="logout"]')){e.preventDefault();explicitLogout()}else if(e.target.closest('[data-account-action="retry"]')){e.preventDefault();initializeAccount()}});
-accountChannel?.addEventListener("message",e=>{if(e.data?.accountKey!==authState.accountKey)return;if(e.data?.type==="account-update")syncNow();if(e.data?.type==="local-state"&&authState.status!=="authenticated"){userState=loadUserState();applyFilters()}});
+accountChannel?.addEventListener("message",e=>{if(e.data?.accountKey!==authState.accountKey)return;if(e.data?.type==="account-update")syncNow(true);if(e.data?.type==="local-state"&&authState.status!=="authenticated"){userState=loadUserState();applyFilters()}});
 window.addEventListener("online",()=>{if(IS_SITES_HOST&&authState.status!=="authenticated")initializeAccount()});
 let accountInitBusy=false;
 async function initializeAccount(){
