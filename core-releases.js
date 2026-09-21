@@ -323,7 +323,7 @@ app.addEventListener("keydown",e=>{
    CONTA E SINCRONIZAÇÃO — sessão nativa do Sites + D1
    O navegador mantém apenas cache opaco, fila e preferências locais.
 ============================================================ */
-let queueBusy=false,preferenceQueueBusy=false,syncTimer=0;
+let queueBusy=false,preferenceQueueBusy=false,syncTimer=0,accountRecoveryStates=[];
 function accountStorageKey(prefix,accountKey){return prefix+encodeURIComponent(String(accountKey||""))}
 function readAccountCache(accountKey){
   if(!accountKey)return null;
@@ -448,6 +448,16 @@ function localImportStates(){
   });
   return states;
 }
+function cachedImportStates(cached){
+  const states=[];
+  (Array.isArray(cached?.states)?cached.states:[]).forEach(row=>{
+    if(!row||typeof row.releaseId!=="string"||!R.some(r=>r.id===row.releaseId))return;
+    const rating=Number(row.rating),validRating=Number.isInteger(rating)&&rating>=1&&rating<=5;
+    if(row.listened!==true&&!validRating)return;
+    states.push({releaseId:row.releaseId,listened:row.listened===true,rating:validRating?rating:null});
+  });
+  return states;
+}
 function clearLegacyMarks(){
   try{localStorage.setItem(USER_STATE_KEY,JSON.stringify({listened:{},ratings:{},filters:userState.filters}))}catch(e){}
 }
@@ -533,8 +543,29 @@ async function processPreferenceQueue(){
   }finally{preferenceQueueBusy=false}
   setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
 }
+async function recoverAccountCache(){
+  if(authState.status!=="authenticated"||!authState.accountKey||!accountRecoveryStates.length)return true;
+  setSyncStatus("recuperando histórico");
+  try{
+    let latestPayload=null;
+    for(let offset=0;offset<accountRecoveryStates.length;offset+=500){
+      const states=accountRecoveryStates.slice(offset,offset+500);
+      const response=await authFetch("/api/user-state/import",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({importId:newId(),states})});
+      if(response.status===401){handleSessionExpired();return false}
+      if(!response.ok)throw new Error("account cache recovery "+response.status);
+      latestPayload=await response.json();
+    }
+    authState.syncToken=latestPayload?.syncToken||authState.syncToken;authState.etag=null;
+    applyStateRows(latestPayload?.states||[]);
+    saveAccountCache(authState.accountKey,authState.syncToken,latestPayload?.states||[]);
+    accountRecoveryStates=[];
+    accountChannel?.postMessage({type:"account-update",accountKey:authState.accountKey});
+    return true;
+  }catch(e){setSyncStatus("sincronização pendente");return false}
+}
 async function syncNow(force=false){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||authState.inFlight)return;
+  if(accountRecoveryStates.length&&!await recoverAccountCache())return;
   authState.inFlight=true;setSyncStatus("sincronizando");let success=false;
   try{
     const headers={};if(authState.etag&&!force)headers["If-None-Match"]=authState.etag;
@@ -589,7 +620,7 @@ async function explicitLogout(){
   if(!flushed&&!window.confirm("Há alterações pendentes. Sair agora pode deixá-las sem sincronizar. Continuar?"))return;
   const accountKey=authState.accountKey;
   try{localStorage.removeItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,accountKey));clearLegacyMarks()}catch(e){}
-  userState.listened=Object.create(null);userState.ratings=Object.create(null);syncAllCardPreferences();applyFilters();
+  accountRecoveryStates=[];userState.listened=Object.create(null);userState.ratings=Object.create(null);syncAllCardPreferences();applyFilters();
   window.top.location.href="/signout-with-chatgpt?return_to=%2F";
 }
 accountControl()?.addEventListener("click",e=>{if(e.target.closest('[data-account-action="logout"]')){e.preventDefault();explicitLogout()}else if(e.target.closest('[data-account-action="retry"]')){e.preventDefault();initializeAccount()}});
@@ -607,9 +638,9 @@ async function initializeAccount(){
     const payload=await response.json();
     if(!response.ok||payload.authenticated!==true){authState.status="anonymous";userState=readLegacyUserState();syncAllCardPreferences();renderAccountControl("somente neste aparelho");applyFilters();return}
     authState={...authState,status:"authenticated",accountKey:payload.accountKey,displayName:payload.displayName||"Conta ChatGPT"};
-    const cached=readAccountCache(authState.accountKey);if(cached){applyStateRows(cached.states);if(cached.preferences)applyRemotePreferences(cached.preferences)}
+    const cached=readAccountCache(authState.accountKey);accountRecoveryStates=cachedImportStates(cached);if(cached){applyStateRows(cached.states);if(cached.preferences)applyRemotePreferences(cached.preferences)}
     renderAccountControl("sincronizando");
-    await syncNow();
+    await syncNow(true);
     await importLocalHistory();
     startSyncLoop();
   }catch(e){authState.status="unavailable";userState=readLegacyUserState();syncAllCardPreferences();renderAccountControl("sincronização indisponível");applyFilters()}
