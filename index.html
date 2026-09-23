@@ -118,6 +118,9 @@ body::after{
 .meta .rec{display:inline-flex;align-items:center;gap:8px;color:var(--ink)}
 .meta .rec i{width:8px;height:8px;border-radius:50%;background:#f2f2f2;animation:blink 1.4s steps(2,start) infinite}
 .metaRight{display:flex;flex:0 0 auto;flex-direction:column;align-items:flex-end;gap:6px;min-width:0}
+.insights-link{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid var(--line2);border-radius:2px;color:var(--dim);font:500 9px var(--mono);letter-spacing:.12em;text-decoration:none;text-transform:uppercase;transition:border-color .16s,color .16s}
+.insights-link:hover,.insights-link:focus-visible{border-color:var(--bord);color:#fff}
+.insights-link:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .account-control{display:inline-flex;align-items:center;justify-content:flex-end;gap:7px;color:var(--dim);letter-spacing:.12em;min-width:0;white-space:nowrap}
 .account-control .sync-dot{width:6px;height:6px;flex:0 0 6px;border-radius:50%;background:var(--faint)}
 .account-control[data-state="ok"] .sync-dot{background:#f2f2f2}
@@ -470,6 +473,7 @@ footer a:hover{color:#fff}
       <div class="meta">
         <span>[ CORE_RELEASES / 2026 ]</span>
         <span class="metaRight">
+          <a class="insights-link" href="/insights" target="_top" aria-label="Abrir CORE Insights">Insights <span aria-hidden="true">↗</span></a>
           <span id="account-control" class="account-control" aria-live="polite" hidden></span>
           <span class="rec"><i></i><span id="version-marker" aria-live="polite">v-- · atualizado</span></span>
         </span>

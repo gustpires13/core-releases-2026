@@ -329,12 +329,16 @@ function readAccountCache(accountKey){
   if(!accountKey)return null;
   try{
     const parsed=JSON.parse(localStorage.getItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey))||"null");
-    return parsed&&Array.isArray(parsed.states)?{states:parsed.states,preferences:parsed.preferences||null}:null;
+    return parsed&&Array.isArray(parsed.states)?{states:parsed.states,preferences:parsed.preferences||null,recovered:parsed.recovered===true}:null;
   }catch(e){return null}
 }
-function saveAccountCache(accountKey,syncToken,states=stateRowsFromCurrent(),preferences=currentUserPreferences()){
+function saveAccountCache(accountKey,syncToken,states=stateRowsFromCurrent(),preferences=currentUserPreferences(),recovered=false){
   if(!accountKey)return;
-  try{localStorage.setItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey),JSON.stringify({states,preferences:normalizeClientPreferences(preferences)}))}catch(e){}
+  try{
+    const key=accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey);
+    const previous=JSON.parse(localStorage.getItem(key)||"null");
+    localStorage.setItem(key,JSON.stringify({states,preferences:normalizeClientPreferences(preferences),recovered:recovered||previous?.recovered===true}));
+  }catch(e){}
 }
 function readQueue(accountKey){
   if(!accountKey)return[];
@@ -427,10 +431,14 @@ function applyStateRow(row){
 }
 function enqueueMutation(r){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||!authState.accountKey)return;
-  const queue=readQueue(authState.accountKey),entry={releaseId:key(r),listened:isListened(r),rating:releaseRating(r),mutationId:newId()};
+  const queue=readQueue(authState.accountKey),entry={releaseId:key(r),listened:isListened(r),rating:apiRating(releaseRating(r)),mutationId:newId()};
   const index=queue.findIndex(item=>item.releaseId===entry.releaseId);
   if(index>=0)queue[index]=entry;else queue.push(entry);
   saveQueue(authState.accountKey,queue);setSyncStatus("sincronização pendente");processQueue();
+}
+function apiRating(value){
+  const rating=Number(value);
+  return Number.isInteger(rating)&&rating>=1&&rating<=5?rating:null;
 }
 function enqueuePreferences(flush=true){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||!authState.accountKey)return;
@@ -497,7 +505,7 @@ async function processQueue(){
       const queue=readQueue(authState.accountKey),entry=queue[0];if(!entry)break;
       setSyncStatus("sincronizando");
       let response;
-      try{response=await authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:entry.rating,mutationId:entry.mutationId})})}catch(e){success=false;break}
+      try{response=await authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:apiRating(entry.rating),mutationId:entry.mutationId})})}catch(e){success=false;break}
       if(response.status===401){handleSessionExpired();success=false;break}
       if(response.status===409){
         let payload=null;try{payload=await response.json()}catch(e){}
@@ -518,7 +526,7 @@ async function processQueue(){
     }
   }finally{queueBusy=false}
   if(success&&needsResync&&!authState.inFlight)await syncNow(true);
-  setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
+  setSyncStatus(success&&!readQueue(authState.accountKey).length?"sincronizado":"sincronização pendente");return success;
 }
 async function processPreferenceQueue(){
   if(preferenceQueueBusy||authState.status!=="authenticated"||!authState.accountKey)return true;
@@ -541,15 +549,15 @@ async function processPreferenceQueue(){
       }
     }
   }finally{preferenceQueueBusy=false}
-  setSyncStatus(success?"sincronizado":"sincronização pendente");return success;
+  setSyncStatus(success&&!readQueue(authState.accountKey).length?"sincronizado":"sincronização pendente");return success;
 }
 async function recoverAccountCache(){
   if(authState.status!=="authenticated"||!authState.accountKey||!accountRecoveryStates.length)return true;
   setSyncStatus("recuperando histórico");
   try{
     let latestPayload=null;
-    for(let offset=0;offset<accountRecoveryStates.length;offset+=500){
-      const states=accountRecoveryStates.slice(offset,offset+500);
+    for(let offset=0;offset<accountRecoveryStates.length;offset+=20){
+      const states=accountRecoveryStates.slice(offset,offset+20);
       const response=await authFetch("/api/user-state/import",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({importId:newId(),states})});
       if(response.status===401){handleSessionExpired();return false}
       if(!response.ok)throw new Error("account cache recovery "+response.status);
@@ -557,7 +565,7 @@ async function recoverAccountCache(){
     }
     authState.syncToken=latestPayload?.syncToken||authState.syncToken;authState.etag=null;
     applyStateRows(latestPayload?.states||[]);
-    saveAccountCache(authState.accountKey,authState.syncToken,latestPayload?.states||[]);
+    saveAccountCache(authState.accountKey,authState.syncToken,latestPayload?.states||[],currentUserPreferences(),true);
     accountRecoveryStates=[];
     accountChannel?.postMessage({type:"account-update",accountKey:authState.accountKey});
     return true;
@@ -580,7 +588,7 @@ async function syncNow(force=false){
       const pendingPreferences=readPreferenceQueue(authState.accountKey);
       if(payload.preferences&&!pendingPreferences)applyRemotePreferences(payload.preferences);
       else if(!payload.preferences&&!pendingPreferences)enqueuePreferences(false);
-      saveAccountCache(authState.accountKey,authState.syncToken,stateRowsFromCurrent(),pendingPreferences?.preferences||payload.preferences||currentUserPreferences());
+      saveAccountCache(authState.accountKey,authState.syncToken,stateRowsFromCurrent(),pendingPreferences?.preferences||payload.preferences||currentUserPreferences(),true);
       success=true;
     }
   }catch(e){}
@@ -590,7 +598,7 @@ async function syncNow(force=false){
 function flushPendingOnHide(){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||!authState.accountKey)return;
   readQueue(authState.accountKey).forEach(entry=>{
-    authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:entry.rating,mutationId:entry.mutationId}),keepalive:true}).catch(()=>{});
+    authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:apiRating(entry.rating),mutationId:entry.mutationId}),keepalive:true}).catch(()=>{});
   });
 }
 async function importLocalHistory(){
@@ -599,10 +607,14 @@ async function importLocalHistory(){
   if(!states.length){try{localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done")}catch(e){};return}
   setSyncStatus("importando histórico");
   try{
-    const response=await authFetch("/api/user-state/import",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({importId:newId(),states})});
-    if(response.status===401){handleSessionExpired();return}
-    if(!response.ok)throw new Error("import "+response.status);
-    const payload=await response.json();authState.syncToken=payload.syncToken||authState.syncToken;authState.etag=null;applyStateRows(payload.states||[]);saveAccountCache(authState.accountKey,authState.syncToken,payload.states||[]);clearLegacyMarks();localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done");setSyncStatus("sincronizado");
+    let payload=null;
+    for(let offset=0;offset<states.length;offset+=20){
+      const response=await authFetch("/api/user-state/import",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({importId:newId(),states:states.slice(offset,offset+20)})});
+      if(response.status===401){handleSessionExpired();return}
+      if(!response.ok)throw new Error("import "+response.status);
+      payload=await response.json();
+    }
+    authState.syncToken=payload?.syncToken||authState.syncToken;authState.etag=null;applyStateRows(payload?.states||[]);saveAccountCache(authState.accountKey,authState.syncToken,payload?.states||[]);clearLegacyMarks();localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done");setSyncStatus("sincronizado");
   }catch(e){setSyncStatus("sincronização pendente")}
 }
 function startSyncLoop(){
@@ -638,7 +650,7 @@ async function initializeAccount(){
     const payload=await response.json();
     if(!response.ok||payload.authenticated!==true){authState.status="anonymous";userState=readLegacyUserState();syncAllCardPreferences();renderAccountControl("somente neste aparelho");applyFilters();return}
     authState={...authState,status:"authenticated",accountKey:payload.accountKey,displayName:payload.displayName||"Conta ChatGPT"};
-    const cached=readAccountCache(authState.accountKey);accountRecoveryStates=cachedImportStates(cached);if(cached){applyStateRows(cached.states);if(cached.preferences)applyRemotePreferences(cached.preferences)}
+    const cached=readAccountCache(authState.accountKey);accountRecoveryStates=cached?.recovered?[]:cachedImportStates(cached);if(cached){applyStateRows(cached.states);if(cached.preferences)applyRemotePreferences(cached.preferences)}
     renderAccountControl("sincronizando");
     await syncNow(true);
     await importLocalHistory();
