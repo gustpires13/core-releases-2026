@@ -5260,7 +5260,7 @@
       "d": "21/08",
       "a": "avoider",
       "t": "Maelstrom",
-      "k": "ÁLBUM",
+      "k": "EP",
       "g": "deathcore / djent / metalcore / thall",
       "cover": "https://f4.bcbits.com/img/a2148788663_5.jpg",
       "sourceLink": "https://avoiderexe.bandcamp.com/album/maelstrom",
@@ -5668,14 +5668,12 @@
       "d": "14/08",
       "a": "Boston Manor",
       "t": "Be Nothing. 10 Year Anniversary",
-      "k": "EP",
+      "k": "REISSUE",
       "g": "post-hardcore / alternative rock / emo",
       "q": "Boston Manor Be Nothing 10 Year Anniversary",
       "note": "REISSUE",
       "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029394675b30379c0f96346e95",
-      "sourceLink": "https://www.bostonmanorband.com/",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/5ZjXU5sY4VEIqlh4YYnWv1",
-      "deezer": "https://www.deezer.com/album/971653651"
+      "sourceLink": "https://purenoise.merchnow.com/products/bsmnbn1000-cd"
     },
     {
       "id": "marilynmanson|oneassassinationundergodchapter2",
@@ -7054,7 +7052,7 @@
     ,{"id":"etherealtomb|livingtodreamagain","d":"26/09","a":"Ethereal Tomb","t":"Living To Dream Again","k":"ÁLBUM","g":"sludge metal / post-metal","q":"Ethereal Tomb Living To Dream Again","cover":"https://i.scdn.co/image/ab67616d0000b273b47aadc37016a3c1c5969106","sourceLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC","spotifyLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC"}
     ,{"id":"crud|humandecency","d":"26/09","a":"CRUD","t":"Human Decency","k":"ÁLBUM","g":"sludge metal / crust punk / death doom","q":"CRUD Human Decency","cover":"https://i.scdn.co/image/ab67616d0000b27385d3acd30a63331df2b9a0e4","sourceLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt","spotifyLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt"}
     ,{"id":"grazergrant|god","d":"26/09","a":"Grazer Grant","t":"GÖD","k":"ÁLBUM","g":"hardcore punk","q":"Grazer Grant GOD","cover":"https://i.scdn.co/image/ab67616d0000b2739de6c26f6736c434945832f3","sourceLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA","spotifyLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA"}
-    ,{"id":"lostrelics|monumentstotheuseless","d":"29/09","a":"Lost Relics","t":"Monuments to the Useless","k":"EP","g":"sludge metal / noise rock / post-hardcore","q":"Lost Relics Monuments to the Useless","cover":"https://i.scdn.co/image/ab67616d0000b273536cbd86b90730db476d704e","sourceLink":"https://open.spotify.com/intl-pt/album/1MHFnL8QNNw4u5juwdGEnt","spotifyLink":"https://open.spotify.com/intl-pt/album/1MHFnL8QNNw4u5juwdGEnt"}
+    ,{"id":"lostrelics|monumentstotheuseless","d":"25/09","a":"Lost Relics","t":"Monuments to the Useless","k":"EP","g":"sludge metal / noise rock / post-hardcore","q":"Lost Relics Monuments to the Useless","cover":"https://i.scdn.co/image/ab67616d0000b273536cbd86b90730db476d704e","sourceLink":"https://orcd.co/monuments-to-the-useless","spotifyLink":"https://open.spotify.com/intl-pt/album/1MHFnL8QNNw4u5juwdGEnt","deezer":"https://www.deezer.com/album/994648251"}
     ,{"id":"missmayi|noplaceforme","d":"02/10","a":"Miss May I","t":"No Place For Me","k":"ÁLBUM","g":"metalcore","q":"Miss May I No Place For Me","cover":"https://cdn-images.dzcdn.net/images/cover/6bbb75aba3aee30e4d2eb433ef693116/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.solidstaterecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3mBFreN8RPwTvFRjwkCZAa","deezer":"https://www.deezer.com/album/1022615451"}
     ,{"id":"fromfirsttolast|wewerebleedinganyway","d":"02/10","a":"From First to Last","t":"We Were Bleeding Anyway","k":"EP","g":"post-hardcore / electronicore","q":"From First to Last We Were Bleeding Anyway","cover":"https://cdn-images.dzcdn.net/images/cover/361e7e163098eec96fecd5013eccc123/1000x1000-000000-80-0-0.jpg","sourceLink":"https://fearlessrecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3Fv9UES0mXzes5hb2TF8jY","deezer":"https://www.deezer.com/album/1104177292"}
     ,{"id":"ofvirtue|deathofthealtar","d":"02/10","a":"Of Virtue","t":"Death Of The Altar","k":"ÁLBUM","g":"modern metalcore / alternative metal","q":"Of Virtue Death Of The Altar","cover":"https://cdn-images.dzcdn.net/images/cover/07c04cbd309dbdd03ce02fdbfec0cfb5/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.arising-empire.com/artists/of-virtue/death-of-the-altar","spotifyLink":"https://open.spotify.com/intl-pt/album/6LRTviU561iNlmpUi1krqJ","deezer":"https://www.deezer.com/album/1015209351"}
