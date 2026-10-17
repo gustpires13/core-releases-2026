@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-09",
+    "updated": "2026-10-16",
     "schemaVersion": 1
   },
   "releases": [
@@ -632,7 +632,7 @@
     {
       "id": "thebrowning|burnthisworldevolved",
       "deezer": "https://www.deezer.com/album/860593102",
-      "d": "13/02",
+      "d": "11/02",
       "a": "The Browning",
       "t": "Burn This World [Evolved]",
       "k": "ÁLBUM",
@@ -1131,6 +1131,93 @@
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6subC49YVJwX4PIipeQdNA"
     },
     {
+      "id": "fabienneerni|starveil",
+      "d": "13/03",
+      "a": "Fabienne Erni",
+      "t": "Starveil",
+      "k": "ÁLBUM",
+      "g": "folk metal / symphonic metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734ed26318e8aa3028a63f7360",
+      "sourceLink": "https://fabienneerni.bandcamp.com/album/starveil",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/2ewVvxs68Vmt6UbpJcZTeV"
+    },
+    {
+      "id": "monstrosity|screamsfrombeneaththesurface",
+      "d": "13/03",
+      "a": "Monstrosity",
+      "t": "Screams from Beneath the Surface",
+      "k": "ÁLBUM",
+      "g": "technical death metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2738987bd7a847cfd70fe498398",
+      "sourceLink": "https://monstrosityofficial.bandcamp.com/album/screams-from-beneath-the-surface",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/10gC9GJDezrJkvePukBZ2E"
+    },
+    {
+      "id": "goremachine|congealedandfoaming",
+      "d": "13/03",
+      "a": "Gore Machine",
+      "t": "Congealed And Foaming",
+      "k": "ÁLBUM",
+      "g": "goregrind / slamming death metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27330b9bbd6f8da7853232966b5",
+      "sourceLink": "https://hpgd.bandcamp.com/album/congealed-and-foaming",
+      "spotifyLink": "https://open.spotify.com/album/1ccb1iRXENGMVBzusHGcIA"
+    },
+    {
+      "id": "irreversible|vessel",
+      "d": "13/03",
+      "a": "Irreversible",
+      "t": "Vessel",
+      "k": "ÁLBUM",
+      "g": "sludge metal / post-metal / doom metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734ea2a29ced48e1ad804381f5",
+      "sourceLink": "https://irreversible.bandcamp.com/album/vessel",
+      "spotifyLink": "https://open.spotify.com/album/3fvaVKvRQBJdD1zqePCmEh"
+    },
+    {
+      "id": "lordcentipede|centipedeiielectricboogaloo",
+      "d": "13/03",
+      "a": "Lord Centipede",
+      "t": "Centipede II: Electric Boogaloo",
+      "k": "EP",
+      "g": "doom/thrash / stoner crust / sludge crossover",
+      "cover": "https://f4.bcbits.com/img/a0628804219_10.jpg",
+      "sourceLink": "https://morbidandmiserable.bandcamp.com/album/centipede-ii-electric-boogaloo"
+    },
+    {
+      "id": "lesotho|aflashingonplainglass",
+      "d": "13/03",
+      "a": "Lesotho",
+      "t": "A Flashing on Plain Glass",
+      "k": "ÁLBUM",
+      "g": "instrumental post-metal / blackgaze",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2738c5b366b3c305c2398d46ab1",
+      "sourceLink": "https://lesotho.bandcamp.com/album/a-flashing-on-plain-glass",
+      "spotifyLink": "https://open.spotify.com/album/6PjFYRo2rjHwBzcpWgqzSr"
+    },
+    {
+      "id": "mammonsthrone|mybodytotheworms",
+      "d": "13/03",
+      "a": "Mammon's Throne",
+      "t": "My Body to the Worms",
+      "k": "ÁLBUM",
+      "g": "extreme doom metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e31d01ef0ffabc2c951efc3a",
+      "sourceLink": "https://mammonsthrone.lnk.to/mybodytotheworms",
+      "spotifyLink": "https://open.spotify.com/album/31VFCASFjzZkCuHeKQDsDa"
+    },
+    {
+      "id": "filthiseternal|impossibleworld",
+      "d": "17/03",
+      "a": "Filth is Eternal",
+      "t": "Impossible World",
+      "k": "ÁLBUM",
+      "g": "hardcore / punk",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273da6d65b4861c5e40418acede",
+      "sourceLink": "https://filthiseternal.bandcamp.com/album/impossible-world",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/159qUhmSadrgtqTJG3BJmW"
+    },
+    {
       "id": "emphuria|inevitavel",
       "d": "19/03",
       "a": "Emphuria",
@@ -1185,6 +1272,28 @@
       "g": "metalcore / post-hardcore",
       "cover": "https://cdn-images.dzcdn.net/images/cover/8cf32a5de9f927041b667aa4be08fb38/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5vbfeag2sYQY1x22N6W49y"
+    },
+    {
+      "id": "exodus|goliath",
+      "d": "20/03",
+      "a": "Exodus",
+      "t": "Goliath",
+      "k": "ÁLBUM",
+      "g": "thrash metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734a37a6dc22f6fbbb56e23824",
+      "sourceLink": "https://exodus.bandcamp.com/album/goliath",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/2jQzIrMq57RXUdN5krdfnw"
+    },
+    {
+      "id": "gutvoid|liminalshrines",
+      "d": "20/03",
+      "a": "Gutvoid",
+      "t": "Liminal Shrines",
+      "k": "ÁLBUM",
+      "g": "death metal / progressive metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2739890af437b19897c91e1beb0",
+      "sourceLink": "https://gutvoid.bandcamp.com/album/liminal-shrines",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/37VNpg5fKzSsZ84EZZbfYx"
     },
     {
       "id": "rancore|unhasedentesvalsadoimprevisivel",
@@ -1292,11 +1401,44 @@
       "d": "27/03",
       "a": "Party Cannon",
       "t": "Subjected To A Partying",
-      "k": "ÁLBUM",
+      "k": "EP",
       "g": "brutal death / slam / deathcore adjacent",
       "cover": "https://cdn-images.dzcdn.net/images/cover/db80d2da39e3a1092f9408bfc65ef327/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://www.deezer.com/album/898313202",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5NWUez4WL4R0p2as5gu5nB"
+    },
+    {
+      "id": "carnivoread|transmutation",
+      "d": "27/03",
+      "a": "Carnivore A.D.",
+      "t": "Transmutation",
+      "k": "EP",
+      "g": "crossover thrash",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273f4cadbf0f151445e0c6c6913",
+      "sourceLink": "https://carnivoread.bandcamp.com/album/transmutation",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/09IYtY0ai323SW0Q0tbyex"
+    },
+    {
+      "id": "godsticks|void",
+      "d": "27/03",
+      "a": "Godsticks",
+      "t": "VOiD",
+      "k": "ÁLBUM",
+      "g": "heavy progressive rock / progressive metal",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27398a3df175ad01b4caf8e373c",
+      "sourceLink": "https://godsticks.bandcamp.com/album/void-3",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/4HvItd1oDvaRCWLkHzAH7r"
+    },
+    {
+      "id": "onlyhuman|plannedobsolescence",
+      "d": "27/03",
+      "a": "ONLY HUMAN",
+      "t": "Planned Obsolescence",
+      "k": "ÁLBUM",
+      "g": "progressive metal / metalcore",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734d67d3cf44ca78701f901ab6",
+      "sourceLink": "https://onlyhumandk.bandcamp.com/album/planned-obsolescence",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/05DaJBKzXHIwcqSe1jsn3A"
     },
     {
       "id": "corrosionofconformity|goodgodbaadman",
@@ -1619,6 +1761,8 @@
       "g": "metalcore moderno",
       "cover": "https://cdn-images.dzcdn.net/images/cover/4e36faf4707169d45ed2c92aee633602/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0dGjNVNmtc3ZkrK6YgwjLL"
+    ,
+      "sourceLink": "https://fearlessrecords.com/releases/it-calls-me-by-name/"
     },
     {
       "id": "lookoutsideyourwindow|lookoutsideyourwindow",
@@ -2539,7 +2683,7 @@
     {
       "id": "therewerewires|vessel",
       "deezer": "https://www.deezer.com/album/943467731",
-      "d": "19/06",
+      "d": "26/06",
       "a": "There Were Wires",
       "t": "Vessel",
       "k": "ÁLBUM",
@@ -2711,13 +2855,13 @@
       "id": "ded|resentdeluxeedition",
       "d": "03/07",
       "a": "DED",
-      "t": "RESENT: Deluxe Edition",
+      "t": "RESENT [Deluxe Edition]",
       "k": "DELUXE",
       "g": "nu metal / modern metal",
       "note": "DELUXE",
       "deezer": "https://www.deezer.com/album/967597141",
       "cover": "https://cdn-images.dzcdn.net/images/cover/faed1ccc588c32e254a8aa1391c4983d/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/967597141",
+      "sourceLink": "https://unfdcentral.com/releases/resent-deluxe-edition/",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/61jRsuevci53dwCg6ECerJ"
     },
     {
@@ -2894,7 +3038,7 @@
     {
       "id": "2silent|whererosesweepdeluxe",
       "deezer": "https://www.deezer.com/album/998069681",
-      "d": "10/07",
+      "d": "04/07",
       "a": "2SILENT",
       "t": "WHERE ROSES WEEP (DELUXE)",
       "k": "DELUXE",
@@ -2963,7 +3107,7 @@
     {
       "id": "cancerbats|batsabbathworship",
       "deezer": "https://www.deezer.com/album/1019673181",
-      "d": "10/07",
+      "d": "08/07",
       "a": "Cancer Bats",
       "t": "Bat Sabbath | Worship",
       "k": "EP",
@@ -3369,14 +3513,14 @@
     },
     {
       "id": "sweetteeth|thevoidthateatstheheart",
-      "d": "15/07",
+      "d": "23/06",
       "a": "Sweet Teeth",
       "t": "The Void That Eats The Heart",
       "k": "ÁLBUM",
       "g": "hardcore punk / power pop punk / alternative rock",
       "deezer": "https://www.deezer.com/album/1022247341",
       "cover": "https://f4.bcbits.com/img/a2325718350_10.jpg",
-      "sourceLink": "https://scenepolice.bandcamp.com/album/sweet-teeth-the-void-that-eats-the-heart-pre-order",
+      "sourceLink": "https://engineerrecords.bandcamp.com/album/sweet-teeth-the-void-that-eats-the-heart",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3AvaAHFyuZrU3b053mnJHl"
     },
     {
@@ -3404,7 +3548,7 @@
     },
     {
       "id": "gloam|inspiteofneverending",
-      "d": "16/07",
+      "d": "17/07",
       "a": "Gloam",
       "t": "In Spite Of Never Ending",
       "k": "EP",
@@ -3816,17 +3960,6 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/4c3eaee168d5b9fbc2e00841ef6c379a/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://www.deezer.com/album/1011700051",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5yBn2dK39QDcKlyazLgQED"
-    },
-    {
-      "id": "repentance|retaliate",
-      "d": "17/07",
-      "a": "Repentance",
-      "t": "Retaliate",
-      "k": "ÁLBUM",
-      "g": "metalcore / groove metal",
-      "deezer": "https://www.deezer.com/album/973400981",
-      "cover": "https://f4.bcbits.com/img/a1452968974_5.jpg",
-      "sourceLink": "https://repentanceband.bandcamp.com/album/retaliate"
     },
     {
       "id": "tesla|homage",
@@ -4744,9 +4877,11 @@
       "t": "With Love // With Rage",
       "k": "EP",
       "g": "melodic hardcore / metallic hardcore / post-hardcore",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/a89cbd7f57171bff6b63c2d9b5e684eb/500x500-000000-80-0-0.jpg",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/f62d5384b0d79159adfc2046d74d745f/1000x1000-000000-80-0-0.jpg",
       "q": "Initiate With Love With Rage",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0Zv433jFPMYWbdbAe2On25"
+    ,
+      "sourceLink": "https://bluegrapemusic.com/releases/with-love-with-rage"
     },
     {
       "id": "ceremony|tellmeyourdream",
@@ -6372,7 +6507,7 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/618665f4d7233e845aa8a7ee658897e1/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://existimmortal.bandcamp.com/music",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0msR4mo0MeBoU1Qj8XjpKj",
-      "deezer": "https://www.deezer.com/album/1033789092"
+      "deezer": "https://www.deezer.com/album/1031881462"
     },
     {
       "id": "throatcut|nokingsep",
@@ -7026,6 +7161,18 @@
       "spotifyLink": "https://open.spotify.com/intl-pt/album/6T2KeBdpxdXcgTawj11yzG",
       "deezer": "https://www.deezer.com/album/1034464792"
     },
+    {
+      "id": "criminalinstinct|isitrainingatyourhouse",
+      "d": "14/07",
+      "a": "Criminal Instinct",
+      "t": "Is It Raining At Your House?",
+      "k": "EP",
+      "g": "hardcore",
+      "q": "Criminal Instinct Is It Raining At Your House",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2737256ea57221653c97271b951",
+      "sourceLink": "https://criminalinstinct.bandcamp.com/album/is-it-raining-at-your-house",
+      "spotifyLink": "https://open.spotify.com/album/3UwzgG5WgAVKGefFAXHZEf"
+    },
     {"id":"goatest|goatest","d":"23/09","a":"GoaTesT","t":"GoaTesT","k":"ÁLBUM","g":"grindcore / death metal / hardcore","q":"GoaTesT GoaTesT","cover":"https://cdn-images.dzcdn.net/images/cover/cf58f15594dda0b52f402cd825710bf7/1000x1000-000000-80-0-0.jpg","sourceLink":"https://testgrind.bandcamp.com/album/goatest","spotifyLink":"https://open.spotify.com/intl-pt/album/4vkjhKd0f4XIUvTHKjItKw","deezer":"https://www.deezer.com/album/1075516392"},
     {"id":"montclair|montclair","d":"23/09","a":"MONTCLAIR","t":"Montclair","k":"EP","g":"post-hardcore / melodic hardcore / screamo","q":"MONTCLAIR Montclair","cover":"https://cdn-images.dzcdn.net/images/cover/d6360028d9e37e8e7e7790d9882e1354/1000x1000-000000-80-0-0.jpg","sourceLink":"https://newmoralityzine.bandcamp.com/album/montclair","spotifyLink":"https://open.spotify.com/intl-pt/album/3AoFS9LbBwX7moirYwTW0N","deezer":"https://www.deezer.com/album/1081089602"},
     {"id":"consvmer|abgrund","d":"25/09","a":"Consvmer","t":"Abgrund","k":"ÁLBUM","g":"metalcore / deathcore / alternative metal","q":"Consvmer Abgrund","cover":"https://cdn-images.dzcdn.net/images/cover/ef3ca3b540f55affcba5b89da7330109/1000x1000-000000-80-0-0.jpg","sourceLink":"https://consvmer.bandcamp.com/album/abgrund","spotifyLink":"https://open.spotify.com/intl-pt/album/56CWGOxFJfndjCK2cE0xdX","deezer":"https://www.deezer.com/album/946790951"},
@@ -7047,87 +7194,833 @@
     {"id":"yarotz|resurgence","d":"25/09","a":"YAROTZ","t":"Resurgence","k":"ÁLBUM","g":"chaotic hardcore / post-hardcore / post-metal","q":"YAROTZ Resurgence","cover":"https://cdn-images.dzcdn.net/images/cover/af363236d59fa3de554f23c6a7c28966/1000x1000-000000-80-0-0.jpg","sourceLink":"https://yarotz.bandcamp.com/album/resurgence","spotifyLink":"https://open.spotify.com/intl-pt/album/03RiMOjUubAMkKJHzkaoyu","deezer":"https://www.deezer.com/album/988152051"},
     {"id":"daysofruin|ageofignorance","d":"25/09","a":"Days of Ruin","t":"Age of Ignorance","k":"EP","g":"melodic hardcore / metalcore","q":"Days of Ruin Age of Ignorance","cover":"https://cdn-images.dzcdn.net/images/cover/49d74604eceb81232e4b7915f32c80b1/1000x1000-000000-80-0-0.jpg","sourceLink":"https://daysofruin.bandcamp.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/4lb4eqJxmRtND6AY6XvMtw","deezer":"https://www.deezer.com/album/974345561"},
     {"id":"sylvia|paintmysorrowsinadarkershade","d":"24/09","a":"Sylvia","t":"Paint My Sorrows In A Darker Shade","k":"ÁLBUM","g":"metalcore / chaotic hardcore","q":"Sylvia Paint My Sorrows In A Darker Shade","cover":"https://cdn-images.dzcdn.net/images/cover/6c41717e479a6fe7931fef83ee67c271/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.deezer.com/album/1101562262","spotifyLink":"https://open.spotify.com/intl-pt/album/7np2c9OYYeChAl5lSFbBOv","deezer":"https://www.deezer.com/album/1101562262"},
-    {"id":"plume|saferoomsandhealingfrequencies","d":"25/09","a":"Plume","t":"Saferooms & Healing Frequencies","k":"ÁLBUM","g":"alternative metalcore / electronicore / heavy alternative","q":"Plume Saferooms Healing Frequencies","cover":"https://cdn-images.dzcdn.net/images/cover/e0c83a62e13714c00b5f5ca3a68db617/1000x1000-000000-80-0-0.jpg","sourceLink":"https://arising-empire.com/news/article/plume-share-final-single-my-cortisol-face-ahead-of-debut-album-saferooms-healing-frequencies","spotifyLink":"https://open.spotify.com/intl-pt/album/5LYr5Wq25XYCCQphnlgFgG","deezer":"https://www.deezer.com/album/985474821"}
-    ,{"id":"lasso|covarde","d":"23/09","a":"Lasso","t":"Covarde","k":"ÁLBUM","g":"hardcore punk / punk rock","q":"Lasso Covarde","cover":"https://i.scdn.co/image/ab67616d0000b273ca663872f1feb3121f9bddd8","sourceLink":"https://lassopunk.bandcamp.com/album/covarde","spotifyLink":"https://open.spotify.com/intl-pt/album/6EBpOFbzV7sExHcnG1WBTU"}
-    ,{"id":"combustblowyourbrainsoutimposter|unitednations","d":"22/09","a":"Combust / Blow Your Brains Out / Imposter","t":"United Nations","k":"EP","g":"hardcore / metallic hardcore","q":"Combust Blow Your Brains Out Imposter United Nations","cover":"https://i.scdn.co/image/ab67616d0000b273049854b5b666f6963ad7343b","sourceLink":"https://streetsofhateny.bandcamp.com/album/united-nations-split-ep","spotifyLink":"https://open.spotify.com/intl-pt/album/7K7PeLuLer61Og4OOzY0kc"}
-    ,{"id":"primitiveblast|did","d":"22/09","a":"Primitive Blast","t":"D.I.D.","k":"EP","g":"hardcore punk / powerviolence","q":"Primitive Blast D I D","cover":"https://i.scdn.co/image/ab67616d0000b273ac48cfe8558e7f1ffbe4f732","sourceLink":"https://lastriderecords.bandcamp.com/album/d-i-d","spotifyLink":"https://open.spotify.com/intl-pt/album/3Sn7JU0ar0XHVyteKi5gGK"}
-    ,{"id":"inkwell|remembrance","d":"25/09","a":"Inkwell","t":"Remembrance","k":"ÁLBUM DE ARQUIVO","g":"emo / post-hardcore","q":"Inkwell Remembrance","cover":"https://i.scdn.co/image/ab67616d0000b27383e065b273bb12aa3006dc96","sourceLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj","spotifyLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj"}
-    ,{"id":"sluggore|pillarsofecoterrorsaga","d":"25/09","a":"Slug Gore","t":"Pillars of Eco-Terror Saga","k":"EP","g":"grindcore / deathgrind","q":"Slug Gore Pillars of Eco Terror Saga","cover":"https://i.scdn.co/image/ab67616d0000b2733797d3e6504d0b2d89490c1a","sourceLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy","spotifyLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy"}
-    ,{"id":"cellrot|paradise","d":"25/09","a":"Cell Rot","t":"Paradise","k":"ÁLBUM","g":"sludge metal / noise rock","q":"Cell Rot Paradise","cover":"https://i.scdn.co/image/ab67616d0000b27358087495b34c7a3be6e2672d","sourceLink":"https://open.spotify.com/intl-pt/album/14wTTUWQ0bG0DIS9UWXyZ8","spotifyLink":"https://open.spotify.com/intl-pt/album/14wTTUWQ0bG0DIS9UWXyZ8"}
-    ,{"id":"falsebody|tomorrowstartswithoutyou","d":"25/09","a":"False Body","t":"Tomorrow Starts Without You","k":"ÁLBUM","g":"post-hardcore / screamo","q":"False Body Tomorrow Starts Without You","cover":"https://i.scdn.co/image/ab67616d0000b2731aa37040bf85da1b7b278393","sourceLink":"https://open.spotify.com/intl-pt/album/4urGlXGSVNO5JBqNRgFcGR","spotifyLink":"https://open.spotify.com/intl-pt/album/4urGlXGSVNO5JBqNRgFcGR"}
-    ,{"id":"vaulthill|modernway","d":"25/09","a":"Vault Hill","t":"Modern Way","k":"EP","g":"metalcore / hardcore","q":"Vault Hill Modern Way","cover":"https://i.scdn.co/image/ab67616d0000b27393e0ba86841b28e25c6dc2e5","sourceLink":"https://open.spotify.com/intl-pt/album/08HOHexFgi0lRHTccsO1MX","spotifyLink":"https://open.spotify.com/intl-pt/album/08HOHexFgi0lRHTccsO1MX"}
-    ,{"id":"whotheyfear|comatose","d":"25/09","a":"Who They Fear","t":"Comatose","k":"EP","g":"metalcore / deathcore","q":"Who They Fear Comatose","cover":"https://i.scdn.co/image/ab67616d0000b273ef4ff663a217887e581eeeb1","sourceLink":"https://open.spotify.com/intl-pt/album/0JqmTEd8Z0yO2rqO535tBA","spotifyLink":"https://open.spotify.com/intl-pt/album/0JqmTEd8Z0yO2rqO535tBA"}
-    ,{"id":"spoiler|lithium","d":"25/09","a":"Spoiler","t":"LITHIUM","k":"ÁLBUM","g":"alternative metal / metalcore","q":"Spoiler LITHIUM","cover":"https://i.scdn.co/image/ab67616d0000b2734498a966210ba941bd0be228","sourceLink":"https://open.spotify.com/intl-pt/album/1798DDhfPA6hRflz3Neanw","spotifyLink":"https://open.spotify.com/intl-pt/album/1798DDhfPA6hRflz3Neanw"}
-    ,{"id":"thecuttingtides|singsinnersandsaints","d":"25/09","a":"The Cutting Tides","t":"Sing, Sinners And Saints","k":"ÁLBUM","g":"metalcore / post-hardcore","q":"The Cutting Tides Sing Sinners And Saints","cover":"https://i.scdn.co/image/ab67616d0000b2734cd035225bd07e07f8d97da7","sourceLink":"https://open.spotify.com/intl-pt/album/5VbpWufrKrg0JWQX6YOrwF","spotifyLink":"https://open.spotify.com/intl-pt/album/5VbpWufrKrg0JWQX6YOrwF"}
-    ,{"id":"endswell|everythingconfidedwillbeforgotten","d":"25/09","a":"Endswell","t":"Everything Confided Will Be Forgotten","k":"EP","g":"midwest emo / post-hardcore","q":"Endswell Everything Confided Will Be Forgotten","cover":"https://i.scdn.co/image/ab67616d0000b2736066f0c827d5dc819e1c7719","sourceLink":"https://open.spotify.com/intl-pt/album/1pDXSxo7qPXCsNAUuUYh9q","spotifyLink":"https://open.spotify.com/intl-pt/album/1pDXSxo7qPXCsNAUuUYh9q"}
-    ,{"id":"etherealtomb|livingtodreamagain","d":"26/09","a":"Ethereal Tomb","t":"Living To Dream Again","k":"ÁLBUM","g":"sludge metal / post-metal","q":"Ethereal Tomb Living To Dream Again","cover":"https://i.scdn.co/image/ab67616d0000b273b47aadc37016a3c1c5969106","sourceLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC","spotifyLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC"}
-    ,{"id":"crud|humandecency","d":"26/09","a":"CRUD","t":"Human Decency","k":"ÁLBUM","g":"sludge metal / crust punk / death doom","q":"CRUD Human Decency","cover":"https://i.scdn.co/image/ab67616d0000b27385d3acd30a63331df2b9a0e4","sourceLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt","spotifyLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt"}
-    ,{"id":"grazergrant|god","d":"26/09","a":"Grazer Grant","t":"GÖD","k":"ÁLBUM","g":"hardcore punk","q":"Grazer Grant GOD","cover":"https://i.scdn.co/image/ab67616d0000b2739de6c26f6736c434945832f3","sourceLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA","spotifyLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA"}
-    ,{"id":"lostrelics|monumentstotheuseless","d":"25/09","a":"Lost Relics","t":"Monuments to the Useless","k":"EP","g":"sludge metal / noise rock / post-hardcore","q":"Lost Relics Monuments to the Useless","cover":"https://i.scdn.co/image/ab67616d0000b273536cbd86b90730db476d704e","sourceLink":"https://orcd.co/monuments-to-the-useless","spotifyLink":"https://open.spotify.com/intl-pt/album/1MHFnL8QNNw4u5juwdGEnt","deezer":"https://www.deezer.com/album/994648251"}
-    ,{"id":"missmayi|noplaceforme","d":"02/10","a":"Miss May I","t":"No Place For Me","k":"ÁLBUM","g":"metalcore","q":"Miss May I No Place For Me","cover":"https://cdn-images.dzcdn.net/images/cover/6bbb75aba3aee30e4d2eb433ef693116/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.solidstaterecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3mBFreN8RPwTvFRjwkCZAa","deezer":"https://www.deezer.com/album/1022615451"}
-    ,{"id":"fromfirsttolast|wewerebleedinganyway","d":"02/10","a":"From First to Last","t":"We Were Bleeding Anyway","k":"EP","g":"post-hardcore / electronicore","q":"From First to Last We Were Bleeding Anyway","cover":"https://cdn-images.dzcdn.net/images/cover/361e7e163098eec96fecd5013eccc123/1000x1000-000000-80-0-0.jpg","sourceLink":"https://fearlessrecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3Fv9UES0mXzes5hb2TF8jY","deezer":"https://www.deezer.com/album/1104177292"}
-    ,{"id":"ofvirtue|deathofthealtar","d":"02/10","a":"Of Virtue","t":"Death Of The Altar","k":"ÁLBUM","g":"modern metalcore / alternative metal","q":"Of Virtue Death Of The Altar","cover":"https://cdn-images.dzcdn.net/images/cover/07c04cbd309dbdd03ce02fdbfec0cfb5/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.arising-empire.com/artists/of-virtue/death-of-the-altar","spotifyLink":"https://open.spotify.com/intl-pt/album/6LRTviU561iNlmpUi1krqJ","deezer":"https://www.deezer.com/album/1015209351"}
-    ,{"id":"tothegrave|liberationfront","d":"02/10","a":"To The Grave","t":"LIBERATION FRONT","k":"ÁLBUM","g":"deathcore","q":"To The Grave LIBERATION FRONT","cover":"https://cdn-images.dzcdn.net/images/cover/913cff4268a4707429bb205f832d5b84/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/intl-pt/album/1uMmulSgOnh9XXYdjavMlN","spotifyLink":"https://open.spotify.com/intl-pt/album/1uMmulSgOnh9XXYdjavMlN","deezer":"https://www.deezer.com/album/1020006221"}
-    ,{"id":"temic|ceiba","d":"02/10","a":"TEMIC","t":"Ceiba","k":"ÁLBUM","g":"modern progressive metal","q":"TEMIC Ceiba","cover":"https://cdn-images.dzcdn.net/images/cover/26fd038ea963c18969b02fc34ffb3481/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.season-of-mist.com/news/temic-2026-07-28/","spotifyLink":"https://open.spotify.com/intl-pt/album/7BvoX9GCkTiCBi2u419v2s","deezer":"https://www.deezer.com/album/1009117741"}
-    ,{"id":"imminence|axismundi","d":"02/10","a":"Imminence","t":"Axis Mundi","k":"ÁLBUM","g":"modern metalcore","q":"Imminence Axis Mundi","cover":"https://cdn-images.dzcdn.net/images/cover/79c8108a5880418710764e74d3a7ad81/1000x1000-000000-80-0-0.jpg","sourceLink":"https://sumerianrecords.com/collections/imminence/products/imminence-axis-mundi-2xlp-vinyl-black-in-trans-beer-trans-orange-half-half","spotifyLink":"https://open.spotify.com/intl-pt/album/2lMWLzBdhNZ6asnZRLsitT","deezer":"https://www.deezer.com/album/1110711872"}
-    ,{"id":"escapethefate|thelastgoodbye","d":"02/10","a":"Escape the Fate","t":"The Last Goodbye","k":"ÁLBUM","g":"post-hardcore / alternative metal","q":"Escape the Fate The Last Goodbye","cover":"https://cdn-images.dzcdn.net/images/cover/3470ea1b380e3f777e5dc24a00233032/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.escapethefate.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/5E0xPi1MB9PbeHj66Ybtax","deezer":"https://www.deezer.com/album/1061827852"}
-    ,{"id":"freethrow|momentsbeforethewinddeluxe","d":"02/10","a":"Free Throw","t":"Moments Before The Wind (Deluxe)","k":"DELUXE","g":"emo / pop punk / post-hardcore","q":"Free Throw Moments Before The Wind Deluxe","cover":"https://cdn-images.dzcdn.net/images/cover/1e11721581f870950efbb5e3caae8057/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/intl-pt/album/2TBomMshXvL6lQZpt2CG3r","spotifyLink":"https://open.spotify.com/intl-pt/album/2TBomMshXvL6lQZpt2CG3r","deezer":"https://www.deezer.com/album/1043369042","note":"DELUXE"}
-    ,{"id":"circuitcircuit|startlaughing","d":"02/10","a":"circuit circuit","t":"START LAUGHING","k":"ÁLBUM","g":"mathcore / post-hardcore / hardcore","q":"circuit circuit START LAUGHING","cover":"https://cdn-images.dzcdn.net/images/cover/39de523c0a63e00be33eb7d080306f42/1000x1000-000000-80-0-0.jpg","sourceLink":"https://circuitcircuitcircuit.bandcamp.com/album/start-laughing","spotifyLink":"https://open.spotify.com/intl-pt/album/2s5XijsygDvqsrNCFlE4lE","deezer":"https://www.deezer.com/album/1101416982"}
-    ,{"id":"thelightsuperior|dayspring","d":"02/10","a":"The Light Superior","t":"Dayspring","k":"ÁLBUM","g":"metalcore / melodic metalcore","q":"The Light Superior Dayspring","cover":"https://cdn-images.dzcdn.net/images/cover/28e570e0b6898df55bad01926b4c043a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://imperativepr.co.uk/news565-the-light-superior-release-dayspring","deezer":"https://www.deezer.com/album/1046071592"}
-    ,{"id":"anewday|heldunderanincandescentsky","d":"02/10","a":"A New Day","t":"Held Under an Incandescent Sky","k":"EP","g":"melodic metalcore / electronicore","q":"A New Day Held Under an Incandescent Sky","cover":"https://cdn-images.dzcdn.net/images/cover/bfd5db8e9a8eec19f8a9bf839e71445a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://anewdayband.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/4Qkw6ty3XQyamg7A4JCddO","deezer":"https://www.deezer.com/album/1034687192"}
-    ,{"id":"hippotraktor|annihilist","d":"02/10","a":"Hippotraktor","t":"Annihilist","k":"ÁLBUM","g":"progressive metal / post-metal","q":"Hippotraktor Annihilist","cover":"https://cdn-images.dzcdn.net/images/cover/e895cac9084f843c344ee72db847469b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://hippotraktor.bandcamp.com/album/annihilist","spotifyLink":"https://open.spotify.com/intl-pt/album/52PAn8vUovx1ZLdfPymklZ","deezer":"https://www.deezer.com/album/982076871"}
-    ,{"id":"againstthewaves|survivalism","d":"01/10","a":"Against the Waves","t":"SURVIVALISM","k":"ÁLBUM","g":"metalcore / alternative metal","q":"Against the Waves SURVIVALISM","cover":"https://cdn-images.dzcdn.net/images/cover/832683799a111bba53f386de69eb40ca/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.againstthewaves.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/0jwNdeHjRxdaXb14JDPnGz","deezer":"https://www.deezer.com/album/1070008122"}
-    ,{"id":"soulsofdiotima|arcade","d":"02/10","a":"Souls of Diotima","t":"Arcade","k":"ÁLBUM","g":"modern metalcore","q":"Souls of Diotima Arcade","cover":"https://cdn-images.dzcdn.net/images/cover/c151a42e2707fe5383f2c81322313640/1000x1000-000000-80-0-0.jpg","sourceLink":"https://soulsofdiotima.net/","spotifyLink":"https://open.spotify.com/intl-pt/album/4W32MHK0ZiLJrUTjh149QF","deezer":"https://www.deezer.com/album/985449841"}
-    ,{"id":"ghostkid|followthewhiterabbit","d":"02/10","a":"GHØSTKID","t":"FOLLOW THE WHITE RABBIT","k":"ÁLBUM","g":"industrial metalcore / nu metal","q":"GHØSTKID FOLLOW THE WHITE RABBIT","cover":"https://cdn-images.dzcdn.net/images/cover/f832e4780e023a69ed0748398609699c/1000x1000-000000-80-0-0.jpg","sourceLink":"https://centurymedia.bandcamp.com/album/follow-the-white-rabbit-24-bit-hd-audio","spotifyLink":"https://open.spotify.com/intl-pt/album/48bKzY5CbxtkWFdh6aIBja","deezer":"https://www.deezer.com/album/1029798872"}
-    ,{"id":"severals|codex","d":"02/10","a":"Severals","t":"Codex","k":"ÁLBUM","g":"modern metalcore / alternative metal","q":"Severals Codex","cover":"https://cdn-images.dzcdn.net/images/cover/0111f8e29e237ea92af023c73ace7061/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.severalsofficial.com/home","spotifyLink":"https://open.spotify.com/intl-pt/album/019CR5YfekPCaYPEyiO3T0","deezer":"https://www.deezer.com/album/1076114952"}
-    ,{"id":"ascolourfades|mirrorself","d":"30/09","a":"As Colour Fades","t":"Mirror ≠ Self","k":"EP","g":"metalcore / post-hardcore","q":"As Colour Fades Mirror Self","cover":"https://cdn-images.dzcdn.net/images/cover/0ce17ae400e1c590c378232527668cc2/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.muzic.nz/news/as-colour-fades-release-comeback-ep-mirror-%E2%89%A0-self/","spotifyLink":"https://open.spotify.com/intl-pt/album/31UOUycAM5K81XTx1Hmn4E","deezer":"https://www.deezer.com/album/1061711152"}
-    ,{"id":"ghola|aeon","d":"28/09","a":"GHOLA","t":"AEON","k":"ÁLBUM","g":"screamo / emoviolence / post-hardcore","q":"GHOLA AEON","cover":"https://cdn-images.dzcdn.net/images/cover/417619d080652432a689db6e4519438e/1000x1000-000000-80-0-0.jpg","sourceLink":"https://zegemabeachrecords.bandcamp.com/album/aeon","spotifyLink":"https://open.spotify.com/intl-pt/album/6E1GCeVPnOegawU3FDP0YI","deezer":"https://www.deezer.com/album/1065199061"}
-    ,{"id":"heroina|heroina","d":"30/09","a":"Heroína","t":"Heroína","k":"ÁLBUM","g":"noise rock / hardcore / mathcore","q":"Heroína Heroína","cover":"https://cdn-images.dzcdn.net/images/cover/2871c6ea553ff79ae7a49312eb4435ea/1000x1000-000000-80-0-0.jpg","sourceLink":"https://cafetrarecords.bandcamp.com/album/hero-na","deezer":"https://www.deezer.com/album/1068146231"}
-    ,{"id":"godmother|kottvarld","d":"25/09","a":"God Mother","t":"Köttvärld","k":"ÁLBUM","g":"grindcore / powerviolence / hardcore","q":"God Mother Kottvarld","cover":"https://cdn-images.dzcdn.net/images/cover/17cbe1c0b669b3d9df0242a2b58a7ee8/1000x1000-000000-80-0-0.jpg","sourceLink":"https://godmothersverige.bandcamp.com/album/k-ttv-rld?from=com-lr","spotifyLink":"https://open.spotify.com/intl-pt/album/6IpWVkd00sRaACqgkMnVtt","deezer":"https://www.deezer.com/album/1015206721"}
-    ,{"id":"arkta|theuntoldstoryofsomeone","d":"30/09","a":"ARKTA","t":"The Untold Story of Someone","k":"ÁLBUM","g":"nu metal / emo / alternative metal","q":"ARKTA The Untold Story of Someone","cover":"https://cdn-images.dzcdn.net/images/cover/08e7cc74a08f009f63988dcdf2615a73/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.ark-works.info/arkta","spotifyLink":"https://open.spotify.com/intl-pt/album/34gYtXDlPC4TMGBWpIGQ5g","deezer":"https://www.deezer.com/album/1078378432"}
-    ,{"id":"backstabbed|servantofmisery","d":"02/10","a":"Backstabbed","t":"Servant Of Misery","k":"EP","g":"metallic hardcore / crossover","q":"Backstabbed Servant Of Misery","cover":"https://cdn-images.dzcdn.net/images/cover/3267454ecac966b59c8c77092ff7355b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://backstabbed.de/","spotifyLink":"https://open.spotify.com/intl-pt/album/3ZeHLGBCGyGz5cm2ccfFoq","deezer":"https://www.deezer.com/album/1022470141"}
-    ,{"id":"sofarsogood|thiscrosstobear","d":"02/10","a":"So Far So Good","t":"THIS CROSS TO BEAR","k":"EP","g":"hardcore / metallic hardcore","q":"So Far So Good THIS CROSS TO BEAR","cover":"https://cdn-images.dzcdn.net/images/cover/7c7f8bf1d55a531850dab899ac8a0e0c/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.deathwishdirect.com/new-releases/so-far-so-good-this-cross-to-bear","spotifyLink":"https://open.spotify.com/intl-pt/album/14axKC5938mcxl2Tpoo2oY","deezer":"https://www.deezer.com/album/1078576152"}
-    ,{"id":"dogbite|punishmentroutine","d":"01/10","a":"DOGBITE","t":"PUNISHMENT ROUTINE","k":"EP","g":"metalcore / beatdown hardcore","q":"DOGBITE PUNISHMENT ROUTINE","cover":"https://cdn-images.dzcdn.net/images/cover/04da576b3a15f1fcc68779b95c25a3ba/1000x1000-000000-80-0-0.jpg","sourceLink":"https://music.apple.com/us/album/punishment-routine-ep/6773817520","spotifyLink":"https://open.spotify.com/intl-pt/album/3D8GnjvFV213S2CRLT7V2t","deezer":"https://www.deezer.com/album/992532171"}
-    ,{"id":"descape|truecolors","d":"02/10","a":"Descape","t":"True Colors","k":"ÁLBUM","g":"metalcore / alternative metal / post-hardcore","q":"Descape True Colors","cover":"https://cdn-images.dzcdn.net/images/cover/dd12b7f6111f4b9bf930bfba8a2950d8/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/artist/0GPUoZDMUtkkzPyW4OFWk2","spotifyLink":"https://open.spotify.com/intl-pt/album/4Ai5cNDWx3DW3JQi65JjQh","deezer":"https://www.deezer.com/album/986597761"}
-    ,{"id":"hrtlss|thedevilonmyshoulder","d":"02/10","a":"HRTLSS","t":"The Devil On My Shoulder","k":"EP","g":"alternative metal / metalcore","q":"HRTLSS The Devil On My Shoulder","cover":"https://cdn-images.dzcdn.net/images/cover/a9f7095be7ad2aba63c70be7bbc4807a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://ffm.to/hrtlss-thedevilonmyshoulder","spotifyLink":"https://open.spotify.com/intl-pt/album/2w9ZbB2fM1eEYaOt2Gc3ZI","deezer":"https://www.deezer.com/album/1081911872"}
-    ,{"id":"hardfeelings|nooneisgoingtosaveyou","d":"02/10","a":"Hard Feelings","t":"No One Is Going to Save You","k":"ÁLBUM","g":"hardcore punk / metallic hardcore","q":"Hard Feelings No One Is Going to Save You","cover":"https://cdn-images.dzcdn.net/images/cover/8bc70485eb7106713576311959404db3/1000x1000-000000-80-0-0.jpg","sourceLink":"https://heroesandmartyrs.bandcamp.com/album/no-one-is-going-to-save-you","spotifyLink":"https://open.spotify.com/intl-pt/album/2QcZP7L3tP9tuE0ri0LhEP","deezer":"https://www.deezer.com/album/1075160822"}
-    ,{"id":"haywire617|idontwannasaygoodbye","d":"02/10","a":"Haywire 617","t":"I DON'T WANNA SAY GOODBYE","k":"ÁLBUM","g":"hardcore / melodic hardcore","q":"Haywire 617 I DON'T WANNA SAY GOODBYE","cover":"https://i.scdn.co/image/ab67616d0000b2733d180695bc74ab1929c9761a","sourceLink":"https://store.roadrunnerrecords.com/products/i-don-t-wanna-say-goodbye-black-vinyl","spotifyLink":"https://open.spotify.com/intl-pt/album/44isyyACYz1jWZshEBSBAc"}
-    ,{"id":"ruledbyraptors|ashadowthatnevermoves","d":"02/10","a":"Ruled By Raptors","t":"A Shadow That Never Moves","k":"ÁLBUM","g":"post-hardcore / progressive post-hardcore / alternative rock","q":"Ruled By Raptors A Shadow That Never Moves","cover":"https://cdn-images.dzcdn.net/images/cover/197e6fdf7efc46d628d3e76c99b57193/1000x1000-000000-80-0-0.jpg","sourceLink":"https://ruledbyraptors.bandcamp.com/album/a-shadow-that-never-moves-2","spotifyLink":"https://open.spotify.com/intl-pt/album/2DaSqCLfDK0lvi6S11HxF1","deezer":"https://www.deezer.com/album/980485471"}
-    ,{"id":"butcherbabies|nightbloom","d":"02/10","a":"Butcher Babies","t":"NIGHTBLOOM","k":"ÁLBUM","g":"alternative metal / groove metal / metalcore","q":"Butcher Babies NIGHTBLOOM","cover":"https://cdn-images.dzcdn.net/images/cover/1ce29a65716769ec4aa83333f52af790/1000x1000-000000-80-0-0.jpg","sourceLink":"https://butcherbabies.bandcamp.com/album/nightbloom","spotifyLink":"https://open.spotify.com/intl-pt/album/3sanj9Z3aq8VlIQ5edAQuY","deezer":"https://www.deezer.com/album/1040419232"}
-    ,{"id":"inherited|all4one","d":"02/10","a":"Inherited","t":"ALL 4 ONE","k":"EP","g":"groove hardcore / metallic hardcore","q":"Inherited ALL 4 ONE","cover":"https://cdn-images.dzcdn.net/images/cover/baeb4d8c6607350295bc89092d7fd0a4/1000x1000-000000-80-0-0.jpg","sourceLink":"https://inheritedband.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/5kUiRiFC6SugXB3ZYFpaur","deezer":"https://www.deezer.com/album/972308611"}
-    ,{"id":"woundedtouch|theypromisededenvol2","d":"02/10","a":"Wounded Touch","t":"They Promised Eden, Vol. 2","k":"EP","g":"metalcore / hardcore / mathcore","q":"Wounded Touch They Promised Eden, Vol. 2","cover":"https://cdn-images.dzcdn.net/images/cover/7fb01750d5a0a41530054301be0742c6/1000x1000-000000-80-0-0.jpg","sourceLink":"https://woundedtouch.bandcamp.com/album/they-promised-eden-vol-2","deezer":"https://www.deezer.com/album/1058980582","spotifyLink":"https://open.spotify.com/intl-pt/album/4zT5QP6A70QvXA7lgeB1sp"}
-    ,{"id":"electron|isthisworthlivingfor","d":"02/10","a":"Electron","t":"Is This Worth Living For?","k":"ÁLBUM","g":"modern metal / metalcore / alternative metal","q":"Electron Is This Worth Living For?","cover":"https://cdn-images.dzcdn.net/images/cover/b849ff27581c6110236bfb00155fd48a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://arsontheory.vyd.co/IsThisWorthLivingFor","spotifyLink":"https://open.spotify.com/intl-pt/album/2tdvQ9zDSLEzYUaAFQG7tW","deezer":"https://www.deezer.com/album/1041285612"}
-    ,{"id":"deadpoetsociety|monarch","d":"02/10","a":"Dead Poet Society","t":"Monarch","k":"ÁLBUM","g":"alternative rock / alternative metal / post-hardcore-adjacent","q":"Dead Poet Society Monarch","cover":"https://cdn-images.dzcdn.net/images/cover/82aebfcb970a7926f076e62ea59c83b4/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.spinefarmrecords.com/652/news/dead-poet-society-set-oct-2-release-date-for-monarch-release-cold-video","spotifyLink":"https://open.spotify.com/intl-pt/album/5h4gaqJQWxTUgVNSb7gqwU","deezer":"https://www.deezer.com/album/997906991"}
-    ,{"id":"ascitiesburn|brainmatters","d":"21/07","a":"As Cities Burn","t":"brain matter(s)","k":"ÁLBUM","g":"post-hardcore / emo / screamo / alternative rock","q":"As Cities Burn brain matter(s)","cover":"https://cdn-images.dzcdn.net/images/cover/a60cfbc9ef2b542a45d2989395a91705/1000x1000-000000-80-0-0.jpg","sourceLink":"https://ascitiesburn.substack.com/p/i-thought-you-broke-up-but-here-we","deezer":"https://www.deezer.com/album/1074973002","spotifyLink":"https://open.spotify.com/intl-pt/album/5BpMFRLZgtCv5pElAN42V0"}
-    ,{"id":"portraits|vaguelywestern","d":"02/10","a":"Portraits","t":"Vaguely Western","k":"ÁLBUM","g":"progressive metal / djent / instrumental progressive rock","q":"Portraits Vaguely Western","cover":"https://cdn-images.dzcdn.net/images/cover/e4eacc1af0a866489f786de2988d1e8f/1000x1000-000000-80-0-0.jpg","sourceLink":"https://listentoportraits.bandcamp.com/album/vaguely-western","spotifyLink":"https://open.spotify.com/intl-pt/album/138ghTNN3hgNoCtYX2oA9W","deezer":"https://www.deezer.com/album/1040653292"}
-    ,{"id":"goethe|goethe","d":"10/08","a":"Goethe","t":"GOETHE","k":"EP","g":"screamo / melodic hardcore / post-hardcore / emo","q":"Goethe GOETHE","cover":"https://cdn-images.dzcdn.net/images/cover/b513bc8059d572600f4823406d970103/1000x1000-000000-80-0-0.jpg","sourceLink":"https://goethebandofficial.bandcamp.com/album/goethe","deezer":"https://www.deezer.com/album/1026196942"}
-    ,{"id":"sgaile|onwardstoembracetheecho","d":"02/10","a":"Sgàile","t":"Onwards To Embrace The Echo","k":"ÁLBUM","g":"post-metal / progressive metal / atmospheric metal","q":"Sgàile Onwards To Embrace The Echo","cover":"https://cdn-images.dzcdn.net/images/cover/86d44028ed9e85112d8cf8553db2656b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://sgaile.bandcamp.com/album/onwards-to-embrace-the-echo","spotifyLink":"https://open.spotify.com/intl-pt/album/4YysGpo1CLNeIpbb0gNjz9","deezer":"https://www.deezer.com/album/1112235092"}
-    ,{"id":"maran|forgingamentalwar","d":"24/09","a":"Mārān","t":"Forging A Mental War","k":"EP","g":"metallic hardcore / hardcore / metalcore","q":"Mārān Forging A Mental War","cover":"https://cdn-images.dzcdn.net/images/cover/415192c6f291120445023f9ad394c520/1000x1000-000000-80-0-0.jpg","sourceLink":"https://maranhc.bandcamp.com/album/forging-a-mental-war","spotifyLink":"https://open.spotify.com/intl-pt/album/4Aw93FqdtkUPvnQt4QG68t","deezer":"https://www.deezer.com/album/1081167662"}
-    ,{"id":"deadfall|rottenskies","d":"24/09","a":"Dead//Fall","t":"Rotten Skies","k":"ÁLBUM","g":"metalcore / alternative metal","q":"Dead//Fall Rotten Skies","cover":"https://cdn-images.dzcdn.net/images/cover/6e08e1ff87152ab735eace8add2b3c52/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.qobuz.com/us-en/album/rotten-skies-dead-fall/uwb4kpln40odt","spotifyLink":"https://open.spotify.com/intl-pt/album/1UjyBAwomH50vD2oC13T41","deezer":"https://www.deezer.com/album/1059888542"}
-    ,{"id":"warfromaharlotsmouth|voyeurremastered","d":"02/10","a":"War From A Harlots Mouth","t":"Voyeur (Remastered)","k":"REISSUE","g":"mathcore / metalcore / dissonant death metal","q":"War From A Harlots Mouth Voyeur Remastered","note":"REISSUE","cover":"https://f4.bcbits.com/img/a2793544557_5.jpg","sourceLink":"https://warfromaharlotsmouth.bandcamp.com/album/voyeur-remastered"}
-    ,{"id":"brotherskeeper|youcantkillme","d":"02/10","a":"Brother's Keeper","t":"You Can't Kill Me","k":"COMPILAÇÃO","g":"metallic hardcore / hardcore punk","q":"Brother's Keeper You Can't Kill Me","note":"RE-RECORDING","cover":"https://cdn-images.dzcdn.net/images/cover/c8309c5acd4b1bdb439b275e4809fec0/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.coldcutsmerch.com/collections/trustkill-records-vinyl/products/brothers-keeper-you-cant-kill-me-12-vinyl","spotifyLink":"https://open.spotify.com/intl-pt/album/4kvZaZaUpiYqRV7yshtXcp","deezer":"https://www.deezer.com/album/1059288372"}
-    ,{"id":"slowcrush|thirstextended","d":"07/10","a":"Slow Crush","t":"Thirst Extended","k":"DELUXE","g":"shoegaze / post-metal / alternative rock","q":"Slow Crush Thirst Extended","note":"DELUXE","cover":"https://f4.bcbits.com/img/a3785925667_5.jpg","sourceLink":"https://slowcrush.bandcamp.com/album/thirst-extended","spotifyLink":"https://open.spotify.com/album/6xPYqPWiSQCzZhCymNVj2F","deezer":"https://www.deezer.com/album/1104750082"}
-    ,{"id":"johncoffey|notalone","d":"09/10","a":"John Coffey","t":"Not Alone","k":"ÁLBUM","g":"post-hardcore / punk rock","cover":"https://i.scdn.co/image/ab67616d0000b273f643c33aaab5e017753eef23","sourceLink":"https://johncoffey.bandcamp.com/album/not-alone","spotifyLink":"https://open.spotify.com/album/3RKQoboq11enzodEGmJeEX"}
-    ,{"id":"semuta|thoughtlessdreamless","d":"09/10","a":"SEMUTA","t":"Thoughtless/Dreamless","k":"ÁLBUM","g":"post-metal / progressive metal / math rock","cover":"https://i.scdn.co/image/ab67616d0000b273788f9be2099f284f5f825c0d","sourceLink":"https://semutamusic.bandcamp.com/album/thoughtless-dreamless-2","spotifyLink":"https://open.spotify.com/album/7lLEcJA4griRsEpzjQWzBh"}
-    ,{"id":"teddyduchampsarmy|thespiritneverdies","d":"09/10","a":"Teddy DuChamp's Army","t":"...The Spirit Never Dies","k":"ÁLBUM","g":"post-hardcore / melodic punk","cover":"https://i.scdn.co/image/ab67616d0000b2738ccfb8f195b1d06f24f12f48","sourceLink":"https://engineerrecords.bandcamp.com/album/teddy-duchamps-army-the-spirit-never-dies","spotifyLink":"https://open.spotify.com/album/1WQ1we9XcO70WLrbbuS12w"}
-    ,{"id":"unpeople|weareunpeople","d":"09/10","a":"unpeople","t":"we are unpeople","k":"ÁLBUM","g":"alternative metal / post-hardcore / heavy alternative","cover":"https://i.scdn.co/image/ab67616d0000b27352be917434bb9722999e8ddc","sourceLink":"https://sharptonerecords.co/","spotifyLink":"https://open.spotify.com/album/3wiGXFOSEkkNOtxBJJG56Q"}
-    ,{"id":"gore|thencannotloveme","d":"09/10","a":"Gore.","t":"...Then You Cannot Love Me","k":"EP","g":"metalcore / alternative metal","cover":"https://i.scdn.co/image/ab67616d0000b273220e49ed867b1db132ceb4bb","sourceLink":"https://music.apple.com/us/album/then-you-cannot-love-me/6807428052","spotifyLink":"https://open.spotify.com/album/03TxhHvyJXEblpWGYvZdxS"}
-    ,{"id":"deafheaven|atworkinthefieldsofthebomb","d":"09/10","a":"Deafheaven","t":"At Work In The Fields Of The Bomb","k":"EP","g":"post-metal / blackgaze / post-hardcore","cover":"https://i.scdn.co/image/ab67616d0000b2731858782b86f5bad9c042d239","sourceLink":"https://deafheaven.com/collections/music","spotifyLink":"https://open.spotify.com/album/7tIVbLtTqWrlTnoPiLLA1R"}
-    ,{"id":"feldspar|softside","d":"09/10","a":"Feldspar","t":"SOFT SIDE","k":"ÁLBUM","g":"hardcore / post-hardcore / alternative rock","cover":"https://i.scdn.co/image/ab67616d0000b273dee889de7f6e7303bd83b9a3","sourceLink":"https://music.apple.com/us/album/soft-side/1893726518","spotifyLink":"https://open.spotify.com/album/0E5rOWYaVNX8GtfgxrnwsL"}
-    ,{"id":"liveconformdie|dieinmyprime","d":"09/10","a":"liveconformdie","t":"Die In My Prime","k":"EP","g":"metalcore / nu metal / industrial metal / deathcore","cover":"https://i.scdn.co/image/ab67616d0000b2733f3ca0aae074b78ae739ddae","sourceLink":"https://linktr.ee/liveconformdie.music","spotifyLink":"https://open.spotify.com/album/0Di7OiUhRw2J5rJxvFEQgI"}
-    ,{"id":"villainofthestory|scapegoat","d":"07/10","a":"Villain of the Story","t":"Scapegoat","k":"EP","g":"metalcore / alternative metal","cover":"https://i.scdn.co/image/ab67616d0000b273dc9c46d2a0f9c5b8a4ca8a3c","sourceLink":"https://www.villainofthestory.com/","spotifyLink":"https://open.spotify.com/album/7EXRaKip3QaDXRGmZ0NzEl"}
-    ,{"id":"irosefromthedead|ahauntedhouseforalltosee","d":"08/10","a":"I Rose From The Dead","t":"A Haunted House for All to See","k":"ÁLBUM","g":"metalcore / deathcore","cover":"https://i.scdn.co/image/ab67616d0000b27329b272b9605fdc26418bd32e","sourceLink":"https://linktr.ee/irosefromthedead","spotifyLink":"https://open.spotify.com/album/36yoJha0paEQIkGpkgL1hj"}
-    ,{"id":"meadows|desertwalker","d":"09/10","a":"Meadows","t":"DESERT WALKER","k":"ÁLBUM","g":"melodic hardcore / hardcore punk","cover":"https://i.scdn.co/image/ab67616d0000b27399daa4c4f681fa53540ef268","sourceLink":"https://facedownrecords.com/releases/","spotifyLink":"https://open.spotify.com/album/5MZCPkxlWqHCQQF0kmak4u"}
-    ,{"id":"lefttosuffer|unwelcomeguest","d":"09/10","a":"Left To Suffer","t":"Unwelcome Guest","k":"ÁLBUM","g":"deathcore / metalcore","cover":"https://i.scdn.co/image/ab67616d0000b273bf38998bff516229f6f37005","sourceLink":"https://music.apple.com/us/artist/left-to-suffer/1455594195","spotifyLink":"https://open.spotify.com/album/4LchU9bc3MTZbssgHixTXN"}
-    ,{"id":"idolvein|thisplaceileavebehind","d":"09/10","a":"Idolvein","t":"This Place I Leave Behind","k":"EP","g":"alternative metal / metalcore","cover":"https://i.scdn.co/image/ab67616d0000b273a01000fda6d3d044b8108428","sourceLink":"https://www.idolveinband.com/","spotifyLink":"https://open.spotify.com/album/1WvY1lqXuaR9rZWNm2NKbI"}
-    ,{"id":"toundra|siete","d":"09/10","a":"Toundra","t":"Siete","k":"ÁLBUM","g":"post-metal / post-rock / progressive metal","cover":"https://i.scdn.co/image/ab67616d0000b273eb27ac857019e01334c55fc7","sourceLink":"https://music.apple.com/us/album/siete/6815284630","spotifyLink":"https://open.spotify.com/album/2jcYm9WDM2ZPdDUmmvnV81"}
-    ,{"id":"violentend|yourealreadyhere","d":"03/10","a":"Violent End","t":"YOU'RE ALREADY HERE","k":"EP","g":"metalcore / metallic hardcore","cover":"https://i.scdn.co/image/ab67616d0000b273fa9c5c314d7ec2b7e005900f","sourceLink":"https://music.apple.com/us/album/youre-already-here-ep/6816817607","spotifyLink":"https://open.spotify.com/album/5rJg5qCeYQeArn4xSFES5P"}
-    ,{"id":"shiner|theysection","d":"09/10","a":"SHINER","t":"The Y Section","k":"COMPILAÇÃO","g":"post-hardcore / post-rock / space rock","cover":"https://i.scdn.co/image/ab67616d0000b27318795019365514a35dcf73d4","sourceLink":"https://music.bugs.co.kr/album/40718559?wl_ref=list_ab_03","spotifyLink":"https://open.spotify.com/album/3WAN5a5dwZuJlo6ySC2DvL"}
-    ,{"id":"orbitculture|deathabovelifedeluxe","d":"09/10","a":"Orbit Culture","t":"Death Above Life (Deluxe Edition)","k":"DELUXE","g":"modern metal / melodic death metal / metalcore","note":"DELUXE","cover":"https://i.scdn.co/image/ab67616d0000b2737f745e4b50d69b866370a9b5","sourceLink":"https://music.apple.com/us/album/death-above-life-deluxe-edition/6789517814","spotifyLink":"https://open.spotify.com/album/1nCzCl86fY0jtgs4DbWWXb"}
-    ,{"id":"siilk|visceralimages","d":"08/10","a":"Siilk","t":"Visceral Images","k":"ÁLBUM","g":"nugaze / nu metal / post-hardcore","cover":"https://f4.bcbits.com/img/a2584145768_5.jpg","sourceLink":"https://siilk.bandcamp.com/album/visceral-images","deezer":"https://www.deezer.com/album/1078680992"}
-    ,{"id":"skillet|afterthestorm","d":"09/10","a":"Skillet","t":"After The Storm","k":"EP","g":"hard rock / alternative metal / modern hard rock","cover":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/cc/6a/72cc6a7f-dc6a-e51b-4ccd-1288c65a6084/712132036139_cover.jpg/600x600bb.jpg","sourceLink":"https://music.apple.com/us/album/after-the-storm-ep/6781817166","spotifyLink":"https://open.spotify.com/album/1GE38CgvNGJMxgm5lAfyOs"}
-    ,{"id":"hopsydian|agracefulsin","d":"24/07","a":"Hopsydian","t":"A Graceful Sin","k":"EP","g":"modern metalcore / alternative metal / post-hardcore","cover":"https://i.scdn.co/image/ab67616d0000b2731565113f3ba6f414c9b3fcb6","sourceLink":"https://arising-empire.com/artists/hopsydian","spotifyLink":"https://open.spotify.com/album/6QTQeJf5CIiBk24xLwfZLp"}
-    ,{"id":"wagewar|landfall","d":"09/10","a":"Wage War","t":"Landfall","k":"ÁLBUM","g":"metalcore / modern metalcore","cover":"https://i.scdn.co/image/ab67616d0000b27335d514467eb8dec247014e5b","sourceLink":"https://fearlessrecords.com/artists/wage-war/","spotifyLink":"https://open.spotify.com/album/0Ay1TtiMnvGMq1SnRXOnHp"}
-    ,{"id":"sueco|partysover","d":"09/10","a":"Sueco","t":"PARTY'S OVER","k":"ÁLBUM","g":"alternative rock / pop punk / rap rock","cover":"https://i.scdn.co/image/ab67616d0000b273e52685b104578a7212b3aa25","sourceLink":"https://www.sueco.com/products/partys-over-lp","spotifyLink":"https://open.spotify.com/album/3r2knZRYbnfSq8Lepyv7Bx"}
+    {"id":"plume|saferoomsandhealingfrequencies","d":"25/09","a":"Plume","t":"Saferooms & Healing Frequencies","k":"ÁLBUM","g":"alternative metalcore / electronicore / heavy alternative","q":"Plume Saferooms Healing Frequencies","cover":"https://cdn-images.dzcdn.net/images/cover/e0c83a62e13714c00b5f5ca3a68db617/1000x1000-000000-80-0-0.jpg","sourceLink":"https://arising-empire.com/news/article/plume-share-final-single-my-cortisol-face-ahead-of-debut-album-saferooms-healing-frequencies","spotifyLink":"https://open.spotify.com/intl-pt/album/5LYr5Wq25XYCCQphnlgFgG","deezer":"https://www.deezer.com/album/985474821"},
+    {"id":"lasso|covarde","d":"23/09","a":"Lasso","t":"Covarde","k":"ÁLBUM","g":"hardcore punk / punk rock","q":"Lasso Covarde","cover":"https://i.scdn.co/image/ab67616d0000b273ca663872f1feb3121f9bddd8","sourceLink":"https://lassopunk.bandcamp.com/album/covarde","spotifyLink":"https://open.spotify.com/intl-pt/album/6EBpOFbzV7sExHcnG1WBTU"},
+    {"id":"combustblowyourbrainsoutimposter|unitednations","d":"22/09","a":"Combust / Blow Your Brains Out / Imposter","t":"United Nations","k":"EP","g":"hardcore / metallic hardcore","q":"Combust Blow Your Brains Out Imposter United Nations","cover":"https://i.scdn.co/image/ab67616d0000b273049854b5b666f6963ad7343b","sourceLink":"https://streetsofhateny.bandcamp.com/album/united-nations-split-ep","spotifyLink":"https://open.spotify.com/intl-pt/album/7K7PeLuLer61Og4OOzY0kc"},
+    {"id":"primitiveblast|did","d":"22/09","a":"Primitive Blast","t":"D.I.D.","k":"EP","g":"hardcore punk / powerviolence","q":"Primitive Blast D I D","cover":"https://i.scdn.co/image/ab67616d0000b273ac48cfe8558e7f1ffbe4f732","sourceLink":"https://lastriderecords.bandcamp.com/album/d-i-d","spotifyLink":"https://open.spotify.com/intl-pt/album/3Sn7JU0ar0XHVyteKi5gGK"},
+    {"id":"inkwell|remembrance","d":"25/09","a":"Inkwell","t":"Remembrance","k":"ÁLBUM DE ARQUIVO","g":"emo / post-hardcore","q":"Inkwell Remembrance","cover":"https://i.scdn.co/image/ab67616d0000b27383e065b273bb12aa3006dc96","sourceLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj","spotifyLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj"},
+    {"id":"sluggore|pillarsofecoterrorsaga","d":"25/09","a":"Slug Gore","t":"Pillars of Eco-Terror Saga","k":"EP","g":"grindcore / deathgrind","q":"Slug Gore Pillars of Eco Terror Saga","cover":"https://i.scdn.co/image/ab67616d0000b2733797d3e6504d0b2d89490c1a","sourceLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy","spotifyLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy"},
+    {"id":"cellrot|paradise","d":"25/09","a":"Cell Rot","t":"Paradise","k":"ÁLBUM","g":"sludge metal / noise rock","q":"Cell Rot Paradise","cover":"https://i.scdn.co/image/ab67616d0000b27358087495b34c7a3be6e2672d","sourceLink":"https://open.spotify.com/intl-pt/album/14wTTUWQ0bG0DIS9UWXyZ8","spotifyLink":"https://open.spotify.com/intl-pt/album/14wTTUWQ0bG0DIS9UWXyZ8"},
+    {"id":"falsebody|tomorrowstartswithoutyou","d":"25/09","a":"False Body","t":"Tomorrow Starts Without You","k":"ÁLBUM","g":"post-hardcore / screamo","q":"False Body Tomorrow Starts Without You","cover":"https://i.scdn.co/image/ab67616d0000b2731aa37040bf85da1b7b278393","sourceLink":"https://open.spotify.com/intl-pt/album/4urGlXGSVNO5JBqNRgFcGR","spotifyLink":"https://open.spotify.com/intl-pt/album/4urGlXGSVNO5JBqNRgFcGR"},
+    {"id":"vaulthill|modernway","d":"25/09","a":"Vault Hill","t":"Modern Way","k":"EP","g":"metalcore / hardcore","q":"Vault Hill Modern Way","cover":"https://i.scdn.co/image/ab67616d0000b27393e0ba86841b28e25c6dc2e5","sourceLink":"https://open.spotify.com/intl-pt/album/08HOHexFgi0lRHTccsO1MX","spotifyLink":"https://open.spotify.com/intl-pt/album/08HOHexFgi0lRHTccsO1MX"},
+    {"id":"whotheyfear|comatose","d":"25/09","a":"Who They Fear","t":"Comatose","k":"EP","g":"metalcore / deathcore","q":"Who They Fear Comatose","cover":"https://i.scdn.co/image/ab67616d0000b273ef4ff663a217887e581eeeb1","sourceLink":"https://open.spotify.com/intl-pt/album/0JqmTEd8Z0yO2rqO535tBA","spotifyLink":"https://open.spotify.com/intl-pt/album/0JqmTEd8Z0yO2rqO535tBA"},
+    {"id":"spoiler|lithium","d":"25/09","a":"Spoiler","t":"LITHIUM","k":"ÁLBUM","g":"alternative metal / metalcore","q":"Spoiler LITHIUM","cover":"https://i.scdn.co/image/ab67616d0000b2734498a966210ba941bd0be228","sourceLink":"https://open.spotify.com/intl-pt/album/1798DDhfPA6hRflz3Neanw","spotifyLink":"https://open.spotify.com/intl-pt/album/1798DDhfPA6hRflz3Neanw"},
+    {"id":"thecuttingtides|singsinnersandsaints","d":"25/09","a":"The Cutting Tides","t":"Sing, Sinners And Saints","k":"ÁLBUM","g":"metalcore / post-hardcore","q":"The Cutting Tides Sing Sinners And Saints","cover":"https://i.scdn.co/image/ab67616d0000b2734cd035225bd07e07f8d97da7","sourceLink":"https://open.spotify.com/intl-pt/album/5VbpWufrKrg0JWQX6YOrwF","spotifyLink":"https://open.spotify.com/intl-pt/album/5VbpWufrKrg0JWQX6YOrwF"},
+    {"id":"endswell|everythingconfidedwillbeforgotten","d":"25/09","a":"Endswell","t":"Everything Confided Will Be Forgotten","k":"EP","g":"midwest emo / post-hardcore","q":"Endswell Everything Confided Will Be Forgotten","cover":"https://i.scdn.co/image/ab67616d0000b2736066f0c827d5dc819e1c7719","sourceLink":"https://open.spotify.com/intl-pt/album/1pDXSxo7qPXCsNAUuUYh9q","spotifyLink":"https://open.spotify.com/intl-pt/album/1pDXSxo7qPXCsNAUuUYh9q"},
+    {"id":"etherealtomb|livingtodreamagain","d":"26/09","a":"Ethereal Tomb","t":"Living To Dream Again","k":"ÁLBUM","g":"sludge metal / post-metal","q":"Ethereal Tomb Living To Dream Again","cover":"https://i.scdn.co/image/ab67616d0000b273b47aadc37016a3c1c5969106","sourceLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC","spotifyLink":"https://open.spotify.com/intl-pt/album/1W296azPMEunYZyh0x3hDC"},
+    {"id":"crud|humandecency","d":"26/09","a":"CRUD","t":"Human Decency","k":"ÁLBUM","g":"sludge metal / crust punk / death doom","q":"CRUD Human Decency","cover":"https://i.scdn.co/image/ab67616d0000b27385d3acd30a63331df2b9a0e4","sourceLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt","spotifyLink":"https://open.spotify.com/intl-pt/album/4Yh7V6PN3nPz1Ph2wUFqYt"},
+    {"id":"grazergrant|god","d":"26/09","a":"Grazer Grant","t":"GÖD","k":"ÁLBUM","g":"hardcore punk","q":"Grazer Grant GOD","cover":"https://i.scdn.co/image/ab67616d0000b2739de6c26f6736c434945832f3","sourceLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA","spotifyLink":"https://open.spotify.com/intl-pt/album/54FLgt48GBeFZzlExtBpqA"},
+    {"id":"lostrelics|monumentstotheuseless","d":"25/09","a":"Lost Relics","t":"Monuments to the Useless","k":"EP","g":"sludge metal / noise rock / post-hardcore","q":"Lost Relics Monuments to the Useless","cover":"https://i.scdn.co/image/ab67616d0000b273536cbd86b90730db476d704e","sourceLink":"https://orcd.co/monuments-to-the-useless","spotifyLink":"https://open.spotify.com/intl-pt/album/1MHFnL8QNNw4u5juwdGEnt","deezer":"https://www.deezer.com/album/994648251"},
+    {"id":"missmayi|noplaceforme","d":"02/10","a":"Miss May I","t":"No Place For Me","k":"ÁLBUM","g":"metalcore","q":"Miss May I No Place For Me","cover":"https://cdn-images.dzcdn.net/images/cover/6bbb75aba3aee30e4d2eb433ef693116/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.solidstaterecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3mBFreN8RPwTvFRjwkCZAa","deezer":"https://www.deezer.com/album/1022615451"},
+    {"id":"fromfirsttolast|wewerebleedinganyway","d":"02/10","a":"From First to Last","t":"We Were Bleeding Anyway","k":"EP","g":"post-hardcore / electronicore","q":"From First to Last We Were Bleeding Anyway","cover":"https://cdn-images.dzcdn.net/images/cover/361e7e163098eec96fecd5013eccc123/1000x1000-000000-80-0-0.jpg","sourceLink":"https://fearlessrecords.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/3Fv9UES0mXzes5hb2TF8jY","deezer":"https://www.deezer.com/album/1104177292"},
+    {"id":"ofvirtue|deathofthealtar","d":"02/10","a":"Of Virtue","t":"Death Of The Altar","k":"ÁLBUM","g":"modern metalcore / alternative metal","q":"Of Virtue Death Of The Altar","cover":"https://cdn-images.dzcdn.net/images/cover/07c04cbd309dbdd03ce02fdbfec0cfb5/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.arising-empire.com/artists/of-virtue/death-of-the-altar","spotifyLink":"https://open.spotify.com/intl-pt/album/6LRTviU561iNlmpUi1krqJ","deezer":"https://www.deezer.com/album/1015209351"},
+    {"id":"tothegrave|liberationfront","d":"02/10","a":"To The Grave","t":"LIBERATION FRONT","k":"ÁLBUM","g":"deathcore","q":"To The Grave LIBERATION FRONT","cover":"https://cdn-images.dzcdn.net/images/cover/913cff4268a4707429bb205f832d5b84/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/intl-pt/album/1uMmulSgOnh9XXYdjavMlN","spotifyLink":"https://open.spotify.com/intl-pt/album/1uMmulSgOnh9XXYdjavMlN","deezer":"https://www.deezer.com/album/1020006221"},
+    {"id":"temic|ceiba","d":"02/10","a":"TEMIC","t":"Ceiba","k":"ÁLBUM","g":"modern progressive metal","q":"TEMIC Ceiba","cover":"https://cdn-images.dzcdn.net/images/cover/26fd038ea963c18969b02fc34ffb3481/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.season-of-mist.com/news/temic-2026-07-28/","spotifyLink":"https://open.spotify.com/intl-pt/album/7BvoX9GCkTiCBi2u419v2s","deezer":"https://www.deezer.com/album/1009117741"},
+    {"id":"imminence|axismundi","d":"02/10","a":"Imminence","t":"Axis Mundi","k":"ÁLBUM","g":"modern metalcore","q":"Imminence Axis Mundi","cover":"https://cdn-images.dzcdn.net/images/cover/79c8108a5880418710764e74d3a7ad81/1000x1000-000000-80-0-0.jpg","sourceLink":"https://sumerianrecords.com/collections/imminence/products/imminence-axis-mundi-2xlp-vinyl-black-in-trans-beer-trans-orange-half-half","spotifyLink":"https://open.spotify.com/intl-pt/album/2lMWLzBdhNZ6asnZRLsitT","deezer":"https://www.deezer.com/album/1110711872"},
+    {"id":"escapethefate|thelastgoodbye","d":"02/10","a":"Escape the Fate","t":"The Last Goodbye","k":"ÁLBUM","g":"post-hardcore / alternative metal","q":"Escape the Fate The Last Goodbye","cover":"https://cdn-images.dzcdn.net/images/cover/3470ea1b380e3f777e5dc24a00233032/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.escapethefate.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/5E0xPi1MB9PbeHj66Ybtax","deezer":"https://www.deezer.com/album/1061827852"},
+    {"id":"freethrow|momentsbeforethewinddeluxe","d":"02/10","a":"Free Throw","t":"Moments Before The Wind (Deluxe)","k":"DELUXE","g":"emo / pop punk / post-hardcore","q":"Free Throw Moments Before The Wind Deluxe","cover":"https://cdn-images.dzcdn.net/images/cover/1e11721581f870950efbb5e3caae8057/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/intl-pt/album/2TBomMshXvL6lQZpt2CG3r","spotifyLink":"https://open.spotify.com/intl-pt/album/2TBomMshXvL6lQZpt2CG3r","deezer":"https://www.deezer.com/album/1043369042","note":"DELUXE"},
+    {"id":"circuitcircuit|startlaughing","d":"02/10","a":"circuit circuit","t":"START LAUGHING","k":"ÁLBUM","g":"mathcore / post-hardcore / hardcore","q":"circuit circuit START LAUGHING","cover":"https://cdn-images.dzcdn.net/images/cover/39de523c0a63e00be33eb7d080306f42/1000x1000-000000-80-0-0.jpg","sourceLink":"https://circuitcircuitcircuit.bandcamp.com/album/start-laughing","spotifyLink":"https://open.spotify.com/intl-pt/album/2s5XijsygDvqsrNCFlE4lE","deezer":"https://www.deezer.com/album/1101416982"},
+    {"id":"thelightsuperior|dayspring","d":"02/10","a":"The Light Superior","t":"Dayspring","k":"ÁLBUM","g":"metalcore / melodic metalcore","q":"The Light Superior Dayspring","cover":"https://cdn-images.dzcdn.net/images/cover/28e570e0b6898df55bad01926b4c043a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://imperativepr.co.uk/news565-the-light-superior-release-dayspring","deezer":"https://www.deezer.com/album/1046071592"},
+    {"id":"anewday|heldunderanincandescentsky","d":"02/10","a":"A New Day","t":"Held Under an Incandescent Sky","k":"EP","g":"melodic metalcore / electronicore","q":"A New Day Held Under an Incandescent Sky","cover":"https://cdn-images.dzcdn.net/images/cover/bfd5db8e9a8eec19f8a9bf839e71445a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://anewdayband.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/4Qkw6ty3XQyamg7A4JCddO","deezer":"https://www.deezer.com/album/1034687192"},
+    {"id":"hippotraktor|annihilist","d":"02/10","a":"Hippotraktor","t":"Annihilist","k":"ÁLBUM","g":"progressive metal / post-metal","q":"Hippotraktor Annihilist","cover":"https://cdn-images.dzcdn.net/images/cover/e895cac9084f843c344ee72db847469b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://hippotraktor.bandcamp.com/album/annihilist","spotifyLink":"https://open.spotify.com/intl-pt/album/52PAn8vUovx1ZLdfPymklZ","deezer":"https://www.deezer.com/album/982076871"},
+    {"id":"againstthewaves|survivalism","d":"01/10","a":"Against the Waves","t":"SURVIVALISM","k":"ÁLBUM","g":"metalcore / alternative metal","q":"Against the Waves SURVIVALISM","cover":"https://cdn-images.dzcdn.net/images/cover/832683799a111bba53f386de69eb40ca/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.againstthewaves.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/0jwNdeHjRxdaXb14JDPnGz","deezer":"https://www.deezer.com/album/1070008122"},
+    {"id":"soulsofdiotima|arcade","d":"02/10","a":"Souls of Diotima","t":"Arcade","k":"ÁLBUM","g":"modern metalcore","q":"Souls of Diotima Arcade","cover":"https://cdn-images.dzcdn.net/images/cover/c151a42e2707fe5383f2c81322313640/1000x1000-000000-80-0-0.jpg","sourceLink":"https://soulsofdiotima.net/","spotifyLink":"https://open.spotify.com/intl-pt/album/4W32MHK0ZiLJrUTjh149QF","deezer":"https://www.deezer.com/album/985449841"},
+    {"id":"ghostkid|followthewhiterabbit","d":"02/10","a":"GHØSTKID","t":"FOLLOW THE WHITE RABBIT","k":"ÁLBUM","g":"industrial metalcore / nu metal","q":"GHØSTKID FOLLOW THE WHITE RABBIT","cover":"https://cdn-images.dzcdn.net/images/cover/f832e4780e023a69ed0748398609699c/1000x1000-000000-80-0-0.jpg","sourceLink":"https://centurymedia.bandcamp.com/album/follow-the-white-rabbit-24-bit-hd-audio","spotifyLink":"https://open.spotify.com/intl-pt/album/48bKzY5CbxtkWFdh6aIBja","deezer":"https://www.deezer.com/album/1029798872"},
+    {"id":"severals|codex","d":"02/10","a":"Severals","t":"Codex","k":"ÁLBUM","g":"modern metalcore / alternative metal","q":"Severals Codex","cover":"https://cdn-images.dzcdn.net/images/cover/0111f8e29e237ea92af023c73ace7061/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.severalsofficial.com/home","spotifyLink":"https://open.spotify.com/intl-pt/album/019CR5YfekPCaYPEyiO3T0","deezer":"https://www.deezer.com/album/1076114952"},
+    {"id":"ascolourfades|mirrorself","d":"30/09","a":"As Colour Fades","t":"Mirror ≠ Self","k":"EP","g":"metalcore / post-hardcore","q":"As Colour Fades Mirror Self","cover":"https://cdn-images.dzcdn.net/images/cover/0ce17ae400e1c590c378232527668cc2/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.muzic.nz/news/as-colour-fades-release-comeback-ep-mirror-%E2%89%A0-self/","spotifyLink":"https://open.spotify.com/intl-pt/album/31UOUycAM5K81XTx1Hmn4E","deezer":"https://www.deezer.com/album/1061711152"},
+    {"id":"ghola|aeon","d":"28/09","a":"GHOLA","t":"AEON","k":"ÁLBUM","g":"screamo / emoviolence / post-hardcore","q":"GHOLA AEON","cover":"https://cdn-images.dzcdn.net/images/cover/417619d080652432a689db6e4519438e/1000x1000-000000-80-0-0.jpg","sourceLink":"https://zegemabeachrecords.bandcamp.com/album/aeon","spotifyLink":"https://open.spotify.com/intl-pt/album/6E1GCeVPnOegawU3FDP0YI","deezer":"https://www.deezer.com/album/1065199061"},
+    {"id":"heroina|heroina","d":"30/09","a":"Heroína","t":"Heroína","k":"ÁLBUM","g":"noise rock / hardcore / mathcore","q":"Heroína Heroína","cover":"https://cdn-images.dzcdn.net/images/cover/2871c6ea553ff79ae7a49312eb4435ea/1000x1000-000000-80-0-0.jpg","sourceLink":"https://cafetrarecords.bandcamp.com/album/hero-na","deezer":"https://www.deezer.com/album/1068146231"},
+    {"id":"godmother|kottvarld","d":"25/09","a":"God Mother","t":"Köttvärld","k":"ÁLBUM","g":"grindcore / powerviolence / hardcore","q":"God Mother Kottvarld","cover":"https://cdn-images.dzcdn.net/images/cover/17cbe1c0b669b3d9df0242a2b58a7ee8/1000x1000-000000-80-0-0.jpg","sourceLink":"https://godmothersverige.bandcamp.com/album/k-ttv-rld?from=com-lr","spotifyLink":"https://open.spotify.com/intl-pt/album/6IpWVkd00sRaACqgkMnVtt","deezer":"https://www.deezer.com/album/1015206721"},
+    {"id":"arkta|theuntoldstoryofsomeone","d":"30/09","a":"ARKTA","t":"The Untold Story of Someone","k":"ÁLBUM","g":"nu metal / emo / alternative metal","q":"ARKTA The Untold Story of Someone","cover":"https://cdn-images.dzcdn.net/images/cover/08e7cc74a08f009f63988dcdf2615a73/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.ark-works.info/arkta","spotifyLink":"https://open.spotify.com/intl-pt/album/34gYtXDlPC4TMGBWpIGQ5g","deezer":"https://www.deezer.com/album/1078378432"},
+    {"id":"backstabbed|servantofmisery","d":"02/10","a":"Backstabbed","t":"Servant Of Misery","k":"EP","g":"metallic hardcore / crossover","q":"Backstabbed Servant Of Misery","cover":"https://cdn-images.dzcdn.net/images/cover/3267454ecac966b59c8c77092ff7355b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://backstabbed.de/","spotifyLink":"https://open.spotify.com/intl-pt/album/3ZeHLGBCGyGz5cm2ccfFoq","deezer":"https://www.deezer.com/album/1022470141"},
+    {"id":"sofarsogood|thiscrosstobear","d":"02/10","a":"So Far So Good","t":"THIS CROSS TO BEAR","k":"EP","g":"hardcore / metallic hardcore","q":"So Far So Good THIS CROSS TO BEAR","cover":"https://cdn-images.dzcdn.net/images/cover/7c7f8bf1d55a531850dab899ac8a0e0c/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.deathwishdirect.com/new-releases/so-far-so-good-this-cross-to-bear","spotifyLink":"https://open.spotify.com/intl-pt/album/14axKC5938mcxl2Tpoo2oY","deezer":"https://www.deezer.com/album/1078576152"},
+    {"id":"dogbite|punishmentroutine","d":"01/10","a":"DOGBITE","t":"PUNISHMENT ROUTINE","k":"EP","g":"metalcore / beatdown hardcore","q":"DOGBITE PUNISHMENT ROUTINE","cover":"https://cdn-images.dzcdn.net/images/cover/04da576b3a15f1fcc68779b95c25a3ba/1000x1000-000000-80-0-0.jpg","sourceLink":"https://music.apple.com/us/album/punishment-routine-ep/6773817520","spotifyLink":"https://open.spotify.com/intl-pt/album/3D8GnjvFV213S2CRLT7V2t","deezer":"https://www.deezer.com/album/992532171"},
+    {"id":"descape|truecolors","d":"02/10","a":"Descape","t":"True Colors","k":"ÁLBUM","g":"metalcore / alternative metal / post-hardcore","q":"Descape True Colors","cover":"https://cdn-images.dzcdn.net/images/cover/dd12b7f6111f4b9bf930bfba8a2950d8/1000x1000-000000-80-0-0.jpg","sourceLink":"https://open.spotify.com/artist/0GPUoZDMUtkkzPyW4OFWk2","spotifyLink":"https://open.spotify.com/intl-pt/album/4Ai5cNDWx3DW3JQi65JjQh","deezer":"https://www.deezer.com/album/986597761"},
+    {"id":"hrtlss|thedevilonmyshoulder","d":"02/10","a":"HRTLSS","t":"The Devil On My Shoulder","k":"EP","g":"alternative metal / metalcore","q":"HRTLSS The Devil On My Shoulder","cover":"https://cdn-images.dzcdn.net/images/cover/a9f7095be7ad2aba63c70be7bbc4807a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://ffm.to/hrtlss-thedevilonmyshoulder","spotifyLink":"https://open.spotify.com/intl-pt/album/2w9ZbB2fM1eEYaOt2Gc3ZI","deezer":"https://www.deezer.com/album/1081911872"},
+    {"id":"hardfeelings|nooneisgoingtosaveyou","d":"02/10","a":"Hard Feelings","t":"No One Is Going to Save You","k":"ÁLBUM","g":"hardcore punk / metallic hardcore","q":"Hard Feelings No One Is Going to Save You","cover":"https://cdn-images.dzcdn.net/images/cover/8bc70485eb7106713576311959404db3/1000x1000-000000-80-0-0.jpg","sourceLink":"https://heroesandmartyrs.bandcamp.com/album/no-one-is-going-to-save-you","spotifyLink":"https://open.spotify.com/intl-pt/album/2QcZP7L3tP9tuE0ri0LhEP","deezer":"https://www.deezer.com/album/1075160822"},
+    {"id":"haywire617|idontwannasaygoodbye","d":"02/10","a":"Haywire 617","t":"I DON'T WANNA SAY GOODBYE","k":"ÁLBUM","g":"hardcore / melodic hardcore","q":"Haywire 617 I DON'T WANNA SAY GOODBYE","cover":"https://i.scdn.co/image/ab67616d0000b2733d180695bc74ab1929c9761a","sourceLink":"https://store.roadrunnerrecords.com/products/i-don-t-wanna-say-goodbye-black-vinyl","spotifyLink":"https://open.spotify.com/intl-pt/album/44isyyACYz1jWZshEBSBAc"},
+    {"id":"ruledbyraptors|ashadowthatnevermoves","d":"02/10","a":"Ruled By Raptors","t":"A Shadow That Never Moves","k":"ÁLBUM","g":"post-hardcore / progressive post-hardcore / alternative rock","q":"Ruled By Raptors A Shadow That Never Moves","cover":"https://cdn-images.dzcdn.net/images/cover/197e6fdf7efc46d628d3e76c99b57193/1000x1000-000000-80-0-0.jpg","sourceLink":"https://ruledbyraptors.bandcamp.com/album/a-shadow-that-never-moves-2","spotifyLink":"https://open.spotify.com/intl-pt/album/2DaSqCLfDK0lvi6S11HxF1","deezer":"https://www.deezer.com/album/980485471"},
+    {"id":"butcherbabies|nightbloom","d":"02/10","a":"Butcher Babies","t":"NIGHTBLOOM","k":"ÁLBUM","g":"alternative metal / groove metal / metalcore","q":"Butcher Babies NIGHTBLOOM","cover":"https://cdn-images.dzcdn.net/images/cover/1ce29a65716769ec4aa83333f52af790/1000x1000-000000-80-0-0.jpg","sourceLink":"https://butcherbabies.bandcamp.com/album/nightbloom","spotifyLink":"https://open.spotify.com/intl-pt/album/3sanj9Z3aq8VlIQ5edAQuY","deezer":"https://www.deezer.com/album/1040419232"},
+    {"id":"inherited|all4one","d":"02/10","a":"Inherited","t":"ALL 4 ONE","k":"EP","g":"groove hardcore / metallic hardcore","q":"Inherited ALL 4 ONE","cover":"https://cdn-images.dzcdn.net/images/cover/baeb4d8c6607350295bc89092d7fd0a4/1000x1000-000000-80-0-0.jpg","sourceLink":"https://inheritedband.com/","spotifyLink":"https://open.spotify.com/intl-pt/album/5kUiRiFC6SugXB3ZYFpaur","deezer":"https://www.deezer.com/album/972308611"},
+    {"id":"woundedtouch|theypromisededenvol2","d":"02/10","a":"Wounded Touch","t":"They Promised Eden, Vol. 2","k":"EP","g":"metalcore / hardcore / mathcore","q":"Wounded Touch They Promised Eden, Vol. 2","cover":"https://cdn-images.dzcdn.net/images/cover/7fb01750d5a0a41530054301be0742c6/1000x1000-000000-80-0-0.jpg","sourceLink":"https://woundedtouch.bandcamp.com/album/they-promised-eden-vol-2","deezer":"https://www.deezer.com/album/1058980582","spotifyLink":"https://open.spotify.com/intl-pt/album/4zT5QP6A70QvXA7lgeB1sp"},
+    {"id":"electron|isthisworthlivingfor","d":"02/10","a":"Electron","t":"Is This Worth Living For?","k":"ÁLBUM","g":"modern metal / metalcore / alternative metal","q":"Electron Is This Worth Living For?","cover":"https://cdn-images.dzcdn.net/images/cover/b849ff27581c6110236bfb00155fd48a/1000x1000-000000-80-0-0.jpg","sourceLink":"https://arsontheory.vyd.co/IsThisWorthLivingFor","spotifyLink":"https://open.spotify.com/intl-pt/album/2tdvQ9zDSLEzYUaAFQG7tW","deezer":"https://www.deezer.com/album/1041285612"},
+    {"id":"deadpoetsociety|monarch","d":"02/10","a":"Dead Poet Society","t":"Monarch","k":"ÁLBUM","g":"alternative rock / alternative metal / post-hardcore-adjacent","q":"Dead Poet Society Monarch","cover":"https://cdn-images.dzcdn.net/images/cover/82aebfcb970a7926f076e62ea59c83b4/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.spinefarmrecords.com/652/news/dead-poet-society-set-oct-2-release-date-for-monarch-release-cold-video","spotifyLink":"https://open.spotify.com/intl-pt/album/5h4gaqJQWxTUgVNSb7gqwU","deezer":"https://www.deezer.com/album/997906991"},
+    {"id":"ascitiesburn|brainmatters","d":"17/08","a":"As Cities Burn","t":"brain matter(s)","k":"ÁLBUM","g":"post-hardcore / emo / screamo / alternative rock","q":"As Cities Burn brain matter(s)","cover":"https://cdn-images.dzcdn.net/images/cover/a60cfbc9ef2b542a45d2989395a91705/1000x1000-000000-80-0-0.jpg","sourceLink":"https://lockstep.stream/release/9fbdc192-ea55-4f8a-8cbf-d74319ccbc4a","deezer":"https://www.deezer.com/album/1074973002","spotifyLink":"https://open.spotify.com/intl-pt/album/5BpMFRLZgtCv5pElAN42V0"},
+    {"id":"portraits|vaguelywestern","d":"02/10","a":"Portraits","t":"Vaguely Western","k":"ÁLBUM","g":"progressive metal / djent / instrumental progressive rock","q":"Portraits Vaguely Western","cover":"https://cdn-images.dzcdn.net/images/cover/e4eacc1af0a866489f786de2988d1e8f/1000x1000-000000-80-0-0.jpg","sourceLink":"https://listentoportraits.bandcamp.com/album/vaguely-western","spotifyLink":"https://open.spotify.com/intl-pt/album/138ghTNN3hgNoCtYX2oA9W","deezer":"https://www.deezer.com/album/1040653292"},
+    {"id":"goethe|goethe","d":"10/08","a":"Goethe","t":"GOETHE","k":"EP","g":"screamo / melodic hardcore / post-hardcore / emo","q":"Goethe GOETHE","cover":"https://cdn-images.dzcdn.net/images/cover/b513bc8059d572600f4823406d970103/1000x1000-000000-80-0-0.jpg","sourceLink":"https://goethebandofficial.bandcamp.com/album/goethe","deezer":"https://www.deezer.com/album/1026196942"},
+    {"id":"sgaile|onwardstoembracetheecho","d":"02/10","a":"Sgàile","t":"Onwards To Embrace The Echo","k":"ÁLBUM","g":"post-metal / progressive metal / atmospheric metal","q":"Sgàile Onwards To Embrace The Echo","cover":"https://cdn-images.dzcdn.net/images/cover/86d44028ed9e85112d8cf8553db2656b/1000x1000-000000-80-0-0.jpg","sourceLink":"https://sgaile.bandcamp.com/album/onwards-to-embrace-the-echo","spotifyLink":"https://open.spotify.com/intl-pt/album/4YysGpo1CLNeIpbb0gNjz9","deezer":"https://www.deezer.com/album/1112235092"},
+    {"id":"maran|forgingamentalwar","d":"24/09","a":"Mārān","t":"Forging A Mental War","k":"EP","g":"metallic hardcore / hardcore / metalcore","q":"Mārān Forging A Mental War","cover":"https://cdn-images.dzcdn.net/images/cover/415192c6f291120445023f9ad394c520/1000x1000-000000-80-0-0.jpg","sourceLink":"https://maranhc.bandcamp.com/album/forging-a-mental-war","spotifyLink":"https://open.spotify.com/intl-pt/album/4Aw93FqdtkUPvnQt4QG68t","deezer":"https://www.deezer.com/album/1081167662"},
+    {"id":"deadfall|rottenskies","d":"24/09","a":"Dead//Fall","t":"Rotten Skies","k":"ÁLBUM","g":"metalcore / alternative metal","q":"Dead//Fall Rotten Skies","cover":"https://cdn-images.dzcdn.net/images/cover/6e08e1ff87152ab735eace8add2b3c52/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.qobuz.com/us-en/album/rotten-skies-dead-fall/uwb4kpln40odt","spotifyLink":"https://open.spotify.com/intl-pt/album/1UjyBAwomH50vD2oC13T41","deezer":"https://www.deezer.com/album/1059888542"},
+    {"id":"warfromaharlotsmouth|voyeurremastered","d":"02/10","a":"War From A Harlots Mouth","t":"Voyeur (Remastered)","k":"REISSUE","g":"mathcore / metalcore / dissonant death metal","q":"War From A Harlots Mouth Voyeur Remastered","note":"REISSUE","cover":"https://f4.bcbits.com/img/a2793544557_5.jpg","sourceLink":"https://warfromaharlotsmouth.bandcamp.com/album/voyeur-remastered"},
+    {"id":"brotherskeeper|youcantkillme","d":"02/10","a":"Brother's Keeper","t":"You Can't Kill Me","k":"ÁLBUM REGRAVADO","g":"metallic hardcore / hardcore punk","q":"Brother's Keeper You Can't Kill Me","note":"RE-RECORDING","cover":"https://cdn-images.dzcdn.net/images/cover/c8309c5acd4b1bdb439b275e4809fec0/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.coldcutsmerch.com/collections/trustkill-records-vinyl/products/brothers-keeper-you-cant-kill-me-12-vinyl","spotifyLink":"https://open.spotify.com/intl-pt/album/4kvZaZaUpiYqRV7yshtXcp","deezer":"https://www.deezer.com/album/1059288372"},
+    {"id":"slowcrush|thirstextended","d":"07/10","a":"Slow Crush","t":"Thirst Extended","k":"DELUXE","g":"shoegaze / post-metal / alternative rock","q":"Slow Crush Thirst Extended","note":"DELUXE","cover":"https://f4.bcbits.com/img/a3785925667_5.jpg","sourceLink":"https://slowcrush.bandcamp.com/album/thirst-extended","spotifyLink":"https://open.spotify.com/album/6xPYqPWiSQCzZhCymNVj2F","deezer":"https://www.deezer.com/album/1104750082"},
+    {"id":"johncoffey|notalone","d":"09/10","a":"John Coffey","t":"Not Alone","k":"ÁLBUM","g":"post-hardcore / punk rock","cover":"https://i.scdn.co/image/ab67616d0000b273f643c33aaab5e017753eef23","sourceLink":"https://johncoffey.bandcamp.com/album/not-alone","spotifyLink":"https://open.spotify.com/album/3RKQoboq11enzodEGmJeEX"},
+    {"id":"semuta|thoughtlessdreamless","d":"09/10","a":"SEMUTA","t":"Thoughtless/Dreamless","k":"ÁLBUM","g":"post-metal / progressive metal / math rock","cover":"https://i.scdn.co/image/ab67616d0000b273788f9be2099f284f5f825c0d","sourceLink":"https://semutamusic.bandcamp.com/album/thoughtless-dreamless-2","spotifyLink":"https://open.spotify.com/album/7lLEcJA4griRsEpzjQWzBh"},
+    {"id":"teddyduchampsarmy|thespiritneverdies","d":"09/10","a":"Teddy DuChamp's Army","t":"...The Spirit Never Dies","k":"ÁLBUM","g":"post-hardcore / melodic punk","cover":"https://i.scdn.co/image/ab67616d0000b2738ccfb8f195b1d06f24f12f48","sourceLink":"https://engineerrecords.bandcamp.com/album/teddy-duchamps-army-the-spirit-never-dies","spotifyLink":"https://open.spotify.com/album/1WQ1we9XcO70WLrbbuS12w"},
+    {"id":"unpeople|weareunpeople","d":"09/10","a":"unpeople","t":"we are unpeople","k":"ÁLBUM","g":"alternative metal / post-hardcore / heavy alternative","cover":"https://i.scdn.co/image/ab67616d0000b27352be917434bb9722999e8ddc","sourceLink":"https://sharptonerecords.co/","spotifyLink":"https://open.spotify.com/album/3wiGXFOSEkkNOtxBJJG56Q"},
+    {"id":"gore|thencannotloveme","d":"09/10","a":"Gore.","t":"...Then You Cannot Love Me","k":"EP","g":"metalcore / alternative metal","cover":"https://i.scdn.co/image/ab67616d0000b273220e49ed867b1db132ceb4bb","sourceLink":"https://music.apple.com/us/album/then-you-cannot-love-me/6807428052","spotifyLink":"https://open.spotify.com/album/03TxhHvyJXEblpWGYvZdxS"},
+    {"id":"deafheaven|atworkinthefieldsofthebomb","d":"09/10","a":"Deafheaven","t":"At Work In The Fields Of The Bomb","k":"EP","g":"post-metal / blackgaze / post-hardcore","cover":"https://i.scdn.co/image/ab67616d0000b2731858782b86f5bad9c042d239","sourceLink":"https://deafheaven.com/collections/music","spotifyLink":"https://open.spotify.com/album/7tIVbLtTqWrlTnoPiLLA1R"},
+    {"id":"feldspar|softside","d":"09/10","a":"Feldspar","t":"SOFT SIDE","k":"ÁLBUM","g":"hardcore / post-hardcore / alternative rock","cover":"https://i.scdn.co/image/ab67616d0000b273dee889de7f6e7303bd83b9a3","sourceLink":"https://music.apple.com/us/album/soft-side/1893726518","spotifyLink":"https://open.spotify.com/album/0E5rOWYaVNX8GtfgxrnwsL"},
+    {"id":"liveconformdie|dieinmyprime","d":"09/10","a":"liveconformdie","t":"Die In My Prime","k":"EP","g":"metalcore / nu metal / industrial metal / deathcore","cover":"https://i.scdn.co/image/ab67616d0000b2733f3ca0aae074b78ae739ddae","sourceLink":"https://liveconformdie.bandcamp.com/album/die-in-my-prime","spotifyLink":"https://open.spotify.com/album/0Di7OiUhRw2J5rJxvFEQgI"},
+    {"id":"villainofthestory|scapegoat","d":"07/10","a":"Villain of the Story","t":"Scapegoat","k":"EP","g":"metalcore / alternative metal","cover":"https://i.scdn.co/image/ab67616d0000b273dc9c46d2a0f9c5b8a4ca8a3c","sourceLink":"https://www.villainofthestory.com/","spotifyLink":"https://open.spotify.com/album/7EXRaKip3QaDXRGmZ0NzEl"},
+    {"id":"irosefromthedead|ahauntedhouseforalltosee","d":"08/10","a":"I Rose From The Dead","t":"A Haunted House for All to See","k":"ÁLBUM","g":"metalcore / deathcore","cover":"https://i.scdn.co/image/ab67616d0000b27329b272b9605fdc26418bd32e","sourceLink":"https://linktr.ee/irosefromthedead","spotifyLink":"https://open.spotify.com/album/36yoJha0paEQIkGpkgL1hj"},
+    {"id":"meadows|desertwalker","d":"09/10","a":"Meadows","t":"DESERT WALKER","k":"ÁLBUM","g":"melodic hardcore / hardcore punk","cover":"https://i.scdn.co/image/ab67616d0000b27399daa4c4f681fa53540ef268","sourceLink":"https://facedownrecords.com/releases/","spotifyLink":"https://open.spotify.com/album/5MZCPkxlWqHCQQF0kmak4u"},
+    {"id":"lefttosuffer|unwelcomeguest","d":"09/10","a":"Left To Suffer","t":"Unwelcome Guest","k":"ÁLBUM","g":"deathcore / metalcore","cover":"https://i.scdn.co/image/ab67616d0000b273bf38998bff516229f6f37005","sourceLink":"https://music.apple.com/us/artist/left-to-suffer/1455594195","spotifyLink":"https://open.spotify.com/album/4LchU9bc3MTZbssgHixTXN"},
+    {"id":"idolvein|thisplaceileavebehind","d":"09/10","a":"Idolvein","t":"This Place I Leave Behind","k":"EP","g":"alternative metal / metalcore","cover":"https://i.scdn.co/image/ab67616d0000b273a01000fda6d3d044b8108428","sourceLink":"https://www.idolveinband.com/","spotifyLink":"https://open.spotify.com/album/1WvY1lqXuaR9rZWNm2NKbI"},
+    {"id":"toundra|siete","d":"09/10","a":"Toundra","t":"Siete","k":"ÁLBUM","g":"post-metal / post-rock / progressive metal","cover":"https://i.scdn.co/image/ab67616d0000b273eb27ac857019e01334c55fc7","sourceLink":"https://music.apple.com/us/album/siete/6815284630","spotifyLink":"https://open.spotify.com/album/2jcYm9WDM2ZPdDUmmvnV81"},
+    {"id":"violentend|yourealreadyhere","d":"03/10","a":"Violent End","t":"YOU'RE ALREADY HERE","k":"EP","g":"metalcore / metallic hardcore","cover":"https://i.scdn.co/image/ab67616d0000b273fa9c5c314d7ec2b7e005900f","sourceLink":"https://music.apple.com/us/album/youre-already-here-ep/6816817607","spotifyLink":"https://open.spotify.com/album/5rJg5qCeYQeArn4xSFES5P"},
+    {"id":"shiner|theysection","d":"09/10","a":"SHINER","t":"The Y Section","k":"COMPILAÇÃO","g":"post-hardcore / post-rock / space rock","cover":"https://i.scdn.co/image/ab67616d0000b27318795019365514a35dcf73d4","sourceLink":"https://music.bugs.co.kr/album/40718559?wl_ref=list_ab_03","spotifyLink":"https://open.spotify.com/album/3WAN5a5dwZuJlo6ySC2DvL"},
+    {"id":"orbitculture|deathabovelifedeluxe","d":"09/10","a":"Orbit Culture","t":"Death Above Life (Deluxe Edition)","k":"DELUXE","g":"modern metal / melodic death metal / metalcore","note":"DELUXE","cover":"https://i.scdn.co/image/ab67616d0000b2737f745e4b50d69b866370a9b5","sourceLink":"https://music.apple.com/us/album/death-above-life-deluxe-edition/6789517814","spotifyLink":"https://open.spotify.com/album/1nCzCl86fY0jtgs4DbWWXb"},
+    {"id":"siilk|visceralimages","d":"08/10","a":"Siilk","t":"Visceral Images","k":"ÁLBUM","g":"nugaze / nu metal / post-hardcore","cover":"https://f4.bcbits.com/img/a2584145768_5.jpg","sourceLink":"https://siilk.bandcamp.com/album/visceral-images","deezer":"https://www.deezer.com/album/1078680992",
+      "spotifyLink": "https://open.spotify.com/album/4cy2cn6yswLO2exLpAKHD1"
+    },
+    {"id":"skillet|afterthestorm","d":"09/10","a":"Skillet","t":"After The Storm","k":"EP","g":"hard rock / alternative metal / modern hard rock","cover":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/cc/6a/72cc6a7f-dc6a-e51b-4ccd-1288c65a6084/712132036139_cover.jpg/600x600bb.jpg","sourceLink":"https://music.apple.com/us/album/after-the-storm-ep/6781817166","spotifyLink":"https://open.spotify.com/album/1GE38CgvNGJMxgm5lAfyOs"},
+    {"id":"hopsydian|agracefulsin","d":"24/07","a":"Hopsydian","t":"A Graceful Sin","k":"EP","g":"modern metalcore / alternative metal / post-hardcore","cover":"https://i.scdn.co/image/ab67616d0000b2731565113f3ba6f414c9b3fcb6","sourceLink":"https://arising-empire.com/artists/hopsydian","spotifyLink":"https://open.spotify.com/album/6QTQeJf5CIiBk24xLwfZLp"},
+    {"id":"wagewar|landfall","d":"09/10","a":"Wage War","t":"Landfall","k":"ÁLBUM","g":"metalcore / modern metalcore","cover":"https://i.scdn.co/image/ab67616d0000b27341ce4ed653328c44fd2311ad","sourceLink":"https://fearlessrecords.com/releases/landfall-2/","spotifyLink":"https://open.spotify.com/album/0Ay1TtiMnvGMq1SnRXOnHp"},
+    {"id":"sueco|partysover","d":"09/10","a":"Sueco","t":"PARTY'S OVER","k":"ÁLBUM","g":"alternative rock / pop punk / rap rock","cover":"https://i.scdn.co/image/ab67616d0000b273e52685b104578a7212b3aa25","sourceLink":"https://www.sueco.com/products/partys-over-lp","spotifyLink":"https://open.spotify.com/album/3r2knZRYbnfSq8Lepyv7Bx"},
+    {
+      "id": "holywars|shadowworklightwork",
+      "d": "24/04",
+      "a": "Holy Wars",
+      "t": "Shadow Work / Light Work",
+      "k": "ÁLBUM",
+      "g": "metalcore / alternative metal / industrial metal",
+      "q": "Holy Wars Shadow Work / Light Work",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2730afd7c1b78487992f659a0b7",
+      "sourceLink": "https://holywarsband.bandcamp.com/album/shadow-work-light-work",
+      "spotifyLink": "https://open.spotify.com/album/4eLTNt2AN4tWUArHUWyHxh"
+    },
+    {
+      "id": "raynoir|gothstarep",
+      "d": "17/09",
+      "a": "Ray Noir",
+      "t": "Gothstar EP",
+      "k": "EP",
+      "g": "metalcore / electronicore / industrial metal",
+      "q": "Ray Noir Gothstar EP",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273217973e21d293727e7119d8d",
+      "sourceLink": "https://raynoir.bandcamp.com/album/gothstar-ep",
+      "spotifyLink": "https://open.spotify.com/album/5gcc5nKCQslgF77AlPzRQx"
+    },
+    {
+      "id": "dennehy|duo",
+      "d": "04/09",
+      "a": "Dennehy",
+      "t": "DÜO",
+      "k": "ÁLBUM",
+      "g": "metalcore / nu metal / emo / electronicore",
+      "q": "Dennehy DÜO",
+      "country": "BR",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27332eac1a1fcdfb5c213d23619",
+      "sourceLink": "https://open.spotify.com/album/0cSSsFJSRpaREDmuItPz88",
+      "spotifyLink": "https://open.spotify.com/album/0cSSsFJSRpaREDmuItPz88"
+    },
+    {
+      "id": "hover|desentristecer",
+      "d": "16/07",
+      "a": "Hover",
+      "t": "Desentristecer",
+      "k": "ÁLBUM AO VIVO",
+      "g": "alternative rock / post-hardcore / orchestral rock",
+      "q": "Hover Desentristecer",
+      "country": "BR",
+      "note": "LIVE",
+      "cover": "https://i.ytimg.com/vi/Ka1wZsX8cYs/hqdefault.jpg",
+      "sourceLink": "https://www.youtube.com/watch?v=Ka1wZsX8cYs"
+    },
+    {
+      "id": "anthrax|cursumperficio",
+      "d": "18/09",
+      "a": "Anthrax",
+      "t": "Cursum Perficio",
+      "k": "ÁLBUM",
+      "g": "thrash metal / crossover thrash",
+      "q": "Anthrax Cursum Perficio",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2738921d23ffb8f2f9a0af874cf",
+      "sourceLink": "https://www.nuclearblast.com/products/anthrax-cursum-perficio-2-vinyl",
+      "spotifyLink": "https://open.spotify.com/album/66sInN5ejxo3K8Al4QDw3S"
+    },
+    {
+      "id": "koyo|barelyhere",
+      "d": "08/05",
+      "a": "Koyo",
+      "t": "Barely Here",
+      "k": "ÁLBUM",
+      "g": "melodic hardcore / emo / pop punk",
+      "q": "Koyo Barely Here",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273caab08fa0b72dfc8c1de7ea8",
+      "sourceLink": "https://koyolihc.bandcamp.com/album/barely-here",
+      "spotifyLink": "https://open.spotify.com/album/7wRLUzbIKo1teiHHukMg2U"
+    },
+    {
+      "id": "shoreline|isthisthelowpointorthemomentafter",
+      "d": "13/03",
+      "a": "Shoreline",
+      "t": "Is This The Low Point Or The Moment After?",
+      "k": "ÁLBUM",
+      "g": "emo / melodic hardcore / punk rock",
+      "q": "Shoreline Is This The Low Point Or The Moment After",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273119094456e3713ab5d019452",
+      "sourceLink": "https://www.purenoise.net/releases/pne464-is-this-the-low-point-or-the-moment-after/",
+      "spotifyLink": "https://open.spotify.com/album/7scnpxa4nBF35V8rpYZD57"
+    },
+    {
+      "id": "magnoliapark|nightsaftervamp",
+      "d": "13/03",
+      "a": "Magnolia Park",
+      "t": "NIGHTS AFTER VAMP",
+      "k": "DELUXE",
+      "g": "metalcore / alternative metal / pop punk",
+      "q": "Magnolia Park NIGHTS AFTER VAMP",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273a83655c1826ae5f576cdeb7a",
+      "sourceLink": "https://magnoliapark.bandcamp.com/album/nights-after-vamp",
+      "spotifyLink": "https://open.spotify.com/album/59XmO3eoI2R6ltFZ0sMPTz"
+    },
+    {
+      "id": "joycemanor|iusedtogotothisbar",
+      "d": "30/01",
+      "a": "Joyce Manor",
+      "t": "I Used To Go To This Bar",
+      "k": "ÁLBUM",
+      "g": "emo / pop punk / punk rock",
+      "q": "Joyce Manor I Used To Go To This Bar",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27335eeb532f1349455528c0a06",
+      "sourceLink": "https://joycemanor.bandcamp.com/album/i-used-to-go-to-this-bar",
+      "spotifyLink": "https://open.spotify.com/album/2PomJEqfBluQI4uE6hPQEJ"
+    },
+    {
+      "id": "matchbookromance|voicesvisions",
+      "d": "13/02",
+      "a": "Matchbook Romance",
+      "t": "VOICES | VISIONS",
+      "k": "DELUXE",
+      "g": "post-hardcore / emo / alternative rock",
+      "q": "Matchbook Romance VOICES VISIONS",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273b0f3e5b87a8a3aecf562afb5",
+      "sourceLink": "https://matchbookromance.ffm.to/voicesdlx",
+      "spotifyLink": "https://open.spotify.com/album/0Rh14gOoUIL9m3kR2gMBZU"
+    },
+    {
+      "id": "seahaven|seahaven",
+      "d": "05/06",
+      "a": "Seahaven",
+      "t": "Seahaven",
+      "k": "ÁLBUM",
+      "g": "post-hardcore / emo / alternative rock",
+      "q": "Seahaven Seahaven",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2735172690f6fff54916bd44592",
+      "sourceLink": "https://www.purenoise.net/releases/pne482-seahaven/",
+      "spotifyLink": "https://open.spotify.com/album/5X7p5p8rfAsEmPKlKICiIQ"
+    },
+    {
+      "id": "azsharaunmoved|coldbloodedtagteam",
+      "d": "20/02",
+      "a": "Azshara / Unmoved",
+      "t": "Cold Blooded Tag Team",
+      "k": "EP",
+      "g": "metalcore / melodic death metal / metallic hardcore",
+      "q": "Azshara / Unmoved Cold Blooded Tag Team",
+      "note": "SPLIT",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273324de71c41425e119657042c",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/cold-blooded-tag-team",
+      "spotifyLink": "https://open.spotify.com/album/7d8PSbrHEbGeLxg3i3v29Y"
+    },
+    {
+      "id": "in2again|coinscurrencytokensandotherrelatedobjects",
+      "d": "08/05",
+      "a": "In 2 Again",
+      "t": "Coins, Currency, Tokens, and Other Related Objects",
+      "k": "EP",
+      "g": "post-hardcore / alternative metal / emo",
+      "q": "In 2 Again Coins, Currency, Tokens, and Other Related Objects",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273175f3cd929a81ecda97861b6",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/coins-currency-tokens-and-other-related-objects",
+      "spotifyLink": "https://open.spotify.com/album/6YTUc8FTAX8DrodJR8leQQ"
+    },
+    {
+      "id": "torena|extinction",
+      "d": "12/06",
+      "a": "Torena",
+      "t": "Extinction",
+      "k": "EP",
+      "g": "metallic hardcore / crossover thrash",
+      "q": "Torena Extinction",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2737b1d749617f4298b3600999b",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/extinction",
+      "spotifyLink": "https://open.spotify.com/album/50KdfzUfJ0ch5Huh91xEEE"
+    },
+    {
+      "id": "dreamfatigue|norequiem",
+      "d": "13/02",
+      "a": "Dream Fatigue",
+      "t": "No Requiem",
+      "k": "EP",
+      "g": "alternative rock / post-hardcore / emo / grunge",
+      "q": "Dream Fatigue No Requiem",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2733b12d63860b268e2d1229477",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/no-requiem",
+      "spotifyLink": "https://open.spotify.com/album/5IOPaXOupwsEsfMC6Gx44z"
+    },
+    {
+      "id": "thetestdream|skingraftpoetry",
+      "d": "03/07",
+      "a": "The Test Dream",
+      "t": "Skin Graft Poetry",
+      "k": "COMPILAÇÃO",
+      "g": "metalcore / screamo / post-hardcore",
+      "q": "The Test Dream Skin Graft Poetry",
+      "note": "ARCHIVAL",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27380227f77e8f0a0272295fcf6",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/skin-graft-poetry",
+      "spotifyLink": "https://open.spotify.com/album/4WcJOVRsttEqyAkHes3ocG"
+    },
+    {
+      "id": "indicationwatchyoufallseasonsend|foreveryours",
+      "d": "19/06",
+      "a": "Indication / Watch You Fall / Seasons End",
+      "t": "Forever Yours",
+      "k": "ÁLBUM",
+      "g": "metalcore / melodic metalcore / metallic hardcore",
+      "q": "Indication / Watch You Fall / Seasons End Forever Yours",
+      "note": "SPLIT",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273c8159956c6db85c31cbad7e6",
+      "sourceLink": "https://dazestyle.bandcamp.com/album/forever-yours",
+      "spotifyLink": "https://open.spotify.com/album/00WvvBqbDYmlnhsgrdgeM3"
+    },
+    {
+      "id": "newfoundglory|listenup",
+      "d": "20/02",
+      "a": "New Found Glory",
+      "t": "Listen Up!",
+      "k": "ÁLBUM",
+      "g": "pop punk / punk rock",
+      "q": "New Found Glory Listen Up!",
+      "cover": "https://f4.bcbits.com/img/a0677942386_5.jpg",
+      "sourceLink": "https://purenoise.bandcamp.com/album/listen-up",
+      "spotifyLink": "https://open.spotify.com/album/3iEjqVnUrmjX4skfejAyHi"
+    },
+    {
+      "id": "supersometimes|showtheworldwhatsunderneath",
+      "d": "15/05",
+      "a": "Super Sometimes",
+      "t": "Show The World What's Underneath",
+      "k": "ÁLBUM",
+      "g": "pop punk / emo / skate punk",
+      "q": "Super Sometimes Show The World What's Underneath",
+      "cover": "https://f4.bcbits.com/img/a4130839067_5.jpg",
+      "sourceLink": "https://supersometimes.bandcamp.com/album/show-the-world-whats-underneath",
+      "spotifyLink": "https://open.spotify.com/album/3gF2W44vFNZZFn5s8nqidn"
+    },
+    {
+      "id": "riley|toliveanddieintheamericansouth",
+      "d": "17/07",
+      "a": "RILEY!",
+      "t": "To Live And Die In The American South",
+      "k": "EP",
+      "g": "emo / math rock / pop punk",
+      "q": "RILEY! To Live And Die In The American South",
+      "cover": "https://f4.bcbits.com/img/a3773394485_5.jpg",
+      "sourceLink": "https://rileytheband.bandcamp.com/album/to-live-and-die-in-the-american-south",
+      "spotifyLink": "https://open.spotify.com/album/6TGU2qrg1KgMeTniPkLYhc"
+    },
+    {
+      "id": "bloom|bloomonaudiotreelive",
+      "d": "10/02",
+      "a": "Bloom",
+      "t": "Bloom on Audiotree Live",
+      "k": "ÁLBUM AO VIVO",
+      "g": "melodic metalcore / melodic hardcore",
+      "q": "Bloom Bloom on Audiotree Live",
+      "note": "LIVE",
+      "cover": "https://f4.bcbits.com/img/a2643912453_5.jpg",
+      "sourceLink": "https://bloomsyd.bandcamp.com/album/bloom-on-audiotree-live",
+      "spotifyLink": "https://open.spotify.com/album/4yNxFEJ98o9AXLsj7sPUGB"
+    },
+    {
+      "id": "counterparts|counterpartsaudiotreefromnothing",
+      "d": "22/01",
+      "a": "Counterparts",
+      "t": "Counterparts | Audiotree From Nothing",
+      "k": "EP AO VIVO",
+      "g": "metalcore / melodic hardcore",
+      "q": "Counterparts Counterparts | Audiotree From Nothing",
+      "note": "LIVE",
+      "cover": "https://f4.bcbits.com/img/a2109513751_5.jpg",
+      "sourceLink": "https://counterpartshc.bandcamp.com/album/counterparts-audiotree-from-nothing",
+      "spotifyLink": "https://open.spotify.com/album/0Phwb31BZ0fXgEJwDDWgOv"
+    },
+    {
+      "id": "spaced|spacedonaudiotreelive",
+      "d": "01/07",
+      "a": "SPACED",
+      "t": "SPACED on Audiotree Live",
+      "k": "ÁLBUM AO VIVO",
+      "g": "hardcore punk / psychedelic hardcore",
+      "q": "SPACED SPACED on Audiotree Live",
+      "note": "LIVE",
+      "cover": "https://f4.bcbits.com/img/a3744182911_5.jpg",
+      "sourceLink": "https://spaced.bandcamp.com/album/spaced-on-audiotree-live"
+    },
+    {
+      "id": "spitehouse|spitehouseonaudiotreelive",
+      "d": "09/10",
+      "a": "Spite House",
+      "t": "Spite House on Audiotree Live",
+      "k": "ÁLBUM AO VIVO",
+      "g": "post-hardcore / melodic hardcore / emo",
+      "q": "Spite House Spite House on Audiotree Live",
+      "note": "LIVE",
+      "cover": "https://f4.bcbits.com/img/a1148431534_5.jpg",
+      "sourceLink": "https://spitehousemtl.bandcamp.com/album/spite-house-on-audiotree-live",
+      "spotifyLink": "https://open.spotify.com/album/75dct4vCGeXqI3Ms3uBEYK"
+    },
+    {
+      "id": "alexmelton|theprocess",
+      "d": "06/03",
+      "a": "Alex Melton",
+      "t": "The Process",
+      "k": "ÁLBUM",
+      "g": "pop punk / alternative rock",
+      "q": "Alex Melton The Process",
+      "cover": "https://f4.bcbits.com/img/a1130516277_5.jpg",
+      "sourceLink": "https://alexmelton.bandcamp.com/album/the-process",
+      "spotifyLink": "https://open.spotify.com/album/6xz85YEM8Py1Rrg9ltnpSa"
+    },
+    {
+      "id": "concealer|thisroomcouldbeheaven",
+      "d": "31/03",
+      "a": "concealer.",
+      "t": "This Room Could Be Heaven.",
+      "k": "ÁLBUM",
+      "g": "metalcore / post-hardcore / screamo",
+      "q": "concealer. This Room Could Be Heaven.",
+      "cover": "https://f4.bcbits.com/img/a3740732695_5.jpg",
+      "sourceLink": "https://zegemabeachrecords.bandcamp.com/album/this-room-could-be-heaven",
+      "spotifyLink": "https://open.spotify.com/album/2sJCf8mi31MHPxLkezUL4R"
+    },
+    {
+      "id": "ladispute|ladisputeaudiotreefromnothing",
+      "d": "04/09",
+      "a": "La Dispute",
+      "t": "La Dispute | Audiotree From Nothing",
+      "k": "EP AO VIVO",
+      "g": "post-hardcore / screamo / spoken word",
+      "q": "La Dispute La Dispute | Audiotree From Nothing",
+      "note": "LIVE",
+      "cover": "https://f4.bcbits.com/img/a0026848682_5.jpg",
+      "sourceLink": "https://ladispute.bandcamp.com/album/la-dispute-audiotree-from-nothing",
+      "spotifyLink": "https://open.spotify.com/album/2Eln3Wgl8k2xHuaqvpKSCv"
+    },
+    {
+      "id": "thegarden|bootleg",
+      "d": "10/07",
+      "a": "The Garden",
+      "t": "Bootleg",
+      "k": "ÁLBUM",
+      "g": "experimental punk / post-punk / art punk",
+      "q": "The Garden Bootleg",
+      "cover": "https://f4.bcbits.com/img/a1792931525_5.jpg",
+      "sourceLink": "https://thegardenmusic.bandcamp.com/album/bootleg",
+      "spotifyLink": "https://open.spotify.com/album/0NBTtrHTHVDOtTHvZh0Gmx"
+    },
+    {
+      "id": "heysmithandlessthanjake|unity",
+      "d": "24/06",
+      "a": "HEY-SMITH & Less Than Jake",
+      "t": "Unity",
+      "k": "EP",
+      "g": "ska punk / melodic punk / ska-core",
+      "q": "HEY-SMITH Less Than Jake Unity",
+      "note": "SPLIT",
+      "cover": "https://unity.ponycanyon.net/img/jkt_01.jpg",
+      "sourceLink": "https://unity.ponycanyon.net/en/index.html",
+      "spotifyLink": "https://open.spotify.com/album/7hEotpEVKe6JzRquceRjnh"
+    },
+    {
+      "id": "thebobbylees|newself",
+      "d": "12/06",
+      "a": "The Bobby Lees",
+      "t": "New Self",
+      "k": "ÁLBUM",
+      "g": "punk rock / noise rock / garage punk",
+      "q": "The Bobby Lees New Self",
+      "cover": "https://f4.bcbits.com/img/a0479286097_5.jpg",
+      "sourceLink": "https://thebobbylees.bandcamp.com/album/new-self",
+      "spotifyLink": "https://open.spotify.com/album/29iBRlzAcmRmKRvw7onM0j"
+    },
+    {
+      "id": "deathlens|whatsleftnow",
+      "d": "24/04",
+      "a": "Death Lens",
+      "t": "What's Left Now?",
+      "k": "ÁLBUM",
+      "g": "punk rock / post-hardcore / alternative punk",
+      "q": "Death Lens What's Left Now?",
+      "cover": "https://f4.bcbits.com/img/a0154951706_5.jpg",
+      "sourceLink": "https://deathlens.bandcamp.com/album/whats-left-now",
+      "spotifyLink": "https://open.spotify.com/album/06cs9heiNyqq8voYtnDnzF"
+    },
+    {
+      "id": "grade2|talkaboutit",
+      "d": "03/04",
+      "a": "Grade 2",
+      "t": "Talk About It",
+      "k": "ÁLBUM",
+      "g": "punk rock / street punk / melodic punk",
+      "q": "Grade 2 Talk About It",
+      "cover": "https://f4.bcbits.com/img/a3481780631_5.jpg",
+      "sourceLink": "https://grade2.bandcamp.com/album/talk-about-it",
+      "spotifyLink": "https://open.spotify.com/album/270AHCJtXgmx9VWdoVgpnR"
+    },
+    {
+      "id": "hunny|alittlemorespirit",
+      "d": "27/03",
+      "a": "HUNNY",
+      "t": "(a little more) SPIRIT!",
+      "k": "DELUXE",
+      "g": "indie rock / alternative rock / power pop",
+      "q": "HUNNY (a little more) SPIRIT!",
+      "note": "DELUXE",
+      "cover": "https://f4.bcbits.com/img/a3066583975_5.jpg",
+      "sourceLink": "https://hunnytheband.bandcamp.com/album/a-little-more-spirit",
+      "spotifyLink": "https://open.spotify.com/album/3XG3sL0HlG7UyVYBRQ5MQr"
+    },
+    {
+      "id": "thecasualties|detonate",
+      "d": "27/03",
+      "a": "The Casualties",
+      "t": "Detonate",
+      "k": "ÁLBUM",
+      "g": "street punk / hardcore punk / punk rock",
+      "q": "The Casualties Detonate",
+      "cover": "https://f4.bcbits.com/img/a3773090655_5.jpg",
+      "sourceLink": "https://thecasualties.bandcamp.com/album/detonate",
+      "spotifyLink": "https://open.spotify.com/album/6pQJwJBEO1vwAozJpuRGy7"
+    },
+    {
+      "id": "socialdistortion|borntokill",
+      "d": "08/05",
+      "a": "Social Distortion",
+      "t": "Born To Kill",
+      "k": "ÁLBUM",
+      "g": "punk rock / melodic punk / alternative rock",
+      "q": "Social Distortion Born To Kill",
+      "cover": "https://res.cloudinary.com/epitaph/image/upload/c_fill,f_auto,h_925,q_auto,w_925/v1/epitaph/releases/87368_SocialDistortion_BornToKill",
+      "sourceLink": "https://epitaph-prod.herokuapp.com/artists/social-distortion/release/born-to-kill",
+      "spotifyLink": "https://open.spotify.com/album/1Ln4Uhw3DLQ0PZkpb7HJjC"
+    },
+    {
+      "id": "thrice|thriceaudiotreefromnothing",
+      "d": "11/02",
+      "a": "Thrice",
+      "t": "Thrice | Audiotree from Nothing",
+      "k": "EP AO VIVO",
+      "g": "post-hardcore / alternative rock / art rock",
+      "q": "Thrice Thrice | Audiotree from Nothing",
+      "note": "LIVE",
+      "cover": "https://res.cloudinary.com/epitaph/image/upload/c_fill,f_auto,h_925,q_auto,w_925/v1/epitaph/releases/88146-8_Thrice_FromNothingAudioTree_3kpx",
+      "sourceLink": "https://epitaph-prod.herokuapp.com/artists/thrice/release/audiotree-from-nothing",
+      "spotifyLink": "https://open.spotify.com/album/3IiAxL0O9RW4zLRWTJkrGL"
+    },
+    {
+      "id": "siiickbrain|houndstooth",
+      "d": "03/06",
+      "a": "SIIICKBRAIN",
+      "t": "HOUNDSTOOTH",
+      "k": "ÁLBUM",
+      "g": "industrial pop / electronic rock / heavy alternative",
+      "q": "SIIICKBRAIN HOUNDSTOOTH",
+      "cover": "https://cdn.shopify.com/s/files/1/0381/8189/6236/files/HOUNDSTOOTH_3000JPG_1.jpg?v=1774287612",
+      "sourceLink": "https://palechord.com/blogs/news/siiickbrain-releases-new-album-houndstooth",
+      "spotifyLink": "https://open.spotify.com/album/6tsJ8r2rODuMgGlA8aZYbs"
+    },
+    {
+      "id": "zeruel|ruinrebirth",
+      "d": "19/06",
+      "a": "Zeruel",
+      "t": "Ruin;Rebirth",
+      "k": "ÁLBUM",
+      "g": "post-metal / shoegaze / metalcore",
+      "q": "Zeruel Ruin;Rebirth",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27355e0476e7277ba40d172db22",
+      "sourceLink": "https://music.apple.com/us/album/ruin-rebirth/1883103603",
+      "spotifyLink": "https://open.spotify.com/album/2oIFzFKHqaxMvYR5PxMDJZ"
+    },
+    {
+      "id": "saintblonde|withlittleease",
+      "d": "18/09",
+      "a": "Saint Blonde",
+      "t": "...with little ease",
+      "k": "ÁLBUM",
+      "g": "alternative rock / punk rock / indie rock",
+      "q": "Saint Blonde ...with little ease",
+      "cover": "https://cdn.shopify.com/s/files/1/0381/8189/6236/files/saint_blonde_-_...with_little_ease_-_main_1.jpg?v=1780451645",
+      "sourceLink": "https://palechord.com/blogs/news/saint-blonde-release-debut-album-with-little-ease",
+      "spotifyLink": "https://open.spotify.com/album/07d9MuFH9oqAuH0CUk4YMW"
+    },
+    {
+      "id": "darkdivine|undeadmelody",
+      "d": "29/05",
+      "a": "Dark Divine",
+      "t": "Undead Melody",
+      "k": "ÁLBUM",
+      "g": "metalcore / modern metal",
+      "q": "Dark Divine Undead Melody",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273dbefc2e978f8462bc5a34882",
+      "sourceLink": "https://thrillerrecords.com/blogs/news/dark-divine-enter-a-new-era-with-undead-melody",
+      "spotifyLink": "https://open.spotify.com/album/3fdWvGkNNdjF3L9b4c4hrW"
+    },
+    {
+      "id": "honeyrevenge|lovingandlosing",
+      "d": "18/09",
+      "a": "Honey Revenge",
+      "t": "Loving and Losing",
+      "k": "ÁLBUM",
+      "g": "pop rock / pop punk / emo",
+      "q": "Honey Revenge Loving and Losing",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e915aa3c4aae1f038a306a5d",
+      "sourceLink": "https://thrillerrecords.com/blogs/news/honey-revenge-announce-upcoming-album-loving-and-losing-with-new-single-butterfly-effect",
+      "spotifyLink": "https://open.spotify.com/album/3vq2VF9ZyCVqnE7Apciczd"
+    },
+    {
+      "id": "broadside|nowhereatlast",
+      "d": "10/04",
+      "a": "Broadside",
+      "t": "Nowhere, At Last",
+      "k": "ÁLBUM",
+      "g": "pop rock / pop punk / alternative rock",
+      "q": "Broadside Nowhere, At Last",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2730beceb63a5c260a70fe2d571",
+      "sourceLink": "https://thrillerrecords.com/blogs/news/broadside-share-new-album-nowhere-at-last",
+      "spotifyLink": "https://open.spotify.com/album/5qXIdDehwNNmZs6OoTGT9E"
+    },
+    {
+      "id": "theredjumpsuitapparatus|xsforeyesdeluxe",
+      "d": "06/03",
+      "a": "The Red Jumpsuit Apparatus",
+      "t": "X's For Eyes (Deluxe)",
+      "k": "DELUXE",
+      "g": "post-hardcore / emo / alternative rock",
+      "q": "The Red Jumpsuit Apparatus X's For Eyes (Deluxe)",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273a35b068baab0341c63a884bc",
+      "sourceLink": "https://betternoise.com/news/the-red-jumpsuit-apparatus-xs-for-eyes-deluxe/",
+      "spotifyLink": "https://open.spotify.com/album/7syGsIR5gKMXhvznUA6wGN"
+    },
+    {
+      "id": "yellowcard|betterdaysdeluxe",
+      "d": "18/09",
+      "a": "Yellowcard",
+      "t": "Better Days (Deluxe)",
+      "k": "DELUXE",
+      "g": "pop punk / alternative rock",
+      "q": "Yellowcard Better Days (Deluxe)",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27338cdb0b00c021ade8f60e01a",
+      "sourceLink": "https://betternoise.com/news/yellowcard-better-days-deluxe-hell-with-me-steve-aoki/",
+      "spotifyLink": "https://open.spotify.com/album/1vUmsKkej9e51KGUHrxU9w"
+    },
+    {
+      "id": "haken|inafeverdreamepdeluxeedition",
+      "d": "11/09",
+      "a": "Haken",
+      "t": "in a fever dream - EP (Deluxe Edition)",
+      "k": "DELUXE",
+      "g": "progressive metal / alternative metal",
+      "q": "Haken in a fever dream - EP (Deluxe Edition)",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27364843acad8e608fa04917ccb",
+      "sourceLink": "https://www.insideoutmusic.com/new/haken-8",
+      "spotifyLink": "https://open.spotify.com/album/5IuOvez8bhdPPMfD38SSBd"
+    },
+    {
+      "id": "einarsolberg|voxocculta",
+      "d": "24/04",
+      "a": "Einar Solberg",
+      "t": "Vox Occulta",
+      "k": "ÁLBUM",
+      "g": "progressive metal / orchestral metal",
+      "q": "Einar Solberg Vox Occulta",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273a674857ea9f370b1fea7c240",
+      "sourceLink": "https://www.insideoutmusic.com/new/einar-solberg-6",
+      "spotifyLink": "https://open.spotify.com/album/4ISmFYRQoPhbzdbFv8179R"
+    },
+    {
+      "id": "einarsolberg|voxoccultadeluxeedition",
+      "d": "17/08",
+      "a": "Einar Solberg",
+      "t": "Vox Occulta (Deluxe Edition)",
+      "k": "DELUXE",
+      "g": "progressive metal / orchestral metal",
+      "q": "Einar Solberg Vox Occulta (Deluxe Edition)",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273afadb34d55b5e9e527deed9b",
+      "sourceLink": "https://www.insideoutmusic.com/new/einar-solberg-8",
+      "spotifyLink": "https://open.spotify.com/album/4JrlVPt5VBz38JEWviHK9K"
+    },
+    {
+      "id": "asymmetricuniverse|amemoryandwhatcameafterdeluxeedition",
+      "d": "18/09",
+      "a": "Asymmetric Universe",
+      "t": "A Memory And What Came After (Deluxe Edition)",
+      "k": "DELUXE",
+      "g": "instrumental progressive metal / jazz fusion",
+      "q": "Asymmetric Universe A Memory And What Came After (Deluxe Edition)",
+      "note": "DELUXE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2738ffeb527c382683c57991549",
+      "sourceLink": "https://www.insideoutmusic.com/new/asymmetric-universe-3",
+      "spotifyLink": "https://open.spotify.com/album/6mnP7nlZ6tMNdnkc4UfHit"
+    },
+    {
+      "id": "purereasonrevolution|terrifyingangels",
+      "d": "25/09",
+      "a": "Pure Reason Revolution",
+      "t": "Terrifying Angels",
+      "k": "ÁLBUM",
+      "g": "progressive alternative rock / grunge",
+      "q": "Pure Reason Revolution Terrifying Angels",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2731419710359ec8f74dde30527",
+      "sourceLink": "https://www.insideoutmusic.com/new/pure-reason-revolution-4",
+      "spotifyLink": "https://open.spotify.com/album/6yGcMqGqZTHvnaThjpdRCw"
+    },
+    {
+      "id": "gozu|gozuvi",
+      "d": "15/05",
+      "a": "Gozu",
+      "t": "Gozu VI",
+      "k": "ÁLBUM",
+      "g": "alternative heavy rock / grunge / stoner rock",
+      "q": "Gozu Gozu VI",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273c6c089ff8f41724c37f3a1ab",
+      "sourceLink": "https://www.metalblade.com/us/releases/gozu-gozu-vi/",
+      "spotifyLink": "https://open.spotify.com/album/0yWabmaT6RcawJg1V5AldN"
+    },
+    {
+      "id": "drywedding|thebackofbeyond",
+      "d": "31/07",
+      "a": "Dry Wedding",
+      "t": "The Back of Beyond",
+      "k": "ÁLBUM",
+      "g": "noise rock / post-punk / doom",
+      "q": "Dry Wedding The Back of Beyond",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273bb69c1827c9c958941ab0c59",
+      "sourceLink": "https://www.metalblade.com/us/releases/dry-wedding-the-back-of-beyond/",
+      "spotifyLink": "https://open.spotify.com/album/3vXOf8E0lrGy31WpUEJsna"
+    },
+    {
+      "id": "thenumbertwelvelookslikeyou|howlsfromtheholographicheart",
+      "d": "16/10",
+      "a": "The Number Twelve Looks Like You",
+      "t": "Howls From The Holographic Heart",
+      "k": "ÁLBUM",
+      "g": "progressive metalcore / mathcore / post-hardcore",
+      "q": "The Number Twelve Looks Like You Howls From The Holographic Heart",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273df21ca0b757fe237096ef16a",
+      "sourceLink": "https://equalvision.com/blogs/news/the-number-twelve-looks-like-you-announce-howls-from-the-holographic-heart-out-october-16",
+      "spotifyLink": "https://open.spotify.com/album/2nLrVKRpKRK8HwA83lFzFM"
+    },
+    {
+      "id": "slayer|hellawaits40thanniversaryedition",
+      "d": "15/05",
+      "a": "Slayer",
+      "t": "Hell Awaits (40th Anniversary Edition)",
+      "k": "DELUXE",
+      "g": "thrash metal / punk-influenced thrash",
+      "q": "Slayer Hell Awaits 40th Anniversary Edition",
+      "note": "REISSUE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ee8292a164d92ef3269f8b63",
+      "sourceLink": "https://www.qobuz.com/ca-en/album/hell-awaits-40th-anniversary-edition-slayer/xjqr6yui3cyro",
+      "spotifyLink": "https://open.spotify.com/album/7gLJcga1ogpQNRO8B054GF"
+    },
+    {
+      "id": "dreadnought|warsofspiritwardsoflight",
+      "d": "11/09",
+      "a": "Dreadnought",
+      "t": "Wars of Spirit // Wards of Light",
+      "k": "ÁLBUM",
+      "g": "progressive metal / atmospheric metal / folk",
+      "q": "Dreadnought Wars of Spirit Wards of Light",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273986ed5c0a0c8a9641d639008",
+      "sourceLink": "https://www.metalblade.com/us/news/dreadnought-pre-orders-for-new-album-now-live/",
+      "spotifyLink": "https://open.spotify.com/album/02NkDy6LFR02K0CEBNwqL9"
+    },
+    {
+      "id": "thepineapplethief|farandwide",
+      "d": "09/10",
+      "a": "The Pineapple Thief",
+      "t": "Far and Wide",
+      "k": "ÁLBUM",
+      "g": "progressive rock / alternative rock / art rock",
+      "q": "The Pineapple Thief Far and Wide",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273a1f8aa601b58eb18793f5f07",
+      "sourceLink": "https://www.insideoutmusic.com/new/the-pineapple-thief-2",
+      "spotifyLink": "https://open.spotify.com/album/4RKFxREh8GmCTshkaA9m1o"
+    },
+    {
+      "id": "dreamtheater|lostnotforgottenarchivesliveintokyo2010",
+      "d": "13/03",
+      "a": "Dream Theater",
+      "t": "Lost Not Forgotten Archives: Live In Tokyo, 2010",
+      "k": "ÁLBUM AO VIVO",
+      "g": "progressive metal / technical progressive metal",
+      "q": "Dream Theater Lost Not Forgotten Archives Live In Tokyo 2010",
+      "note": "ARCHIVAL",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27369ed289f26a494e0a2ed260e",
+      "sourceLink": "https://www.insideoutshop.de/products/dream-theater-lost-not-forgotten-archives-live-in-tokyo-2010-special-edition-cd-digipak",
+      "spotifyLink": "https://open.spotify.com/album/2rg2G2ES20fSBBrXquoEUI"
+    },
+    {
+      "id": "gloria|preludio",
+      "d": "27/03",
+      "a": "Gloria",
+      "t": "Prelúdio",
+      "k": "EP",
+      "g": "metalcore / post-hardcore / alternative rock",
+      "q": "Gloria Prelúdio",
+      "country": "BR",
+      "sourceLink": "https://onerpm.link/119015524506",
+      "spotifyLink": "https://open.spotify.com/album/6OKgt0A7OuJWiixvcyqDBk",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27397fcc7fc4e3a3ba812b5d315"
+    },
+    {
+      "id": "pitty|pitty",
+      "d": "16/10",
+      "a": "Pitty",
+      "t": "Pitty",
+      "k": "ÁLBUM",
+      "g": "alternative rock / hard rock / punk rock",
+      "q": "Pitty Pitty",
+      "country": "BR",
+      "sourceLink": "https://music.apple.com/br/album/pitty/6816252263",
+      "spotifyLink": "https://open.spotify.com/album/7oJsUbfVjaOxKFYTurScsT",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2731b7a3925a5cbb4b5d0361c18"
+    },
+    {
+      "id": "mee|caughtbetweenheavenandhellmakethembothweep",
+      "d": "01/06",
+      "a": "MEE",
+      "t": "Caught Between Heaven and Hell, Make Them Both Weep",
+      "k": "ÁLBUM",
+      "g": "modern hardcore / metal / post-punk",
+      "q": "MEE Caught Between Heaven and Hell Make Them Both Weep",
+      "country": "BR",
+      "sourceLink": "https://open.spotify.com/album/0VtkjD2osJb6YlGSJY2tqz",
+      "spotifyLink": "https://open.spotify.com/album/0VtkjD2osJb6YlGSJY2tqz",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e3e13a681a9928a8c67f3d8e"
+    },
+    {
+      "id": "buriedinspring|buriedinspring",
+      "d": "16/10",
+      "a": "Buried In Spring",
+      "t": "Buried In Spring",
+      "k": "EP",
+      "g": "post-hardcore / metalcore",
+      "q": "Buried In Spring Buried In Spring",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2736972e6bfb8b85fa58aff78e0",
+      "sourceLink": "https://buriedinspring.bandcamp.com/album/buried-in-spring",
+      "spotifyLink": "https://open.spotify.com/album/0mrjFNe8nS7u39pwGX1OJ5"
+    }
   ]
 }
