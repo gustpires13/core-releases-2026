@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-16",
+    "updated": "2026-10-17",
     "schemaVersion": 1
   },
   "releases": [
@@ -8021,6 +8021,58 @@
       "cover": "https://i.scdn.co/image/ab67616d0000b2736972e6bfb8b85fa58aff78e0",
       "sourceLink": "https://buriedinspring.bandcamp.com/album/buried-in-spring",
       "spotifyLink": "https://open.spotify.com/album/0mrjFNe8nS7u39pwGX1OJ5"
+    },
+    {
+      "id": "heavenscoldhands|boundbytime",
+      "d": "13/10",
+      "a": "heavenscoldhands",
+      "t": "Bound by Time",
+      "k": "EP",
+      "g": "melodic metalcore / post-hardcore / emo",
+      "q": "heavenscoldhands Bound by Time",
+      "sourceLink": "https://heavenscoldhands.bandcamp.com/album/bound-by-time",
+      "spotifyLink": "https://open.spotify.com/album/4JjplsGaYe3mt5ZuCIOQsK",
+      "deezer": "https://www.deezer.com/album/1103201712",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27353bb547f98531113c193ba6d"
+    },
+    {
+      "id": "strayview|selfinflicted",
+      "d": "16/10",
+      "a": "Stray View",
+      "t": "Self Inflicted",
+      "k": "ÁLBUM",
+      "g": "metalcore / alternative metal / post-hardcore",
+      "q": "Stray View Self Inflicted",
+      "sourceLink": "https://hopelessrecords.bandcamp.com/album/self-inflicted",
+      "spotifyLink": "https://open.spotify.com/album/4MbKLd2uLzoOAc8e5GTeVn",
+      "deezer": "https://www.deezer.com/album/1059957932",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273b282815e3cf4a62119b2e92e"
+    },
+    {
+      "id": "fervence|constructs",
+      "d": "16/10",
+      "a": "Fervence",
+      "t": "Constructs",
+      "k": "ÁLBUM",
+      "g": "progressive metalcore / progressive metal / djent",
+      "q": "Fervence Constructs",
+      "sourceLink": "https://fervence.bandcamp.com/album/constructs",
+      "spotifyLink": "https://open.spotify.com/album/0hnq7NCqMJ7nrdiS8QXch9",
+      "deezer": "https://www.deezer.com/album/1014557211",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273f4e4285fefc36f250dbf3817"
+    },
+    {
+      "id": "defects|artificialicons",
+      "d": "16/10",
+      "a": "Defects",
+      "t": "Artificial Icons",
+      "k": "ÁLBUM",
+      "g": "melodic metalcore / alternative metal",
+      "q": "Defects Artificial Icons",
+      "sourceLink": "https://linktr.ee/WeAreDefects",
+      "spotifyLink": "https://open.spotify.com/album/2ezJLFii579hM9ZvclsM1f",
+      "deezer": "https://www.deezer.com/album/931964721",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27303284cc46d7b7805dc74a72b"
     }
   ]
 }
