@@ -7,7 +7,6 @@ const RAW_RELEASES=CATALOG.releases;
 
 
 const MESES=["","JANEIRO","FEVEREIRO","MARÇO","ABRIL","MAIO","JUNHO","JULHO","AGOSTO","SETEMBRO","OUTUBRO","NOVEMBRO","DEZEMBRO"];
-const CURTOS=["","JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"];
 
 /* ---------- helpers ---------- */
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
@@ -44,13 +43,29 @@ function legacyKey(r){return norm(r.a)+"|"+norm(r.t)}
 const R=Object.freeze(RAW_RELEASES.map((record,i)=>Object.freeze({...record,id:record.id||legacyKey(record),i,m:parseInt(record.d.slice(3),10)})));
 function key(r){return r.id}
 const CACHE_KEY="core-releases-runtime-cache-v1",CACHE_TTL=7*24*60*60*1000;
-const validHttps=value=>{try{return new URL(value).protocol==="https:"}catch(e){return false}};
-function normalizeSpotifyUrl(value){
-  if(!validHttps(value))return null;
+function safeHttpsUrl(value){
   try{
-    const u=new URL(value),match=u.pathname.match(/^\/((?:intl-[a-z-]+\/)?)album\/([^/]+)/i);
-    return match?"https://open.spotify.com/intl-pt/album/"+match[2]:value;
-  }catch(e){return value}
+    const url=new URL(String(value||""));
+    if(url.protocol!=="https:"||url.username||url.password)return null;
+    return url.href;
+  }catch{return null}
+}
+const validHttps=value=>safeHttpsUrl(value)!==null;
+function normalizeSpotifyUrl(value){
+  const safe=safeHttpsUrl(value);if(!safe)return null;
+  try{
+    const u=new URL(safe);
+    if(u.hostname.toLowerCase()!=="open.spotify.com")return null;
+    const match=u.pathname.match(/^\/(?:intl-[a-z-]+\/)?album\/([a-z0-9]+)\/?$/i);
+    return match?"https://open.spotify.com/intl-pt/album/"+match[1]:null;
+  }catch{return null}
+}
+function normalizeYouTubeMusicUrl(value){
+  const safe=safeHttpsUrl(value);if(!safe)return null;
+  try{
+    const u=new URL(safe),host=u.hostname.toLowerCase();
+    return ["music.youtube.com","youtube.com","www.youtube.com","youtu.be","www.youtu.be"].includes(host)?u.href:null;
+  }catch{return null}
 }
 function loadRuntimeCache(){
   if(AUDIT)return Object.create(null);
@@ -58,12 +73,15 @@ function loadRuntimeCache(){
     const parsed=JSON.parse(localStorage.getItem(CACHE_KEY)||"null");
     if(!parsed||parsed.expires<Date.now()||!parsed.entries||typeof parsed.entries!=="object")return Object.create(null);
     return parsed.entries;
-  }catch(e){return Object.create(null)}
+  }catch{return Object.create(null)}
 }
 const cachedRuntime=loadRuntimeCache();
 const runtimeState=new Map(R.map(r=>{
   const cached=cachedRuntime[r.id]||{},state={artState:0};
-  for(const field of ["cover","link","seed","yt","deezer"]){if(validHttps(cached[field]))state[field]=cached[field]}
+  for(const field of ["cover","link","seed","yt","deezer"]){
+    const safe=field==="yt"?normalizeYouTubeMusicUrl(cached[field]):field==="deezer"?deezerDirectLink(cached[field]):safeHttpsUrl(cached[field]);
+    if(safe)state[field]=safe;
+  }
   const catalogSpotify=normalizeSpotifyUrl(r.spotifyLink||((r.sourceLink||"").includes("open.spotify.com")?r.sourceLink:null));
   const cachedSpotify=normalizeSpotifyUrl(cached.sp);
   if(catalogSpotify||cachedSpotify)state.sp=catalogSpotify||cachedSpotify;
@@ -81,7 +99,7 @@ function persistRuntimeSoon(){
       for(const field of ["cover","link","seed","sp","yt","deezer"]){if(validHttps(state[field]))saved[field]=state[field]}
       if(Object.keys(saved).length)entries[r.id]=saved;
     });
-    try{localStorage.setItem(CACHE_KEY,JSON.stringify({expires:Date.now()+CACHE_TTL,entries}))}catch(e){}
+    try{localStorage.setItem(CACHE_KEY,JSON.stringify({expires:Date.now()+CACHE_TTL,entries}))}catch{}
   },250);
 }
 const dateBits=String(CATALOG_META.updated||"").split("-");
@@ -97,7 +115,7 @@ const ACCOUNT_PREFERENCES_PREFIX="core-releases-preferences-v1:";
 const ACCOUNT_IMPORT_PREFIX="core-releases-imported-v1:";
 const ACCOUNT_CHANNEL="core-releases-account-sync-v1";
 const accountChannel="BroadcastChannel" in window?new BroadcastChannel(ACCOUNT_CHANNEL):null;
-const newId=()=>{try{return crypto.randomUUID()}catch(e){return Date.now().toString(36)+Math.random().toString(36).slice(2)}};
+const newId=()=>{try{return crypto.randomUUID()}catch{return Date.now().toString(36)+Math.random().toString(36).slice(2)}};
 function emptyUserState(){
   return {listened:Object.create(null),ratings:Object.create(null),filters:{format:"all",listened:"all",rating:"all"}};
 }
@@ -112,7 +130,7 @@ function readLegacyUserState(){
     if(["all","alb","ep","oth"].includes(f.format))state.filters.format=f.format;
     if(["all","listened","unlistened"].includes(f.listened))state.filters.listened=f.listened;
     if(["all","unrated","1","2","3","4","5"].includes(String(f.rating)))state.filters.rating=String(f.rating);
-  }catch(e){}
+  }catch{}
   return state;
 }
 let authState={status:IS_SITES_HOST?"checking":"anonymous",accountKey:null,displayName:null,syncToken:null,etag:null,inFlight:false};
@@ -133,14 +151,12 @@ function saveUserState(){
       localStorage.setItem(USER_STATE_KEY,JSON.stringify({listened,ratings,filters:userState.filters}));
     }
     accountChannel?.postMessage({type:"local-state",accountKey:authState.accountKey});
-  }catch(e){}
+  }catch{}
 }
 function isListened(r){return userState.listened[key(r)]===true}
 function releaseRating(r){return Number(userState.ratings[key(r)])||0}
 function deezerReleaseLink(r){
-  const direct=r.deezer||stateOf(r).deezer;
-  if(direct)return direct;
-  return deezerDirectLink(r.sourceLink);
+  return deezerDirectLink(r.deezer)||deezerDirectLink(stateOf(r).deezer)||deezerDirectLink(r.sourceLink);
 }
 /* ---------- icons ---------- */
 const IC={
@@ -162,7 +178,7 @@ let sortDir="asc";
 try{
   const savedSort=localStorage.getItem(SORT_KEY);
   if(savedSort==="asc"||savedSort==="desc")sortDir=savedSort;
-}catch(e){}
+}catch{}
 function normalizeClientPreferences(value){
   const input=value&&typeof value==="object"?value:{};
   return {
@@ -191,7 +207,7 @@ function applyRemotePreferences(value){
   if(ratingControl)ratingControl.value=preferences.rating;
   if(sortChanged)applySortOrder({preserveScroll:true});
   if(sortChanged||filterChanged)applyFilters({preserveScroll:true});
-  try{localStorage.setItem(SORT_KEY,sortDir)}catch(e){}
+  try{localStorage.setItem(SORT_KEY,sortDir)}catch{}
   return sortChanged||filterChanged;
 }
 function dateKey(r){
@@ -229,14 +245,14 @@ function applySortOrder(options={}){
 }
 
 function platHTML(r){
-  const enc=encodeURIComponent((r.a+" "+r.t.replace(/[|]/g," ")).replace(/\s+/g," ").trim());
+  const enc=encodeURIComponent((r.a+" "+r.t).replace(/[|\/]/g," ").replace(/\s+/g," ").trim());
   const dz=deezerReleaseLink(r),state=stateOf(r),catalogSpotify=normalizeSpotifyUrl(r.spotifyLink);
   const spotify=catalogSpotify||"",hasSpotify=Boolean(catalogSpotify);
-  const youtube=state.yt||("https://music.youtube.com/search?q="+enc);
+  const youtube=normalizeYouTubeMusicUrl(state.yt)||("https://music.youtube.com/search?q="+enc);
   return '<div class="plat">'
-    +'<a class="p-sp" target="_blank" rel="noopener" '+(hasSpotify?'href="'+spotify+'"':'aria-disabled="true"')+' title="'+(hasSpotify?"Abrir álbum no Spotify":"Álbum ainda não confirmado no Spotify")+'" aria-label="Spotify: '+esc(r.a+" "+r.t)+'">'+IC.sp+"</a>"
-    +'<a class="p-dz" target="_blank" rel="noopener" href="'+(dz||"https://www.deezer.com/search/"+enc+"/album")+'" title="'+(dz?"Abrir álbum no Deezer":"Buscar no Deezer")+'" aria-label="Deezer: '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>"
-    +'<a class="p-yt" target="_blank" rel="noopener" href="'+youtube+'" title="'+(state.yt?"Abrir no YouTube Music":"Buscar no YouTube Music")+'" aria-label="YouTube Music: '+esc(r.a+" "+r.t)+'">'+IC.yt+"</a>"
+    +'<a class="p-sp" target="_blank" rel="noopener" '+(hasSpotify?'href="'+esc(spotify)+'"':'aria-disabled="true"')+' title="'+(hasSpotify?"Abrir álbum no Spotify":"Álbum ainda não confirmado no Spotify")+'" aria-label="Spotify: '+esc(r.a+" "+r.t)+'">'+IC.sp+"</a>"
+    +'<a class="p-dz" target="_blank" rel="noopener" href="'+esc(dz||"https://www.deezer.com/search/"+enc+"/album")+'" title="'+(dz?"Abrir álbum no Deezer":"Buscar no Deezer")+'" aria-label="Deezer: '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>"
+    +'<a class="p-yt" target="_blank" rel="noopener" href="'+esc(youtube)+'" title="'+(state.yt?"Abrir no YouTube Music":"Buscar no YouTube Music")+'" aria-label="YouTube Music: '+esc(r.a+" "+r.t)+'">'+IC.yt+"</a>"
   +"</div>";
 }
 function preferenceControlsHTML(r){
@@ -330,7 +346,7 @@ function readAccountCache(accountKey){
   try{
     const parsed=JSON.parse(localStorage.getItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey))||"null");
     return parsed&&Array.isArray(parsed.states)?{states:parsed.states,preferences:parsed.preferences||null,recovered:parsed.recovered===true}:null;
-  }catch(e){return null}
+  }catch{return null}
 }
 function saveAccountCache(accountKey,syncToken,states=stateRowsFromCurrent(),preferences=currentUserPreferences(),recovered=false){
   if(!accountKey)return;
@@ -338,35 +354,39 @@ function saveAccountCache(accountKey,syncToken,states=stateRowsFromCurrent(),pre
     const key=accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey);
     const previous=JSON.parse(localStorage.getItem(key)||"null");
     localStorage.setItem(key,JSON.stringify({states,preferences:normalizeClientPreferences(preferences),recovered:recovered||previous?.recovered===true}));
-  }catch(e){}
+  }catch{}
 }
 function readQueue(accountKey){
   if(!accountKey)return[];
   try{
     const parsed=JSON.parse(localStorage.getItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey))||"[]");
     return Array.isArray(parsed)?parsed.filter(item=>item&&typeof item.releaseId==="string"&&typeof item.mutationId==="string"):[];
-  }catch(e){return[]}
+  }catch{return[]}
 }
 function saveQueue(accountKey,queue){
   if(!accountKey)return;
   try{
     if(queue.length)localStorage.setItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey),JSON.stringify(queue));
     else localStorage.removeItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey));
-  }catch(e){}
+  }catch{}
 }
 function readPreferenceQueue(accountKey){
   if(!accountKey)return null;
   try{
     const parsed=JSON.parse(localStorage.getItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey))||"null");
     return parsed&&typeof parsed.mutationId==="string"&&parsed.preferences?{mutationId:parsed.mutationId,preferences:normalizeClientPreferences(parsed.preferences)}:null;
-  }catch(e){return null}
+  }catch{return null}
+}
+function syncResultLabel(success,accountKey){
+  const pending=readQueue(accountKey).length>0||readPreferenceQueue(accountKey)!==null;
+  return success&&!pending?"sincronizado":"sincronização pendente";
 }
 function savePreferenceQueue(accountKey,entry){
   if(!accountKey)return;
   try{
     if(entry)localStorage.setItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey),JSON.stringify({mutationId:entry.mutationId,preferences:normalizeClientPreferences(entry.preferences)}));
     else localStorage.removeItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey));
-  }catch(e){}
+  }catch{}
 }
 function stateRowsFromCurrent(){
   const ids=new Set([...Object.keys(userState.listened),...Object.keys(userState.ratings)]),rows=[];
@@ -467,13 +487,18 @@ function cachedImportStates(cached){
   return states;
 }
 function clearLegacyMarks(){
-  try{localStorage.setItem(USER_STATE_KEY,JSON.stringify({listened:{},ratings:{},filters:userState.filters}))}catch(e){}
+  try{localStorage.setItem(USER_STATE_KEY,JSON.stringify({listened:{},ratings:{},filters:userState.filters}))}catch{}
 }
 function accountControl(){return document.getElementById("account-control")}
 function syncIcon(label){const text=String(label||"sincronizando");return '<span class="sync-icon" role="img" aria-label="'+esc(text)+'" title="'+esc(text)+'"></span>'}
 function renderAccountControl(label){
   const el=accountControl();if(!el)return;
-  if(!IS_SITES_HOST){el.hidden=true;return}
+  if(!IS_SITES_HOST){
+    el.hidden=false;el.dataset.state="local";
+    el.setAttribute("aria-label","Marcações salvas somente neste navegador. Abra a lista sincronizada para ver os mesmos registros em outros aparelhos.");
+    el.innerHTML='<span class="sync-dot" aria-hidden="true"></span><span class="account-name" title="Marcações salvas somente neste navegador">Local</span><a class="account-login" aria-label="Abrir a lista sincronizada entre aparelhos" title="Ver as marcações sincronizadas pela sua conta" href="https://core-releases-2026.gustpires13.chatgpt.site/" target="_top" rel="nofollow">Abrir lista</a>';
+    return;
+  }
   el.hidden=false;el.dataset.state=authState.status==="authenticated"?(label==="sincronizado"?"ok":"pending"):(authState.status==="checking"?"pending":"error");
   if(authState.status==="checking"){
     el.innerHTML=syncIcon("verificando sessão");return;
@@ -505,10 +530,10 @@ async function processQueue(){
       const queue=readQueue(authState.accountKey),entry=queue[0];if(!entry)break;
       setSyncStatus("sincronizando");
       let response;
-      try{response=await authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:apiRating(entry.rating),mutationId:entry.mutationId})})}catch(e){success=false;break}
+      try{response=await authFetch("/api/user-state/"+encodeURIComponent(entry.releaseId),{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({listened:entry.listened,rating:apiRating(entry.rating),mutationId:entry.mutationId})})}catch{success=false;break}
       if(response.status===401){handleSessionExpired();success=false;break}
       if(response.status===409){
-        let payload=null;try{payload=await response.json()}catch(e){}
+        let payload=null;try{payload=await response.json()}catch{}
         if(payload?.error!=="mutation_already_processed"){success=false;break}
         const remaining=readQueue(authState.accountKey).filter(item=>item.mutationId!==entry.mutationId);
         saveQueue(authState.accountKey,remaining);
@@ -517,7 +542,7 @@ async function processQueue(){
         continue;
       }
       if(!response.ok){success=false;break}
-      let payload=null;try{payload=await response.json()}catch(e){}
+      let payload=null;try{payload=await response.json()}catch{}
       if(payload?.syncToken){authState.syncToken=payload.syncToken;authState.etag=null}
       const remaining=readQueue(authState.accountKey).filter(item=>item.mutationId!==entry.mutationId);saveQueue(authState.accountKey,remaining);
       if(payload?.state)applyStateRow(payload.state);
@@ -526,7 +551,7 @@ async function processQueue(){
     }
   }finally{queueBusy=false}
   if(success&&needsResync&&!authState.inFlight)await syncNow(true);
-  setSyncStatus(success&&!readQueue(authState.accountKey).length?"sincronizado":"sincronização pendente");return success;
+  setSyncStatus(syncResultLabel(success,authState.accountKey));return success;
 }
 async function processPreferenceQueue(){
   if(preferenceQueueBusy||authState.status!=="authenticated"||!authState.accountKey)return true;
@@ -536,11 +561,11 @@ async function processPreferenceQueue(){
     if(entry){
       setSyncStatus("sincronizando");
       let response=null;
-      try{response=await authFetch("/api/user-preferences",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({preferences:entry.preferences,mutationId:entry.mutationId})})}catch(e){success=false}
+      try{response=await authFetch("/api/user-preferences",{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify({preferences:entry.preferences,mutationId:entry.mutationId})})}catch{success=false}
       if(response?.status===401){handleSessionExpired();success=false}
       else if(!response?.ok){success=false}
       else{
-        let payload=null;try{payload=await response.json()}catch(e){}
+        let payload=null;try{payload=await response.json()}catch{}
         if(payload?.syncToken){authState.syncToken=payload.syncToken;authState.etag=null}
         const current=readPreferenceQueue(authState.accountKey);
         if(current?.mutationId===entry.mutationId){savePreferenceQueue(authState.accountKey,null);applyRemotePreferences(payload?.preferences||entry.preferences)}
@@ -549,7 +574,7 @@ async function processPreferenceQueue(){
       }
     }
   }finally{preferenceQueueBusy=false}
-  setSyncStatus(success&&!readQueue(authState.accountKey).length?"sincronizado":"sincronização pendente");return success;
+  setSyncStatus(syncResultLabel(success,authState.accountKey));return success;
 }
 async function recoverAccountCache(){
   if(authState.status!=="authenticated"||!authState.accountKey||!accountRecoveryStates.length)return true;
@@ -569,7 +594,7 @@ async function recoverAccountCache(){
     accountRecoveryStates=[];
     accountChannel?.postMessage({type:"account-update",accountKey:authState.accountKey});
     return true;
-  }catch(e){setSyncStatus("sincronização pendente");return false}
+  }catch{setSyncStatus("sincronização pendente");return false}
 }
 async function syncNow(force=false){
   if(!IS_SITES_HOST||authState.status!=="authenticated"||authState.inFlight)return;
@@ -591,7 +616,7 @@ async function syncNow(force=false){
       saveAccountCache(authState.accountKey,authState.syncToken,stateRowsFromCurrent(),pendingPreferences?.preferences||payload.preferences||currentUserPreferences(),true);
       success=true;
     }
-  }catch(e){}
+  }catch{}
   finally{authState.inFlight=false;setSyncStatus(success?"sincronizado":"sincronização pendente")}
   if(success){await processQueue();await processPreferenceQueue()}
 }
@@ -604,7 +629,7 @@ function flushPendingOnHide(){
 async function importLocalHistory(){
   if(authState.status!=="authenticated"||!authState.accountKey)return;
   const states=localImportStates();
-  if(!states.length){try{localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done")}catch(e){};return}
+  if(!states.length){try{localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done")}catch{};return}
   setSyncStatus("importando histórico");
   try{
     let payload=null;
@@ -615,7 +640,7 @@ async function importLocalHistory(){
       payload=await response.json();
     }
     authState.syncToken=payload?.syncToken||authState.syncToken;authState.etag=null;applyStateRows(payload?.states||[]);saveAccountCache(authState.accountKey,authState.syncToken,payload?.states||[]);clearLegacyMarks();localStorage.setItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,authState.accountKey),"done");setSyncStatus("sincronizado");
-  }catch(e){setSyncStatus("sincronização pendente")}
+  }catch{setSyncStatus("sincronização pendente")}
 }
 function startSyncLoop(){
   clearInterval(syncTimer);syncTimer=0;
@@ -631,7 +656,7 @@ async function explicitLogout(){
   const flushed=(await processQueue())&&(await processPreferenceQueue());
   if(!flushed&&!window.confirm("Há alterações pendentes. Sair agora pode deixá-las sem sincronizar. Continuar?"))return;
   const accountKey=authState.accountKey;
-  try{localStorage.removeItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,accountKey));clearLegacyMarks()}catch(e){}
+  try{localStorage.removeItem(accountStorageKey(ACCOUNT_CACHE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_QUEUE_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_PREFERENCES_PREFIX,accountKey));localStorage.removeItem(accountStorageKey(ACCOUNT_IMPORT_PREFIX,accountKey));clearLegacyMarks()}catch{}
   accountRecoveryStates=[];userState.listened=Object.create(null);userState.ratings=Object.create(null);syncAllCardPreferences();applyFilters();
   window.top.location.href="/signout-with-chatgpt?return_to=%2F";
 }
@@ -655,7 +680,7 @@ async function initializeAccount(){
     await syncNow(true);
     await importLocalHistory();
     startSyncLoop();
-  }catch(e){authState.status="unavailable";userState=readLegacyUserState();syncAllCardPreferences();renderAccountControl("sincronização indisponível");applyFilters()}
+  }catch{authState.status="unavailable";userState=readLegacyUserState();syncAllCardPreferences();renderAccountControl("sincronização indisponível");applyFilters()}
   finally{accountInitBusy=false}
 }
 /* marquee */
@@ -721,7 +746,7 @@ ratingFilter.value=userState.filters.rating;
 applySortOrder();
 sortOrder.addEventListener("change",e=>{
   sortDir=e.target.value;
-  try{localStorage.setItem(SORT_KEY,sortDir)}catch(err){}
+  try{localStorage.setItem(SORT_KEY,sortDir)}catch{}
   applySortOrder({preserveScroll:true});
   saveUserState();enqueuePreferences();
 });
@@ -905,8 +930,8 @@ if(finePtr&&!reduced){
   function loop(t){if(contextLost)return;gl.uniform1f(uT,(t-t0)*.001);gl.drawArrays(gl.TRIANGLES,0,3);raf=requestAnimationFrame(loop)}
   const start=()=>{if(!contextLost&&vis&&pvis&&!raf)raf=requestAnimationFrame(loop)};
   const stop=()=>{if(raf){cancelAnimationFrame(raf);raf=0}};
-  new IntersectionObserver(([e])=>{vis=e.isIntersecting;vis?start():stop()},{threshold:0}).observe(hero);
-  document.addEventListener("visibilitychange",()=>{pvis=!document.hidden;pvis?start():stop()});
+  new IntersectionObserver(([e])=>{vis=e.isIntersecting;if(vis)start();else stop()},{threshold:0}).observe(hero);
+  document.addEventListener("visibilitychange",()=>{pvis=!document.hidden;if(pvis)start();else stop()});
   start();
 })();
 
@@ -933,7 +958,7 @@ function suggestionData(){
   if(!art||!alb){msg.textContent="[ ! ] Preencha pelo menos artista e álbum.";return null}
   if(link){
     try{const url=new URL(link);if(!["http:","https:"].includes(url.protocol))throw new Error("protocol")}
-    catch(e){msg.textContent="[ ! ] Informe um link completo começando com http:// ou https://.";return null}
+    catch{msg.textContent="[ ! ] Informe um link completo começando com http:// ou https://.";return null}
   }
   const body="Sugestão de release para o CORE RELEASES:\n\n"
     +"Artista: "+art+"\n"
@@ -970,11 +995,13 @@ async function deezerApi(params){
 }
 const dzCoverOf=al=>al.cover_big||al.cover_xl||al.cover_medium||null;
 function deezerDirectLink(link){
-  if(!link)return null;
+  const safe=safeHttpsUrl(link);if(!safe)return null;
   try{
-    const host=new URL(link,location.href).hostname.toLowerCase();
-    return host==="deezer.com"||host.endsWith(".deezer.com")||host==="deezer.page.link"?link:null;
-  }catch(e){return null}
+    const url=new URL(safe),host=url.hostname.toLowerCase();
+    if(host==="deezer.page.link")return url.href;
+    if(!(host==="deezer.com"||host.endsWith(".deezer.com"))||!/^\/(?:[a-z]{2}\/)?album\/\d+\/?$/i.test(url.pathname))return null;
+    return url.href;
+  }catch{return null}
 }
 async function dzAlbumById(id){
   const d=await deezerApi({album:String(id)});
@@ -1018,7 +1045,8 @@ async function mbCAA(r){
   return{cover:"https://coverartarchive.org/release-group/"+hit.id+"/front-500",link:null};
 }
 function cardCover(url){
-  return String(url||"")
+  const safe=safeHttpsUrl(url);if(!safe)return null;
+  return safe
     .replace(/\/1000x1000bb(?=\.[a-z]+(?:\?|$))/i,"/500x500bb")
     .replace(/\/1000x1000-(?=[^/]+$)/i,"/500x500-")
     .replace(/\/front-1200(?=\?|$)/i,"/front-500")
@@ -1026,6 +1054,7 @@ function cardCover(url){
 }
 function applyArt(card,r,got,src){
   const state=stateOf(r),cover=cardCover(got.cover),alt=cardCover(got.alt);
+  if(!cover){placeholder(card,r,"URL de capa inválida");return}
   const sleeve=card.querySelector(".sleeve"),img=sleeve.querySelector("img");
   img.onload=()=>{sleeve.classList.remove("loading");sleeve.classList.add("ok");const s=sleeve.querySelector(".shim");if(s)s.remove()};
   img.onerror=()=>{
@@ -1037,7 +1066,7 @@ function applyArt(card,r,got,src){
   state.cover=cover;
   const dzLink=deezerReleaseLink(r)||(!got.itlink&&deezerDirectLink(got.link));
   if(dzLink){const a=card.querySelector(".p-dz");a.href=dzLink;a.title="Abrir álbum no Deezer";state.deezer=dzLink;state.link=dzLink;state.seed=dzLink}
-  else if(validHttps(got.link)){state.link=state.link||got.link;state.seed=state.seed||got.link}
+  else {const safeLink=safeHttpsUrl(got.link);if(safeLink){state.link=state.link||safeLink;state.seed=state.seed||safeLink}}
   if(state.seed)queueLink(r);
   persistRuntimeSoon();
   if(!["CACHE","L0","L1"].includes(src))AUD.push({r,src});
@@ -1071,7 +1100,7 @@ async function resolveArt(r){
     try{
       const got=await fn();
       if(got&&got.cover){applyArt(card,r,got,name);return}
-    }catch(e){}
+    }catch{}
   }
   placeholder(card,r,"todas as camadas");
 }
@@ -1102,26 +1131,29 @@ async function ensureSeed(r){
   try{
     let got=await dzSearch(r,false);
     if(!got)got=await dzSearch(r,true);
-    if(got&&validHttps(got.link)){
-      state.seed=got.link;state.link=got.link;
+    const safeLink=safeHttpsUrl(got?.link);
+    if(got&&safeLink){
+      state.seed=safeLink;state.link=safeLink;
       const direct=deezerDirectLink(got.link);if(direct)state.deezer=direct;
       persistRuntimeSoon();queueLink(r);return state.seed;
     }
-  }catch(e){}
+  }catch{}
   return null;
 }
 function upgradeLinks(r){
   const host=document.querySelector('.card[data-i="'+r.i+'"]'),state=stateOf(r);
   if(!host)return;
-  if(state.yt){const a=host.querySelector(".p-yt");if(a){a.href=state.yt;a.title="Abrir no YouTube Music"}}
+  const youtube=normalizeYouTubeMusicUrl(state.yt);
+  if(youtube){const a=host.querySelector(".p-yt");if(a){a.href=youtube;a.title="Abrir no YouTube Music"}}
 }
 async function resolveStream(r){
   const state=stateOf(r);if(state.sp)return;
   const seed=await ensureSeed(r);
   if(!seed)return;
   const got=await odesli(seed);
-  if(validHttps(got.sp))state.sp=normalizeSpotifyUrl(got.sp)||got.sp;
-  if(validHttps(got.yt))state.yt=got.yt;
+  const spotify=normalizeSpotifyUrl(got.sp),youtube=normalizeYouTubeMusicUrl(got.yt);
+  if(spotify)state.sp=spotify;
+  if(youtube)state.yt=youtube;
   persistRuntimeSoon();upgradeLinks(r);
 }
 /* prioridade no hover: pré-resolve o link direto antes do clique */
@@ -1151,7 +1183,7 @@ async function runLinkStep(){
   const r=linkQueue.shift();
   if(!r){if(artFinished<R.length)scheduleLinkStep(3000);return}
   linkQueued.delete(r.id);
-  try{await resolveStream(r)}catch(e){}
+  try{await resolveStream(r)}catch{}
   if(linkQueue.length||artFinished<R.length)scheduleLinkStep(7000);
 }
 function startLinkTrickle(){
@@ -1194,5 +1226,6 @@ function enqueueArt(r){
   cards.forEach(c=>artIO.observe(c));
 })();
 const idleLinks=()=>startLinkTrickle();
-"requestIdleCallback" in window?requestIdleCallback(idleLinks,{timeout:5000}):setTimeout(idleLinks,5000);
+if("requestIdleCallback" in window)requestIdleCallback(idleLinks,{timeout:5000});else setTimeout(idleLinks,5000);
 initializeAccount();
+
