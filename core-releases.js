@@ -1228,4 +1228,3 @@ function enqueueArt(r){
 const idleLinks=()=>startLinkTrickle();
 if("requestIdleCallback" in window)requestIdleCallback(idleLinks,{timeout:5000});else setTimeout(idleLinks,5000);
 initializeAccount();
-
