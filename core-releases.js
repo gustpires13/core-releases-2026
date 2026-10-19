@@ -247,10 +247,12 @@ function applySortOrder(options={}){
 function platHTML(r){
   const enc=encodeURIComponent((r.a+" "+r.t).replace(/[|\/]/g," ").replace(/\s+/g," ").trim());
   const dz=deezerReleaseLink(r),state=stateOf(r),catalogSpotify=normalizeSpotifyUrl(r.spotifyLink);
-  const spotify=catalogSpotify||"",hasSpotify=Boolean(catalogSpotify);
+  const hasSpotify=Boolean(catalogSpotify);
   const youtube=normalizeYouTubeMusicUrl(state.yt)||("https://music.youtube.com/search?q="+enc);
-  return '<div class="plat">'
-    +'<a class="p-sp" target="_blank" rel="noopener" '+(hasSpotify?'href="'+esc(spotify)+'"':'aria-disabled="true"')+' title="'+(hasSpotify?"Abrir álbum no Spotify":"Álbum ainda não confirmado no Spotify")+'" aria-label="Spotify: '+esc(r.a+" "+r.t)+'">'+IC.sp+"</a>"
+  const spotifyControl=hasSpotify
+    ?'<a class="p-sp" target="_blank" rel="noopener" href="'+esc(catalogSpotify)+'" title="Abrir álbum no Spotify" aria-label="Spotify: '+esc(r.a+" "+r.t)+'">'+IC.sp+"</a>"
+    :'<span class="p-sp p-sp-unavailable" role="img" aria-label="Spotify sem link direto confirmado para '+esc(r.a+" "+r.t)+'" title="Álbum ainda não confirmado no Spotify">'+IC.sp+"</span>";
+  return '<div class="plat">'+spotifyControl
     +'<a class="p-dz" target="_blank" rel="noopener" href="'+esc(dz||"https://www.deezer.com/search/"+enc+"/album")+'" title="'+(dz?"Abrir álbum no Deezer":"Buscar no Deezer")+'" aria-label="Deezer: '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>"
     +'<a class="p-yt" target="_blank" rel="noopener" href="'+esc(youtube)+'" title="'+(state.yt?"Abrir no YouTube Music":"Buscar no YouTube Music")+'" aria-label="YouTube Music: '+esc(r.a+" "+r.t)+'">'+IC.yt+"</a>"
   +"</div>";
@@ -308,7 +310,7 @@ function syncCardPreference(card,r){
 function setReleaseRating(card,r,value){
   const k=key(r);
   if(value)userState.ratings[k]=value;else delete userState.ratings[k];
-  saveUserState();syncCardPreference(card,r);applyFilters({preserveScroll:true});enqueueMutation(r);
+  saveUserState();syncCardPreference(card,r);refreshPreferenceFilter("rating");enqueueMutation(r);
 }
 app.addEventListener("click",e=>{
   const listen=e.target.closest(".listen-toggle");
@@ -316,7 +318,7 @@ app.addEventListener("click",e=>{
     e.preventDefault();e.stopPropagation();
     const card=listen.closest(".card"),r=R[+card.dataset.i],k=key(r);
     if(isListened(r))delete userState.listened[k];else userState.listened[k]=true;
-    saveUserState();syncCardPreference(card,r);applyFilters({preserveScroll:true});enqueueMutation(r);return;
+    saveUserState();syncCardPreference(card,r);refreshPreferenceFilter("listened");enqueueMutation(r);return;
   }
   const star=e.target.closest(".rating-star");
   if(star){
@@ -718,10 +720,10 @@ function renderStats(filteredRecords){
   const nAlb=filteredRecords.filter(PRED.alb).length;
   const nEp=filteredRecords.filter(PRED.ep).length;
   const nOth=filteredRecords.filter(PRED.oth).length;
-  const signature=[totalRecords,nAlb,nEp,nOth].join("|");
+  const signature=[filteredRecords.length,nAlb,nEp,nOth].join("|");
   if(signature===statsSignature)return;
   statsEl.innerHTML=
-    '<div class="stat"><b>'+totalRecords+'</b><span>registros</span></div>'
+    '<div class="stat"><b>'+filteredRecords.length+'</b><span>registros</span></div>'
    +'<div class="stat"><b>'+nAlb+'</b><span>álbuns</span></div>'
    +'<div class="stat"><b>'+nEp+'</b><span>EPs</span></div>'
    +'<div class="stat"><b>'+nOth+'</b><span>outros</span></div>';
@@ -743,7 +745,7 @@ const ratingFilter=document.getElementById("rating-filter");
 sortOrder.value=sortDir;
 listenedFilter.value=userState.filters.listened;
 ratingFilter.value=userState.filters.rating;
-applySortOrder();
+if(sortDir==="desc")applySortOrder();
 sortOrder.addEventListener("change",e=>{
   sortDir=e.target.value;
   try{localStorage.setItem(SORT_KEY,sortDir)}catch{}
@@ -794,6 +796,10 @@ function applyFilters(options={}){
     if(dk)dk.style.display=n?"":"none";
   });
   if(preserveScroll)restoreViewport(anchor,y);
+}
+
+function refreshPreferenceFilter(filter){
+  if(userState.filters[filter]!=="all")applyFilters({preserveScroll:true});
 }
 
 filtersEl.addEventListener("click",e=>{
@@ -853,7 +859,7 @@ const io=new IntersectionObserver(es=>{
     Object.values(dmap).forEach(b=>b.classList.remove("cur"));
     const b=dmap["#"+e.target.id];if(b){b.classList.add("cur");b.scrollIntoView({inline:"nearest",block:"nearest"})}
   }});
-},{rootMargin:"-30% 0px -60% 0px"});
+},{root:document,rootMargin:"-30% 0px -60% 0px"});
 document.querySelectorAll("section.mo").forEach(s=>io.observe(s));
 
 /* reveal */
@@ -862,7 +868,7 @@ if(MOB||reduced){
 }else{
   const rio=new IntersectionObserver(es=>{
     es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rio.unobserve(e.target)}});
-  },{threshold:.12,rootMargin:"0px 0px -4% 0px"});
+  },{root:document,threshold:.12,rootMargin:"0px 0px -4% 0px"});
   document.querySelectorAll(".rv").forEach(el=>rio.observe(el));
 }
 
@@ -1222,7 +1228,7 @@ function enqueueArt(r){
   }
   const artIO=new IntersectionObserver(es=>{
     es.forEach(e=>{if(e.isIntersecting){artIO.unobserve(e.target);enqueueArt(R[+e.target.dataset.i])}});
-  },{rootMargin:MOB?"480px 0px":"900px 0px",threshold:0});
+  },{root:document,rootMargin:MOB?"480px 0px":"900px 0px",threshold:0});
   cards.forEach(c=>artIO.observe(c));
 })();
 const idleLinks=()=>startLinkTrickle();
