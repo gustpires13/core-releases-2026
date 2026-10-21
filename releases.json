@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-17",
+    "updated": "2026-10-21",
     "schemaVersion": 1
   },
   "releases": [
@@ -8143,6 +8143,130 @@
       "spotifyLink": "https://open.spotify.com/album/2ezJLFii579hM9ZvclsM1f",
       "deezer": "https://www.deezer.com/album/931964721",
       "cover": "https://i.scdn.co/image/ab67616d0000b27303284cc46d7b7805dc74a72b"
+    },
+    {
+      "id": "fugazi|albinisessionsbenefitforletterscharity",
+      "d": "06/03",
+      "a": "Fugazi",
+      "t": "Albini Sessions (Benefit for Letters Charity)",
+      "k": "ÁLBUM DE ARQUIVO",
+      "g": "post-hardcore / hardcore punk",
+      "q": "Fugazi Albini Sessions Benefit for Letters Charity",
+      "note": "ARCHIVAL / 12 TRACKS / DIGITAL ONLY / LETTERS CHARITY BENEFIT",
+      "sourceLink": "https://fugazi.bandcamp.com/album/albini-sessions-benefit-for-letters-charity",
+      "cover": "https://f4.bcbits.com/img/a2218595450_5.jpg"
+    },
+    {
+      "id": "neurosis|anundyingloveforaburningworld",
+      "d": "20/03",
+      "a": "Neurosis",
+      "t": "An Undying Love For A Burning World",
+      "k": "ÁLBUM",
+      "g": "post-metal / sludge metal / progressive metal",
+      "q": "Neurosis An Undying Love For A Burning World",
+      "note": "8 TRACKS / FIRST NEW ALBUM IN A DECADE",
+      "sourceLink": "https://www.neurosis.com/news/2026/3/19/neurosis-returns-with-first-new-album-in-a-decade-an-undying-love-for-a-burning-world-aaron-turner-joins-lineup-physical-preorders-available-band-to-play-fire-in-the-mountains",
+      "spotifyLink": "https://open.spotify.com/album/6R9JG8pkMHdGz031ceugiM",
+      "cover": "https://f4.bcbits.com/img/a3310773467_5.jpg"
+    },
+    {
+      "id": "muquetanaoreia|mno",
+      "d": "10/04",
+      "a": "Muqueta Na Oreia",
+      "t": "MNO",
+      "k": "EP",
+      "g": "Brazilian heavy metal / groove metal / alternative metal",
+      "q": "Muqueta Na Oreia MNO",
+      "country": "BR",
+      "note": "BRAZIL / 4 TRACKS / MUQUETA RECORDS",
+      "sourceLink": "https://muqueta.com.br/discografia.aspx",
+      "deezer": "https://www.deezer.com/br/album/942709681",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/26a58991a9e41a6a491895ac9a84b03a/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "id": "linkinpark|unshatterfilmsoundtracklivesaopaulo",
+      "d": "25/09",
+      "a": "Linkin Park",
+      "t": "Unshatter Film Soundtrack (Live in São Paulo)",
+      "k": "ÁLBUM AO VIVO",
+      "g": "nu metal / alternative metal / rap rock",
+      "q": "Linkin Park Unshatter Film Soundtrack Live in São Paulo",
+      "note": "LIVE / 20 TRACKS / FROM ZERO WORLD TOUR IN BRAZIL",
+      "sourceLink": "https://music.apple.com/us/album/unshatter-film-soundtrack-live-in-s%C3%A3o-paulo/6794460856",
+      "deezer": "https://www.deezer.com/album/1037471352",
+      "cover": "https://cdn-images.dzcdn.net/images/cover/1ff52cdda5b426baaed9f0cb40d38e45/1000x1000-000000-80-0-0.jpg"
+    },
+    {
+      "id": "fracturus|thesyntheticpath",
+      "d": "12/10",
+      "a": "Fracturus",
+      "t": "The Synthetic Path",
+      "k": "ÁLBUM",
+      "g": "technical death metal / deathcore",
+      "q": "Fracturus The Synthetic Path",
+      "sourceLink": "https://fracturus.bandcamp.com/album/the-synthetic-path",
+      "spotifyLink": "https://open.spotify.com/album/00EVMPtyE2ATy4RbjBLbfZ",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273dc7fb1a2079dd1adc0cf8c75"
+    },
+    {
+      "id": "thestaticwake|systemreboot",
+      "d": "16/10",
+      "a": "The Static Wake",
+      "t": "System Reboot",
+      "k": "EP",
+      "g": "modern metal / metalcore / post-hardcore / electronicore",
+      "q": "The Static Wake System Reboot",
+      "sourceLink": "https://podcasts.apple.com/pe/podcast/episode-220-the-static-wake/id1457452540?i=1000785678777",
+      "spotifyLink": "https://open.spotify.com/album/6sRIjLmuyatS4Yf7FFO1fH",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273d7de117ae5aa20405d413be1"
+    },
+    {
+      "id": "bigasstruckie|foundonroaddead",
+      "d": "20/10",
+      "a": "BIG ASS TRUCK I.E.",
+      "t": "FOUND ON ROAD DEAD",
+      "k": "EP",
+      "g": "metallic hardcore / beatdown / hardcore",
+      "q": "BIG ASS TRUCK I.E. FOUND ON ROAD DEAD",
+      "sourceLink": "https://www.nuclearblast.com/blogs/news/big-ass-truck-i-e-announce-debut-ep-found-on-road-dead-new-single-video-dragging-meat",
+      "spotifyLink": "https://open.spotify.com/album/0yC7kt8sj4g4XEXmwQNKe1",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2731b92666bc7744853d614acc0"
+    },
+    {
+      "id": "melvinsnapalmdeath|savageimperialdeathmarch",
+      "d": "10/04",
+      "a": "Melvins & Napalm Death",
+      "t": "Savage Imperial Death March",
+      "k": "ÁLBUM",
+      "g": "sludge metal / grindcore / experimental metal",
+      "q": "Melvins & Napalm Death Savage Imperial Death March",
+      "note": "EXPANDED 8-TRACK WIDE RELEASE / TWO ADDITIONAL TRACKS / NEW ARTWORK; 2025 TOUR EDITION WAS ABBREVIATED",
+      "sourceLink": "https://melvinsofficial.bandcamp.com/album/savage-imperial-death-march",
+      "cover": "https://f4.bcbits.com/img/0042451578_10.jpg"
+    },
+    {
+      "id": "greatfalls|thebitethatgrowsup",
+      "d": "16/10",
+      "a": "Great Falls",
+      "t": "The Bite That Grows Up",
+      "k": "ÁLBUM",
+      "g": "sludgecore / metallic hardcore / mathcore / noise rock",
+      "q": "Great Falls The Bite That Grows Up",
+      "sourceLink": "https://www.neurotrecordings.com/news/great-falls-the-bite-that-grows-up-is-out-now",
+      "spotifyLink": "https://open.spotify.com/album/5UjnTE8Gu6cfvY6Hc1wzI8",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2735952a4f5577e30f7ff2ea8be"
+    },
+    {
+      "id": "acrossoceans|tothepyre",
+      "d": "16/10",
+      "a": "Across Oceans",
+      "t": "To the Pyre",
+      "k": "ÁLBUM",
+      "g": "progressive metal / modern progressive metal",
+      "q": "Across Oceans To the Pyre",
+      "sourceLink": "https://music.apple.com/us/album/to-the-pyre/6779251749",
+      "spotifyLink": "https://open.spotify.com/album/2Is43WvmxVfoTDSOQ1OSP9",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2732c02f6c7ce8754bd2dcb01a5"
     }
   ]
 }
