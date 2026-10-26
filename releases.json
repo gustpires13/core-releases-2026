@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-21",
+    "updated": "2026-10-26",
     "schemaVersion": 1
   },
   "releases": [
@@ -8267,6 +8267,97 @@
       "sourceLink": "https://music.apple.com/us/album/to-the-pyre/6779251749",
       "spotifyLink": "https://open.spotify.com/album/2Is43WvmxVfoTDSOQ1OSP9",
       "cover": "https://i.scdn.co/image/ab67616d0000b2732c02f6c7ce8754bd2dcb01a5"
+    },
+    {
+      "id": "frontierer|ultravioletparasite",
+      "deezer": "https://www.deezer.com/album/1006011971",
+      "d": "23/10",
+      "a": "Frontierer",
+      "t": "Ultraviolet Parasite",
+      "k": "ÁLBUM",
+      "g": "mathcore / experimental metalcore / djent",
+      "q": "Frontierer Ultraviolet Parasite",
+      "sourceLink": "https://frontierer.bandcamp.com/album/ultraviolet-parasite",
+      "spotifyLink": "https://open.spotify.com/album/5P5PeqotxOFoMkPCwJEJIu",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2739880078c8aed328c52a382cd"
+    },
+    {
+      "id": "halfme|dogma",
+      "deezer": "https://www.deezer.com/album/1042128822",
+      "d": "23/10",
+      "a": "Half Me",
+      "t": "DOGMA",
+      "k": "ÁLBUM",
+      "g": "metalcore / metallic hardcore / nu metalcore",
+      "q": "Half Me DOGMA",
+      "sourceLink": "https://arising-empire.com/news/article/half-me-reveil-massive-upcoming-album-dogma-out-october-23-2026-pre-orders-available-august-5",
+      "spotifyLink": "https://open.spotify.com/album/35fCwI0kqyptJbWYFv7Srf",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ee2c3275c3afec9184919bca"
+    },
+    {
+      "id": "mentalcruelty|echoesofaforlornland",
+      "deezer": "https://www.deezer.com/album/1042250652",
+      "d": "23/10",
+      "a": "Mental Cruelty",
+      "t": "Echoes of a Forlorn Land",
+      "k": "ÁLBUM",
+      "g": "blackened deathcore / deathcore / extreme metal",
+      "q": "Mental Cruelty Echoes of a Forlorn Land",
+      "sourceLink": "https://centurymedia.store/products/mental-cruelty-echoes-of-a-forlorn-land-standard-cd-jewelcase",
+      "spotifyLink": "https://open.spotify.com/album/7lfUw2CffJEMZncAgSUaxC",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273fefd1010d4132e304cafbbba"
+    },
+    {
+      "id": "gettheshot|crucifixiondepiction",
+      "deezer": "https://www.deezer.com/album/1042175962",
+      "d": "23/10",
+      "a": "GET THE SHOT",
+      "t": "CRUCIFIXION DEPICTION",
+      "k": "EP",
+      "g": "metallic hardcore / hardcore",
+      "q": "GET THE SHOT CRUCIFIXION DEPICTION",
+      "sourceLink": "https://www.arising-empire.com/news/article/get-the-shot-unleash-brutal-single-crucifixion-depiction-and-announce-upcoming-ep",
+      "spotifyLink": "https://open.spotify.com/album/4FXsBFpX66wiOpbvohcfqY",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2731c7360f06869ab62851e9daf"
+    },
+    {
+      "id": "windwaker|smileyoureoncamera",
+      "deezer": "https://www.deezer.com/album/1122867002",
+      "d": "23/10",
+      "a": "Windwaker",
+      "t": "smile, you're on camera.",
+      "k": "ÁLBUM",
+      "g": "modern metalcore / alternative metal / electronicore",
+      "q": "Windwaker smile you're on camera",
+      "sourceLink": "https://store.fearlessrecords.com/collections/all/products/windwaker-smile-youre-on-camera-digital-album",
+      "spotifyLink": "https://open.spotify.com/album/6q9wB5O7sm8qhrMz5oEn48",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273cc9f1f89ffd5039b4f2f4c21"
+    },
+    {
+      "id": "glasswaves|whiletrue",
+      "deezer": "https://www.deezer.com/album/1042173182",
+      "d": "23/10",
+      "a": "Glasswaves",
+      "t": "while(True)",
+      "k": "ÁLBUM",
+      "g": "alternative metal / metalcore / nu metalcore",
+      "q": "Glasswaves while True",
+      "sourceLink": "https://linktr.ee/glasswavesband",
+      "spotifyLink": "https://open.spotify.com/album/0A4v8ZLCNEvdHa2DxowQ4j",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273cf12f2476a4275ebc97ec318"
+    },
+    {
+      "id": "vrsty|icon",
+      "deezer": "https://www.deezer.com/album/1045271112",
+      "d": "23/10",
+      "a": "VRSTY",
+      "t": "ícon",
+      "k": "ÁLBUM",
+      "g": "alternative metal / post-hardcore / metalcore",
+      "q": "VRSTY ícon",
+      "sourceLink": "https://www.spinefarmrecords.com/5/news",
+      "spotifyLink": "https://open.spotify.com/album/3tYN6EBYu2xqri13V72neO",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2737d2e4f14d57f870fab05f1d5"
     }
   ]
 }
