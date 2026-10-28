@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "schemaVersion": 1
   },
   "releases": [
@@ -8371,6 +8371,30 @@
       "sourceLink": "https://polyphia.com/products/be-not-afraid-digital-download",
       "spotifyLink": "https://open.spotify.com/album/1TGVYEYICRGYuy9syckm48",
       "cover": "https://i.scdn.co/image/ab67616d0000b273960fbc74bdb5923cee56ba83"
+    },
+    {
+      "id": "monosphere|amnesia",
+      "d": "13/03",
+      "a": "Monosphere",
+      "t": "Amnesia",
+      "k": "ÁLBUM",
+      "g": "progressive metal / post-metal",
+      "q": "Monosphere Amnesia",
+      "sourceLink": "https://monosphereband.bandcamp.com/album/amnesia",
+      "spotifyLink": "https://open.spotify.com/album/5SLTgnlrwFXVhhU9ukuA89",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2735e0b551ddc38ab9f12a66fd1"
+    },
+    {
+      "id": "nekra|isitreallyliving",
+      "d": "28/08",
+      "a": "NEKRA",
+      "t": "Is It Really Living?",
+      "k": "EP",
+      "g": "hardcore / punk",
+      "q": "NEKRA Is It Really Living?",
+      "sourceLink": "https://nekra.bandcamp.com/album/is-it-really-living",
+      "spotifyLink": "https://open.spotify.com/album/006bY9ekXV3y3HCFWVE04z",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734c0fea45d205860ab984db76"
     }
   ]
 }
