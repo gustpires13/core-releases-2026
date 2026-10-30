@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-10-28",
+    "updated": "2026-10-30",
     "schemaVersion": 1
   },
   "releases": [
@@ -8406,6 +8406,179 @@
       "sourceLink": "https://nekra.bandcamp.com/album/is-it-really-living",
       "spotifyLink": "https://open.spotify.com/album/006bY9ekXV3y3HCFWVE04z",
       "cover": "https://i.scdn.co/image/ab67616d0000b2734c0fea45d205860ab984db76"
+    },
+    {
+      "id": "darkesthour|sufferdivine",
+      "d": "30/10",
+      "a": "Darkest Hour",
+      "t": "Suffer Divine",
+      "k": "ÁLBUM",
+      "g": "melodic death metal / metalcore / hardcore",
+      "q": "Darkest Hour Suffer Divine",
+      "sourceLink": "https://www.mnrk.com/press-room/2026/09/metal-titans-darkest-hour-to-release-new-album-suffer-divine-on-october-30-2026/",
+      "spotifyLink": "https://open.spotify.com/album/1RSEGA4IMVEVzACVonsQTP",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273b9ec7048697590774bd89d3f",
+      "deezer": "https://www.deezer.com/album/1030180622"
+    },
+    {
+      "id": "fitforaking|lonelygodeluxe",
+      "d": "30/10",
+      "a": "Fit For A King",
+      "t": "Lonely God (Deluxe)",
+      "k": "DELUXE",
+      "g": "metalcore",
+      "q": "Fit For A King Lonely God Deluxe",
+      "note": "DELUXE",
+      "sourceLink": "https://fitforakingband.com/collections/vinyl-lp/fit-for-a-king",
+      "spotifyLink": "https://open.spotify.com/album/45OHU8EgCVMQbLtTfOOWju",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ec2e841a15d4f962457179ec"
+    },
+    {
+      "id": "blindchannel|painstream",
+      "d": "30/10",
+      "a": "Blind Channel",
+      "t": "Painstream",
+      "k": "ÁLBUM",
+      "g": "modern metal / metalcore / nu metalcore",
+      "q": "Blind Channel Painstream",
+      "sourceLink": "https://newsroom.sonymusic.pl/476302-blind-channel-wydaja-nowy-album-painstream",
+      "spotifyLink": "https://open.spotify.com/album/7Jsy2NKQfHt9zAT2rXGI0R",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e7174f2c19406169ec9b1d48"
+    },
+    {
+      "id": "noman|betweentheswordandtheneck",
+      "d": "30/10",
+      "a": "NØ MAN",
+      "t": "Between the Sword and the Neck",
+      "k": "ÁLBUM",
+      "g": "hardcore punk / post-hardcore / screamo",
+      "q": "NØ MAN Between the Sword and the Neck",
+      "sourceLink": "https://nomanband.bandcamp.com/album/between-the-sword-and-the-neck-2",
+      "spotifyLink": "https://open.spotify.com/album/0PqzFjVtWawwgP4DM3rNUV",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27340645fce0ab92017427494de"
+    },
+    {
+      "id": "prevention|andnothingsmine",
+      "d": "30/10",
+      "a": "Prevention",
+      "t": "And Nothing's Mine",
+      "k": "ÁLBUM",
+      "g": "hardcore / melodic hardcore / metallic hardcore",
+      "q": "Prevention And Nothings Mine",
+      "sourceLink": "https://delayedgratificationrecords.bandcamp.com/album/and-nothings-mine",
+      "spotifyLink": "https://open.spotify.com/album/4YaORftRhyaOGh0dy9nUXf",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2734355d1603117737eab56cb92"
+    },
+    {
+      "id": "passcode|recode",
+      "d": "28/10",
+      "a": "PassCode",
+      "t": "RE:CODE",
+      "k": "ÁLBUM REGRAVADO",
+      "g": "electronicore / metalcore",
+      "q": "PassCode RE:CODE",
+      "note": "RE-RECORDING",
+      "sourceLink": "https://passcode-official.com/10th/",
+      "spotifyLink": "https://open.spotify.com/album/22eTZzGvj1mWBLyrHzn1jg",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2736619e25ed549c524ead08879",
+      "deezer": "https://www.deezer.com/album/1121998382"
+    },
+    {
+      "id": "korrupt|theweightwecarry",
+      "d": "30/10",
+      "a": "Korrupt",
+      "t": "The Weight We Carry",
+      "k": "ÁLBUM",
+      "g": "blackened hardcore / metallic hardcore / black metal",
+      "q": "Korrupt The Weight We Carry",
+      "sourceLink": "https://korruptband.bandcamp.com/album/the-weight-we-carry",
+      "spotifyLink": "https://open.spotify.com/album/7HvkCMYEpqMRi2uMTdlWrA",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2738d3475fa8ac23016fa3fc3be"
+    },
+    {
+      "id": "harm|asagebeginstoshapeus",
+      "d": "30/10",
+      "a": "Harm",
+      "t": "As Age Begins to Shape Us",
+      "k": "ÁLBUM",
+      "g": "post-hardcore / emo / shoegaze",
+      "q": "Harm As Age Begins to Shape Us",
+      "sourceLink": "https://harmnoise.bandcamp.com/album/as-age-begins-to-shape-us",
+      "spotifyLink": "https://open.spotify.com/album/5A3xwrhI7e2SrHdZVwYVw4",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273882d77bbb80e5c8ea62e430b"
+    },
+    {
+      "id": "ministry|hatetogotakeoutordelivery",
+      "d": "30/10",
+      "a": "Ministry",
+      "t": "Hate To Go - Take Out Or Delivery",
+      "k": "ÁLBUM",
+      "g": "industrial metal / industrial rock / hardcore",
+      "q": "Ministry Hate To Go Take Out Or Delivery",
+      "sourceLink": "https://ministry.bandcamp.com/album/hate-to-go-take-out-or-delivery",
+      "spotifyLink": "https://open.spotify.com/album/6r5iO2FWfBQkRJnsl6uGNZ",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273928189fa961feefdc6dc48f1",
+      "deezer": "https://www.deezer.com/album/1028172842"
+    },
+    {
+      "id": "tosco|conectadosateonossofima",
+      "d": "30/10",
+      "a": "TOSCO",
+      "t": "Conectados Até o (Nosso) Fim",
+      "k": "ÁLBUM",
+      "g": "thrash metal / hardcore",
+      "q": "TOSCO Conectados Ate o Nosso Fim",
+      "sourceLink": "https://arenaheavy.com.br/tosco-lanca-conectados-ate-o-nosso-fim/",
+      "spotifyLink": "https://open.spotify.com/album/4FmuxlvlzXHG46CQO4vPZl",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ad09972feb9b905d2a1d0bd2"
+    },
+    {
+      "id": "rev3rent|shelettheworldrunrampant",
+      "d": "30/10",
+      "a": "Rev3rent",
+      "t": "She Let The World Run Rampant",
+      "k": "ÁLBUM",
+      "g": "deathcore",
+      "q": "Rev3rent She Let The World Run Rampant",
+      "sourceLink": "https://rev3rent.lnk.to/SLTWRR",
+      "spotifyLink": "https://open.spotify.com/album/6GJl7skIeGqtZZqqQPglHS",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273cc70dd6852938f4e70100c0d"
+    },
+    {
+      "id": "entheos|emptyontheinside",
+      "d": "23/10",
+      "a": "Entheos",
+      "t": "Empty on the Inside",
+      "k": "ÁLBUM",
+      "g": "progressive metal / progressive death metal / djent",
+      "q": "Entheos Empty on the Inside",
+      "sourceLink": "https://entheosofficial.bandcamp.com/album/empty-on-the-inside",
+      "spotifyLink": "https://open.spotify.com/album/5y4hsQGrjysaK5ZHx70Fwa",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273119198b5eaf6ef5e7be30a58"
+    },
+    {
+      "id": "victorialies|vendetta",
+      "d": "30/10",
+      "a": "Victoria Lies",
+      "t": "Vendetta",
+      "k": "ÁLBUM",
+      "g": "melodic metalcore / groove metalcore",
+      "q": "Victoria Lies Vendetta",
+      "sourceLink": "https://www.victorialies.com/",
+      "spotifyLink": "https://open.spotify.com/album/3oK8TtGyzJXpKhFbfkLdPv",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2739ff1cbd06d488b86dca6023a"
+    },
+    {
+      "id": "satanicplanet|deaddeities",
+      "d": "30/10",
+      "a": "Satanic Planet",
+      "t": "Dead Deities",
+      "k": "ÁLBUM",
+      "g": "industrial metal / experimental metal / post-hardcore",
+      "q": "Satanic Planet Dead Deities",
+      "sourceLink": "https://www.relapse.com/collections/satanic-planet-dead-deities/products/satanic-planet-dead-deities-cd",
+      "spotifyLink": "https://open.spotify.com/album/0SAySXKrufVqQ6TT2dRRuW",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e9a82107122567db33a48eef"
     }
   ]
 }
