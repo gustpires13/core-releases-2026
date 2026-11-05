@@ -252,8 +252,11 @@ function platHTML(r){
   const spotifyControl=hasSpotify
     ?'<a class="p-sp" target="_blank" rel="noopener" href="'+esc(catalogSpotify)+'" title="Abrir álbum no Spotify" aria-label="Spotify: '+esc(r.a+" "+r.t)+'">'+IC.sp+"</a>"
     :'<span class="p-sp p-sp-unavailable" role="img" aria-label="Spotify sem link direto confirmado para '+esc(r.a+" "+r.t)+'" title="Álbum ainda não confirmado no Spotify">'+IC.sp+"</span>";
+  const deezerControl=dz
+    ?'<a class="p-dz" target="_blank" rel="noopener" href="'+esc(dz)+'" title="Abrir álbum no Deezer" aria-label="Deezer: '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>"
+    :'<a class="p-dz p-dz-unavailable" aria-disabled="true" tabindex="-1" title="Link direto indisponível no Deezer" aria-label="Deezer sem link direto confirmado para '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>";
   return '<div class="plat">'+spotifyControl
-    +'<a class="p-dz" target="_blank" rel="noopener" href="'+esc(dz||"https://www.deezer.com/search/"+enc+"/album")+'" title="'+(dz?"Abrir álbum no Deezer":"Buscar no Deezer")+'" aria-label="Deezer: '+esc(r.a+" "+r.t)+'">'+IC.dz+"</a>"
+    +deezerControl
     +'<a class="p-yt" target="_blank" rel="noopener" href="'+esc(youtube)+'" title="'+(state.yt?"Abrir no YouTube Music":"Buscar no YouTube Music")+'" aria-label="YouTube Music: '+esc(r.a+" "+r.t)+'">'+IC.yt+"</a>"
   +"</div>";
 }
@@ -1004,9 +1007,9 @@ function deezerDirectLink(link){
   const safe=safeHttpsUrl(link);if(!safe)return null;
   try{
     const url=new URL(safe),host=url.hostname.toLowerCase();
-    if(host==="deezer.page.link")return url.href;
-    if(!(host==="deezer.com"||host.endsWith(".deezer.com"))||!/^\/(?:[a-z]{2}\/)?album\/\d+\/?$/i.test(url.pathname))return null;
-    return url.href;
+    const album=url.pathname.match(/^\/(?:[a-z]{2}\/)?album\/(\d+)\/?$/i);
+    if(!(host==="deezer.com"||host.endsWith(".deezer.com"))||!album)return null;
+    return "https://www.deezer.com/br/album/"+album[1];
   }catch{return null}
 }
 async function dzAlbumById(id){
