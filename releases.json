@@ -2613,6 +2613,7 @@
     },
     {
       "id": "lunarflux|weavers",
+      "deezer": "https://www.deezer.com/br/album/997942961",
       "d": "06/06",
       "a": "Lunar Flux",
       "t": "Weavers",
@@ -5087,6 +5088,7 @@
     },
     {
       "id": "papangu|celestial",
+      "deezer": "https://www.deezer.com/br/album/1028173432",
       "d": "07/08",
       "a": "Papangu",
       "t": "Celestial",
@@ -6231,6 +6233,7 @@
     },
     {
       "id": "punhocerrado|reprogramado",
+      "deezer": "https://www.deezer.com/br/album/1059871052",
       "d": "31/08",
       "a": "Punho Cerrado",
       "t": "Reprogramado",
@@ -7269,7 +7272,7 @@
     {"id":"sylvia|paintmysorrowsinadarkershade","d":"24/09","a":"Sylvia","t":"Paint My Sorrows In A Darker Shade","k":"ÁLBUM","g":"metalcore / chaotic hardcore","q":"Sylvia Paint My Sorrows In A Darker Shade","cover":"https://cdn-images.dzcdn.net/images/cover/6c41717e479a6fe7931fef83ee67c271/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.deezer.com/album/1101562262","spotifyLink":"https://open.spotify.com/intl-pt/album/7np2c9OYYeChAl5lSFbBOv","deezer":"https://www.deezer.com/album/1101562262"},
     {"id":"plume|saferoomsandhealingfrequencies","d":"25/09","a":"Plume","t":"Saferooms & Healing Frequencies","k":"ÁLBUM","g":"alternative metalcore / electronicore / heavy alternative","q":"Plume Saferooms Healing Frequencies","cover":"https://cdn-images.dzcdn.net/images/cover/e0c83a62e13714c00b5f5ca3a68db617/1000x1000-000000-80-0-0.jpg","sourceLink":"https://arising-empire.com/news/article/plume-share-final-single-my-cortisol-face-ahead-of-debut-album-saferooms-healing-frequencies","spotifyLink":"https://open.spotify.com/intl-pt/album/5LYr5Wq25XYCCQphnlgFgG","deezer":"https://www.deezer.com/album/985474821"},
     {"id":"lasso|covarde","deezer":"https://www.deezer.com/br/album/1102275592","d":"23/09","a":"Lasso","t":"Covarde","k":"ÁLBUM","g":"hardcore punk / punk rock","q":"Lasso Covarde","cover":"https://i.scdn.co/image/ab67616d0000b273ca663872f1feb3121f9bddd8","sourceLink":"https://lassopunk.bandcamp.com/album/covarde","spotifyLink":"https://open.spotify.com/intl-pt/album/6EBpOFbzV7sExHcnG1WBTU"},
-    {"id":"combustblowyourbrainsoutimposter|unitednations","d":"22/09","a":"Combust / Blow Your Brains Out / Imposter","t":"United Nations","k":"EP","g":"hardcore / metallic hardcore","q":"Combust Blow Your Brains Out Imposter United Nations","cover":"https://i.scdn.co/image/ab67616d0000b273049854b5b666f6963ad7343b","sourceLink":"https://streetsofhateny.bandcamp.com/album/united-nations-split-ep","spotifyLink":"https://open.spotify.com/intl-pt/album/7K7PeLuLer61Og4OOzY0kc"},
+    {"id":"combustblowyourbrainsoutimposter|unitednations","deezer":"https://www.deezer.com/br/album/1071078242","d":"22/09","a":"Combust / Blow Your Brains Out / Imposter","t":"United Nations","k":"EP","g":"hardcore / metallic hardcore","q":"Combust Blow Your Brains Out Imposter United Nations","cover":"https://i.scdn.co/image/ab67616d0000b273049854b5b666f6963ad7343b","sourceLink":"https://streetsofhateny.bandcamp.com/album/united-nations-split-ep","spotifyLink":"https://open.spotify.com/intl-pt/album/7K7PeLuLer61Og4OOzY0kc"},
     {"id":"primitiveblast|did","deezer":"https://www.deezer.com/br/album/1075516342","d":"22/09","a":"Primitive Blast","t":"D.I.D.","k":"EP","g":"hardcore punk / powerviolence","q":"Primitive Blast D I D","cover":"https://i.scdn.co/image/ab67616d0000b273ac48cfe8558e7f1ffbe4f732","sourceLink":"https://lastriderecords.bandcamp.com/album/d-i-d","spotifyLink":"https://open.spotify.com/intl-pt/album/3Sn7JU0ar0XHVyteKi5gGK"},
     {"id":"inkwell|remembrance","deezer":"https://www.deezer.com/br/album/1061954822","d":"25/09","a":"Inkwell","t":"Remembrance","k":"ÁLBUM DE ARQUIVO","g":"emo / post-hardcore","q":"Inkwell Remembrance","cover":"https://i.scdn.co/image/ab67616d0000b27383e065b273bb12aa3006dc96","sourceLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj","spotifyLink":"https://open.spotify.com/intl-pt/album/4q2CotkKrjLPImh76FssHj"},
     {"id":"sluggore|pillarsofecoterrorsaga","deezer":"https://www.deezer.com/br/album/1079496202","d":"25/09","a":"Slug Gore","t":"Pillars of Eco-Terror Saga","k":"EP","g":"grindcore / deathgrind","q":"Slug Gore Pillars of Eco Terror Saga","cover":"https://i.scdn.co/image/ab67616d0000b2733797d3e6504d0b2d89490c1a","sourceLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy","spotifyLink":"https://open.spotify.com/intl-pt/album/4fJO4fpjA0ENI1liOvryMy"},
@@ -7328,6 +7331,7 @@
     {"id":"brotherskeeper|youcantkillme","d":"02/10","a":"Brother's Keeper","t":"You Can't Kill Me","k":"ÁLBUM REGRAVADO","g":"metallic hardcore / hardcore punk","q":"Brother's Keeper You Can't Kill Me","note":"RE-RECORDING","cover":"https://cdn-images.dzcdn.net/images/cover/c8309c5acd4b1bdb439b275e4809fec0/1000x1000-000000-80-0-0.jpg","sourceLink":"https://www.coldcutsmerch.com/collections/trustkill-records-vinyl/products/brothers-keeper-you-cant-kill-me-12-vinyl","spotifyLink":"https://open.spotify.com/intl-pt/album/4kvZaZaUpiYqRV7yshtXcp","deezer":"https://www.deezer.com/album/1059288372"},
     {
       "id": "agnoizze|maisrapidodoqueseucarro",
+      "deezer": "https://www.deezer.com/br/album/1074393902",
       "d": "02/10",
       "a": "Agnoizze",
       "t": "Mais Rápido Que Seu Carro",
@@ -8310,6 +8314,7 @@
     },
     {
       "id": "melvinsnapalmdeath|savageimperialdeathmarch",
+      "deezer": "https://www.deezer.com/br/album/902397902",
       "d": "10/04",
       "a": "Melvins & Napalm Death",
       "t": "Savage Imperial Death March",
@@ -8477,6 +8482,7 @@
     },
     {
       "id": "popfree|overt",
+      "deezer": "https://www.deezer.com/br/album/1057237902",
       "d": "23/10",
       "a": "popfree",
       "t": "Overt",
@@ -8489,6 +8495,7 @@
     },
     {
       "id": "demonstrationofpower|inthenameof",
+      "deezer": "https://www.deezer.com/br/album/1129174271",
       "d": "29/10",
       "a": "Demonstration Of Power",
       "t": "In The Name Of...",
@@ -8685,6 +8692,7 @@
     },
     {
       "id": "palebloom|maybeimnotthatalright",
+      "deezer": "https://www.deezer.com/br/album/1063393361",
       "d": "30/10",
       "a": "Palebloom",
       "t": "Maybe I'm Not That Alright",
@@ -8697,6 +8705,7 @@
     },
     {
       "id": "withoutwarning|exodussimulation",
+      "deezer": "https://www.deezer.com/br/album/1105441742",
       "d": "31/10",
       "a": "Without Warning",
       "t": "Exodus Simulation",
@@ -8709,6 +8718,7 @@
     },
     {
       "id": "infortuno|artefatodafalhahumana",
+      "deezer": "https://www.deezer.com/br/album/1122640712",
       "d": "02/11",
       "a": "Infortuno",
       "t": "Artefato da Falha Humana",
@@ -8722,6 +8732,7 @@
     },
     {
       "id": "dayaches|withforwardmotion",
+      "deezer": "https://www.deezer.com/br/album/1056447622",
       "d": "04/11",
       "a": "Day Aches",
       "t": "withforwardmotion",
@@ -8746,6 +8757,7 @@
     },
     {
       "id": "wecameasromans|allisbeautifulbecauseweredoomedcircularity",
+      "deezer": "https://www.deezer.com/br/album/1080703592",
       "d": "06/11",
       "a": "We Came As Romans",
       "t": "ALL IS BEAUTIFUL... BECAUSE WE'RE DOOMED: CIRCULARITY",
@@ -8759,6 +8771,7 @@
     },
     {
       "id": "comebackkid|chosenhell",
+      "deezer": "https://www.deezer.com/br/album/1045766042",
       "d": "06/11",
       "a": "Comeback Kid",
       "t": "Chosen Hell",
@@ -8795,6 +8808,7 @@
     },
     {
       "id": "fingereleven|lastnightonearthdeluxe",
+      "deezer": "https://www.deezer.com/br/album/1080269032",
       "d": "06/11",
       "a": "Finger Eleven",
       "t": "Last Night On Earth (Deluxe)",
@@ -8808,6 +8822,7 @@
     },
     {
       "id": "carnifex|morethanmisery",
+      "deezer": "https://www.deezer.com/br/album/1050848872",
       "d": "06/11",
       "a": "Carnifex",
       "t": "More Than Misery",
@@ -8832,6 +8847,7 @@
     },
     {
       "id": "thrown|unwanted",
+      "deezer": "https://www.deezer.com/br/album/1073856502",
       "d": "06/11",
       "a": "thrown",
       "t": "UNWANTED",
@@ -8844,6 +8860,7 @@
     },
     {
       "id": "breakdownofsanity|reveries",
+      "deezer": "https://www.deezer.com/br/album/1064507841",
       "d": "06/11",
       "a": "Breakdown of Sanity",
       "t": "Reveries",
@@ -8880,6 +8897,7 @@
     },
     {
       "id": "afterlife|thepainthatshapesus",
+      "deezer": "https://www.deezer.com/br/album/937042351",
       "d": "06/11",
       "a": "Afterlife",
       "t": "The Pain That Shapes Us",
