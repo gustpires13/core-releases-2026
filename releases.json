@@ -1,7 +1,7 @@
 {
   "meta": {
     "year": 2026,
-    "updated": "2026-11-06",
+    "updated": "2026-11-10",
     "schemaVersion": 1
   },
   "releases": [
@@ -1966,6 +1966,18 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/5eddc46cb477a0b39d576ec00b3d3fe7/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://www.deezer.com/album/860692802",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/3iKI2GvFSUartdHLCOUY6j"
+    },
+    {
+      "id": "devilscut|roadkill",
+      "d": "24/04",
+      "a": "Devil's Cut",
+      "t": "ROADKILL",
+      "k": "ÁLBUM",
+      "g": "metalcore / country metal",
+      "q": "Devil's Cut ROADKILL",
+      "sourceLink": "https://devilscut.bandcamp.com/album/roadkill-2",
+      "spotifyLink": "https://open.spotify.com/album/3D9HfitMnJi6z3SpT0mLho",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273898c399896474a3a5959b214"
     },
     {
       "id": "rancore|brio",
@@ -5068,11 +5080,11 @@
       "d": "07/08",
       "a": "Suffer UK",
       "t": "Soul From Flesh",
-      "k": "ÁLBUM",
+      "k": "EP",
       "g": "deathcore / metalcore / doom metal",
       "cover": "https://f4.bcbits.com/img/a2814934788_5.jpg",
       "sourceLink": "https://sufferuk.bandcamp.com/album/soul-from-flesh",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/6YnozfYRwevSFWPY1xzeLf"
+      "spotifyLink": "https://open.spotify.com/album/50XiKMr960wMQyJd5myAuN"
     },
     {
       "id": "thebeautifulmonument|euphoricthriller",
@@ -5447,6 +5459,19 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/510aa0d4750c9831c86a9408e8cd5ed2/500x500-000000-80-0-0.jpg",
       "sourceLink": "https://open.spotify.com/intl-pt/album/1QIFkkiDg3O2ESm4bFWdtk",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1QIFkkiDg3O2ESm4bFWdtk"
+    },
+    {
+      "id": "limbo7|reliquiasdoodio",
+      "d": "18/08",
+      "a": "LIMBO7",
+      "t": "RELÍQUIAS DO ÓDIO",
+      "k": "ÁLBUM",
+      "g": "metal mandrake / hardcore / nu metal",
+      "q": "LIMBO7 RELÍQUIAS DO ÓDIO",
+      "country": "BR",
+      "sourceLink": "https://open.spotify.com/album/31Sn3QyWvUUDHbNpiQOGeB",
+      "spotifyLink": "https://open.spotify.com/album/31Sn3QyWvUUDHbNpiQOGeB",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2731b348eaba4686c5c0d2904d0"
     },
     {
       "id": "fallweather|becauseyouwerethere",
@@ -8983,6 +9008,32 @@
       "sourceLink": "https://www.season-of-mist.com/news/mawiza-2026-10-26/",
       "spotifyLink": "https://open.spotify.com/album/2PmDqLLSnTzQqYuEJ7LGMP",
       "cover": "https://i.scdn.co/image/ab67616d0000b273352b21b7febcf5864ff967ab"
+    },
+    {
+      "id": "devintownsend|themoththewarlive",
+      "d": "06/11",
+      "a": "Devin Townsend",
+      "t": "The Moth (The War - Live)",
+      "k": "ÁLBUM AO VIVO",
+      "g": "progressive metal / orchestral progressive metal",
+      "q": "Devin Townsend The Moth (The War - Live)",
+      "note": "LIVE",
+      "sourceLink": "https://open.spotify.com/album/17U0xg3rIM8dtFP9Fmgnja",
+      "spotifyLink": "https://open.spotify.com/album/17U0xg3rIM8dtFP9Fmgnja",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27337e368324ba4beb719ae7f3e"
+    },
+    {
+      "id": "iceninekills|averyviciouschristmas",
+      "d": "09/11",
+      "a": "Ice Nine Kills",
+      "t": "A Very Vicious Christmas",
+      "k": "EP DE COVERS",
+      "g": "metalcore / horror metal",
+      "q": "Ice Nine Kills A Very Vicious Christmas",
+      "note": "COVERS",
+      "sourceLink": "https://link.iceninekills.com/avvxmas",
+      "spotifyLink": "https://open.spotify.com/album/2HQgAhrZLZtpwh95h6y4kw",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ca0a052c12a0409d3754b327"
     }
   ]
 }
