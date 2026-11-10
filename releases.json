@@ -998,6 +998,18 @@
       "spotifyLink": "https://open.spotify.com/intl-pt/album/1a3hJzFaWAR2Sinm59Hx1X"
     },
     {
+      "id": "carpenterbrut|leathertemple",
+      "d": "27/02",
+      "a": "Carpenter Brut",
+      "t": "LEATHER TEMPLE",
+      "k": "ÁLBUM",
+      "g": "darksynth / industrial eletrônico",
+      "q": "Carpenter Brut LEATHER TEMPLE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273211fb0535749a5496b3c7933",
+      "sourceLink": "https://carpenterbrut.bandcamp.com/album/leather-temple",
+      "spotifyLink": "https://open.spotify.com/album/0Cxr3NtS1eloIc1xPQCWDw"
+    },
+    {
       "id": "doprotestoaresistencia|aea",
       "d": "02/03",
       "a": "Do Protesto à Resistência",
@@ -1053,6 +1065,18 @@
       "cover": "https://cdn-images.dzcdn.net/images/cover/34f59c9f25d81abe665b13b9c18381fe/1000x1000-000000-80-0-0.jpg",
       "sourceLink": "https://www.deezer.com/album/896007282",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5kGVhCZPsvy5cVbKnBMGT4"
+    },
+    {
+      "id": "bossedenage|hiddenfiresburnhottest",
+      "d": "06/03",
+      "a": "Bosse-de-Nage",
+      "t": "Hidden Fires Burn Hottest",
+      "k": "ÁLBUM",
+      "g": "post-black metal / screamo / post-metal",
+      "q": "Bosse-de-Nage Hidden Fires Burn Hottest",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27317b934cd9b5cec798fae9ed6",
+      "sourceLink": "https://bosse-de-nage.bandcamp.com/album/hidden-fires-burn-hottest",
+      "spotifyLink": "https://open.spotify.com/album/32iPziU6tr4vKKYz29Vv0q"
     },
     {
       "id": "ajewellersdeath|thinelupus",
@@ -1320,6 +1344,18 @@
       "deezer": "https://www.deezer.com/album/894062792"
     },
     {
+      "id": "attila|concretethrone",
+      "d": "20/03",
+      "a": "Attila",
+      "t": "CONCRETE THRONE",
+      "k": "ÁLBUM",
+      "g": "metalcore / deathcore / rap metal",
+      "q": "Attila CONCRETE THRONE",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2739e3c73c98553add855834b90",
+      "sourceLink": "https://music.apple.com/us/album/concrete-throne/1846121384",
+      "spotifyLink": "https://open.spotify.com/album/5KAyXG1WwGHk3tmEFI1IoC"
+    },
+    {
       "id": "rancore|unhasedentesvalsadoimprevisivel",
       "d": "25/03",
       "a": "RANCORE",
@@ -1521,6 +1557,18 @@
       "g": "blackgaze / post-metal",
       "cover": "https://cdn-images.dzcdn.net/images/cover/a56106aad3f6f3421297f3aa08a2c38d/500x500-000000-80-0-0.jpg",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0HHbTGj51CW7Cpne13Pbug"
+    },
+    {
+      "id": "poisonruin|hymnsfromthehills",
+      "d": "03/04",
+      "a": "Poison Ruïn",
+      "t": "Hymns From The Hills",
+      "k": "ÁLBUM",
+      "g": "post-punk / crust punk / dungeon punk",
+      "q": "Poison Ruïn Hymns From The Hills",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2739d56a447931bdae204e5a082",
+      "sourceLink": "https://poisonruin.bandcamp.com/album/hymns-from-the-hills",
+      "spotifyLink": "https://open.spotify.com/album/4dZNUFOxYuI95VGMIMZ90Q"
     },
     {
       "id": "entershikari|loseyourself",
@@ -1791,6 +1839,18 @@
       "spotifyLink": "https://open.spotify.com/intl-pt/album/0dGjNVNmtc3ZkrK6YgwjLL"
     ,
       "sourceLink": "https://fearlessrecords.com/releases/it-calls-me-by-name/"
+    },
+    {
+      "id": "nineinchnailsandboysnoize|nineinchnoize",
+      "d": "17/04",
+      "a": "Nine Inch Nails & Boys Noize",
+      "t": "Nine Inch Noize",
+      "k": "ÁLBUM",
+      "g": "industrial / industrial rock / techno",
+      "q": "Nine Inch Nails & Boys Noize Nine Inch Noize",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27358a78d2b246cfd738afb2e73",
+      "sourceLink": "https://www.nin.com/nine-inch-noize-april-17th/",
+      "spotifyLink": "https://open.spotify.com/album/7lcpCG4RBy3njzxHXlhOnp"
     },
     {
       "id": "lookoutsideyourwindow|lookoutsideyourwindow",
