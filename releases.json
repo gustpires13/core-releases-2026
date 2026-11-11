@@ -512,9 +512,10 @@
       "t": "Lines Crossed",
       "k": "ÁLBUM",
       "g": "hardcore / metallic hardcore",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/8b63f2623d4cdba816193f4cb3c7437f/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/855203842",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/2Wm8QNDrNnLzUsgAuUuUyE"
+      "cover": "https://i.scdn.co/image/ab67616d0000b2733526a5f1dcb1abb035ae95fb",
+      "sourceLink": "https://minusyouth.bandcamp.com/album/lines-crossed",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/2Wm8QNDrNnLzUsgAuUuUyE",
+      "deezer": "https://www.deezer.com/album/855867592"
     },
     {
       "id": "ourmirage|fracturedminds",
@@ -557,9 +558,10 @@
       "t": "Der Brauch",
       "k": "ÁLBUM",
       "g": "mathcore / progressive metal / post-hardcore",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/62f67d3bb57f4cc10de4edd54e00a4f4/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/830038351",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/18NmOtS1i5yzROmMKn0ZAt"
+      "cover": "https://i.scdn.co/image/ab67616d0000b273234b651448b752326cb778b3",
+      "sourceLink": "https://www.deezer.com/album/830049841",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/18NmOtS1i5yzROmMKn0ZAt",
+      "deezer": "https://www.deezer.com/album/830049841"
     },
     {
       "id": "beforeiturn|immoralandmalevolenthappenings",
@@ -804,9 +806,10 @@
       "k": "DELUXE",
       "g": "nu metalcore / metalcore / industrial deathcore",
       "note": "DELUXE",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/a3eeb0cf15c5223b8259a40aca57cdc6/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/719507001",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/5cLwOTfMHRD4nuFdtWY2Gs"
+      "cover": "https://i.scdn.co/image/ab67616d0000b2736d78ec6280da54216ef76a11",
+      "sourceLink": "https://www.deezer.com/album/869832882",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/5cLwOTfMHRD4nuFdtWY2Gs",
+      "deezer": "https://www.deezer.com/album/869832882"
     },
     {
       "id": "fjrt|belleepoque",
@@ -970,9 +973,10 @@
       "t": "Ephemeris",
       "k": "ÁLBUM",
       "g": "metalcore / modern metal",
-      "cover": "https://cdn-images.dzcdn.net/images/cover/c17a1e2a937de64718ac21677f66066d/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/649006171",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/0bxHL81VlGG11wDZJJ7nSq"
+      "cover": "https://i.scdn.co/image/ab67616d0000b273ba3958541b9b9eb5303274a2",
+      "sourceLink": "https://www.deezer.com/album/874446962",
+      "spotifyLink": "https://open.spotify.com/intl-pt/album/0bxHL81VlGG11wDZJJ7nSq",
+      "deezer": "https://www.deezer.com/album/874446962"
     },
     {
       "id": "impluvium|echoesofadyingcosmos",
@@ -1572,13 +1576,13 @@
     },
     {
       "id": "entershikari|loseyourself",
-      "d": "09/04",
+      "d": "10/04",
       "a": "Enter Shikari",
       "t": "Lose Your Self",
       "k": "ÁLBUM",
       "g": "post-hardcore / electronicore / alternative metal",
       "cover": "https://cdn-images.dzcdn.net/images/cover/3c2476873fea78a1cd1fea96ca133e7f/1000x1000-000000-80-0-0.jpg",
-      "sourceLink": "https://www.deezer.com/album/944212421",
+      "sourceLink": "https://www.entershikari.com/posts/lose-your-self-album-information",
       "spotifyLink": "https://open.spotify.com/intl-pt/album/5I3OgJsaGCSYjSM0uPswM6"
     },
     {
@@ -3453,10 +3457,8 @@
       "t": "Khronos",
       "k": "REEDIÇÃO",
       "g": "gothic black metal / dark metal",
-      "deezer": "https://www.deezer.com/album/11328730",
-      "cover": "https://shopusa.season-of-mist.com/cdn/shop/files/Rotting-Christ-Khronos-DOUBLE-LP-Gatefold-66249-1-1778491701.jpg?v=1778491834",
-      "sourceLink": "https://shopusa.season-of-mist.com/rotting-christ-khronos-double-lp-gatefold",
-      "spotifyLink": "https://open.spotify.com/intl-pt/album/5Ojn3U72CXlQFFT1mWxiio"
+      "cover": "https://cdn.shopify.com/s/files/1/0952/9219/5113/files/Rotting-Christ-Khronos-DOUBLE-LP-Gatefold-66249-3-1778491702.jpg?v=1778491834",
+      "sourceLink": "https://shopusa.season-of-mist.com/products/rotting-christ-khronos-double-lp-gatefold"
     },
     {
       "id": "showmethebody|alonetogether",
@@ -8062,7 +8064,7 @@
       "g": "progressive metal / orchestral metal",
       "q": "Einar Solberg Vox Occulta",
       "cover": "https://i.scdn.co/image/ab67616d0000b273a674857ea9f370b1fea7c240",
-      "sourceLink": "https://www.insideoutmusic.com/new/einar-solberg-6",
+      "sourceLink": "https://open.spotify.com/album/4ISmFYRQoPhbzdbFv8179R",
       "spotifyLink": "https://open.spotify.com/album/4ISmFYRQoPhbzdbFv8179R",
       "deezer": "https://www.deezer.com/album/873773482"
     },
@@ -8076,7 +8078,7 @@
       "q": "Einar Solberg Vox Occulta (Deluxe Edition)",
       "note": "DELUXE",
       "cover": "https://i.scdn.co/image/ab67616d0000b273afadb34d55b5e9e527deed9b",
-      "sourceLink": "https://www.insideoutmusic.com/new/einar-solberg-8",
+      "sourceLink": "https://open.spotify.com/album/4JrlVPt5VBz38JEWviHK9K",
       "spotifyLink": "https://open.spotify.com/album/4JrlVPt5VBz38JEWviHK9K",
       "deezer": "https://www.deezer.com/album/1043015192"
     },
@@ -8408,7 +8410,7 @@
       "q": "Melvins & Napalm Death Savage Imperial Death March",
       "note": "EXPANDED 8-TRACK WIDE RELEASE / TWO ADDITIONAL TRACKS / NEW ARTWORK; 2025 TOUR EDITION WAS ABBREVIATED",
       "sourceLink": "https://melvinsofficial.bandcamp.com/album/savage-imperial-death-march",
-      "cover": "https://f4.bcbits.com/img/0042451578_10.jpg"
+      "cover": "https://f4.bcbits.com/img/a0658060150_5.jpg"
     },
     {
       "id": "greatfalls|thebitethatgrowsup",
