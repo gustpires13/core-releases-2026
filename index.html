@@ -243,10 +243,10 @@ section.mo{padding:clamp(46px,7vh,84px) 0 8px;scroll-margin-top:26px;position:re
 .card:hover,.card.active{z-index:40}
 .card.hide{display:none}
 
-.discwrap{position:relative;aspect-ratio:1/1;cursor:pointer;perspective:1100px;transition:transform .3s ease;transform:translateZ(0);backface-visibility:hidden}
+.discwrap{position:relative;aspect-ratio:1/1;cursor:pointer;perspective:1100px;transition:transform .3s ease;backface-visibility:hidden}
 .card:hover .discwrap,.card.active .discwrap{transform:translate3d(0,-5px,0) scale(1.03)}
 
-.vpos{position:absolute;top:4%;left:4%;width:92%;height:92%;z-index:1;pointer-events:none;transition:transform .65s cubic-bezier(.2,1.15,.35,1);transform:translateZ(0);backface-visibility:hidden}
+.vpos{position:absolute;top:4%;left:4%;width:92%;height:92%;z-index:1;pointer-events:none;transition:transform .65s cubic-bezier(.2,1.15,.35,1);backface-visibility:hidden}
 .vinyl{
   width:100%;height:100%;border-radius:50%;position:relative;
   background:
@@ -270,17 +270,18 @@ section.mo{padding:clamp(46px,7vh,84px) 0 8px;scroll-margin-top:26px;position:re
   transform-origin:10% 50%;
   transition:transform .6s cubic-bezier(.2,1.15,.35,1),box-shadow .6s ease,border-color .3s;
   box-shadow:-4px -4px 10px var(--neoL),7px 8px 18px var(--neoD);
-  --mx:50%;--my:50%;transform:translateZ(.01px);backface-visibility:hidden;
+  --mx:50%;--my:50%;backface-visibility:hidden;
 }
 .sleeve::before{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;transition:opacity .4s;
   background:radial-gradient(circle at var(--mx) var(--my),rgba(255,255,255,.2),transparent 60%)}
 .card:hover .sleeve::before{opacity:1}
-.sleeve img{width:100%;height:100%;object-fit:cover;opacity:0;transform:translateZ(.02px) scale(1.035);backface-visibility:hidden;transition:opacity .55s ease,transform .9s cubic-bezier(.2,.8,.2,1);filter:saturate(.97) contrast(1.03)}
+.sleeve img{width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.035);backface-visibility:hidden;transition:opacity .55s ease,transform .9s cubic-bezier(.2,.8,.2,1);filter:saturate(.97) contrast(1.03)}
 .card:hover .discwrap,.card.active .discwrap,.card:hover .vpos,.card.active .vpos,.card:hover .vinyl,.card.active .vinyl,.card:hover .sleeve,.card.active .sleeve{will-change:transform}
-.sleeve.ok img{opacity:1;transform:translateZ(.02px) scale(1)}
+.sleeve.ok img{opacity:1;transform:scale(1)}
 .sleeve::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;
   background:linear-gradient(270deg,rgba(0,0,0,.5),rgba(0,0,0,.12) 7%,transparent 15%),linear-gradient(90deg,rgba(255,255,255,.08),transparent 3.5%)}
-.sleeve.loading .shim{position:absolute;inset:0;background:linear-gradient(100deg,#0e0e0f 42%,#1b1b1c 50%,#0e0e0f 58%);background-size:250% 100%;animation:shim 1.15s linear infinite}
+.sleeve.loading .shim{position:absolute;inset:0;background:linear-gradient(100deg,#0e0e0f 42%,#1b1b1c 50%,#0e0e0f 58%);background-size:250% 100%;animation:shim 1.15s linear infinite;animation-play-state:paused}
+.card.art-pending .sleeve.loading .shim{animation-play-state:running}
 @keyframes shim{0%{background-position:120% 0}100%{background-position:-120% 0}}
 
 .ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:14px;gap:6px;z-index:1;

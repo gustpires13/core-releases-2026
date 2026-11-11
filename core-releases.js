@@ -41,6 +41,7 @@ function titleLoose(cand,target){
 function artistOk(cand,target){return normA(cand)===normA(target);}
 function legacyKey(r){return norm(r.a)+"|"+norm(r.t)}
 const R=Object.freeze(RAW_RELEASES.map((record,i)=>Object.freeze({...record,id:record.id||legacyKey(record),i,m:parseInt(record.d.slice(3),10)})));
+const releaseById=new Map(R.map(r=>[r.id,r]));
 function key(r){return r.id}
 const CACHE_KEY="core-releases-runtime-cache-v1",CACHE_TTL=7*24*60*60*1000;
 function safeHttpsUrl(value){
@@ -159,11 +160,18 @@ function deezerReleaseLink(r){
   return deezerDirectLink(r.deezer)||deezerDirectLink(stateOf(r).deezer)||deezerDirectLink(r.sourceLink);
 }
 /* ---------- icons ---------- */
-const IC={
+const ICON_SHAPES={
 sp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M7.4 9.7c3.1-.9 6.6-.7 9.4.8"/><path d="M8 12.5c2.5-.7 5.3-.5 7.6.7"/><path d="M8.6 15.2c2-.5 4-.4 5.8.5"/></svg>',
 dz:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="17.2" y="3.5" width="4.2" height="3"/><rect x="17.2" y="8" width="4.2" height="3"/><rect x="10.2" y="8" width="4.2" height="3"/><rect x="17.2" y="12.5" width="4.2" height="3"/><rect x="10.2" y="12.5" width="4.2" height="3"/><rect x="3.2" y="12.5" width="4.2" height="3"/><rect x="17.2" y="17" width="4.2" height="3"/><rect x="10.2" y="17" width="4.2" height="3"/><rect x="3.2" y="17" width="4.2" height="3"/></svg>',
 yt:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.9" stroke-width="1.3"/><path d="M10.6 9.9l3.6 2.1-3.6 2.1z" fill="currentColor" stroke="none"/></svg>'
 };
+/* Reuse the same icon geometry instead of duplicating it in every card. */
+const iconDefinitions=document.createElementNS("http://www.w3.org/2000/svg","svg");
+iconDefinitions.setAttribute("aria-hidden","true");iconDefinitions.setAttribute("focusable","false");
+iconDefinitions.style.cssText="position:absolute;width:0;height:0;overflow:hidden";
+iconDefinitions.innerHTML=Object.entries(ICON_SHAPES).map(([name,svg])=>svg.replace("<svg ",'<symbol id="platform-icon-'+name+'" ').replace("</svg>","</symbol>")).join("");
+document.body.prepend(iconDefinitions);
+const IC=Object.fromEntries(Object.keys(ICON_SHAPES).map(name=>[name,'<svg viewBox="0 0 24 24" aria-hidden="true"><use href="#platform-icon-'+name+'"></use></svg>']));
 
 /* ---------- render ---------- */
 const app=document.getElementById("app");
@@ -217,6 +225,9 @@ function dateKey(r){
 function monthOrder(){
   return months.slice().sort((a,b)=>sortDir==="desc"?b-a:a-b);
 }
+function orderedReleases(list){
+  return sortDir==="desc"?list.slice().sort((a,b)=>dateKey(b)-dateKey(a)||a.i-b.i):list;
+}
 function compareReleaseNodes(a,b){
   const ra=R[+a.dataset.i],rb=R[+b.dataset.i];
   const d=dateKey(ra)-dateKey(rb);
@@ -234,13 +245,16 @@ function applySortOrder(options={}){
   const preserveScroll=options.preserveScroll===true;
   const anchor=preserveScroll?viewportAnchor():null;
   const y=preserveScroll?viewportY():0;
+  const focused=document.activeElement,orderedSections=[];
   monthOrder().forEach(m=>{
-    const sec=document.getElementById("m"+m);if(!sec)return;
+    const sec=monthNodes.get(m);if(!sec)return;
     const grid=sec.querySelector(".grid");
-    if(grid)[...grid.querySelectorAll(".card")].sort(compareReleaseNodes).forEach(el=>grid.appendChild(el));
-    app.appendChild(sec);
+    if(grid)grid.replaceChildren(...[...grid.children].sort(compareReleaseNodes));
+    orderedSections.push(sec);
   });
+  app.replaceChildren(...orderedSections);
   syncDockOrder();
+  if(focused&&document.activeElement!==focused&&focused.isConnected)focused.focus({preventScroll:true});
   if(preserveScroll)restoreViewport(anchor,y);
 }
 
@@ -262,7 +276,7 @@ function platHTML(r){
 }
 function preferenceControlsHTML(r){
   const listened=isListened(r),rating=releaseRating(r),label=esc(r.a+" · "+r.t);
-  const stars=[1,2,3,4,5].map(n=>'<button type="button" class="rating-star'+(n<=rating?' is-on':'')+'" data-rating="'+n+'" role="radio" aria-checked="'+(n===rating)+'" tabindex="'+((rating===n)||(!rating&&n===1)?0:-1)+'" aria-label="'+n+' de 5 estrelas para '+label+'" title="'+n+' de 5 estrelas"><span aria-hidden="true">★</span></button>').join("");
+  const stars=[1,2,3,4,5].map(n=>'<button type="button" class="rating-star'+(n<=rating?' is-on':'')+'" data-rating="'+n+'" role="radio" aria-checked="'+(n===rating)+'" tabindex="'+((rating===n)||(!rating&&n===1)?0:-1)+'" aria-label="'+n+' de 5 estrelas para '+label+'" title="'+n+' de 5 estrelas">★</button>').join("");
   return '<button type="button" class="listen-toggle" aria-pressed="'+listened+'" aria-label="'+(listened?'Marcar como não escutado: ':'Marcar como escutado: ')+label+'" title="'+(listened?'Escutado':'Marcar como escutado')+'"><span class="checkmark" aria-hidden="true">✓</span></button>'
     +'<div class="rating-control" role="radiogroup" aria-label="Avaliação de '+label+'">'+stars+'</div>';
 }
@@ -285,14 +299,17 @@ function cardHTML(r){
   +"</article>";
 }
 let html="";
-for(const m of months){
-  const list=groups[m];
+for(const m of monthOrder()){
+  const list=orderedReleases(groups[m]);
   html+='<section class="mo" id="m'+m+'" data-m="'+m+'">'
     +'<div class="mh"><span class="ghost" aria-hidden="true">'+String(m).padStart(2,"0")+"</span>"
     +'<h2>'+MESES[m]+'<span class="mcount">· '+list.length+" registros</span></h2></div>"
     +'<div class="grid">'+list.map(cardHTML).join("")+"</div></section>";
 }
 app.innerHTML=html;
+const cardNodes=[...app.querySelectorAll(".card")],cardByIndex=[];
+cardNodes.forEach(card=>cardByIndex[+card.dataset.i]=card);
+const monthNodes=new Map(months.map(m=>[m,document.getElementById("m"+m)]));
 
 function syncCardPreference(card,r){
   const listened=isListened(r),rating=releaseRating(r),label=r.a+" · "+r.t;
@@ -396,7 +413,7 @@ function savePreferenceQueue(accountKey,entry){
 function stateRowsFromCurrent(){
   const ids=new Set([...Object.keys(userState.listened),...Object.keys(userState.ratings)]),rows=[];
   ids.forEach(releaseId=>{
-    const r=R.find(item=>item.id===releaseId);if(!r)return;
+    const r=releaseById.get(releaseId);if(!r)return;
     rows.push({releaseId,listened:userState.listened[releaseId]===true,rating:Number.isInteger(Number(userState.ratings[releaseId]))?Number(userState.ratings[releaseId]):null,listenedAt:null,ratingAt:null,updatedAt:new Date().toISOString()});
   });
   return rows;
@@ -410,7 +427,7 @@ function cloneStateMaps(){
 function stateMapsFromRows(rows){
   const next={listened:Object.create(null),ratings:Object.create(null)};
   (Array.isArray(rows)?rows:[]).forEach(row=>{
-    if(!row||typeof row.releaseId!=="string"||!R.some(r=>r.id===row.releaseId))return;
+    if(!row||typeof row.releaseId!=="string"||!releaseById.has(row.releaseId))return;
     if(row.listened===true)next.listened[row.releaseId]=true;
     const rating=Number(row.rating);if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[row.releaseId]=rating;
   });
@@ -419,7 +436,7 @@ function stateMapsFromRows(rows){
 function overlayPendingState(next){
   if(authState.status!=="authenticated"||!authState.accountKey)return next;
   readQueue(authState.accountKey).forEach(entry=>{
-    if(!entry||typeof entry.releaseId!=="string"||!R.some(r=>r.id===entry.releaseId))return;
+    if(!entry||typeof entry.releaseId!=="string"||!releaseById.has(entry.releaseId))return;
     if(entry.listened===true)next.listened[entry.releaseId]=true;else delete next.listened[entry.releaseId];
     const rating=Number(entry.rating);
     if(Number.isInteger(rating)&&rating>=1&&rating<=5)next.ratings[entry.releaseId]=rating;else delete next.ratings[entry.releaseId];
@@ -444,7 +461,7 @@ function applyStateRows(rows){
   return commitStateMaps(overlayPendingState(stateMapsFromRows(rows)));
 }
 function syncAllCardPreferences(){
-  document.querySelectorAll(".card").forEach(card=>{const r=R[+card.dataset.i];if(r)syncCardPreference(card,r)});
+  cardNodes.forEach(card=>{const r=R[+card.dataset.i];if(r)syncCardPreference(card,r)});
 }
 function applyStateRow(row){
   if(!row||typeof row.releaseId!=="string")return;
@@ -748,7 +765,6 @@ const ratingFilter=document.getElementById("rating-filter");
 sortOrder.value=sortDir;
 listenedFilter.value=userState.filters.listened;
 ratingFilter.value=userState.filters.rating;
-if(sortDir==="desc")applySortOrder();
 sortOrder.addEventListener("change",e=>{
   sortDir=e.target.value;
   try{localStorage.setItem(SORT_KEY,sortDir)}catch{}
@@ -760,9 +776,14 @@ function viewportY(){return window.scrollY||document.documentElement.scrollTop||
 function viewportAnchor(){
   const focused=document.activeElement?.closest?.(".card");
   if(focused&&!focused.classList.contains("hide"))return{element:focused,top:focused.getBoundingClientRect().top};
-  for(const card of document.querySelectorAll(".card:not(.hide)")){
-    const rect=card.getBoundingClientRect();
-    if(rect.bottom>0&&rect.top<window.innerHeight)return{element:card,top:rect.top};
+  for(const m of monthOrder()){
+    const section=monthNodes.get(m);if(!section||section.style.display==="none")continue;
+    const bounds=section.getBoundingClientRect();
+    if(bounds.bottom<=0||bounds.top>=window.innerHeight)continue;
+    for(const card of section.querySelectorAll(".card:not(.hide)")){
+      const rect=card.getBoundingClientRect();
+      if(rect.bottom>0&&rect.top<window.innerHeight)return{element:card,top:rect.top};
+    }
   }
   return null;
 }
@@ -780,19 +801,19 @@ function applyFilters(options={}){
   const anchor=preserveScroll?viewportAnchor():null;
   const y=preserveScroll?viewportY():0;
   const formatPred=PRED[userState.filters.format]||PRED.all;
-  const visibleRecords=[];
+  const visibleRecords=[],visibleByMonth=Object.create(null);
   filtersEl.querySelectorAll(".fbtn[data-f]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===userState.filters.format));
-  document.querySelectorAll(".card").forEach(card=>{
+  cardNodes.forEach(card=>{
     const r=R[+card.dataset.i],listened=isListened(r),rating=releaseRating(r);
     const listenedPass=userState.filters.listened==="all"||(userState.filters.listened==="listened"?listened:!listened);
     const ratingPass=userState.filters.rating==="all"||(userState.filters.rating==="unrated"?!rating:rating===Number(userState.filters.rating));
     const visible=formatPred(r)&&listenedPass&&ratingPass;
     card.classList.toggle("hide",!visible);
-    if(visible)visibleRecords.push(r);
+    if(visible){visibleRecords.push(r);visibleByMonth[r.m]=(visibleByMonth[r.m]||0)+1}
   });
   renderStats(visibleRecords);
-  document.querySelectorAll("section.mo").forEach(s=>{
-    const n=s.querySelectorAll(".card:not(.hide)").length;
+  monthNodes.forEach((s,m)=>{
+    const n=visibleByMonth[m]||0;
     s.style.display=n?"":"none";
     s.querySelector(".mcount").textContent="· "+n+" registro"+(n===1?"":"s");
     const dk=document.querySelector('.dki[data-target="#'+s.id+'"]');
@@ -817,7 +838,7 @@ ratingFilter.addEventListener("change",e=>{userState.filters.rating=e.target.val
 ============================================================ */
 const dock=document.getElementById("dock");
 const dockItems=[{g:"↑",l:"Topo",t:"#top0"}]
-  .concat(months.map(m=>({g:String(m).padStart(2,"0"),l:MESES[m],t:"#m"+m})))
+  .concat(monthOrder().map(m=>({g:String(m).padStart(2,"0"),l:MESES[m],t:"#m"+m})))
   .concat([{sep:1},{g:"＋",l:"Sugerir",t:"#sugira"},{g:"IG",l:"@gustpires13",u:"https://instagram.com/gustpires13"}]);
 dock.innerHTML=dockItems.map(it=>it.sep?'<span class="dki sep" aria-hidden="true"></span>'
   :'<button class="dki" '+(it.t?'data-target="'+it.t+'"':'data-url="'+it.u+'"')+' aria-label="'+esc(it.l)+'">'+it.g+'<span class="lb">'+esc(it.l)+"</span></button>").join("");
@@ -837,9 +858,9 @@ if(finePtr&&!reduced){
   const cur=its.map(()=>BASE);
   function tick(){
     let done=true;
+    const centers=its.map(el=>{const r=el.getBoundingClientRect();return r.left+r.width/2});
     its.forEach((el,ix)=>{
-      const r=el.getBoundingClientRect();
-      const c=r.left+r.width/2;
+      const c=centers[ix];
       const d=Math.abs(mx-c);
       const target=mx===Infinity?BASE:BASE+(MAG-BASE)*Math.max(0,1-d/DIST);
       cur[ix]+= (target-cur[ix])*0.24;
@@ -898,7 +919,7 @@ if(finePtr&&!reduced){
 ============================================================ */
 (function(){
   const cv=document.getElementById("grain"),hero=document.querySelector(".hero");
-  if(MOB){hero.classList.add("noGL");return}
+  if(MOB||matchMedia("(max-width:700px)").matches){hero.classList.add("noGL");return}
   const gl=cv.getContext("webgl2",{alpha:true,antialias:false});
   if(!gl){hero.classList.add("noGL");return}
   let raf=0,contextLost=false;
@@ -1065,7 +1086,7 @@ function applyArt(card,r,got,src){
   const state=stateOf(r),cover=cardCover(got.cover),alt=cardCover(got.alt);
   if(!cover){placeholder(card,r,"URL de capa inválida");return}
   const sleeve=card.querySelector(".sleeve"),img=sleeve.querySelector("img");
-  img.onload=()=>{sleeve.classList.remove("loading");sleeve.classList.add("ok");const s=sleeve.querySelector(".shim");if(s)s.remove()};
+  img.onload=()=>{card.classList.remove("art-pending");sleeve.classList.remove("loading");sleeve.classList.add("ok");const s=sleeve.querySelector(".shim");if(s)s.remove()};
   img.onerror=()=>{
     if(alt&&img.src!==alt){img.src=alt;return}
     placeholder(card,r,"erro de imagem ("+src+")");
@@ -1081,6 +1102,7 @@ function applyArt(card,r,got,src){
   if(!["CACHE","L0","L1"].includes(src))AUD.push({r,src});
 }
 function placeholder(card,r,why){
+  card.classList.remove("art-pending");
   const sleeve=card.querySelector(".sleeve");
   sleeve.classList.remove("loading");const s=sleeve.querySelector(".shim");if(s)s.remove();
   const img=sleeve.querySelector("img");if(img)img.remove();
@@ -1093,7 +1115,7 @@ function placeholder(card,r,why){
   console.warn("[COVER FAIL]",r.a,"—",r.t,why||"");
 }
 async function resolveArt(r){
-  const card=document.querySelector('.card[data-i="'+r.i+'"]');
+  const card=cardByIndex[r.i];
   if(!card)return;
   const state=stateOf(r);
   if(r.cover){applyArt(card,r,{cover:r.cover,link:r.sourceLink||null},"L0");return}
@@ -1150,7 +1172,7 @@ async function ensureSeed(r){
   return null;
 }
 function upgradeLinks(r){
-  const host=document.querySelector('.card[data-i="'+r.i+'"]'),state=stateOf(r);
+  const host=cardByIndex[r.i],state=stateOf(r);
   if(!host)return;
   const youtube=normalizeYouTubeMusicUrl(state.yt);
   if(youtube){const a=host.querySelector(".p-yt");if(a){a.href=youtube;a.title="Abrir no YouTube Music"}}
@@ -1222,6 +1244,7 @@ function pumpArt(){
 }
 function enqueueArt(r){
   if(!r||stateOf(r).artState)return;
+  cardByIndex[r.i]?.classList.add("art-pending");
   stateOf(r).artState=1;artQueue.push(r);pumpArt();
 }
 (function initArtLoading(){
